@@ -1,0 +1,181 @@
+{
+  "model": {
+    "type": "condition",
+    "property": "minecraft:fishing_rod/cast",
+    "on_false": {
+      "type": "composite",
+      "models": [
+        {
+          "type": "model",
+          "model": "item_rod:item/challenge_rod"
+        },
+        {
+          "type": "condition",
+          "property": "catharsis:is_data_type_present",
+          "data_type": "line",
+          "on_true": {
+            "type": "select",
+            "property": "catharsis:data_type",
+            "data_type": "line",
+            "cases": [
+              {
+                "when": "titan_line",
+                "model": {
+                  "type": "model",
+                  "model": "item_rod_parts:item/titan_line"
+                }
+              },
+              {
+                "when": "speedy_line",
+                "model": {
+                  "type": "model",
+                  "model": "item_rod_parts:item/speedy_line"
+                }
+              },
+              {
+                "when": "shredded_line",
+                "model": {
+                  "type": "model",
+                  "model": "item_rod_parts:item/shredded_line"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item_rod_parts:item/default_line"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item_rod_parts:item/default_line"
+          }
+        },
+        {
+          "type": "condition",
+          "property": "catharsis:is_data_type_present",
+          "data_type": "sinker",
+          "on_true": {
+            "type": "select",
+            "property": "catharsis:data_type",
+            "data_type": "sinker",
+            "cases": [
+              {
+                "when": "junk_sinker",
+                "model": {
+                  "type": "model",
+                  "model": "item_rod_parts:item/junk_sinker"
+                }
+              },
+              {
+                "when": "prismarine_sinker",
+                "model": {
+                  "type": "model",
+                  "model": "item_rod_parts:item/prismarine_sinker"
+                }
+              },
+              {
+                "when": "icy_sinker",
+                "model": {
+                  "type": "model",
+                  "model": "item_rod_parts:item/icy_sinker"
+                }
+              },
+              {
+                "when": "festive_sinker",
+                "model": {
+                  "type": "model",
+                  "model": "item_rod_parts:item/festive_sinker"
+                }
+              },
+              {
+                "when": "sponge_sinker",
+                "model": {
+                  "type": "model",
+                  "model": "item_rod_parts:item/sponge_sinker"
+                }
+              },
+              {
+                "when": "stingy_sinker",
+                "model": {
+                  "type": "model",
+                  "model": "item_rod_parts:item/stingy_sinker"
+                }
+              },
+              {
+                "when": "hotspot_sinker",
+                "model": {
+                  "type": "model",
+                  "model": "item_rod_parts:item/hotspot_sinker"
+                }
+              },
+              {
+                "when": "chum_sinker",
+                "model": {
+                  "type": "model",
+                  "model": "item_rod_parts:item/chum_sinker"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item_rod_parts:item/default_sinker"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item_rod_parts:item/default_sinker"
+          }
+        },
+        {
+          "type": "condition",
+          "property": "catharsis:is_data_type_present",
+          "data_type": "hook",
+          "on_true": {
+            "type": "select",
+            "property": "catharsis:data_type",
+            "data_type": "hook",
+            "cases": [
+              {
+                "when": "treasure_hook",
+                "model": {
+                  "type": "model",
+                  "model": "item_rod_parts:item/treasure_hook"
+                }
+              },
+              {
+                "when": "spooky_hook",
+                "model": {
+                  "type": "model",
+                  "model": "item_rod_parts:item/spooky_hook"
+                }
+              },
+              {
+                "when": "common_hook",
+                "model": {
+                  "type": "model",
+                  "model": "item_rod_parts:item/common_hook"
+                }
+              },
+              {
+                "when": "hotspot_hook",
+                "model": {
+                  "type": "model",
+                  "model": "item_rod_parts:item/hotspot_hook"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "item_rod_parts:item/default_hook"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "item_rod_parts:item/default_hook"
+          }
+        }
+      ]
+    },
+    "on_true": { "type": "model", "model": "item_rod:item/challenge_rod_cast" }
+  }
+}

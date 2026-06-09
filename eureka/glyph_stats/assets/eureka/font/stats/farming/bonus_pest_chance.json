@@ -1,0 +1,11 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "eureka:font/stats/farming/bonus_pest_chance.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": ["ൠ"]
+    }
+  ]
+}

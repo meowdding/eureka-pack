@@ -1,0 +1,11 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "eureka:font/stats/wisdom/farming_wisdom.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": ["☯"]
+    }
+  ]
+}

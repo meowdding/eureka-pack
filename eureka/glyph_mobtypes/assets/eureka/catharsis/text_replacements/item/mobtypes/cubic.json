@@ -1,0 +1,23 @@
+{
+  "replacer": {
+    "type": "catharsis:regex",
+    "regex": "⚂ Cubic",
+    "replacement": {
+      "text": "",
+      "extra": [
+        {
+          "type": "translatable",
+          "translate": "eureka.glyph.mobtypes.cubic",
+          "font": "eureka:mobtypes/cubic",
+          "color": "green",
+          "italic": false
+        },
+        {
+          "text": " Cubic",
+          "color": "green",
+          "italic": false
+        }
+      ]
+    }
+  }
+}

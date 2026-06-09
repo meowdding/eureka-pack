@@ -1,0 +1,154 @@
+[
+  {
+    "type": "tab",
+    "title": {
+      "type": "translatable",
+      "translate": "eureka.config.tab.info"
+    },
+    "options": [
+      {
+        "type": "separator",
+        "title": { "text": "Information", "bold": true },
+        "description": ""
+      }
+    ]
+  },
+  {
+    "type": "tab",
+    "title": {
+      "type": "translatable",
+      "translate": "eureka.config.tab.items"
+    },
+    "options": [
+      {
+        "type": "separator",
+        "title": { "text": "Fishing Rods", "bold": true },
+        "description": ""
+      },
+      {
+        "type": "boolean",
+        "id": "item_rod",
+        "title": "Fishing Rods",
+        "description": "",
+        "default": true
+      },
+      {
+        "type": "boolean",
+        "id": "item_rod_parts_vanilla",
+        "title": "Fishing Rod Part Overlay",
+        "description": "",
+        "default": true
+      }
+    ]
+  },
+  {
+    "type": "tab",
+    "title": {
+      "type": "translatable",
+      "translate": "eureka.config.tab.blocks"
+    },
+    "options": [
+      {
+        "type": "separator",
+        "title": { "text": "Environmental Props", "bold": true },
+        "description": ""
+      },
+      {
+        "type": "boolean",
+        "id": "props_darkmonolith",
+        "title": "Dark Monolith",
+        "description": "",
+        "default": true
+      }
+    ]
+  },
+  {
+    "type": "tab",
+    "title": {
+      "type": "translatable",
+      "translate": "eureka.config.tab.gui"
+    },
+    "options": [
+      {
+        "type": "separator",
+        "title": { "text": "Skill Trees", "bold": true },
+        "description": ""
+      },
+      {
+        "type": "boolean",
+        "id": "skilltree_hotm",
+        "title": "Heart of the Mountain",
+        "description": "",
+        "default": true
+      },
+      {
+        "type": "separator",
+        "title": { "text": "Tooltips", "bold": true },
+        "description": ""
+      },
+      {
+        "type": "boolean",
+        "id": "fancy_tooltips",
+        "title": "Fancy Tooltips",
+        "description": "",
+        "default": true
+      }
+    ]
+  },
+  {
+    "type": "tab",
+    "title": {
+      "type": "translatable",
+      "translate": "eureka.config.tab.glyph"
+    },
+    "options": [
+      {
+        "type": "separator",
+        "title": { "text": "Glyphs", "bold": true },
+        "description": ""
+      },
+      {
+        "type": "boolean",
+        "id": "glyph_stats",
+        "title": "Player Stats",
+        "description": "",
+        "default": true
+      },
+      {
+        "type": "boolean",
+        "id": "glyph_mobtypes",
+        "title": "Mobtypes",
+        "description": "",
+        "default": true
+      }
+    ]
+  },
+  {
+    "type": "tab",
+    "title": {
+      "type": "translatable",
+      "translate": "eureka.config.tab.entities"
+    },
+    "options": [
+      {
+        "type": "separator",
+        "title": { "text": "Custom Entity Models", "bold": true },
+        "description": ""
+      },
+      {
+        "type": "boolean",
+        "id": "entity_backwaterbayou",
+        "title": "Backwater Bayou",
+        "description": "",
+        "default": true
+      },
+      {
+        "type": "boolean",
+        "id": "entity_crystalhollows",
+        "title": "Crystal Hollows",
+        "description": "",
+        "default": true
+      }
+    ]
+  }
+]

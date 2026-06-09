@@ -1,0 +1,15 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "eureka:block/dark_monolith/model"
+      }
+    },
+    {
+      "apply": {
+        "model": "eureka:block/dark_monolith/diamond_block"
+      }
+    }
+  ],
+  "blend": "translucent"
+}

@@ -1,0 +1,50 @@
+{
+  "replacer": {
+    "type": "catharsis:composite",
+    "replacers": [
+      {
+        "type": "catharsis:regex",
+        "regex": "ᛷ Pull ",
+        "replacement": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.glyph.stats.hunting.pull",
+              "font": "eureka:stats/hunting/pull",
+              "color": "aqua",
+              "italic": false
+            },
+            {
+              "text": " Pull ",
+              "color": "aqua",
+              "italic": false
+            }
+          ]
+        }
+      },
+      {
+        "type": "catharsis:regex",
+        "regex": "ᛷ Pull",
+        "propagate": false,
+        "replacement": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.glyph.stats.hunting.pull",
+              "font": "eureka:stats/hunting/pull",
+              "color": "aqua",
+              "italic": false
+            },
+            {
+              "text": " Pull",
+              "color": "aqua",
+              "italic": false
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

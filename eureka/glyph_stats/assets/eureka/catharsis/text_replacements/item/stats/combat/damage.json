@@ -1,0 +1,50 @@
+{
+  "replacer": {
+    "type": "catharsis:composite",
+    "replacers": [
+      {
+        "type": "catharsis:regex",
+        "regex": "❁ Damage ",
+        "replacement": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.glyph.stats.combat.damage",
+              "font": "eureka:stats/combat/damage",
+              "color": "red",
+              "italic": false
+            },
+            {
+              "text": " Damage ",
+              "color": "red",
+              "italic": false
+            }
+          ]
+        }
+      },
+      {
+        "type": "catharsis:regex",
+        "regex": "❁ Damage",
+        "propagate": false,
+        "replacement": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.glyph.stats.combat.damage",
+              "font": "eureka:stats/combat/damage",
+              "color": "red",
+              "italic": false
+            },
+            {
+              "text": " Damage",
+              "color": "red",
+              "italic": false
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "pack": {
+    "description": {
+      "text": "",
+      "extra": [{ "text": "Eureka", "color": "gray" }]
+    },
+    "min_format": 69,
+    "max_format": 255
+  },
+  "catharsis:pack/v1": {
+    "id": "eureka",
+    "version": "v0.0.1",
+    "dependencies": { "catharsis": ">=1.0.0-beta.16" },
+    "pack_required_for_config": true
+  },
+  "fabric:overlays": {
+    "entries": [
+      {
+        "directory": "item_rod",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "eureka",
+          "id": "item_rod"
+        }
+      },
+      {
+        "directory": "item_rod_parts_vanilla",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "eureka",
+          "id": "item_rod_parts_vanilla"
+        }
+      },
+      {
+        "directory": "item_rod_parts",
+        "condition": {
+          "condition": "fabric:and",
+          "values": [
+            {
+              "condition": "catharsis:config",
+              "pack": "eureka",
+              "id": "item_rod",
+              "value": "on"
+            },
+            {
+              "condition": "catharsis:config",
+              "pack": "eureka",
+              "id": "item_rod_parts_vanilla",
+              "value": "on"
+            }
+          ]
+        }
+      },
+      {
+        "directory": "skilltree_hotm",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "eureka",
+          "id": "skilltree_hotm",
+          "value": "on"
+        }
+      },
+      {
+        "directory": "fancy_tooltips",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "eureka",
+          "id": "fancy_tooltips"
+        }
+      },
+      {
+        "directory": "glyph_stats",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "eureka",
+          "id": "glyph_stats"
+        }
+      },
+      {
+        "directory": "glyph_mobtypes",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "eureka",
+          "id": "glyph_mobtypes"
+        }
+      },
+      {
+        "directory": "entity_backwaterbayou",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "eureka",
+          "id": "entity_backwaterbayou"
+        }
+      },
+      {
+        "directory": "entity_crystalhollows",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "eureka",
+          "id": "entity_crystalhollows"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "replacer": {
+    "type": "catharsis:composite",
+    "replacers": [
+      {
+        "type": "catharsis:regex",
+        "regex": "⸕ Mining Speed ",
+        "replacement": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.glyph.stats.mining.mining_speed",
+              "font": "eureka:stats/mining/mining_speed",
+              "color": "gold",
+              "italic": false
+            },
+            {
+              "text": " Mining Speed ",
+              "color": "gold",
+              "italic": false
+            }
+          ]
+        }
+      },
+      {
+        "type": "catharsis:regex",
+        "regex": "⸕ Mining Speed",
+        "propagate": false,
+        "replacement": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.glyph.stats.mining.mining_speed",
+              "font": "eureka:stats/mining/mining_speed",
+              "color": "gold",
+              "italic": false
+            },
+            {
+              "text": " Mining Speed",
+              "color": "gold",
+              "italic": false
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

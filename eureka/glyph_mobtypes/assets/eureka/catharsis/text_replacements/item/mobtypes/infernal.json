@@ -1,0 +1,23 @@
+{
+  "replacer": {
+    "type": "catharsis:regex",
+    "regex": "♨ Infernal",
+    "replacement": {
+      "text": "",
+      "extra": [
+        {
+          "type": "translatable",
+          "translate": "eureka.glyph.mobtypes.infernal",
+          "font": "eureka:mobtypes/infernal",
+          "color": "dark_red",
+          "italic": false
+        },
+        {
+          "text": " Infernal",
+          "color": "dark_red",
+          "italic": false
+        }
+      ]
+    }
+  }
+}

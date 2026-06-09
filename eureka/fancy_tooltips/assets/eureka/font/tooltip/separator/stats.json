@@ -1,0 +1,11 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "eureka:font/tooltip/separator/stats.png",
+      "ascent": 3,
+      "height": 9,
+      "chars": ["\uE000"]
+    }
+  ]
+}

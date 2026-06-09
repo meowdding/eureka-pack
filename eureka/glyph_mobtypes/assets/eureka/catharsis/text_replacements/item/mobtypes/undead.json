@@ -1,0 +1,23 @@
+{
+  "replacer": {
+    "type": "catharsis:regex",
+    "regex": "༕ Undead",
+    "replacement": {
+      "text": "",
+      "extra": [
+        {
+          "type": "translatable",
+          "translate": "eureka.glyph.mobtypes.undead",
+          "font": "eureka:mobtypes/undead",
+          "color": "dark_green",
+          "italic": false
+        },
+        {
+          "text": " Undead",
+          "color": "dark_green",
+          "italic": false
+        }
+      ]
+    }
+  }
+}

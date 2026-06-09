@@ -1,0 +1,11 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "eureka:font/config/socials/discord.png",
+      "ascent": 14,
+      "height": 14,
+      "chars": ["\uE000"]
+    }
+  ]
+}

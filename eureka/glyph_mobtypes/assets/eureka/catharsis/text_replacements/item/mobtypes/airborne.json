@@ -1,0 +1,23 @@
+{
+  "replacer": {
+    "type": "catharsis:regex",
+    "regex": "✈ Airborne",
+    "replacement": {
+      "text": "",
+      "extra": [
+        {
+          "type": "translatable",
+          "translate": "eureka.glyph.mobtypes.airborne",
+          "font": "eureka:mobtypes/airborne",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": " Airborne",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    }
+  }
+}

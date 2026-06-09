@@ -1,0 +1,23 @@
+{
+  "replacer": {
+    "type": "catharsis:regex",
+    "regex": "❄ Glacial",
+    "replacement": {
+      "text": "",
+      "extra": [
+        {
+          "type": "translatable",
+          "translate": "eureka.glyph.mobtypes.glacial",
+          "font": "eureka:mobtypes/glacial",
+          "color": "aqua",
+          "italic": false
+        },
+        {
+          "text": " Glacial",
+          "color": "aqua",
+          "italic": false
+        }
+      ]
+    }
+  }
+}

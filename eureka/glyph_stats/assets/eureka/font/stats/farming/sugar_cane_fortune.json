@@ -1,0 +1,11 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "eureka:font/stats/farming/sugar_cane_fortune.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": ["☘"]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "replacer": {
+    "type": "catharsis:composite",
+    "replacers": [
+      {
+        "type": "catharsis:regex",
+        "regex": "⚶ Respiration ",
+        "replacement": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.glyph.stats.miscellaneous.respiration",
+              "font": "eureka:stats/miscellaneous/respiration",
+              "color": "dark_aqua",
+              "italic": false
+            },
+            {
+              "text": " Respiration ",
+              "color": "dark_aqua",
+              "italic": false
+            }
+          ]
+        }
+      },
+      {
+        "type": "catharsis:regex",
+        "regex": "⚶ Respiration",
+        "propagate": false,
+        "replacement": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.glyph.stats.miscellaneous.respiration",
+              "font": "eureka:stats/miscellaneous/respiration",
+              "color": "dark_aqua",
+              "italic": false
+            },
+            {
+              "text": " Respiration",
+              "color": "dark_aqua",
+              "italic": false
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

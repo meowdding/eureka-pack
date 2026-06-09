@@ -1,0 +1,5 @@
+{
+  "texture": "eureka:textures/emerald_slime/emerald_slime.png",
+  "model": "eureka:models/emerald_slime/emerald_slime.geo.json",
+  "translucent": true
+}

@@ -1,0 +1,50 @@
+{
+  "replacer": {
+    "type": "catharsis:composite",
+    "replacers": [
+      {
+        "type": "catharsis:regex",
+        "regex": "ൠ Bonus Pest Chance ",
+        "replacement": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.glyph.stats.farming.bonus_pest_chance",
+              "font": "eureka:stats/farming/bonus_pest_chance",
+              "color": "dark_green",
+              "italic": false
+            },
+            {
+              "text": " Bonus Pest Chance ",
+              "color": "dark_green",
+              "italic": false
+            }
+          ]
+        }
+      },
+      {
+        "type": "catharsis:regex",
+        "regex": "ൠ Bonus Pest Chance",
+        "propagate": false,
+        "replacement": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.glyph.stats.farming.bonus_pest_chance",
+              "font": "eureka:stats/farming/bonus_pest_chance",
+              "color": "dark_green",
+              "italic": false
+            },
+            {
+              "text": " Bonus Pest Chance",
+              "color": "dark_green",
+              "italic": false
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

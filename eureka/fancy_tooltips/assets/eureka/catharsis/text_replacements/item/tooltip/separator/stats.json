@@ -1,0 +1,23 @@
+{
+  "replacer": {
+    "type": "catharsis:regex",
+    "regex": "Gear Score:.+",
+    "propagate": true,
+    "replacement": {
+      "text": "",
+      "extra": [
+        {
+          "type": "translatable",
+          "translate": "eureka.tooltip.separator.stats",
+          "font": "eureka:tooltip/separator/stats",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "type": "text",
+          "text": "\n"
+        }
+      ]
+    }
+  }
+}

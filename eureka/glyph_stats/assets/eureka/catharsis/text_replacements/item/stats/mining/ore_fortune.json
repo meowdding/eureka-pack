@@ -1,0 +1,50 @@
+{
+  "replacer": {
+    "type": "catharsis:composite",
+    "replacers": [
+      {
+        "type": "catharsis:regex",
+        "regex": "☘ Ore Fortune ",
+        "replacement": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.glyph.stats.mining.ore_fortune",
+              "font": "eureka:stats/mining/ore_fortune",
+              "color": "gold",
+              "italic": false
+            },
+            {
+              "text": " Ore Fortune ",
+              "color": "gold",
+              "italic": false
+            }
+          ]
+        }
+      },
+      {
+        "type": "catharsis:regex",
+        "regex": "☘ Ore Fortune",
+        "propagate": false,
+        "replacement": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.glyph.stats.mining.ore_fortune",
+              "font": "eureka:stats/mining/ore_fortune",
+              "color": "gold",
+              "italic": false
+            },
+            {
+              "text": " Ore Fortune",
+              "color": "gold",
+              "italic": false
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

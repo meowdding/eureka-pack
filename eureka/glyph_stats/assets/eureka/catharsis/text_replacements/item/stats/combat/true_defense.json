@@ -1,0 +1,50 @@
+{
+  "replacer": {
+    "type": "catharsis:composite",
+    "replacers": [
+      {
+        "type": "catharsis:regex",
+        "regex": "❂ True Defense ",
+        "replacement": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.glyph.stats.combat.true_defense",
+              "font": "eureka:stats/combat/true_defense",
+              "color": "white",
+              "italic": false
+            },
+            {
+              "text": " True Defense ",
+              "color": "white",
+              "italic": false
+            }
+          ]
+        }
+      },
+      {
+        "type": "catharsis:regex",
+        "regex": "❂ True Defense",
+        "propagate": false,
+        "replacement": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.glyph.stats.combat.true_defense",
+              "font": "eureka:stats/combat/true_defense",
+              "color": "white",
+              "italic": false
+            },
+            {
+              "text": " True Defense",
+              "color": "white",
+              "italic": false
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

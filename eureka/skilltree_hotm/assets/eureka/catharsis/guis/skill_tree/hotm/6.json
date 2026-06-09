@@ -1,0 +1,29 @@
+{
+  "target": {
+    "type": "catharsis:all",
+    "conditions": [
+      { "title": "Heart of the Mountain", "type": "catharsis:title" },
+      {
+        "type": "catharsis:slot",
+        "index": 0,
+        "condition": {
+          "name": ["Tier 10", "Tier X"],
+          "mode": "equals",
+          "type": "catharsis:name"
+        }
+      }
+    ]
+  },
+  "layout": [
+    {
+      "id": "eureka:generic/miscellaneous/filler",
+      "target": {
+        "type": "catharsis:slot",
+        "slot": {
+          "min": 54,
+          "max": 89
+        }
+      }
+    }
+  ]
+}

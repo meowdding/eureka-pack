@@ -1,0 +1,23 @@
+{
+  "replacer": {
+    "type": "catharsis:regex",
+    "regex": "☠ Wither",
+    "replacement": {
+      "text": "",
+      "extra": [
+        {
+          "type": "translatable",
+          "translate": "eureka.glyph.mobtypes.wither",
+          "font": "eureka:mobtypes/wither",
+          "color": "dark_gray",
+          "italic": false
+        },
+        {
+          "text": " Wither",
+          "color": "dark_gray",
+          "italic": false
+        }
+      ]
+    }
+  }
+}

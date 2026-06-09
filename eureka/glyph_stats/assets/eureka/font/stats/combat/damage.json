@@ -1,0 +1,11 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "eureka:font/stats/combat/damage.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": ["❁"]
+    }
+  ]
+}

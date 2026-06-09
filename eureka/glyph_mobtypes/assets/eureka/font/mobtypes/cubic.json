@@ -1,0 +1,11 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "eureka:font/mobtypes/cubic.png",
+      "ascent": 6,
+      "height": 6,
+      "chars": ["⚂"]
+    }
+  ]
+}

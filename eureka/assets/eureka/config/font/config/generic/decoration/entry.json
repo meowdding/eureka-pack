@@ -1,0 +1,25 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "eureka:font/config/generic/decoration/entry/start.png",
+      "ascent": 8,
+      "height": 8,
+      "chars": ["\uE000"]
+    },
+    {
+      "type": "bitmap",
+      "file": "eureka:font/config/generic/decoration/entry/continue.png",
+      "ascent": 30,
+      "height": 30,
+      "chars": ["\uE001"]
+    },
+    {
+      "type": "bitmap",
+      "file": "eureka:font/config/generic/decoration/entry/end.png",
+      "ascent": 30,
+      "height": 30,
+      "chars": ["\uE002"]
+    }
+  ]
+}
