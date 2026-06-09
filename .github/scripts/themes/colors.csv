@@ -1,0 +1,12 @@
+template,light
+#FF0000,#C6C6C6 // Container Inside (Also used in gold.png ornaments for shading and filler.png)
+#FF4900,#555555 // Container Shade
+#0000FF,#FFFFFF // Container Highlight
+#6A7C00,#C6C6C6 // Container Top-Right/Bottom Left Corners
+#00FF00,#8B8B8B // Slot inside -     Inset bar inside
+#FF00C7,#373737 // Slot Shade -      Inset Bar Shade
+#FFFF00,#FFFFFF // Slot Highlighs -  Inset Bar Highlight
+#00BBFF,#8B8B8B //                   Inset Bar Start/End corner
+#9D00FF,#8B8B8B // Container Ornaments & Arrows (Furnace - inventory - etc.)
+#009019,#3F3F3F // Container Title/Text
+#00410b,#969696 // Container Title/Text Shade

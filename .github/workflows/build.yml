@@ -1,0 +1,31 @@
+name: Build
+
+on:
+  workflow_dispatch:
+
+  push:
+    branches:
+      - "main"
+    paths:
+      - "catharsis/**"
+      - ".github/workflows/build.yml"
+      - ".github/scripts/build.sh"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v6
+
+      - name: Run build script
+        run: |
+          chmod +x .github/scripts/build.sh
+          chmod +x .github/scripts/catsquash
+          .github/scripts/build.sh dev
+
+      - name: Upload Pack
+        uses: actions/upload-artifact@v6
+        with:
+          name: "eureka.cats"
+          path: "build"
