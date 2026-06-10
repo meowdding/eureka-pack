@@ -223,7 +223,7 @@
     "type": "tab",
     "title": {
       "type": "translatable",
-      "translate": "eureka.config.tab.entity"
+      "translate": "eureka.config.tab.entity.models"
     },
     "options": [
       {
