@@ -7,7 +7,7 @@
       "models": [
         {
           "type": "model",
-          "model": "item_rod:item/giant_fishing_rod"
+          "model": "eureka:item/giant_fishing_rod"
         },
         {
           "type": "condition",
@@ -22,32 +22,32 @@
                 "when": "titan_line",
                 "model": {
                   "type": "model",
-                  "model": "item_rod_parts:item/titan_line"
+                  "model": "eureka:item/titan_line"
                 }
               },
               {
                 "when": "speedy_line",
                 "model": {
                   "type": "model",
-                  "model": "item_rod_parts:item/speedy_line"
+                  "model": "eureka:item/speedy_line"
                 }
               },
               {
                 "when": "shredded_line",
                 "model": {
                   "type": "model",
-                  "model": "item_rod_parts:item/shredded_line"
+                  "model": "eureka:item/shredded_line"
                 }
               }
             ],
             "fallback": {
               "type": "model",
-              "model": "item_rod_parts:item/default_line"
+              "model": "eureka:item/default_line"
             }
           },
           "on_false": {
             "type": "model",
-            "model": "item_rod_parts:item/default_line"
+            "model": "eureka:item/default_line"
           }
         },
         {
@@ -63,67 +63,67 @@
                 "when": "junk_sinker",
                 "model": {
                   "type": "model",
-                  "model": "item_rod_parts:item/junk_sinker"
+                  "model": "eureka:item/junk_sinker"
                 }
               },
               {
                 "when": "prismarine_sinker",
                 "model": {
                   "type": "model",
-                  "model": "item_rod_parts:item/prismarine_sinker"
+                  "model": "eureka:item/prismarine_sinker"
                 }
               },
               {
                 "when": "icy_sinker",
                 "model": {
                   "type": "model",
-                  "model": "item_rod_parts:item/icy_sinker"
+                  "model": "eureka:item/icy_sinker"
                 }
               },
               {
                 "when": "festive_sinker",
                 "model": {
                   "type": "model",
-                  "model": "item_rod_parts:item/festive_sinker"
+                  "model": "eureka:item/festive_sinker"
                 }
               },
               {
                 "when": "sponge_sinker",
                 "model": {
                   "type": "model",
-                  "model": "item_rod_parts:item/sponge_sinker"
+                  "model": "eureka:item/sponge_sinker"
                 }
               },
               {
                 "when": "stingy_sinker",
                 "model": {
                   "type": "model",
-                  "model": "item_rod_parts:item/stingy_sinker"
+                  "model": "eureka:item/stingy_sinker"
                 }
               },
               {
                 "when": "hotspot_sinker",
                 "model": {
                   "type": "model",
-                  "model": "item_rod_parts:item/hotspot_sinker"
+                  "model": "eureka:item/hotspot_sinker"
                 }
               },
               {
                 "when": "chum_sinker",
                 "model": {
                   "type": "model",
-                  "model": "item_rod_parts:item/chum_sinker"
+                  "model": "eureka:item/chum_sinker"
                 }
               }
             ],
             "fallback": {
               "type": "model",
-              "model": "item_rod_parts:item/default_sinker"
+              "model": "eureka:item/default_sinker"
             }
           },
           "on_false": {
             "type": "model",
-            "model": "item_rod_parts:item/default_sinker"
+            "model": "eureka:item/default_sinker"
           }
         },
         {
@@ -139,43 +139,43 @@
                 "when": "treasure_hook",
                 "model": {
                   "type": "model",
-                  "model": "item_rod_parts:item/treasure_hook"
+                  "model": "eureka:item/treasure_hook"
                 }
               },
               {
                 "when": "spooky_hook",
                 "model": {
                   "type": "model",
-                  "model": "item_rod_parts:item/spooky_hook"
+                  "model": "eureka:item/spooky_hook"
                 }
               },
               {
                 "when": "common_hook",
                 "model": {
                   "type": "model",
-                  "model": "item_rod_parts:item/common_hook"
+                  "model": "eureka:item/common_hook"
                 }
               },
               {
                 "when": "hotspot_hook",
                 "model": {
                   "type": "model",
-                  "model": "item_rod_parts:item/hotspot_hook"
+                  "model": "eureka:item/hotspot_hook"
                 }
               }
             ],
             "fallback": {
               "type": "model",
-              "model": "item_rod_parts:item/default_hook"
+              "model": "eureka:item/default_hook"
             }
           },
           "on_false": {
             "type": "model",
-            "model": "item_rod_parts:item/default_hook"
+            "model": "eureka:item/default_hook"
           }
         }
       ]
     },
-    "on_true": { "type": "model", "model": "item_rod:item/giant_fishing_rod_cast" }
+    "on_true": { "type": "model", "model": "eureka:item/giant_fishing_rod" }
   }
 }

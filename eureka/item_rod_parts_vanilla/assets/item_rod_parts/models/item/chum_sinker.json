@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/handheld_rod",
-  "textures": {
-    "layer0": "item_rod_parts:item/chum_sinker"
-  }
-}

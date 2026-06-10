@@ -1,25 +1,7 @@
 {
   "pack": {
     "description": {
-      "text": "",
-      "extra": [
-        {
-          "type": "translatable",
-          "translate": "eureka.pack.offset",
-          "font": "eureka:pack_offset",
-          "color": "white",
-          "shadow_color": [0,0,0,0],
-          "italic": false
-        },
-        {
-          "type": "translatable",
-          "translate": "eureka.pack",
-          "font": "eureka:pack",
-          "color": "white",
-          "shadow_color": [0,0,0,0],
-          "italic": false
-        }
-      ]
+      "text": "Eureka by @junenya on discord"
     },
     "min_format": 69,
     "max_format": 255
@@ -28,7 +10,28 @@
     "id": "eureka",
     "version": "v0.0.1",
     "dependencies": { "catharsis": ">=1.0.0-beta.16" },
-    "pack_required_for_config": true
+    "pack_required_for_config": true,
+    "selected_description": {
+      "text": "",
+      "extra": [
+        {
+          "type": "translatable",
+          "translate": "eureka.pack.offset",
+          "font": "eureka:pack_offset",
+          "color": "white",
+          "shadow_color": [0, 0, 0, 0],
+          "italic": false
+        },
+        {
+          "type": "translatable",
+          "translate": "eureka.pack",
+          "font": "eureka:pack",
+          "color": "white",
+          "shadow_color": [0, 0, 0, 0],
+          "italic": false
+        }
+      ]
+    }
   },
   "fabric:overlays": {
     "entries": [
