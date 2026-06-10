@@ -17,4 +17,3 @@ EOL
 
   echo "Building version..."
   ./.github/scripts/catsquash build/eureka.cats ./eureka
-  exit 1
