@@ -223,12 +223,16 @@
     "type": "tab",
     "title": {
       "type": "translatable",
-      "translate": "eureka.config.tab.entity.models"
+      "translate": "eureka.config.tab.entity"
     },
     "options": [
       {
         "type": "separator",
-        "title": { "text": "Custom Entity Models", "bold": true },
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.entity.models",
+          "bold": true
+        },
         "description": ""
       },
       {
