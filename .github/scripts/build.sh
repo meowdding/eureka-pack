@@ -16,4 +16,4 @@ cat > build/pack.mcmeta << EOL
 EOL
 
   echo "Building version..."
-  ./.github/scripts/catsquash build/eureka.cats ./eureka
+  ./.github/scripts/catsquash build/pack.cats ./eureka
