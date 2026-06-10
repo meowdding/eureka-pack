@@ -11,7 +11,7 @@ cat > build/pack.mcmeta << EOL
     },
     "min_format": 69,
     "max_format": 255
-  },
+  }
 }
 EOL
 
