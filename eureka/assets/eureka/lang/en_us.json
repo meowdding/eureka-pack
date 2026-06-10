@@ -1,9 +1,31 @@
 {
+  "eureka.pack": "\uE000",
+  "eureka.pack.offset": "\uE000",
+
   "eureka.config.tab.info": "Info",
+  "eureka.config.tab.info.information": "Information",
+
+  "eureka.config.tab.item": "Items",
+
+  "eureka.config.tab.item.fishingrod": "Fishing Rods",
+  "eureka.config.tab.item.fishingrod.title": "Fishing Rods",
+  "eureka.config.tab.item.fishingrodparts.title": "Fishing Rod Part Overlays",
+
+  "eureka.config.tab.block": "Blocks",
+  "eureka.config.tab.block.environmentalprops": "Environmental Props",
 
   "eureka.config.tab.gui": "GUI",
+  "eureka.config.tab.gui.skilltrees": "Skill Trees",
+  "eureka.config.tab.gui.tooltips": "Tooltips",
+  "eureka.config.tab.gui.tooltips.title": "Fancy Tooltips",
 
   "eureka.config.tab.glyph": "Glyphs",
+  "eureka.config.tab.glyph.glyphs": "Glyphs",
+  "eureka.config.tab.glyph.glyphs.stats": "Stats",
+  "eureka.config.tab.glyph.glyphs.mobtypes": "Mobtypes",
+
+  "eureka.config.tab.entity": "Entities",
+  "eureka.config.tab.entity.models": "Custom Entity Models",
 
   "eureka.tooltip.separator.gemstones": "\uE000",
   "eureka.tooltip.separator.stats": "\uE000",

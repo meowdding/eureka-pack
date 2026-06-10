@@ -1,0 +1,11 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "eureka:font/pack.png",
+      "ascent": 21,
+      "height": 36,
+      "chars": ["\uE000"]
+    }
+  ]
+}

@@ -8,7 +8,16 @@
     "options": [
       {
         "type": "separator",
-        "title": { "text": "Information", "bold": true },
+        "title": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.config.tab.info.information",
+              "bold": true
+            }
+          ]
+        },
         "description": ""
       }
     ]
@@ -17,25 +26,50 @@
     "type": "tab",
     "title": {
       "type": "translatable",
-      "translate": "eureka.config.tab.items"
+      "translate": "eureka.config.tab.item"
     },
     "options": [
       {
         "type": "separator",
-        "title": { "text": "Fishing Rods", "bold": true },
+        "title": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.config.tab.item.fishingrod",
+              "bold": true
+            }
+          ]
+        },
         "description": ""
       },
       {
         "type": "boolean",
         "id": "item_rod",
-        "title": "Fishing Rods",
+        "title": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.config.tab.item.fishingrod.title"
+            }
+          ]
+        },
         "description": "",
         "default": true
       },
       {
         "type": "boolean",
         "id": "item_rod_parts_vanilla",
-        "title": "Fishing Rod Part Overlay",
+        "title": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.config.tab.item.fishingrodparts.title"
+            }
+          ]
+        },
         "description": "",
         "default": true
       }
@@ -45,12 +79,21 @@
     "type": "tab",
     "title": {
       "type": "translatable",
-      "translate": "eureka.config.tab.blocks"
+      "translate": "eureka.config.tab.block"
     },
     "options": [
       {
         "type": "separator",
-        "title": { "text": "Environmental Props", "bold": true },
+        "title": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.config.tab.block.environmentalprops",
+              "bold": true
+            }
+          ]
+        },
         "description": ""
       },
       {
@@ -71,7 +114,16 @@
     "options": [
       {
         "type": "separator",
-        "title": { "text": "Skill Trees", "bold": true },
+        "title": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.config.tab.gui.skilltrees",
+              "bold": true
+            }
+          ]
+        },
         "description": ""
       },
       {
@@ -83,13 +135,30 @@
       },
       {
         "type": "separator",
-        "title": { "text": "Tooltips", "bold": true },
+        "title": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.config.tab.gui.tooltips",
+              "bold": true
+            }
+          ]
+        },
         "description": ""
       },
       {
         "type": "boolean",
         "id": "fancy_tooltips",
-        "title": "Fancy Tooltips",
+        "title": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.config.tab.gui.tooltips.title"
+            }
+          ]
+        },
         "description": "",
         "default": true
       }
@@ -104,20 +173,47 @@
     "options": [
       {
         "type": "separator",
-        "title": { "text": "Glyphs", "bold": true },
+        "title": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.config.tab.glyph.glyphs",
+              "bold": true
+            }
+          ]
+        },
         "description": ""
       },
       {
         "type": "boolean",
         "id": "glyph_stats",
-        "title": "Player Stats",
+        "title": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.config.tab.glyph.glyphs.stats",
+              "bold": true
+            }
+          ]
+        },
         "description": "",
         "default": true
       },
       {
         "type": "boolean",
         "id": "glyph_mobtypes",
-        "title": "Mobtypes",
+        "title": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.config.tab.glyph.glyphs.mobtypes",
+              "bold": true
+            }
+          ]
+        },
         "description": "",
         "default": true
       }
@@ -127,7 +223,7 @@
     "type": "tab",
     "title": {
       "type": "translatable",
-      "translate": "eureka.config.tab.entities"
+      "translate": "eureka.config.tab.entity"
     },
     "options": [
       {

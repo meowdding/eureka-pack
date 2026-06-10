@@ -2,7 +2,24 @@
   "pack": {
     "description": {
       "text": "",
-      "extra": [{ "text": "Eureka", "color": "gray" }]
+      "extra": [
+        {
+          "type": "translatable",
+          "translate": "eureka.pack.offset",
+          "font": "eureka:pack_offset",
+          "color": "white",
+          "shadow_color": [0,0,0,0],
+          "italic": false
+        },
+        {
+          "type": "translatable",
+          "translate": "eureka.pack",
+          "font": "eureka:pack",
+          "color": "white",
+          "shadow_color": [0,0,0,0],
+          "italic": false
+        }
+      ]
     },
     "min_format": 69,
     "max_format": 255
