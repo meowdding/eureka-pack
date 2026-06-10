@@ -1,5 +1,5 @@
 mkdir -p ./build
-rm -rf ./build/eureka.cats
+rm -rf ./build/pack.cats
 rm -rf ./build/pack.mcmeta
 
 cat > build/pack.mcmeta << EOL
