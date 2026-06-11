@@ -1,0 +1,50 @@
+{
+  "replacer": {
+    "type": "catharsis:composite",
+    "replacers": [
+      {
+        "type": "catharsis:regex",
+        "regex": "☘ Wheat Fortune ",
+        "replacement": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.glyph.stat.farming.wheat_fortune",
+              "font": "eureka:stat/farming/wheat_fortune",
+              "color": "gold",
+              "italic": false
+            },
+            {
+              "text": " Wheat Fortune ",
+              "color": "gold",
+              "italic": false
+            }
+          ]
+        }
+      },
+      {
+        "type": "catharsis:regex",
+        "regex": "☘ Wheat Fortune",
+        "propagate": false,
+        "replacement": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.glyph.stat.farming.wheat_fortune",
+              "font": "eureka:stat/farming/wheat_fortune",
+              "color": "gold",
+              "italic": false
+            },
+            {
+              "text": " Wheat Fortune",
+              "color": "gold",
+              "italic": false
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

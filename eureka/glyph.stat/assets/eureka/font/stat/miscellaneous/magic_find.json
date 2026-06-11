@@ -1,0 +1,11 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "eureka:font/stat/miscellaneous/magic_find.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": ["✯"]
+    }
+  ]
+}

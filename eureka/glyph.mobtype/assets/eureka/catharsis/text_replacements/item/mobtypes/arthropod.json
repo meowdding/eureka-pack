@@ -1,0 +1,23 @@
+{
+  "replacer": {
+    "type": "catharsis:regex",
+    "regex": "Ж Arthropod",
+    "replacement": {
+      "text": "",
+      "extra": [
+        {
+          "type": "translatable",
+          "translate": "eureka.glyph.mobtype.arthropod",
+          "font": "eureka:mobtype/arthropod",
+          "color": "dark_red",
+          "italic": false
+        },
+        {
+          "text": " Arthropod",
+          "color": "dark_red",
+          "italic": false
+        }
+      ]
+    }
+  }
+}

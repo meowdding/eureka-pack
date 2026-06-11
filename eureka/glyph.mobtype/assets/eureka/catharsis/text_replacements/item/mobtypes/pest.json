@@ -1,0 +1,23 @@
+{
+  "replacer": {
+    "type": "catharsis:regex",
+    "regex": "ൠ Pest",
+    "replacement": {
+      "text": "",
+      "extra": [
+        {
+          "type": "translatable",
+          "translate": "eureka.glyph.mobtype.pest",
+          "font": "eureka:mobtype/pest",
+          "color": "dark_green",
+          "italic": false
+        },
+        {
+          "text": " Pest",
+          "color": "dark_green",
+          "italic": false
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "eureka:font/tooltip/separator/gemstones.png",
+      "ascent": 3,
+      "height": 31,
+      "chars": ["\uE000"]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "replacer": {
+    "type": "catharsis:composite",
+    "replacers": [
+      {
+        "type": "catharsis:regex",
+        "regex": "☘ Foraging Fortune ",
+        "replacement": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.glyph.stat.foraging.foraging_fortune",
+              "font": "eureka:stat/foraging/foraging_fortune",
+              "color": "gold",
+              "italic": false
+            },
+            {
+              "text": " Foraging Fortune ",
+              "color": "gold",
+              "italic": false
+            }
+          ]
+        }
+      },
+      {
+        "type": "catharsis:regex",
+        "regex": "☘ Foraging Fortune",
+        "propagate": false,
+        "replacement": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.glyph.stat.foraging.foraging_fortune",
+              "font": "eureka:stat/foraging/foraging_fortune",
+              "color": "gold",
+              "italic": false
+            },
+            {
+              "text": " Foraging Fortune",
+              "color": "gold",
+              "italic": false
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

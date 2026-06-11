@@ -1,0 +1,23 @@
+{
+  "replacer": {
+    "type": "catharsis:regex",
+    "regex": "⛏ Subterranean",
+    "replacement": {
+      "text": "",
+      "extra": [
+        {
+          "type": "translatable",
+          "translate": "eureka.glyph.mobtype.subterranean",
+          "font": "eureka:mobtype/subterranean",
+          "color": "gold",
+          "italic": false
+        },
+        {
+          "text": " Subterranean",
+          "color": "gold",
+          "italic": false
+        }
+      ]
+    }
+  }
+}

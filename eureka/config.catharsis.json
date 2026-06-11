@@ -36,7 +36,7 @@
           "extra": [
             {
               "type": "translatable",
-              "translate": "eureka.config.tab.item.fishingrod",
+              "translate": "eureka.config.tab.item.fishing_rod",
               "bold": true
             }
           ]
@@ -45,13 +45,13 @@
       },
       {
         "type": "boolean",
-        "id": "item_rod",
+        "id": "item.rod",
         "title": {
           "text": "",
           "extra": [
             {
               "type": "translatable",
-              "translate": "eureka.config.tab.item.fishingrod.title"
+              "translate": "eureka.config.tab.item.fishing_rod.title"
             }
           ]
         },
@@ -60,13 +60,13 @@
       },
       {
         "type": "boolean",
-        "id": "item_rod_parts_vanilla",
+        "id": "item.rod_part.vanilla",
         "title": {
           "text": "",
           "extra": [
             {
               "type": "translatable",
-              "translate": "eureka.config.tab.item.fishingrodparts.title"
+              "translate": "eureka.config.tab.item.fishing_rod.parts.title"
             }
           ]
         },
@@ -89,7 +89,7 @@
           "extra": [
             {
               "type": "translatable",
-              "translate": "eureka.config.tab.block.environmentalprops",
+              "translate": "eureka.config.tab.block.environmental_props",
               "bold": true
             }
           ]
@@ -98,7 +98,7 @@
       },
       {
         "type": "boolean",
-        "id": "props_darkmonolith",
+        "id": "props.dark_monolith",
         "title": "Dark Monolith",
         "description": "",
         "default": true
@@ -119,7 +119,7 @@
           "extra": [
             {
               "type": "translatable",
-              "translate": "eureka.config.tab.gui.skilltrees",
+              "translate": "eureka.config.tab.gui.skill_tree",
               "bold": true
             }
           ]
@@ -128,7 +128,7 @@
       },
       {
         "type": "boolean",
-        "id": "skilltree_hotm",
+        "id": "skill_tree.hotm",
         "title": "Heart of the Mountain",
         "description": "",
         "default": true
@@ -140,7 +140,7 @@
           "extra": [
             {
               "type": "translatable",
-              "translate": "eureka.config.tab.gui.tooltips",
+              "translate": "eureka.config.tab.gui.tooltip",
               "bold": true
             }
           ]
@@ -149,13 +149,28 @@
       },
       {
         "type": "boolean",
-        "id": "fancy_tooltips",
+        "id": "tooltip.separator",
         "title": {
           "text": "",
           "extra": [
             {
               "type": "translatable",
-              "translate": "eureka.config.tab.gui.tooltips.title"
+              "translate": "eureka.config.tab.gui.tooltip.separator"
+            }
+          ]
+        },
+        "description": "",
+        "default": true
+      },
+      {
+        "type": "boolean",
+        "id": "tooltip.rarity",
+        "title": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.config.tab.gui.tooltip.rarity"
             }
           ]
         },
@@ -187,14 +202,13 @@
       },
       {
         "type": "boolean",
-        "id": "glyph_stats",
+        "id": "glyph.stat",
         "title": {
           "text": "",
           "extra": [
             {
               "type": "translatable",
-              "translate": "eureka.config.tab.glyph.glyphs.stats",
-              "bold": true
+              "translate": "eureka.config.tab.glyph.glyphs.stat"
             }
           ]
         },
@@ -203,14 +217,13 @@
       },
       {
         "type": "boolean",
-        "id": "glyph_mobtypes",
+        "id": "glyph.mobtype",
         "title": {
           "text": "",
           "extra": [
             {
               "type": "translatable",
-              "translate": "eureka.config.tab.glyph.glyphs.mobtypes",
-              "bold": true
+              "translate": "eureka.config.tab.glyph.glyphs.mobtype"
             }
           ]
         },
@@ -230,24 +243,54 @@
         "type": "separator",
         "title": {
           "type": "translatable",
-          "translate": "eureka.config.tab.entity.models",
+          "translate": "eureka.config.tab.entity.model",
           "bold": true
         },
         "description": ""
       },
       {
         "type": "boolean",
-        "id": "entity_backwaterbayou",
+        "id": "entity.fishing_1",
         "title": "Backwater Bayou",
         "description": "",
         "default": true
       },
       {
         "type": "boolean",
-        "id": "entity_crystalhollows",
+        "id": "entity.crystal_hollows",
         "title": "Crystal Hollows",
         "description": "",
         "default": true
+      },
+      {
+        "type": "boolean",
+        "id": "entity.mining_2",
+        "title": "Deep Caverns",
+        "description": "",
+        "default": true
+      },
+      {
+        "type": "boolean",
+        "id": "entity.combat_1",
+        "title": "Spider's Den",
+        "description": "",
+        "default": true
+      }
+    ]
+  },
+  {
+    "type": "tab",
+    "title": {
+      "type": "translatable",
+      "translate": "eureka.config.tab.accessibility"
+    },
+    "options": [
+      {
+        "type": "boolean",
+        "id": "accessibility.highcontrast",
+        "title": "High Contrast GUIs",
+        "description": "",
+        "default": false
       }
     ]
   }

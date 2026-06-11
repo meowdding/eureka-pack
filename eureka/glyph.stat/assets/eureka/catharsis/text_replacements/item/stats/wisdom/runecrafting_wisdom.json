@@ -1,0 +1,50 @@
+{
+  "replacer": {
+    "type": "catharsis:composite",
+    "replacers": [
+      {
+        "type": "catharsis:regex",
+        "regex": "☯ Runecrafting Wisdom ",
+        "replacement": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.glyph.stat.wisdom.runecrafting_wisdom",
+              "font": "eureka:stat/wisdom/runecrafting_wisdom",
+              "color": "dark_aqua",
+              "italic": false
+            },
+            {
+              "text": " Runecrafting Wisdom ",
+              "color": "dark_aqua",
+              "italic": false
+            }
+          ]
+        }
+      },
+      {
+        "type": "catharsis:regex",
+        "regex": "☯ Runecrafting Wisdom",
+        "propagate": false,
+        "replacement": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.glyph.stat.wisdom.runecrafting_wisdom",
+              "font": "eureka:stat/wisdom/runecrafting_wisdom",
+              "color": "dark_aqua",
+              "italic": false
+            },
+            {
+              "text": " Runecrafting Wisdom",
+              "color": "dark_aqua",
+              "italic": false
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

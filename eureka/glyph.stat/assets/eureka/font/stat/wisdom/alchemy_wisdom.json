@@ -1,0 +1,11 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "eureka:font/stat/wisdom/alchemy_wisdom.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": ["☯"]
+    }
+  ]
+}

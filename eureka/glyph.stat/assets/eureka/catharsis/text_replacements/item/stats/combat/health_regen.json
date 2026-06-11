@@ -1,0 +1,50 @@
+{
+  "replacer": {
+    "type": "catharsis:composite",
+    "replacers": [
+      {
+        "type": "catharsis:regex",
+        "regex": "❣ Health Regen ",
+        "replacement": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.glyph.stat.combat.health_regen",
+              "font": "eureka:stat/combat/health_regen",
+              "color": "red",
+              "italic": false
+            },
+            {
+              "text": " Health Regen ",
+              "color": "red",
+              "italic": false
+            }
+          ]
+        }
+      },
+      {
+        "type": "catharsis:regex",
+        "regex": "❣ Health Regen",
+        "propagate": false,
+        "replacement": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.glyph.stat.combat.health_regen",
+              "font": "eureka:stat/combat/health_regen",
+              "color": "red",
+              "italic": false
+            },
+            {
+              "text": " Health Regen",
+              "color": "red",
+              "italic": false
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,1 +1,18 @@
+- Created & Owned by:
 @junenya on Discord
+
+- Art & Asset compilation by:
+@Junenya on Discord
+
+- Catsquash by Meowdding:
+https://github.com/meowdding/catsquash
+
+- Scripts & Workflows by Meowora and Juna
+https://github.com/meowora 
+https://github.com/j10a1n15
+
+- Information on Catharsis specific asset compilation sourced from: 
+https://development.catharsis-e4x.pages.dev/
+
+- Catharsis Repository (Mod Dependency!)
+https://github.com/meowdding/catharsis

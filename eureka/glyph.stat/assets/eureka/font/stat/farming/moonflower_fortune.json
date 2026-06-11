@@ -1,0 +1,11 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "eureka:font/stat/farming/moonflower_fortune.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": ["☘"]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "replacer": {
+    "type": "catharsis:composite",
+    "replacers": [
+      {
+        "type": "catharsis:regex",
+        "regex": "☯ Carpentry Wisdom ",
+        "replacement": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.glyph.stat.wisdom.carpentry_wisdom",
+              "font": "eureka:stat/wisdom/carpentry_wisdom",
+              "color": "dark_aqua",
+              "italic": false
+            },
+            {
+              "text": " Carpentry Wisdom ",
+              "color": "dark_aqua",
+              "italic": false
+            }
+          ]
+        }
+      },
+      {
+        "type": "catharsis:regex",
+        "regex": "☯ Carpentry Wisdom",
+        "propagate": false,
+        "replacement": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.glyph.stat.wisdom.carpentry_wisdom",
+              "font": "eureka:stat/wisdom/carpentry_wisdom",
+              "color": "dark_aqua",
+              "italic": false
+            },
+            {
+              "text": " Carpentry Wisdom",
+              "color": "dark_aqua",
+              "italic": false
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

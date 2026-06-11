@@ -1,0 +1,11 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "eureka:font/stat/foraging/sweep.png",
+      "ascent": 5,
+      "height": 5,
+      "chars": ["∮"]
+    }
+  ]
+}

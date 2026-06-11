@@ -1,0 +1,11 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "eureka:font/stat/fishing/double_hook_chance.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": ["⚓"]
+    }
+  ]
+}

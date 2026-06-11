@@ -1,0 +1,50 @@
+{
+  "replacer": {
+    "type": "catharsis:composite",
+    "replacers": [
+      {
+        "type": "catharsis:regex",
+        "regex": "☣ Crit Chance ",
+        "replacement": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.glyph.stat.combat.crit_chance",
+              "font": "eureka:stat/combat/crit_chance",
+              "color": "blue",
+              "italic": false
+            },
+            {
+              "text": " Crit Chance ",
+              "color": "blue",
+              "italic": false
+            }
+          ]
+        }
+      },
+      {
+        "type": "catharsis:regex",
+        "regex": "☣ Crit Chance",
+        "propagate": false,
+        "replacement": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.glyph.stat.combat.crit_chance",
+              "font": "eureka:stat/combat/crit_chance",
+              "color": "blue",
+              "italic": false
+            },
+            {
+              "text": " Crit Chance",
+              "color": "blue",
+              "italic": false
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

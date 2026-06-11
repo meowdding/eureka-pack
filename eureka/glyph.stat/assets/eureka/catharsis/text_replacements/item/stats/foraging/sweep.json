@@ -1,0 +1,50 @@
+{
+  "replacer": {
+    "type": "catharsis:composite",
+    "replacers": [
+      {
+        "type": "catharsis:regex",
+        "regex": "∮ Sweep ",
+        "replacement": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.glyph.stat.foraging.sweep",
+              "font": "eureka:stat/foraging/sweep",
+              "color": "dark_green",
+              "italic": false
+            },
+            {
+              "text": " Sweep ",
+              "color": "dark_green",
+              "italic": false
+            }
+          ]
+        }
+      },
+      {
+        "type": "catharsis:regex",
+        "regex": "∮ Sweep",
+        "propagate": false,
+        "replacement": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.glyph.stat.foraging.sweep",
+              "font": "eureka:stat/foraging/sweep",
+              "color": "dark_green",
+              "italic": false
+            },
+            {
+              "text": " Sweep",
+              "color": "dark_green",
+              "italic": false
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

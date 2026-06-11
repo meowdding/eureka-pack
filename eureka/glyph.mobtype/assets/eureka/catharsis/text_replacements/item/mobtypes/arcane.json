@@ -1,0 +1,23 @@
+{
+  "replacer": {
+    "type": "catharsis:regex",
+    "regex": "♃ Arcane",
+    "replacement": {
+      "text": "",
+      "extra": [
+        {
+          "type": "translatable",
+          "translate": "eureka.glyph.mobtype.arcane",
+          "font": "eureka:mobtype/arcane",
+          "color": "dark_purple",
+          "italic": false
+        },
+        {
+          "text": " Arcane",
+          "color": "dark_purple",
+          "italic": false
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "replacer": {
+    "type": "catharsis:regex",
+    "regex": "⊙ Ender",
+    "replacement": {
+      "text": "",
+      "extra": [
+        {
+          "type": "translatable",
+          "translate": "eureka.glyph.mobtype.ender",
+          "font": "eureka:mobtype/ender",
+          "color": "dark_purple",
+          "italic": false
+        },
+        {
+          "text": " Ender",
+          "color": "dark_purple",
+          "italic": false
+        }
+      ]
+    }
+  }
+}

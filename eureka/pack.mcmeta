@@ -36,88 +36,120 @@
   "fabric:overlays": {
     "entries": [
       {
-        "directory": "item_rod",
+        "directory": "item.rod",
         "condition": {
           "condition": "catharsis:config",
           "pack": "eureka",
-          "id": "item_rod"
+          "id": "item.rod"
         }
       },
       {
-        "directory": "item_rod_parts_vanilla",
+        "directory": "item.rod_part.vanilla",
         "condition": {
           "condition": "catharsis:config",
           "pack": "eureka",
-          "id": "item_rod_parts_vanilla"
+          "id": "item.rod_part.vanilla"
         }
       },
       {
-        "directory": "item_rod_parts",
+        "directory": "item.rod_part",
         "condition": {
           "condition": "fabric:and",
           "values": [
             {
               "condition": "catharsis:config",
               "pack": "eureka",
-              "id": "item_rod",
+              "id": "item.rod",
               "value": "on"
             },
             {
               "condition": "catharsis:config",
               "pack": "eureka",
-              "id": "item_rod_parts_vanilla",
+              "id": "item.rod_part.vanilla",
               "value": "on"
             }
           ]
         }
       },
       {
-        "directory": "skilltree_hotm",
+        "directory": "skill_tree.hotm",
         "condition": {
           "condition": "catharsis:config",
           "pack": "eureka",
-          "id": "skilltree_hotm",
+          "id": "skill_tree.hotm",
           "value": "on"
         }
       },
       {
-        "directory": "fancy_tooltips",
+        "directory": "tooltip.separator",
         "condition": {
           "condition": "catharsis:config",
           "pack": "eureka",
-          "id": "fancy_tooltips"
+          "id": "tooltip.separator"
         }
       },
       {
-        "directory": "glyph_stats",
+        "directory": "tooltip.rarity",
         "condition": {
           "condition": "catharsis:config",
           "pack": "eureka",
-          "id": "glyph_stats"
+          "id": "tooltip.rarity"
         }
       },
       {
-        "directory": "glyph_mobtypes",
+        "directory": "glyph.stat",
         "condition": {
           "condition": "catharsis:config",
           "pack": "eureka",
-          "id": "glyph_mobtypes"
+          "id": "glyph.stat"
         }
       },
       {
-        "directory": "entity_backwaterbayou",
+        "directory": "glyph.mobtype",
         "condition": {
           "condition": "catharsis:config",
           "pack": "eureka",
-          "id": "entity_backwaterbayou"
+          "id": "glyph.mobtype"
         }
       },
       {
-        "directory": "entity_crystalhollows",
+        "directory": "entity.fishing_1",
         "condition": {
           "condition": "catharsis:config",
           "pack": "eureka",
-          "id": "entity_crystalhollows"
+          "id": "entity.fishing_1"
+        }
+      },
+      {
+        "directory": "entity.crystal_hollows",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "eureka",
+          "id": "entity.crystal_hollows"
+        }
+      },
+      {
+        "directory": "entity.mining_2",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "eureka",
+          "id": "entity.mining_2"
+        }
+      },
+      {
+        "directory": "entity.combat_1",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "eureka",
+          "id": "entity.combat_1"
+        }
+      },
+      {
+        "directory": "accessibility.highcontrast",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "eureka",
+          "id": "accessibility.highcontrast"
         }
       }
     ]

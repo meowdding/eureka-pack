@@ -1,0 +1,11 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "eureka:font/mobtype/construct.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": ["⚙"]
+    }
+  ]
+}

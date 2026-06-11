@@ -1,0 +1,23 @@
+{
+  "replacer": {
+    "type": "catharsis:regex",
+    "regex": "⚓ Aquatic",
+    "replacement": {
+      "text": "",
+      "extra": [
+        {
+          "type": "translatable",
+          "translate": "eureka.glyph.mobtype.aquatic",
+          "font": "eureka:mobtype/aquatic",
+          "color": "blue",
+          "italic": false
+        },
+        {
+          "text": " Aquatic",
+          "color": "blue",
+          "italic": false
+        }
+      ]
+    }
+  }
+}

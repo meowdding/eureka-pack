@@ -1,0 +1,29 @@
+{
+  "replacer": {
+    "type": "catharsis:composite",
+    "replacers": [
+      {
+        "type": "catharsis:regex",
+        "regex": "(\\[)(⚔)\\]",
+        "propagate": false,
+        "replacement": {
+          "text": "",
+          "extra": [
+            {
+              "type": "text",
+              "text": "${1}",
+              "font": "eureka:tooltip/gemstone_slot/slot"
+            },
+            {
+              "type": "text",
+              "text": "⚔",
+              "font": "eureka:tooltip/gemstone_slot/onyx",
+              "color": "white",
+              "italic": false
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

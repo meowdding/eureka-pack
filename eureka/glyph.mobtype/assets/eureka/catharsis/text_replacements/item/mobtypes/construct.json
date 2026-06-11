@@ -1,0 +1,23 @@
+{
+  "replacer": {
+    "type": "catharsis:regex",
+    "regex": "⚙ Construct",
+    "replacement": {
+      "text": "",
+      "extra": [
+        {
+          "type": "translatable",
+          "translate": "eureka.glyph.mobtype.construct",
+          "font": "eureka:mobtype/construct",
+          "color": "gray",
+          "italic": false
+        },
+        {
+          "text": " Construct",
+          "color": "gray",
+          "italic": false
+        }
+      ]
+    }
+  }
+}

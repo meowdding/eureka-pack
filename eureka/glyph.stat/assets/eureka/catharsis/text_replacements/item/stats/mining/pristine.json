@@ -1,0 +1,50 @@
+{
+  "replacer": {
+    "type": "catharsis:composite",
+    "replacers": [
+      {
+        "type": "catharsis:regex",
+        "regex": "✧ Pristine ",
+        "replacement": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.glyph.stat.mining.pristine",
+              "font": "eureka:stat/mining/pristine",
+              "color": "dark_purple",
+              "italic": false
+            },
+            {
+              "text": " Pristine ",
+              "color": "dark_purple",
+              "italic": false
+            }
+          ]
+        }
+      },
+      {
+        "type": "catharsis:regex",
+        "regex": "✧ Pristine",
+        "propagate": false,
+        "replacement": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.glyph.stat.mining.pristine",
+              "font": "eureka:stat/mining/pristine",
+              "color": "dark_purple",
+              "italic": false
+            },
+            {
+              "text": " Pristine",
+              "color": "dark_purple",
+              "italic": false
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "replacer": {
+    "type": "catharsis:regex",
+    "regex": "✰ Humanoid",
+    "replacement": {
+      "text": "",
+      "extra": [
+        {
+          "type": "translatable",
+          "translate": "eureka.glyph.mobtype.humanoid",
+          "font": "eureka:mobtype/humanoid",
+          "color": "yellow",
+          "italic": false
+        },
+        {
+          "text": " Humanoid",
+          "color": "yellow",
+          "italic": false
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "replacer": {
+    "type": "catharsis:regex",
+    "regex": "🦴 Skeletal",
+    "replacement": {
+      "text": "",
+      "extra": [
+        {
+          "type": "translatable",
+          "translate": "eureka.glyph.mobtype.skeletal",
+          "font": "eureka:mobtype/skeletal",
+          "color": "white",
+          "italic": false
+        },
+        {
+          "text": " Skeletal",
+          "color": "white",
+          "italic": false
+        }
+      ]
+    }
+  }
+}
