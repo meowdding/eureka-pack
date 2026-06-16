@@ -21,22 +21,22 @@ val colors = scriptDir.resolve("colors.csv").readText().lines().map {
     it.substringBefore("//").trim()
 }.filter { it.isNotEmpty() }.iterator()
 
-data class Theme(val name: String, val mappings: MutableMap<Int, Int> = mutableMapOf()) {
-    val themeDir: Path get() = eurekaDir.resolve("eureka").resolve("theme_$name")
+data class Template(val name: String, val mappings: MutableMap<Int, Int> = mutableMapOf()) {
+    val templateDir: Path get() = eurekaDir.resolve("eureka").resolve("template_$name")
 
-    operator fun component3() = themeDir
+    operator fun component3() = templateDir
 }
 
 
-val themes: MutableList<Theme> = mutableListOf()
-fun parseThemes() {
-    val theme = colors.next()
+val templates: MutableList<Template> = mutableListOf()
+fun parseTemplates() {
+    val template = colors.next()
 
-    theme.substringAfter(",").split(",").forEach {
-        themes.add(Theme(it.trim()))
+    template.substringAfter(",").split(",").forEach {
+        templates.add(Template(it.trim()))
     }
 }
-parseThemes()
+parseTemplates()
 
 fun String.parseColor() = this.removePrefix("#").trim().toInt(16)
 
@@ -46,18 +46,18 @@ while (colors.hasNext()) {
     val template = parts[0].parseColor() and 0xFFFFFF
 
     parts.drop(1).forEachIndexed { index, color ->
-        themes[index].mappings[template] = color.parseColor() and 0xFFFFFF
+        templates[index].mappings[template] = color.parseColor() and 0xFFFFFF
     }
 }
 
-val templateDir: Path = eurekaDir.resolve("theme_template")
+val templateDir: Path = eurekaDir.resolve("template")
 templateDir.visitFileTree {
     onVisitFile { file, _ ->
         if (file.extension.lowercase() != "png") {
-            themes.forEach { (_, _, themeDir) ->
+            templates.forEach { (_, _, templateDir) ->
                 Files.copy(
                     file,
-                    themeDir.resolve(file.relativeTo(templateDir)).createParentDirectories(),
+                    templateDir.resolve(file.relativeTo(templateDir)).createParentDirectories(),
                     StandardCopyOption.REPLACE_EXISTING
                 )
             }
@@ -65,21 +65,21 @@ templateDir.visitFileTree {
         }
         val sourceImage: BufferedImage = ImageIO.read(Files.newInputStream(file))
 
-        themes.forEach { (name, mappings, themeDir) ->
-            val themedImage = BufferedImage(sourceImage.width, sourceImage.height, BufferedImage.TYPE_INT_ARGB)
-            val themedFile: Path = themeDir.resolve(file.relativeTo(templateDir))
+        templates.forEach { (name, mappings, templateDir) ->
+            val templatedImage = BufferedImage(sourceImage.width, sourceImage.height, BufferedImage.TYPE_INT_ARGB)
+            val templatedFile: Path = templateDir.resolve(file.relativeTo(templateDir))
 
             repeat(sourceImage.width) { x ->
                 repeat(sourceImage.height) { y ->
                     fun getColor() = sourceImage.getRGB(x, y)
-                    fun setColor(color: Int) = themedImage.setRGB(x, y, color)
+                    fun setColor(color: Int) = templatedImage.setRGB(x, y, color)
 
                     val color = getColor()
                     setColor(mappings[color and 0xFFFFFF]?.or(0xFF000000u.toInt()) ?: color)
                 }
             }
 
-            ImageIO.write(themedImage, "PNG", themedFile.createParentDirectories().outputStream())
+            ImageIO.write(templatedImage, "PNG", templatedFile.createParentDirectories().outputStream())
         }
 
         FileVisitResult.CONTINUE
