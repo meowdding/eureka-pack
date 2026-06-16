@@ -4,7 +4,7 @@
     "models": [
       {
         "type": "model",
-        "model": "eureka:item/stats/widget/primary/combat/crit_chance"
+        "model": "eureka:item/stats/widget/primary/combat/crit"
       },
       {
         "type": "model",
