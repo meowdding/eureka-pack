@@ -3,8 +3,8 @@
     {
       "type": "bitmap",
       "file": "eureka:font/stat/combat/swing_range.png",
-      "ascent": 8,
-      "height": 8,
+      "ascent": 9,
+      "height": 10,
       "chars": ["Ⓢ"]
     }
   ]
