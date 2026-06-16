@@ -7,7 +7,7 @@ on:
     branches:
       - "main"
     paths:
-      - "catharsis/**"
+      - "eureka/**"
       - ".github/workflows/build.yml"
       - ".github/scripts/build.sh"
 
