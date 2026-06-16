@@ -1,0 +1,15 @@
+{
+  "model": {
+    "type": "composite",
+    "models": [
+      {
+        "type": "model",
+        "model": "eureka:item/stats/widget/primary/combat/intelligence"
+      },
+      {
+        "type": "model",
+        "model": "eureka:item/stats/widget/secondary/shared/flat_bonuses/aqua"
+      }
+    ]
+  }
+}

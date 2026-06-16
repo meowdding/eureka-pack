@@ -140,6 +140,50 @@
           "extra": [
             {
               "type": "translatable",
+              "translate": "eureka.config.tab.gui.gui",
+              "bold": true
+            }
+          ]
+        },
+        "description": ""
+      },
+      {
+        "type": "boolean",
+        "id": "gui.stat",
+        "title": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.config.tab.gui.gui.player_stat"
+            }
+          ]
+        },
+        "description": "",
+        "default": true
+      },
+      {
+        "type": "boolean",
+        "id": "gui.mobtype",
+        "title": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
+              "translate": "eureka.config.tab.gui.gui.mobtype"
+            }
+          ]
+        },
+        "description": "",
+        "default": true
+      },
+      {
+        "type": "separator",
+        "title": {
+          "text": "",
+          "extra": [
+            {
+              "type": "translatable",
               "translate": "eureka.config.tab.gui.tooltip",
               "bold": true
             }
@@ -171,59 +215,6 @@
             {
               "type": "translatable",
               "translate": "eureka.config.tab.gui.tooltip.rarity"
-            }
-          ]
-        },
-        "description": "",
-        "default": true
-      }
-    ]
-  },
-  {
-    "type": "tab",
-    "title": {
-      "type": "translatable",
-      "translate": "eureka.config.tab.glyph"
-    },
-    "options": [
-      {
-        "type": "separator",
-        "title": {
-          "text": "",
-          "extra": [
-            {
-              "type": "translatable",
-              "translate": "eureka.config.tab.glyph.glyphs",
-              "bold": true
-            }
-          ]
-        },
-        "description": ""
-      },
-      {
-        "type": "boolean",
-        "id": "glyph.stat",
-        "title": {
-          "text": "",
-          "extra": [
-            {
-              "type": "translatable",
-              "translate": "eureka.config.tab.glyph.glyphs.stat"
-            }
-          ]
-        },
-        "description": "",
-        "default": true
-      },
-      {
-        "type": "boolean",
-        "id": "glyph.mobtype",
-        "title": {
-          "text": "",
-          "extra": [
-            {
-              "type": "translatable",
-              "translate": "eureka.config.tab.glyph.glyphs.mobtype"
             }
           ]
         },

@@ -1,0 +1,11 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "eureka:font/mobtype/airborne.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": ["✈"]
+    }
+  ]
+}

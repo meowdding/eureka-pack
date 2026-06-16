@@ -1,0 +1,4 @@
+{
+  "parent": "item/generated",
+  "textures": { "layer0": "eureka:item/stats/widget/primary/farming/bonus_pest" }
+}

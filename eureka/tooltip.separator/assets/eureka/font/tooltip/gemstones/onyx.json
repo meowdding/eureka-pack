@@ -1,0 +1,11 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "eureka:font/tooltip/gemstones/onyx.png",
+      "ascent": 10,
+      "height": 14,
+      "chars": ["⚔"]
+    }
+  ]
+}

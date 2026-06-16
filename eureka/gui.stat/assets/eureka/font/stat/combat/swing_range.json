@@ -1,0 +1,11 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "eureka:font/stat/combat/swing_range.png",
+      "ascent": 8,
+      "height": 8,
+      "chars": ["Ⓢ"]
+    }
+  ]
+}

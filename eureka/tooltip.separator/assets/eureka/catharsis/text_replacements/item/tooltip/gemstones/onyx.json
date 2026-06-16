@@ -1,0 +1,41 @@
+{
+  "replacer": {
+    "type": "catharsis:composite",
+    "replacers": [
+      {
+        "type": "catharsis:regex",
+        "regex": "\\[(⚔)\\]",
+        "propagate": false,
+        "replacement": {
+          "text": "",
+          "extra": [
+            {
+              "type": "text",
+              "text": "⚔",
+              "font": "eureka:tooltip/gemstones/onyx",
+              "color": "white",
+              "shadow_color": [0, 0, 0, 0],
+              "italic": false
+            },
+            {
+              "type": "text",
+              "text": "\uE001",
+              "font": "eureka:tooltip/gemstones/slot",
+              "color": "white",
+              "shadow_color": [0, 0, 0, 0],
+              "italic": false
+            },
+            {
+              "type": "text",
+              "text": "\uE000",
+              "font": "eureka:tooltip/gemstones/slot",
+              "color": "white",
+              "shadow_color": [0, 0, 0, 0],
+              "italic": false
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

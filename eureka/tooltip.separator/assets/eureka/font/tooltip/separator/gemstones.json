@@ -3,9 +3,15 @@
     {
       "type": "bitmap",
       "file": "eureka:font/tooltip/separator/gemstones.png",
-      "ascent": 3,
-      "height": 31,
+      "ascent": 5,
+      "height": 9,
       "chars": ["\uE000"]
+    },
+    {
+      "type": "space",
+      "advances": {
+        "\uE001": 101
+      }
     }
   ]
 }

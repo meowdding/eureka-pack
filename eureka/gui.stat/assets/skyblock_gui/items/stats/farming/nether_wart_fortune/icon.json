@@ -1,0 +1,21 @@
+{
+  "model": {
+    "type": "composite",
+    "models": [
+      {
+        "type": "model",
+        "model": "minecraft:item/nether_wart",
+        "transformation": {
+          "translation": [-0.25, 0.25, 0],
+          "left_rotation": [0, 0, 0, 1],
+          "right_rotation": [0, 0, 0, 1],
+          "scale": [1, 1, 1]
+        }
+      },
+      {
+        "type": "model",
+        "model": "eureka:item/stats/widget/secondary/fortune"
+      }
+    ]
+  }
+}

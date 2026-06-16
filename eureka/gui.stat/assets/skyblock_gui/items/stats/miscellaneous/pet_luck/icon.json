@@ -1,0 +1,15 @@
+{
+  "model": {
+    "type": "composite",
+    "models": [
+      {
+        "type": "model",
+        "model": "eureka:item/stats/widget/primary/miscellaneous/pet"
+      },
+      {
+        "type": "model",
+        "model": "eureka:item/stats/widget/secondary/fortune"
+      }
+    ]
+  }
+}

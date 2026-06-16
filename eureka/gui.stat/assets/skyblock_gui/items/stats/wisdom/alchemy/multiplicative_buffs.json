@@ -1,0 +1,15 @@
+{
+  "model": {
+    "type": "composite",
+    "models": [
+      {
+        "type": "model",
+        "model": "eureka:item/skills/widget/primary/alchemy/icon"
+      },
+      {
+        "type": "model",
+        "model": "eureka:item/stats/widget/secondary/shared/multiplicative_buffs/dark_aqua"
+      }
+    ]
+  }
+}

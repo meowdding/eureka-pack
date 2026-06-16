@@ -81,6 +81,22 @@
         }
       },
       {
+        "directory": "gui.stat",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "eureka",
+          "id": "gui.stat"
+        }
+      },
+      {
+        "directory": "gui.mobtype",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "eureka",
+          "id": "gui.mobtype"
+        }
+      },
+      {
         "directory": "tooltip.separator",
         "condition": {
           "condition": "catharsis:config",
@@ -94,22 +110,6 @@
           "condition": "catharsis:config",
           "pack": "eureka",
           "id": "tooltip.rarity"
-        }
-      },
-      {
-        "directory": "glyph.stat",
-        "condition": {
-          "condition": "catharsis:config",
-          "pack": "eureka",
-          "id": "glyph.stat"
-        }
-      },
-      {
-        "directory": "glyph.mobtype",
-        "condition": {
-          "condition": "catharsis:config",
-          "pack": "eureka",
-          "id": "glyph.mobtype"
         }
       },
       {

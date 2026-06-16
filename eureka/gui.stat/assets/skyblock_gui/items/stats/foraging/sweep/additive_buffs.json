@@ -1,0 +1,15 @@
+{
+  "model": {
+    "type": "composite",
+    "models": [
+      {
+        "type": "model",
+        "model": "eureka:item/stats/widget/primary/foraging/sweep"
+      },
+      {
+        "type": "model",
+        "model": "eureka:item/stats/widget/secondary/shared/additive_buffs/dark_green"
+      }
+    ]
+  }
+}
