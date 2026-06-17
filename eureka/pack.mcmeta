@@ -9,7 +9,7 @@
   "catharsis:pack/v1": {
     "id": "eureka",
     "version": "v0.0.1",
-    "dependencies": { "catharsis": ">=1.0.0-beta.16" },
+    "dependencies": { "catharsis": ">=1.0.0-beta.17" },
     "pack_required_for_config": true,
     "selected_description": {
       "text": "",
