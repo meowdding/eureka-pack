@@ -45,28 +45,13 @@
       },
       {
         "type": "boolean",
-        "id": "item.rod",
+        "id": "item.rod_part",
         "title": {
           "text": "",
           "extra": [
             {
               "type": "translatable",
-              "translate": "eureka.config.tab.item.fishing_rod.title"
-            }
-          ]
-        },
-        "description": "",
-        "default": true
-      },
-      {
-        "type": "boolean",
-        "id": "item.rod_part.vanilla",
-        "title": {
-          "text": "",
-          "extra": [
-            {
-              "type": "translatable",
-              "translate": "eureka.config.tab.item.fishing_rod.parts.title"
+              "translate": "eureka.config.tab.item.fishing_rod.part.title"
             }
           ]
         },

@@ -117,13 +117,11 @@
               }
             ],
             "fallback": {
-              "type": "model",
-              "model": "eureka:item/default_sinker"
+              "type": "minecraft:empty"
             }
           },
           "on_false": {
-            "type": "model",
-            "model": "eureka:item/default_sinker"
+            "type": "minecraft:empty"
           }
         },
         {
@@ -143,10 +141,10 @@
                 }
               },
               {
-                "when": "spooky_hook",
+                "when": "phantom_hook",
                 "model": {
                   "type": "model",
-                  "model": "eureka:item/spooky_hook"
+                  "model": "eureka:item/phantom_hook"
                 }
               },
               {
@@ -176,6 +174,55 @@
         }
       ]
     },
-    "on_true": { "type": "minecraft:empty" }
+    "on_true": {
+      "type": "composite",
+      "models": [
+        {
+          "type": "model",
+          "model": "eureka:item/rod_of_the_sea"
+        },
+        {
+          "type": "condition",
+          "property": "catharsis:is_data_type_present",
+          "data_type": "line",
+          "on_true": {
+            "type": "select",
+            "property": "catharsis:data_type",
+            "data_type": "line",
+            "cases": [
+              {
+                "when": "titan_line",
+                "model": {
+                  "type": "model",
+                  "model": "eureka:item/titan_line_cast"
+                }
+              },
+              {
+                "when": "speedy_line",
+                "model": {
+                  "type": "model",
+                  "model": "eureka:item/speedy_line_cast"
+                }
+              },
+              {
+                "when": "shredded_line",
+                "model": {
+                  "type": "model",
+                  "model": "eureka:item/shredded_line_cast"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "eureka:item/default_line_cast"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "eureka:item/default_line_cast"
+          }
+        }
+      ]
+    }
   }
 }

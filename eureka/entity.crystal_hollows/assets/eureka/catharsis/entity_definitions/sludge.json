@@ -1,7 +1,0 @@
-{
-  "target": {
-    "type": "all",
-    "conditions": [{ "type": "island", "island": "crystal_hollows" }]
-  },
-  "type": "minecraft:slime"
-}

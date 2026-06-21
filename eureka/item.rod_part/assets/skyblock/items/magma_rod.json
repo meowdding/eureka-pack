@@ -117,13 +117,11 @@
               }
             ],
             "fallback": {
-              "type": "model",
-              "model": "eureka:item/default_sinker"
+              "type": "minecraft:empty"
             }
           },
           "on_false": {
-            "type": "model",
-            "model": "eureka:item/default_sinker"
+            "type": "minecraft:empty"
           }
         },
         {
@@ -143,10 +141,10 @@
                 }
               },
               {
-                "when": "spooky_hook",
+                "when": "phantom_hook",
                 "model": {
                   "type": "model",
-                  "model": "eureka:item/spooky_hook"
+                  "model": "eureka:item/phantom_hook"
                 }
               },
               {

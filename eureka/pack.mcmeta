@@ -36,39 +36,12 @@
   "fabric:overlays": {
     "entries": [
       {
-        "directory": "item.rod",
-        "condition": {
-          "condition": "catharsis:config",
-          "pack": "eureka",
-          "id": "item.rod"
-        }
-      },
-      {
-        "directory": "item.rod_part.vanilla",
-        "condition": {
-          "condition": "catharsis:config",
-          "pack": "eureka",
-          "id": "item.rod_part.vanilla"
-        }
-      },
-      {
         "directory": "item.rod_part",
         "condition": {
-          "condition": "fabric:and",
-          "values": [
-            {
-              "condition": "catharsis:config",
-              "pack": "eureka",
-              "id": "item.rod",
-              "value": "on"
-            },
-            {
-              "condition": "catharsis:config",
-              "pack": "eureka",
-              "id": "item.rod_part.vanilla",
-              "value": "on"
-            }
-          ]
+          "condition": "catharsis:config",
+          "pack": "eureka",
+          "id": "item.rod_part",
+          "value": "on"
         }
       },
       {

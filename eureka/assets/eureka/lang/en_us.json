@@ -8,8 +8,7 @@
   "eureka.config.tab.item": "Items",
 
   "eureka.config.tab.item.fishing_rod": "Fishing Rods",
-  "eureka.config.tab.item.fishing_rod.title": "Fishing Rods",
-  "eureka.config.tab.item.fishing_rod.parts.title": "Fishing Rod Part Overlays",
+  "eureka.config.tab.item.fishing_rod.part.title": "Fishing Rod Part Overlays",
 
   "eureka.config.tab.block": "Blocks",
   "eureka.config.tab.block.environmental_props": "Environmental Props",

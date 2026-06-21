@@ -1,1 +1,0 @@
-{"model":{"type":"condition","property":"minecraft:fishing_rod/cast","on_false":{"type":"model","model":"eureka:item/rod_of_the_sea"},"on_true":{"type":"model","model":"eureka:item/rod_of_the_sea"}}}

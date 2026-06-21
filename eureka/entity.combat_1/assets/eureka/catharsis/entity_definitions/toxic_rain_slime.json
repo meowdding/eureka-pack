@@ -1,7 +1,0 @@
-{
-  "target": {
-    "type": "all",
-    "conditions": [{ "type": "island", "island": "combat_1245" }]
-  },
-  "type": "minecraft:slime"
-}

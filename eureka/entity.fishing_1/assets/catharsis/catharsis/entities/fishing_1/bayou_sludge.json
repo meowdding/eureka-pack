@@ -1,0 +1,5 @@
+{
+  "texture": "eureka:textures/fishing_1/bayou_sludge/bayou_sludge.png",
+  "model": "eureka:models/fishing_1/bayou_sludge/bayou_sludge.geo.json",
+  "translucent": true
+}

@@ -1,9 +1,0 @@
-{
-  "target": {
-    "type": "all",
-    "conditions": [
-      { "type": "island", "island": "fishing_1" }
-    ]
-  },
-  "type": "minecraft:slime"
-}

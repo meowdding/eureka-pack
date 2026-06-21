@@ -1,0 +1,5 @@
+{
+  "texture": "eureka:textures/combat_1/toxic_rain_slime/toxic_rain_slime.png",
+  "model": "eureka:models/combat_1/toxic_rain_slime/toxic_rain_slime.geo.json",
+  "translucent": true
+}
