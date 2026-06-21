@@ -179,27 +179,27 @@
       },
       {
         "type": "boolean",
-        "id": "tooltip.separator",
-        "title": {
-          "type": "translatable",
-          "translate": "eureka.config.tab.gui.tooltip.separator"
-        },
-        "description": "",
-        "default": false
-      },
-      {
-        "type": "boolean",
         "id": "tooltip.rarity",
         "title": {
           "type": "translatable",
           "translate": "eureka.config.tab.gui.tooltip.rarity"
+        },
+        "description": "",
+        "default": true
+      },
+      {
+        "type": "boolean",
+        "id": "tooltip.separator",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.gui.tooltip.separator"
         },
         "description": {
           "type": "translatable",
           "translate": "eureka.config.generic.disabled_warning",
           "color": "red"
         },
-        "default": true
+        "default": false
       }
     ]
   },
