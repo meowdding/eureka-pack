@@ -3,7 +3,17 @@
   "eureka.pack.offset": "\uE000",
 
   "eureka.config.tab.info": "Info",
-  "eureka.config.tab.info.information": "Information",
+
+  "eureka.config.tab.info.about_eureka": "About Eureka",
+
+  "eureka.config.tab.info.about_eureka.version": "Version:\n",
+  "eureka.config.tab.info.about_eureka.version.number": "alpha-v0.0.4",
+
+  "eureka.config.tab.info.about_eureka.dependencies": "Dependencies:\n",
+  "eureka.config.tab.info.about_eureka.dependencies.catharsis": "Catharsis 1.0.0-beta.17",
+
+  "eureka.config.tab.info.about_eureka.license": "License:\n",
+  "eureka.config.tab.info.about_eureka.license.kind": "All Rights Reserved",
 
   "eureka.config.tab.item": "Items",
 
@@ -31,12 +41,15 @@
   "eureka.config.tab.entity.model": "Custom Entity Models",
 
   "eureka.config.tab.accessibility": "Accessibility",
+  "eureka.config.tab.accessibility.gui": "GUI",
 
   "eureka.tooltip.separator.gemstones": "\uE000",
   "eureka.tooltip.separator.stats": "\uE000",
 
   "eureka.tooltip.gemstone_slot.slot": "\uE000",
   "eureka.tooltip.gemstone_slot.combat": "\uE000",
+
+  "eureka.config.generic.disabled_warning": "This feature is currently disabled by default as it causes issues and/or is too incomplete for regular use.",
 
   "eureka.glyph.stat.combat.damage": "❁",
   "eureka.glyph.stat.combat.defense": "❈",

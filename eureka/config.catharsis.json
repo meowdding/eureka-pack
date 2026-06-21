@@ -9,16 +9,57 @@
       {
         "type": "separator",
         "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.info.about_eureka",
+          "bold": true
+        },
+        "description": {
+          "text": ""
+        }
+      },
+      {
+        "type": "information",
+        "title": "",
+        "description": {
           "text": "",
           "extra": [
             {
               "type": "translatable",
-              "translate": "eureka.config.tab.info.information",
+              "translate": "eureka.config.tab.info.about_eureka.version",
+              "color": "white",
               "bold": true
+            },
+            {
+              "type": "translatable",
+              "translate": "eureka.config.tab.info.about_eureka.version.number",
+              "color": "gray"
+            },
+            { "text": "\n\n" },
+            {
+              "type": "translatable",
+              "translate": "eureka.config.tab.info.about_eureka.dependencies",
+              "color": "white",
+              "bold": true
+            },
+            {
+              "type": "translatable",
+              "translate": "eureka.config.tab.info.about_eureka.dependencies.catharsis",
+              "color": "gray"
+            },
+            { "text": "\n\n" },
+            {
+              "type": "translatable",
+              "translate": "eureka.config.tab.info.about_eureka.license",
+              "color": "white",
+              "bold": true
+            },
+            {
+              "type": "translatable",
+              "translate": "eureka.config.tab.info.about_eureka.license.kind",
+              "color": "gray"
             }
           ]
-        },
-        "description": ""
+        }
       }
     ]
   },
@@ -32,14 +73,9 @@
       {
         "type": "separator",
         "title": {
-          "text": "",
-          "extra": [
-            {
-              "type": "translatable",
-              "translate": "eureka.config.tab.item.fishing_rod",
-              "bold": true
-            }
-          ]
+          "type": "translatable",
+          "translate": "eureka.config.tab.item.fishing_rod",
+          "bold": true
         },
         "description": ""
       },
@@ -47,13 +83,8 @@
         "type": "boolean",
         "id": "item.rod_part",
         "title": {
-          "text": "",
-          "extra": [
-            {
-              "type": "translatable",
-              "translate": "eureka.config.tab.item.fishing_rod.part.title"
-            }
-          ]
+          "type": "translatable",
+          "translate": "eureka.config.tab.item.fishing_rod.part.title"
         },
         "description": "",
         "default": true
@@ -70,14 +101,9 @@
       {
         "type": "separator",
         "title": {
-          "text": "",
-          "extra": [
-            {
-              "type": "translatable",
-              "translate": "eureka.config.tab.block.environmental_props",
-              "bold": true
-            }
-          ]
+          "type": "translatable",
+          "translate": "eureka.config.tab.block.environmental_props",
+          "bold": true
         },
         "description": ""
       },
@@ -100,14 +126,9 @@
       {
         "type": "separator",
         "title": {
-          "text": "",
-          "extra": [
-            {
-              "type": "translatable",
-              "translate": "eureka.config.tab.gui.skill_tree",
-              "bold": true
-            }
-          ]
+          "type": "translatable",
+          "translate": "eureka.config.tab.gui.skill_tree",
+          "bold": true
         },
         "description": ""
       },
@@ -121,14 +142,9 @@
       {
         "type": "separator",
         "title": {
-          "text": "",
-          "extra": [
-            {
-              "type": "translatable",
-              "translate": "eureka.config.tab.gui.gui",
-              "bold": true
-            }
-          ]
+          "type": "translatable",
+          "translate": "eureka.config.tab.gui.gui",
+          "bold": true
         },
         "description": ""
       },
@@ -136,13 +152,8 @@
         "type": "boolean",
         "id": "gui.stat",
         "title": {
-          "text": "",
-          "extra": [
-            {
-              "type": "translatable",
-              "translate": "eureka.config.tab.gui.gui.player_stat"
-            }
-          ]
+          "type": "translatable",
+          "translate": "eureka.config.tab.gui.gui.player_stat"
         },
         "description": "",
         "default": true
@@ -151,13 +162,8 @@
         "type": "boolean",
         "id": "gui.mobtype",
         "title": {
-          "text": "",
-          "extra": [
-            {
-              "type": "translatable",
-              "translate": "eureka.config.tab.gui.gui.mobtype"
-            }
-          ]
+          "type": "translatable",
+          "translate": "eureka.config.tab.gui.gui.mobtype"
         },
         "description": "",
         "default": true
@@ -165,14 +171,9 @@
       {
         "type": "separator",
         "title": {
-          "text": "",
-          "extra": [
-            {
-              "type": "translatable",
-              "translate": "eureka.config.tab.gui.tooltip",
-              "bold": true
-            }
-          ]
+          "type": "translatable",
+          "translate": "eureka.config.tab.gui.tooltip",
+          "bold": true
         },
         "description": ""
       },
@@ -180,30 +181,24 @@
         "type": "boolean",
         "id": "tooltip.separator",
         "title": {
-          "text": "",
-          "extra": [
-            {
-              "type": "translatable",
-              "translate": "eureka.config.tab.gui.tooltip.separator"
-            }
-          ]
+          "type": "translatable",
+          "translate": "eureka.config.tab.gui.tooltip.separator"
         },
         "description": "",
-        "default": true
+        "default": false
       },
       {
         "type": "boolean",
         "id": "tooltip.rarity",
         "title": {
-          "text": "",
-          "extra": [
-            {
-              "type": "translatable",
-              "translate": "eureka.config.tab.gui.tooltip.rarity"
-            }
-          ]
+          "type": "translatable",
+          "translate": "eureka.config.tab.gui.tooltip.rarity"
         },
-        "description": "",
+        "description": {
+          "type": "translatable",
+          "translate": "eureka.config.generic.disabled_warning",
+          "color": "red"
+        },
         "default": true
       }
     ]
@@ -261,6 +256,15 @@
       "translate": "eureka.config.tab.accessibility"
     },
     "options": [
+      {
+        "type": "separator",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.accessibility.gui",
+          "bold": true
+        },
+        "description": ""
+      },
       {
         "type": "boolean",
         "id": "accessibility.highcontrast",
