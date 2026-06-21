@@ -33,6 +33,13 @@
                 }
               },
               {
+                "when": "trophy_line",
+                "model": {
+                  "type": "model",
+                  "model": "eureka:item/trophy_line"
+                }
+              },
+              {
                 "when": "shredded_line",
                 "model": {
                   "type": "model",
@@ -64,6 +71,13 @@
                 "model": {
                   "type": "model",
                   "model": "eureka:item/junk_sinker"
+                }
+              },
+              {
+                "when": "lotus_sinker",
+                "model": {
+                  "type": "model",
+                  "model": "eureka:item/lotus_sinker"
                 }
               },
               {
@@ -134,6 +148,13 @@
             "data_type": "hook",
             "cases": [
               {
+                "when": "puddle_jumper_hook",
+                "model": {
+                  "type": "model",
+                  "model": "eureka:item/puddle_jumper_hook"
+                }
+              },
+              {
                 "when": "treasure_hook",
                 "model": {
                   "type": "model",
@@ -174,6 +195,62 @@
         }
       ]
     },
-    "on_true": { "type": "model", "model": "eureka:item/inferno_rod" }
+    "on_true": {
+      "type": "composite",
+      "models": [
+        {
+          "type": "model",
+          "model": "eureka:item/inferno_rod"
+        },
+        {
+          "type": "condition",
+          "property": "catharsis:is_data_type_present",
+          "data_type": "line",
+          "on_true": {
+            "type": "select",
+            "property": "catharsis:data_type",
+            "data_type": "line",
+            "cases": [
+              {
+                "when": "titan_line",
+                "model": {
+                  "type": "model",
+                  "model": "eureka:item/titan_line_cast"
+                }
+              },
+              {
+                "when": "speedy_line",
+                "model": {
+                  "type": "model",
+                  "model": "eureka:item/speedy_line"
+                }
+              },
+              {
+                "when": "trophy_line",
+                "model": {
+                  "type": "model",
+                  "model": "eureka:item/trophy_line_cast"
+                }
+              },
+              {
+                "when": "shredded_line",
+                "model": {
+                  "type": "model",
+                  "model": "eureka:item/shredded_line_cast"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "eureka:item/default_line_cast"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "eureka:item/default_line_cast"
+          }
+        }
+      ]
+    }
   }
 }

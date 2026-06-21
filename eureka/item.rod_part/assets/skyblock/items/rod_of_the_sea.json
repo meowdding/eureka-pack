@@ -33,6 +33,13 @@
                 }
               },
               {
+                "when": "trophy_line",
+                "model": {
+                  "type": "model",
+                  "model": "eureka:item/trophy_line"
+                }
+              },
+              {
                 "when": "shredded_line",
                 "model": {
                   "type": "model",
@@ -64,6 +71,13 @@
                 "model": {
                   "type": "model",
                   "model": "eureka:item/junk_sinker"
+                }
+              },
+              {
+                "when": "lotus_sinker",
+                "model": {
+                  "type": "model",
+                  "model": "eureka:item/lotus_sinker"
                 }
               },
               {
@@ -134,6 +148,13 @@
             "data_type": "hook",
             "cases": [
               {
+                "when": "puddle_jumper_hook",
+                "model": {
+                  "type": "model",
+                  "model": "eureka:item/puddle_jumper_hook"
+                }
+              },
+              {
                 "when": "treasure_hook",
                 "model": {
                   "type": "model",
@@ -201,7 +222,14 @@
                 "when": "speedy_line",
                 "model": {
                   "type": "model",
-                  "model": "eureka:item/speedy_line_cast"
+                  "model": "eureka:item/speedy_line"
+                }
+              },
+              {
+                "when": "trophy_line",
+                "model": {
+                  "type": "model",
+                  "model": "eureka:item/trophy_line_cast"
                 }
               },
               {
