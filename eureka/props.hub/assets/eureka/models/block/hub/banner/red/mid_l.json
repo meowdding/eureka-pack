@@ -1,0 +1,6 @@
+{
+  "parent": "eureka:block/template/banner",
+  "textures": {
+    "banner": "eureka:block/hub/banner/red/mid_l"
+  }
+}

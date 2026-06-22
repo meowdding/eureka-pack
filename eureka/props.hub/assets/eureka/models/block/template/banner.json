@@ -1,0 +1,20 @@
+{
+  "ambientocclusion": false,
+  "textures": {
+    "particle": "#banner"
+  },
+  "elements": [
+    {
+      "name": "banner",
+      "from": [8, 0, 0],
+      "to": [8, 16, 16],
+
+      "light_emission": 15,
+      "rotation": { "angle": 0, "axis": "y", "origin": [16, 8, 0] },
+      "faces": {
+        "east": { "uv": [0, 0, 16, 16], "texture": "#banner" },
+        "west": { "uv": [16, 0, 0, 16], "texture": "#banner" }
+      }
+    }
+  ]
+}

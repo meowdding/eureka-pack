@@ -1,0 +1,44 @@
+{
+  "type": "catharsis:per_area",
+  "entries": {
+    "eureka:hub/banner/red": {
+      "type": "select",
+      "definitions": [
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:hub/banner/red/bottom_l"
+          },
+          "condition": {
+            "type": "and",
+            "conditions": [
+              {
+                "type": "relative",
+                "offset": "0:0:1",
+                "condition": { "type": "id", "block": "minecraft:air" }
+              }
+            ]
+          }
+        },
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:hub/banner/red/bottom_r"
+          },
+          "condition": {
+            "type": "and",
+            "conditions": [
+              {
+                "type": "relative",
+                "offset": "0:0:-1",
+                "condition": { "type": "id", "block": "minecraft:air" }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

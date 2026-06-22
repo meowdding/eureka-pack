@@ -113,6 +113,16 @@
         "title": "Dark Monolith",
         "description": "",
         "default": true
+      },
+      {
+        "type": "boolean",
+        "id": "props.hub",
+        "title": "Hub Props",
+        "description": {
+          "text": "Transforms the hub here and there.",
+          "color": "gray"
+        },
+        "default": true
       }
     ]
   },

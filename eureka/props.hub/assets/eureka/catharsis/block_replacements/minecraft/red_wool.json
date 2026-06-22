@@ -1,0 +1,279 @@
+{
+  "type": "catharsis:per_area",
+  "entries": {
+    "eureka:hub/banner/red": {
+      "type": "select",
+      "definitions": [
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:hub/banner/red/top"
+          },
+          "condition": {
+            "type": "relative",
+            "offset": "0:1:0",
+            "condition": { "type": "id", "block": "minecraft:air" }
+          }
+        },
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:hub/banner/red/top_l"
+          },
+          "condition": {
+            "type": "and",
+            "conditions": [
+              {
+                "type": "relative",
+                "offset": "0:1:0",
+                "condition": { "type": "id", "block": "minecraft:spruce_fence" }
+              },
+              {
+                "type": "relative",
+                "offset": "0:0:1",
+                "condition": { "type": "id", "block": "minecraft:air" }
+              }
+            ]
+          }
+        },
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:hub/banner/red/mid_l"
+          },
+          "condition": {
+            "type": "and",
+            "conditions": [
+              {
+                "type": "relative",
+                "offset": "0:1:0",
+                "condition": { "type": "id", "block": "minecraft:red_wool" }
+              },
+              {
+                "type": "relative",
+                "offset": "0:-1:0",
+                "condition": { "type": "id", "block": "minecraft:red_wool" }
+              },
+              {
+                "type": "relative",
+                "offset": "0:0:1",
+                "condition": { "type": "id", "block": "minecraft:air" }
+              }
+            ]
+          }
+        },
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:hub/banner/red/mid_2_l"
+          },
+          "condition": {
+            "type": "and",
+            "conditions": [
+              {
+                "type": "relative",
+                "offset": "0:-1:0",
+                "condition": {
+                  "type": "id",
+                  "block": "minecraft:mangrove_slab"
+                }
+              },
+              {
+                "type": "relative",
+                "offset": "0:-1:0",
+                "condition": {
+                  "type": "id",
+                  "block": "minecraft:mangrove_slab"
+                }
+              },
+              {
+                "type": "relative",
+                "offset": "0:0:1",
+                "condition": { "type": "id", "block": "minecraft:air" }
+              }
+            ]
+          }
+        },
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:hub/banner/red/mid"
+          },
+          "condition": {
+            "type": "and",
+            "conditions": [
+              {
+                "type": "relative",
+                "offset": "0:1:0",
+                "condition": { "type": "id", "block": "minecraft:red_wool" }
+              },
+              {
+                "type": "relative",
+                "offset": "0:-1:0",
+                "condition": { "type": "id", "block": "minecraft:red_wool" }
+              },
+              {
+                "type": "relative",
+                "offset": "0:-2:0",
+                "condition": { "type": "id", "block": "minecraft:red_wool" }
+              },
+              {
+                "type": "relative",
+                "offset": "0:0:1",
+                "condition": { "type": "id", "block": "minecraft:red_wool" }
+              },
+              {
+                "type": "relative",
+                "offset": "0:0:-1",
+                "condition": { "type": "id", "block": "minecraft:red_wool" }
+              }
+            ]
+          }
+        },
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:hub/banner/red/mid_2"
+          },
+          "condition": {
+            "type": "and",
+            "conditions": [
+              {
+                "type": "relative",
+                "offset": "0:-1:1",
+                "condition": {
+                  "type": "id",
+                  "block": "minecraft:mangrove_slab"
+                }
+              },
+              {
+                "type": "relative",
+                "offset": "0:-1:-1",
+                "condition": {
+                  "type": "id",
+                  "block": "minecraft:mangrove_slab"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:hub/banner/red/bottom"
+          },
+          "condition": {
+            "type": "and",
+            "conditions": [
+              {
+                "type": "relative",
+                "offset": "0:0:1",
+                "condition": {
+                  "type": "id",
+                  "block": "minecraft:mangrove_slab"
+                }
+              },
+              {
+                "type": "relative",
+                "offset": "0:0:-1",
+                "condition": {
+                  "type": "id",
+                  "block": "minecraft:mangrove_slab"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:hub/banner/red/top_r"
+          },
+          "condition": {
+            "type": "and",
+            "conditions": [
+              {
+                "type": "relative",
+                "offset": "0:1:0",
+                "condition": { "type": "id", "block": "minecraft:spruce_fence" }
+              },
+              {
+                "type": "relative",
+                "offset": "0:0:-1",
+                "condition": { "type": "id", "block": "minecraft:air" }
+              }
+            ]
+          }
+        },
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:hub/banner/red/mid_r"
+          },
+          "condition": {
+            "type": "and",
+            "conditions": [
+              {
+                "type": "relative",
+                "offset": "0:1:0",
+                "condition": { "type": "id", "block": "minecraft:red_wool" }
+              },
+              {
+                "type": "relative",
+                "offset": "0:-1:0",
+                "condition": { "type": "id", "block": "minecraft:red_wool" }
+              },
+              {
+                "type": "relative",
+                "offset": "0:0:-1",
+                "condition": { "type": "id", "block": "minecraft:air" }
+              }
+            ]
+          }
+        },
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:hub/banner/red/mid_2_r"
+          },
+          "condition": {
+            "type": "and",
+            "conditions": [
+              {
+                "type": "relative",
+                "offset": "0:-1:0",
+                "condition": {
+                  "type": "id",
+                  "block": "minecraft:mangrove_slab"
+                }
+              },
+              {
+                "type": "relative",
+                "offset": "0:-1:0",
+                "condition": {
+                  "type": "id",
+                  "block": "minecraft:mangrove_slab"
+                }
+              },
+              {
+                "type": "relative",
+                "offset": "0:0:-1",
+                "condition": { "type": "id", "block": "minecraft:air" }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

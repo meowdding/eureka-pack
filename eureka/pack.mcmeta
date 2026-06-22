@@ -45,6 +45,24 @@
         }
       },
       {
+        "directory": "props.dark_monolith",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "eureka",
+          "id": "props.dark_monolith",
+          "value": "on"
+        }
+      },
+      {
+        "directory": "props.hub",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "eureka",
+          "id": "props.hub",
+          "value": "on"
+        }
+      },
+      {
         "directory": "skill_tree.hotm",
         "condition": {
           "condition": "catharsis:config",
