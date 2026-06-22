@@ -1,0 +1,34 @@
+{
+  "type": "catharsis:per_area",
+  "entries": {
+    "eureka:rift/stillgore_chateau/blood_effigy": {
+      "type": "select",
+      "definitions": [
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:rift/stillgore_chateau/blood_effigy/heart"
+          },
+          "condition": {
+            "type": "relative",
+            "offset": "0:-2:0",
+            "condition": { "type": "id", "block": "minecraft:bedrock" }
+          }
+        },
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:rift/stillgore_chateau/blood_effigy/heart"
+          },
+          "condition": {
+            "type": "relative",
+            "offset": "0:-2:0",
+            "condition": { "type": "id", "block": "minecraft:redstone_block" }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "type": "catharsis:per_area",
+  "entries": {
+    "eureka:rift/stillgore_chateau/blood_effigy": {
+      "type": "select",
+      "definitions": [
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:rift/stillgore_chateau/blood_effigy/cauldron_0"
+          },
+          "condition": {
+            "type": "relative",
+            "offset": "0:2:0",
+            "condition": { "type": "id", "block": "minecraft:air" }
+          }
+        },
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:rift/stillgore_chateau/blood_effigy/cauldron_1"
+          },
+          "condition": {
+            "type": "relative",
+            "offset": "0:4:0",
+            "condition": { "type": "id", "block": "minecraft:air" }
+          }
+        },
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:rift/stillgore_chateau/blood_effigy/cauldron_2"
+          },
+          "condition": {
+            "type": "relative",
+            "offset": "0:6:0",
+            "condition": { "type": "id", "block": "minecraft:air" }
+          }
+        },
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:rift/stillgore_chateau/blood_effigy/cauldron_3"
+          },
+          "condition": {
+            "type": "relative",
+            "offset": "0:6:0",
+            "condition": { "type": "id", "block": "minecraft:redstone_block" }
+          }
+        }
+      ]
+    }
+  }
+}

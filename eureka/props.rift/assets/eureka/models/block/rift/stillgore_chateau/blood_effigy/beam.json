@@ -1,0 +1,28 @@
+{
+  "format_version": "1.21.11",
+  "credit": "Made with Blockbench",
+  "textures": {
+    "0": "eureka:block/rift/stillgore_chateau/blood_effigy/beam",
+    "particle": "eureka:block/rift/stillgore_chateau/blood_effigy/beam"
+  },
+  "elements": [
+    {
+      "from": [8, -16, 6],
+      "to": [8, 8, 10],
+      "rotation": { "angle": 45, "axis": "y", "origin": [8, -4, 8] },
+      "faces": {
+        "east": { "uv": [6, 0, 10, 16], "texture": "#0" },
+        "west": { "uv": [6, 0, 10, 16], "texture": "#0" }
+      }
+    },
+    {
+      "from": [8, -16, 6],
+      "to": [8, 8, 10],
+      "rotation": { "angle": -45, "axis": "y", "origin": [8, -4, 8] },
+      "faces": {
+        "east": { "uv": [6, 0, 10, 16], "texture": "#0" },
+        "west": { "uv": [6, 0, 10, 16], "texture": "#0" }
+      }
+    }
+  ]
+}

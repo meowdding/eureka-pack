@@ -109,17 +109,27 @@
       },
       {
         "type": "boolean",
-        "id": "props.dark_monolith",
-        "title": "Dark Monolith",
+        "id": "props.hub",
+        "title": "Hub Props",
+        "description": {
+          "text": "Transforms the Hub here and there.",
+          "color": "gray"
+        },
+        "default": true
+      },
+      {
+        "type": "boolean",
+        "id": "props.mining_3",
+        "title": "Transforms the Dwarven Mines and Glacite Tunnels here and there",
         "description": "",
         "default": true
       },
       {
         "type": "boolean",
-        "id": "props.hub",
-        "title": "Hub Props",
+        "id": "props.rift",
+        "title": "Rift Props",
         "description": {
-          "text": "Transforms the hub here and there.",
+          "text": "Transforms the Rift here and there.",
           "color": "gray"
         },
         "default": true

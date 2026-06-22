@@ -1,0 +1,32 @@
+{
+  "_comment": "Blood Effigies around the Stillgore Chateau in The Rift",
+  "type": "multiple",
+  "boxes": [
+    {
+      "min": "150:79:95",
+      "max": "150:73:95"
+    },
+    {
+      "min": "193:93:119",
+      "max": "193:87:119"
+    },
+    {
+      "min": "235:110:147",
+      "max": "235:104:147"
+    },
+    {
+      "min": "293:96:134",
+      "max": "293:90:134"
+    },
+    {
+      "min": "240:129:118",
+      "max": "240:123:118"
+    },
+    {
+      "min": "262:99:94",
+      "max": "262:93:94"
+    }
+  ],
+  "islands": "rift",
+  "min_size": 4
+}

@@ -1,0 +1,15 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "eureka:block/rift/stillgore_chateau/blood_effigy/heart"
+      }
+    },
+    {
+      "apply": {
+        "model": "eureka:block/rift/stillgore_chateau/blood_effigy/beam"
+      }
+    }
+  ],
+  "blend": "translucent"
+}

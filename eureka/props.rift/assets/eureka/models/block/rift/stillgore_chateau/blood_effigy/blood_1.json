@@ -1,0 +1,19 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "eureka:block/rift/stillgore_chateau/blood_effigy/blood",
+		"blood": "eureka:block/rift/stillgore_chateau/blood_effigy/blood"
+	},
+	"elements": [
+		{
+			"from": [2, 3, 2],
+			"to": [14, 11, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [3, 4.5, 3]},
+			"faces": {
+				"up": {"uv": [2, 2, 14, 14], "texture": "#blood"}
+			}
+		}
+	]
+}

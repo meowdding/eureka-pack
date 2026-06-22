@@ -45,20 +45,29 @@
         }
       },
       {
-        "directory": "props.dark_monolith",
-        "condition": {
-          "condition": "catharsis:config",
-          "pack": "eureka",
-          "id": "props.dark_monolith",
-          "value": "on"
-        }
-      },
-      {
         "directory": "props.hub",
         "condition": {
           "condition": "catharsis:config",
           "pack": "eureka",
           "id": "props.hub",
+          "value": "on"
+        }
+      },
+      {
+        "directory": "props.mining_3",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "eureka",
+          "id": "props.mining_3",
+          "value": "on"
+        }
+      },
+      {
+        "directory": "props.rift",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "eureka",
+          "id": "props.rift",
           "value": "on"
         }
       },
