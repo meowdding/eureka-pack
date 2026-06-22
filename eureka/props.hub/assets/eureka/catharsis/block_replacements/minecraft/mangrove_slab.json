@@ -1,41 +1,66 @@
 {
   "type": "catharsis:per_area",
   "entries": {
-    "eureka:hub/banner/red": {
+    "eureka:hub/auction_house/inside/banner": {
       "type": "select",
       "definitions": [
         {
           "type": "conditional",
           "definition": {
             "type": "redirect",
-            "virtual_state": "eureka:hub/banner/red/bottom_l"
+            "virtual_state": "eureka:hub/auction_house/inside/banner/bottom_l"
           },
           "condition": {
-            "type": "and",
-            "conditions": [
-              {
-                "type": "relative",
-                "offset": "0:0:1",
-                "condition": { "type": "id", "block": "minecraft:air" }
-              }
-            ]
+            "type": "relative",
+            "offset": "0:0:1",
+            "condition": { "type": "id", "block": "minecraft:air" }
           }
         },
         {
           "type": "conditional",
           "definition": {
             "type": "redirect",
-            "virtual_state": "eureka:hub/banner/red/bottom_r"
+            "virtual_state": "eureka:hub/auction_house/inside/banner/bottom_r"
           },
           "condition": {
-            "type": "and",
-            "conditions": [
-              {
-                "type": "relative",
-                "offset": "0:0:-1",
-                "condition": { "type": "id", "block": "minecraft:air" }
-              }
-            ]
+            "type": "relative",
+            "offset": "0:0:-1",
+            "condition": { "type": "id", "block": "minecraft:air" }
+          }
+        }
+      ]
+    },
+    "eureka:hub/auction_house/outside/banner": {
+      "type": "select",
+      "definitions": [
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:hub/auction_house/outside/banner/left/bottom_r"
+          },
+          "condition": {
+            "type": "relative",
+            "offset": "0:1:1",
+            "condition": {
+              "type": "id",
+              "block": "minecraft:mangrove_stairs"
+            }
+          }
+        },
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:hub/auction_house/outside/banner/right/bottom_l"
+          },
+          "condition": {
+            "type": "relative",
+            "offset": "0:1:-1",
+            "condition": {
+              "type": "id",
+              "block": "minecraft:mangrove_stairs"
+            }
           }
         }
       ]

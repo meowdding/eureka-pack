@@ -1,31 +1,37 @@
 {
   "type": "catharsis:per_area",
   "entries": {
-    "eureka:hub/auction_house/inside/banner": {
+    "eureka:hub/auction_house/outside/banner": {
       "type": "select",
       "definitions": [
         {
           "type": "conditional",
           "definition": {
             "type": "redirect",
-            "virtual_state": "eureka:hub/auction_house/inside/banner/hanger_r"
+            "virtual_state": "eureka:hub/auction_house/outside/banner/left/bottom_l"
           },
           "condition": {
             "type": "relative",
             "offset": "0:-1:-1",
-            "condition": { "type": "id", "block": "minecraft:air" }
+            "condition": {
+              "type": "id",
+              "block": "minecraft:mangrove_slab"
+            }
           }
         },
         {
           "type": "conditional",
           "definition": {
             "type": "redirect",
-            "virtual_state": "eureka:hub/auction_house/inside/banner/hanger_l"
+            "virtual_state": "eureka:hub/auction_house/outside/banner/right/bottom_r"
           },
           "condition": {
             "type": "relative",
             "offset": "0:-1:1",
-            "condition": { "type": "id", "block": "minecraft:air" }
+            "condition": {
+              "type": "id",
+              "block": "minecraft:mangrove_slab"
+            }
           }
         }
       ]

@@ -1,0 +1,16 @@
+{
+  "_comment": "Red Banners outside the Hub Auction house",
+  "type": "multiple",
+  "boxes": [
+    {
+      "min": "-24:77:-8",
+      "max": "-24:74:-9"
+    },
+    {
+      "min": "-24:77:-17",
+      "max": "-24:74:-18"
+    }
+  ],
+  "islands": "hub",
+  "min_size": 4
+}
