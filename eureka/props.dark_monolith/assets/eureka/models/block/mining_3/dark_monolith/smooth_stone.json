@@ -1,8 +1,8 @@
 {
   "texture_size": [32, 32],
   "textures": {
-    "1": "eureka:block/dark_monolith/andesite",
-    "particle": "eureka:block/dark_monolith/andesite"
+    "1": "eureka:block/mining_3/dark_monolith/smooth_stone",
+    "particle": "eureka:block/mining_3/dark_monolith/smooth_stone"
   },
   "elements": [
     {

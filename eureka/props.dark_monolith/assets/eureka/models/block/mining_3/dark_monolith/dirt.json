@@ -1,8 +1,8 @@
 {
   "texture_size": [32, 32],
   "textures": {
-    "1": "eureka:block/dark_monolith/dirt",
-    "particle": "eureka:block/dark_monolith/dirt"
+    "1": "eureka:block/mining_3/dark_monolith/dirt",
+    "particle": "eureka:block/mining_3/dark_monolith/dirt"
   },
   "elements": [
     {

@@ -8,7 +8,7 @@
         "type": "conditional",
         "definition": {
           "type": "redirect",
-          "virtual_state": "eureka:dark_monolith/stone"
+          "virtual_state": "eureka:mining_3/dark_monolith/stone"
         },
         "condition": {
           "type": "relative",
@@ -20,7 +20,7 @@
         "type": "conditional",
         "definition": {
           "type": "redirect",
-          "virtual_state": "eureka:dark_monolith/dirt"
+          "virtual_state": "eureka:mining_3/dark_monolith/dirt"
         },
         "condition": {
           "type": "relative",
@@ -32,7 +32,7 @@
         "type": "conditional",
         "definition": {
           "type": "redirect",
-          "virtual_state": "eureka:dark_monolith/smooth_stone"
+          "virtual_state": "eureka:mining_3/dark_monolith/smooth_stone"
         },
         "condition": {
           "type": "relative",
@@ -44,7 +44,7 @@
         "type": "conditional",
         "definition": {
           "type": "redirect",
-          "virtual_state": "eureka:dark_monolith/polished_andesite"
+          "virtual_state": "eureka:mining_3/dark_monolith/polished_andesite"
         },
         "condition": {
           "type": "relative",
@@ -56,7 +56,7 @@
         "type": "conditional",
         "definition": {
           "type": "redirect",
-          "virtual_state": "eureka:dark_monolith/andesite"
+          "virtual_state": "eureka:mining_3/dark_monolith/andesite"
         },
         "condition": {
           "type": "relative",
@@ -68,7 +68,7 @@
         "type": "conditional",
         "definition": {
           "type": "redirect",
-          "virtual_state": "eureka:dark_monolith/polished_granite"
+          "virtual_state": "eureka:mining_3/dark_monolith/polished_granite"
         },
         "condition": {
           "type": "relative",
@@ -80,7 +80,7 @@
         "type": "conditional",
         "definition": {
           "type": "redirect",
-          "virtual_state": "eureka:dark_monolith/oak_planks"
+          "virtual_state": "eureka:mining_3/dark_monolith/oak_planks"
         },
         "condition": {
           "type": "relative",
@@ -99,7 +99,7 @@
         "type": "conditional",
         "definition": {
           "type": "redirect",
-          "virtual_state": "eureka:dark_monolith/spruce_planks"
+          "virtual_state": "eureka:mining_3/dark_monolith/spruce_planks"
         },
         "condition": {
           "type": "relative",
@@ -118,7 +118,7 @@
         "type": "conditional",
         "definition": {
           "type": "redirect",
-          "virtual_state": "eureka:dark_monolith/diamond_block"
+          "virtual_state": "eureka:mining_3/dark_monolith/diamond_block"
         },
         "condition": {
           "type": "relative",
