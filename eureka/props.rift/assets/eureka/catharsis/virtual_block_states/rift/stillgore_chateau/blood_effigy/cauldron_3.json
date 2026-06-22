@@ -1,7 +1,15 @@
 {
-  "variants": {
-    "": {
-      "model": "eureka:block/rift/stillgore_chateau/blood_effigy/cauldron"
+  "multipart": [
+    {
+      "apply": {
+        "model": "eureka:block/rift/stillgore_chateau/blood_effigy/cauldron"
+      }
+    },
+    {
+      "apply": {
+        "model": "eureka:block/rift/stillgore_chateau/blood_effigy/cauldron_beam"
+      }
     }
-  }
+  ],
+  "blend": "translucent"
 }
