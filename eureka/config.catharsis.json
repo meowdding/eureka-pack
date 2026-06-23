@@ -84,7 +84,7 @@
         "id": "item.rod_part",
         "title": {
           "type": "translatable",
-          "translate": "eureka.config.tab.item.fishing_rod.part.title"
+          "translate": "eureka.config.tab.item.fishing_rod.part"
         },
         "description": "",
         "default": true
@@ -102,6 +102,28 @@
         "type": "separator",
         "title": {
           "type": "translatable",
+          "translate": "eureka.config.tab.block.blocks",
+          "bold": true
+        },
+        "description": ""
+      },
+      {
+        "type": "boolean",
+        "id": "block.dwarven_metal",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.block.blocks.dwarven_metal"
+        },
+        "description": {
+          "text": "Only for Mithril at the moment.",
+          "color": "gray"
+        },
+        "default": true
+      },
+      {
+        "type": "separator",
+        "title": {
+          "type": "translatable",
           "translate": "eureka.config.tab.block.environmental_props",
           "bold": true
         },
@@ -109,27 +131,39 @@
       },
       {
         "type": "boolean",
-        "id": "props.hub",
-        "title": "Hub Props",
+        "id": "prop.hub",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.block.environmental_props.hub"
+        },
         "description": {
-          "text": "Transforms the Hub here and there.",
+          "text": "Transforms the banners inside and outside of the Auction House.",
           "color": "gray"
         },
         "default": true
       },
       {
         "type": "boolean",
-        "id": "props.mining_3",
-        "title": "Transforms the Dwarven Mines and Glacite Tunnels here and there",
-        "description": "",
+        "id": "prop.mining_3",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.block.environmental_props.mining_3"
+        },
+        "description": {
+          "text": "Transforms Dark Monoliths.",
+          "color": "gray"
+        },
         "default": true
       },
       {
         "type": "boolean",
-        "id": "props.rift",
-        "title": "Rift Props",
+        "id": "prop.rift",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.block.environmental_props.rift"
+        },
         "description": {
-          "text": "Transforms the Rift here and there.",
+          "text": "Transforms Blood Effigies.",
           "color": "gray"
         },
         "default": true

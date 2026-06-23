@@ -1,7 +1,0 @@
-{
-  "parent": "eureka:block/template/banner",
-  "textures": {
-    "banner": "eureka:block/hub/auction_house/outside/banner/right/bottom_l"
-  },
-  "blend": "translucent"
-}

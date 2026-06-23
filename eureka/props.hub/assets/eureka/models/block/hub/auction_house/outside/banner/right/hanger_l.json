@@ -1,8 +1,0 @@
-{
-  "parent": "eureka:block/template/hanger_l",
-  "texture_size": [32, 32],
-  "textures": {
-    "banner": "eureka:block/hub/auction_house/outside/banner/right/hanger_l"
-  },
-  "blend": "translucent"
-}

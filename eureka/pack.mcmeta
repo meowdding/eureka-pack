@@ -45,29 +45,38 @@
         }
       },
       {
-        "directory": "props.hub",
+        "directory": "block.dwarven_metal",
         "condition": {
           "condition": "catharsis:config",
           "pack": "eureka",
-          "id": "props.hub",
+          "id": "block.dwarven_metal",
           "value": "on"
         }
       },
       {
-        "directory": "props.mining_3",
+        "directory": "prop.hub",
         "condition": {
           "condition": "catharsis:config",
           "pack": "eureka",
-          "id": "props.mining_3",
+          "id": "prop.hub",
           "value": "on"
         }
       },
       {
-        "directory": "props.rift",
+        "directory": "prop.mining_3",
         "condition": {
           "condition": "catharsis:config",
           "pack": "eureka",
-          "id": "props.rift",
+          "id": "prop.mining_3",
+          "value": "on"
+        }
+      },
+      {
+        "directory": "prop.rift",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "eureka",
+          "id": "prop.rift",
           "value": "on"
         }
       },

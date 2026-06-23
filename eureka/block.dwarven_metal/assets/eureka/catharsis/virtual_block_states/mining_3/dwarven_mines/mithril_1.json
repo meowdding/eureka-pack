@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "": {
+      "model": "eureka:block/mining_3/dwarven_mines/mithril_1"
+    }
+  },
+  "overrides": {
+    "minecraft:bedrock": {
+      "variants": {
+        "": {
+          "model": "minecraft:block/gold_block"
+        }
+      }
+    }
+  }
+}
