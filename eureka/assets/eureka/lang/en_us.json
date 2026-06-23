@@ -18,10 +18,16 @@
   "eureka.config.tab.item": "Items",
 
   "eureka.config.tab.item.fishing_rod": "Fishing Rods",
-  "eureka.config.tab.item.fishing_rod.part.title": "Fishing Rod Part Overlays",
+  "eureka.config.tab.item.fishing_rod.part": "Fishing Rod Part Overlays",
 
   "eureka.config.tab.block": "Blocks",
+  "eureka.config.tab.block.blocks": "Block Textures",
+  "eureka.config.tab.block.blocks.dwarven_metal": "Dwarven Metals",
+
   "eureka.config.tab.block.environmental_props": "Environmental Props",
+  "eureka.config.tab.block.environmental_props.hub": "Hub Props",
+  "eureka.config.tab.block.environmental_props.mining_3": "Dwarven Mines Props",
+  "eureka.config.tab.block.environmental_props.rift": "Rift Props",
 
   "eureka.config.tab.gui": "GUI",
   "eureka.config.tab.gui.skill_tree": "Skill Trees",

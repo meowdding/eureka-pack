@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "": {
-      "model": "eureka:block/hub/auction_house/outside/banner/right/top_l"
-    }
-  },
-  "blend": "translucent"
-}
