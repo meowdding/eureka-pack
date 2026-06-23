@@ -2,6 +2,5 @@
   "parent": "eureka:block/template/banner",
   "textures": {
     "banner": "eureka:block/hub/auction_house/outside/banner/left/bottom_r"
-  },
-  "blend": "translucent"
+  }
 }

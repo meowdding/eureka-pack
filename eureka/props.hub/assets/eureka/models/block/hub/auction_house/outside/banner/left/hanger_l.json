@@ -3,6 +3,5 @@
   "texture_size": [32, 32],
   "textures": {
     "banner": "eureka:block/hub/auction_house/outside/banner/left/hanger_l"
-  },
-  "blend": "translucent"
+  }
 }
