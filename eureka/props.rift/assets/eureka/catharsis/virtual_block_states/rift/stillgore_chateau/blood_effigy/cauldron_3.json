@@ -7,6 +7,11 @@
     },
     {
       "apply": {
+        "model": "eureka:block/rift/stillgore_chateau/blood_effigy/blood_3"
+      }
+    },
+    {
+      "apply": {
         "model": "eureka:block/rift/stillgore_chateau/blood_effigy/cauldron_beam"
       }
     }

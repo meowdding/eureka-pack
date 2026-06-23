@@ -8,11 +8,11 @@
 	},
 	"elements": [
 		{
-			"from": [2, 11, 2],
-			"to": [14, 11, 14],
+			"from": [2, 1, 2],
+			"to": [14, 1, 14],
 			"shade": false,
 			"light_emission": 15,
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 11, 8]},
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 1, 8]},
 			"faces": {
 				"up": {"uv": [2, 2, 14, 14], "texture": "#blood"}
 			}
