@@ -1,0 +1,409 @@
+{
+  "target": {
+    "type": "catharsis:definition",
+    "definition": "eureka:skill_tree/hotm/page/4"
+  },
+  "overrideBackground": true,
+  "bounds": { "width": 328, "height": 388 },
+  "elements": [
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/background",
+      "layer": "BACKGROUND",
+      "width": 328,
+      "height": 388,
+      "x": {
+        "offset": -164,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -194,
+        "alignment": "CENTER"
+      }
+    }
+  ],
+
+  "slots": {
+    "skyblock_gui:skill_tree/hotm/token_1/sky_mall/locked": {
+      "position": { "x": -53, "y": 126 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/sky_mall/unlocked": {
+      "position": { "x": -53, "y": 126 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/sky_mall/maxed": {
+      "position": { "x": -53, "y": 126 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/sky_mall/disabled": {
+      "position": { "x": -53, "y": 126 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/old_school/locked": {
+      "position": { "x": -39, "y": 157 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/old_school/unlocked": {
+      "position": { "x": -39, "y": 157 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/old_school/maxed": {
+      "position": { "x": -39, "y": 157 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/old_school/disabled": {
+      "position": { "x": -39, "y": 157 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/professional/locked": {
+      "position": { "x": 2, "y": 151 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/professional/unlocked": {
+      "position": { "x": 2, "y": 151 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/professional/maxed": {
+      "position": { "x": 2, "y": 151 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/professional/disabled": {
+      "position": { "x": 2, "y": 151 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/mole/locked": {
+      "position": { "x": 26, "y": 189 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/mole/unlocked": {
+      "position": { "x": 26, "y": 189 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/mole/maxed": {
+      "position": { "x": 26, "y": 189 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/mole/disabled": {
+      "position": { "x": 26, "y": 189 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/gem_lover/locked": {
+      "position": { "x": 52, "y": 174 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/gem_lover/unlocked": {
+      "position": { "x": 52, "y": 174 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/gem_lover/maxed": {
+      "position": { "x": 52, "y": 174 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/gem_lover/disabled": {
+      "position": { "x": 52, "y": 174 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/seasoned_mineman/locked": {
+      "position": { "x": 58, "y": 206 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/seasoned_mineman/unlocked": {
+      "position": { "x": 58, "y": 206 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/seasoned_mineman/maxed": {
+      "position": { "x": 58, "y": 206 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/seasoned_mineman/disabled": {
+      "position": { "x": 58, "y": 206 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/front_loaded/locked": {
+      "position": { "x": 92, "y": 223 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/front_loaded/unlocked": {
+      "position": { "x": 92, "y": 223 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/front_loaded/maxed": {
+      "position": { "x": 92, "y": 223 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/front_loaded/disabled": {
+      "position": { "x": 92, "y": 223 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/daily_grind/locked": {
+      "position": { "x": -21, "y": 109 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/daily_grind/unlocked": {
+      "position": { "x": -21, "y": 109 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/daily_grind/maxed": {
+      "position": { "x": -21, "y": 109 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/daily_grind/disabled": {
+      "position": { "x": -21, "y": 109 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/core_of_the_mountain/locked": {
+      "position": { "x": 43, "y": 124 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/core_of_the_mountain/unlocked": {
+      "position": { "x": 43, "y": 124 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/core_of_the_mountain/maxed": {
+      "position": { "x": 43, "y": 124 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/core_of_the_mountain/disabled": {
+      "position": { "x": 43, "y": 124 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/core_of_the_mountain/unlocked/tier_1": {
+      "position": { "x": 43, "y": 124 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/core_of_the_mountain/unlocked/tier_2": {
+      "position": { "x": 43, "y": 124 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/core_of_the_mountain/unlocked/tier_3": {
+      "position": { "x": 43, "y": 124 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/core_of_the_mountain/unlocked/tier_4": {
+      "position": { "x": 43, "y": 124 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/core_of_the_mountain/unlocked/tier_5": {
+      "position": { "x": 43, "y": 124 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/core_of_the_mountain/unlocked/tier_6": {
+      "position": { "x": 43, "y": 124 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/core_of_the_mountain/unlocked/tier_7": {
+      "position": { "x": 43, "y": 124 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/core_of_the_mountain/unlocked/tier_8": {
+      "position": { "x": 43, "y": 124 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/core_of_the_mountain/unlocked/tier_9": {
+      "position": { "x": 43, "y": 124 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/core_of_the_mountain/unlocked/tier_10": {
+      "position": { "x": 43, "y": 124 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/daily_powder/locked": {
+      "position": { "x": 106, "y": 189 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/daily_powder/unlocked": {
+      "position": { "x": 106, "y": 189 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/daily_powder/maxed": {
+      "position": { "x": 106, "y": 189 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/daily_powder/disabled": {
+      "position": { "x": 106, "y": 189 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/tunnel_vision/locked": {
+      "position": { "x": -22, "y": 77 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/tunnel_vision/unlocked": {
+      "position": { "x": -22, "y": 77 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/tunnel_vision/maxed": {
+      "position": { "x": -22, "y": 77 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/tunnel_vision/disabled": {
+      "position": { "x": -22, "y": 77 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/blockhead/locked": {
+      "position": { "x": 10, "y": 93 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/blockhead/unlocked": {
+      "position": { "x": 10, "y": 93 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/blockhead/maxed": {
+      "position": { "x": 10, "y": 93 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/blockhead/disabled": {
+      "position": { "x": 10, "y": 93 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/subterranean_fisher/locked": {
+      "position": { "x": 27, "y": 62 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/subterranean_fisher/unlocked": {
+      "position": { "x": 27, "y": 62 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/subterranean_fisher/maxed": {
+      "position": { "x": 27, "y": 62 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/subterranean_fisher/disabled": {
+      "position": { "x": 27, "y": 62 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/keep_it_cool/locked": {
+      "position": { "x": 67, "y": 78 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/keep_it_cool/unlocked": {
+      "position": { "x": 67, "y": 78 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/keep_it_cool/maxed": {
+      "position": { "x": 67, "y": 78 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/keep_it_cool/disabled": {
+      "position": { "x": 67, "y": 78 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/lonesome_miner/locked": {
+      "position": { "x": 98, "y": 94 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/lonesome_miner/unlocked": {
+      "position": { "x": 98, "y": 94 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/lonesome_miner/maxed": {
+      "position": { "x": 98, "y": 94 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/lonesome_miner/disabled": {
+      "position": { "x": 98, "y": 94 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/great_explorer/locked": {
+      "position": { "x": 91, "y": 142 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/great_explorer/unlocked": {
+      "position": { "x": 91, "y": 142 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/great_explorer/maxed": {
+      "position": { "x": 91, "y": 142 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/great_explorer/disabled": {
+      "position": { "x": 91, "y": 142 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/maniac_miner/locked": {
+      "position": { "x": 138, "y": 125 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/maniac_miner/unlocked": {
+      "position": { "x": 138, "y": 125 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/maniac_miner/maxed": {
+      "position": { "x": 138, "y": 125 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/maniac_miner/disabled": {
+      "position": { "x": 138, "y": 125 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/speedy_mineman/locked": {
+      "position": { "x": 12, "y": 25 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/speedy_mineman/unlocked": {
+      "position": { "x": 12, "y": 25 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/speedy_mineman/maxed": {
+      "position": { "x": 12, "y": 25 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/speedy_mineman/disabled": {
+      "position": { "x": 12, "y": 25 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/powder_buff/locked": {
+      "position": { "x": 75, "y": 40 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/powder_buff/unlocked": {
+      "position": { "x": 75, "y": 40 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/powder_buff/maxed": {
+      "position": { "x": 75, "y": 40 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/powder_buff/disabled": {
+      "position": { "x": 75, "y": 40 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/fortunate_mineman/locked": {
+      "position": { "x": 146, "y": 87 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/fortunate_mineman/unlocked": {
+      "position": { "x": 146, "y": 87 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/fortunate_mineman/maxed": {
+      "position": { "x": 146, "y": 87 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/fortunate_mineman/disabled": {
+      "position": { "x": 146, "y": 87 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/miners_blessing/locked": {
+      "position": { "x": 2, "y": -21 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/miners_blessing/unlocked": {
+      "position": { "x": 2, "y": -21 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/miners_blessing/maxed": {
+      "position": { "x": 2, "y": -21 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/miners_blessing/disabled": {
+      "position": { "x": 2, "y": -21 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/no_stone_unturned/locked": {
+      "position": { "x": 29, "y": -7 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/no_stone_unturned/unlocked": {
+      "position": { "x": 29, "y": -7 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/no_stone_unturned/maxed": {
+      "position": { "x": 29, "y": -7 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/no_stone_unturned/disabled": {
+      "position": { "x": 29, "y": -7 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/strong_arm/locked": {
+      "position": { "x": 70, "y": -20 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/strong_arm/unlocked": {
+      "position": { "x": 70, "y": -20 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/strong_arm/maxed": {
+      "position": { "x": 70, "y": -20 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/strong_arm/disabled": {
+      "position": { "x": 70, "y": -20 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/steady_hand/locked": {
+      "position": { "x": 100, "y": -9 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/steady_hand/unlocked": {
+      "position": { "x": 100, "y": -9 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/steady_hand/maxed": {
+      "position": { "x": 100, "y": -9 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/steady_hand/disabled": {
+      "position": { "x": 100, "y": -9 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/warm_heart/locked": {
+      "position": { "x": 140, "y": 8 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/warm_heart/unlocked": {
+      "position": { "x": 140, "y": 8 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/warm_heart/maxed": {
+      "position": { "x": 140, "y": 8 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/warm_heart/disabled": {
+      "position": { "x": 140, "y": 8 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/surveyor/locked": {
+      "position": { "x": 155, "y": 41 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/surveyor/unlocked": {
+      "position": { "x": 155, "y": 41 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/surveyor/maxed": {
+      "position": { "x": 155, "y": 41 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/surveyor/disabled": {
+      "position": { "x": 155, "y": 41 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/mineshaft_mayhem/locked": {
+      "position": { "x": 186, "y": 55 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/mineshaft_mayhem/unlocked": {
+      "position": { "x": 186, "y": 55 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/mineshaft_mayhem/maxed": {
+      "position": { "x": 186, "y": 55 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/mineshaft_mayhem/disabled": {
+      "position": { "x": 186, "y": 55 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/tier_4/unlocked": {
+      "position": { "x": 178, "y": 246 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/tier_5/unlocked": {
+      "position": { "x": 178, "y": 228 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/tier_6/unlocked": {
+      "position": { "x": 178, "y": 210 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/tier_7/unlocked": {
+      "position": { "x": 178, "y": 192 }
+    },
+    "skyblock_gui:skill_tree/hotm/token_1/tier_8/unlocked": {
+      "position": { "x": 178, "y": 174 }
+    },
+    "skyblock_gui:generic/navigation/go_back": {
+      "position": { "x": 70, "y": 300 }
+    },
+    "skyblock_gui:generic/navigation/close": {
+      "position": { "x": 88, "y": 300 }
+    },
+    "skyblock_gui:generic/miscellaneous/filler": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler": {
+      "hidden": true
+    }
+  }
+}

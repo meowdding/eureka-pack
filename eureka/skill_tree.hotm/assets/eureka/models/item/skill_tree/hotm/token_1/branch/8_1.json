@@ -1,0 +1,4 @@
+{
+  "parent": "eureka:item/generic_x4",
+  "textures": { "layer0": "eureka:item/skill_tree/hotm/token_1/branch/8_1" }
+}
