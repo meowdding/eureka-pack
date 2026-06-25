@@ -109,6 +109,19 @@
       },
       {
         "type": "boolean",
+        "id": "block.ore",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.block.blocks.ore"
+        },
+        "description": {
+          "text": "Only for Pure Diamond.",
+          "color": "gray"
+        },
+        "default": true
+      },
+      {
+        "type": "boolean",
         "id": "block.dwarven_metal",
         "title": {
           "type": "translatable",

@@ -7,7 +7,7 @@
       "models": [
         {
           "type": "model",
-          "model": "eureka:item/magma_rod"
+          "model": "eureka:item/magma_rod/base"
         },
         {
           "type": "condition",
@@ -22,39 +22,39 @@
                 "when": "titan_line",
                 "model": {
                   "type": "model",
-                  "model": "eureka:item/titan_line"
+                  "model": "eureka:item/shared/tier_2/titan_line"
                 }
               },
               {
                 "when": "speedy_line",
                 "model": {
                   "type": "model",
-                  "model": "eureka:item/speedy_line"
+                  "model": "eureka:item/shared/tier_2/speedy_line"
                 }
               },
               {
                 "when": "trophy_line",
                 "model": {
                   "type": "model",
-                  "model": "eureka:item/trophy_line"
+                  "model": "eureka:item/shared/tier_2/trophy_line"
                 }
               },
               {
                 "when": "shredded_line",
                 "model": {
                   "type": "model",
-                  "model": "eureka:item/shredded_line"
+                  "model": "eureka:item/shared/tier_2/shredded_line"
                 }
               }
             ],
             "fallback": {
               "type": "model",
-              "model": "eureka:item/default_line"
+              "model": "eureka:item/magma_rod/line"
             }
           },
           "on_false": {
             "type": "model",
-            "model": "eureka:item/default_line"
+            "model": "eureka:item/magma_rod/line"
           }
         },
         {
@@ -70,63 +70,63 @@
                 "when": "junk_sinker",
                 "model": {
                   "type": "model",
-                  "model": "eureka:item/junk_sinker"
+                  "model": "eureka:item/shared/sinker/junk_sinker"
                 }
               },
               {
                 "when": "lotus_sinker",
                 "model": {
                   "type": "model",
-                  "model": "eureka:item/lotus_sinker"
+                  "model": "eureka:item/shared/sinker/lotus_sinker"
                 }
               },
               {
                 "when": "prismarine_sinker",
                 "model": {
                   "type": "model",
-                  "model": "eureka:item/prismarine_sinker"
+                  "model": "eureka:item/shared/sinker/prismarine_sinker"
                 }
               },
               {
                 "when": "icy_sinker",
                 "model": {
                   "type": "model",
-                  "model": "eureka:item/icy_sinker"
+                  "model": "eureka:item/shared/sinker/icy_sinker"
                 }
               },
               {
                 "when": "festive_sinker",
                 "model": {
                   "type": "model",
-                  "model": "eureka:item/festive_sinker"
+                  "model": "eureka:item/shared/sinker/festive_sinker"
                 }
               },
               {
                 "when": "sponge_sinker",
                 "model": {
                   "type": "model",
-                  "model": "eureka:item/sponge_sinker"
+                  "model": "eureka:item/shared/sinker/sponge_sinker"
                 }
               },
               {
                 "when": "stingy_sinker",
                 "model": {
                   "type": "model",
-                  "model": "eureka:item/stingy_sinker"
+                  "model": "eureka:item/shared/sinker/stingy_sinker"
                 }
               },
               {
                 "when": "hotspot_sinker",
                 "model": {
                   "type": "model",
-                  "model": "eureka:item/hotspot_sinker"
+                  "model": "eureka:item/shared/sinker/hotspot_sinker"
                 }
               },
               {
                 "when": "chum_sinker",
                 "model": {
                   "type": "model",
-                  "model": "eureka:item/chum_sinker"
+                  "model": "eureka:item/shared/sinker/chum_sinker"
                 }
               }
             ],
@@ -151,46 +151,46 @@
                 "when": "puddle_jumper_hook",
                 "model": {
                   "type": "model",
-                  "model": "eureka:item/puddle_jumper_hook"
+                  "model": "eureka:item/shared/tier_2/puddle_jumper_hook"
                 }
               },
               {
                 "when": "treasure_hook",
                 "model": {
                   "type": "model",
-                  "model": "eureka:item/treasure_hook"
+                  "model": "eureka:item/shared/tier_2/treasure_hook"
                 }
               },
               {
                 "when": "phantom_hook",
                 "model": {
                   "type": "model",
-                  "model": "eureka:item/phantom_hook"
+                  "model": "eureka:item/shared/tier_2/phantom_hook"
                 }
               },
               {
                 "when": "common_hook",
                 "model": {
                   "type": "model",
-                  "model": "eureka:item/common_hook"
+                  "model": "eureka:item/shared/tier_2/common_hook"
                 }
               },
               {
                 "when": "hotspot_hook",
                 "model": {
                   "type": "model",
-                  "model": "eureka:item/hotspot_hook"
+                  "model": "eureka:item/shared/tier_2/hotspot_hook"
                 }
               }
             ],
             "fallback": {
               "type": "model",
-              "model": "eureka:item/default_hook"
+              "model": "eureka:item/shared/tier_2/hook"
             }
           },
           "on_false": {
             "type": "model",
-            "model": "eureka:item/default_hook"
+            "model": "eureka:item/shared/tier_2/hook"
           }
         }
       ]
@@ -200,7 +200,7 @@
       "models": [
         {
           "type": "model",
-          "model": "eureka:item/magma_rod"
+          "model": "eureka:item/magma_rod/base"
         },
         {
           "type": "condition",
@@ -215,39 +215,39 @@
                 "when": "titan_line",
                 "model": {
                   "type": "model",
-                  "model": "eureka:item/titan_line_cast"
+                  "model": "eureka:item/shared/tier_2/titan_line_cast"
                 }
               },
               {
                 "when": "speedy_line",
                 "model": {
                   "type": "model",
-                  "model": "eureka:item/speedy_line"
+                  "model": "eureka:item/shared/tier_2/speedy_line_cast"
                 }
               },
               {
                 "when": "trophy_line",
                 "model": {
                   "type": "model",
-                  "model": "eureka:item/trophy_line_cast"
+                  "model": "eureka:item/shared/tier_2/trophy_line_cast"
                 }
               },
               {
                 "when": "shredded_line",
                 "model": {
                   "type": "model",
-                  "model": "eureka:item/shredded_line_cast"
+                  "model": "eureka:item/shared/tier_2/shredded_line_cast"
                 }
               }
             ],
             "fallback": {
               "type": "model",
-              "model": "eureka:item/default_line_cast"
+              "model": "eureka:item/magma_rod/line_cast"
             }
           },
           "on_false": {
             "type": "model",
-            "model": "eureka:item/default_line_cast"
+            "model": "eureka:item/magma_rod/line_cast"
           }
         }
       ]

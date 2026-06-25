@@ -1,0 +1,4 @@
+{
+  "parent": "item/fishing_rod",
+  "textures": { "layer0": "eureka:item/shared/tier_4/puddle_jumper_hook" }
+}

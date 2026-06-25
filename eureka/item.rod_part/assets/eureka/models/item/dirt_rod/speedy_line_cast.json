@@ -1,0 +1,4 @@
+{
+  "parent": "item/fishing_rod",
+  "textures": { "layer0": "eureka:item/dirt_rod/speedy_line_cast" }
+}

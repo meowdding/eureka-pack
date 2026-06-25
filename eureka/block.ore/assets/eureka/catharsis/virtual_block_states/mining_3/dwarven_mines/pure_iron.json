@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "": {
+      "model": "minecraft:block/raw_iron_block"
+    }
+  },
+  "overrides": {
+    "minecraft:bedrock": {
+      "variants": {
+        "": {
+          "model": "minecraft:block/gold_block"
+        }
+      }
+    }
+  }
+}

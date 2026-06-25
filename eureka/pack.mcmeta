@@ -45,6 +45,15 @@
         }
       },
       {
+        "directory": "block.ore",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "eureka",
+          "id": "block.ore",
+          "value": "on"
+        }
+      },
+      {
         "directory": "block.dwarven_metal",
         "condition": {
           "condition": "catharsis:config",
