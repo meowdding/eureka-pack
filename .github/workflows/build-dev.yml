@@ -43,8 +43,10 @@ jobs:
           name: eureka-dev.cats
       - name: "Upload to #development-builds"
         run: |
-          zip -r Eureka-dev.cats.zip pack.cats pack.mcmeta
+          zip -r pack.cats.zip pack.cats pack.mcmeta
           ls -lahR .
-          curl "$WEBHOOK_URL" -X POST -H "Content-type: multipart/form-data" --form "files[0]=@$(echo *.cats.zip)"
+          curl "$WEBHOOK_URL" -X POST -H "Content-type: multipart/form-data" \
+            --form "content=<@&1516750118647238726>" \
+            --form "files[0]=@pack.cats.zip"
         env:
           WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
