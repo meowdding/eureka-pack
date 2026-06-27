@@ -39,7 +39,7 @@ jobs:
       - name: Download generated artifact
         uses: actions/download-artifact@v5
         with:
-          name: eureka_dev.cats.zip
+          name: eureka_dev.cats
       - name: Upload to #development-builds
         run: |
           ls -lahR .
