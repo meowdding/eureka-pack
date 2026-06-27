@@ -295,6 +295,13 @@
       },
       {
         "type": "boolean",
+        "id": "entity.dungeon",
+        "title": "Dungeons",
+        "description": "",
+        "default": true
+      },
+      {
+        "type": "boolean",
         "id": "entity.crystal_hollows",
         "title": "Crystal Hollows",
         "description": "",

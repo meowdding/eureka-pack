@@ -139,6 +139,14 @@
         }
       },
       {
+        "directory": "entity.dungeon",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "eureka",
+          "id": "entity.dungeon"
+        }
+      },
+      {
         "directory": "entity.crystal_hollows",
         "condition": {
           "condition": "catharsis:config",
