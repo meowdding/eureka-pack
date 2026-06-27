@@ -65,6 +65,21 @@
   "eureka.config.tab.entity": "Entities",
   "eureka.config.tab.entity.model": "Custom Entity Models",
 
+  "eureka.config.tab.entity.model.backwater_bayou": "Backwater Bayou",
+  "eureka.config.tab.entity.model.backwater_bayou.description": "Bayou Sludge.\n",
+
+  "eureka.config.tab.entity.model.dungeon": "Dungeons",
+  "eureka.config.tab.entity.model.dungeon.description": "Only Goldor for now, missing animations & proper entity isolation.\n",
+
+  "eureka.config.tab.entity.model.crystal_hollows": "Crystal Hollows",
+  "eureka.config.tab.entity.model.crystal_hollows.description": "Sludge.\n",
+
+  "eureka.config.tab.entity.model.mining_2": "Deep Caverns",
+  "eureka.config.tab.entity.model.mining_2.description": "Emerald Slime.\n",
+
+  "eureka.config.tab.entity.model.combat_1": "Spider's Den",
+  "eureka.config.tab.entity.model.combat_1.description": "Rain Slimes & Toxic Rain Slimes.\n",
+
   "eureka.config.tab.accessibility": "Accessibility",
   "eureka.config.tab.accessibility.gui": "GUI",
 

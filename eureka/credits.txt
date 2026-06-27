@@ -19,3 +19,6 @@ https://development.catharsis-e4x.pages.dev/
 
 - Catharsis Repository (Mod Dependency!)
 https://github.com/meowdding/catharsis
+
+- Fishing Rod Textures by the Hypixel Art Team (Remixed and used in the Rod Parts overlay)
+Contact @Junenya on Discord to request removal.

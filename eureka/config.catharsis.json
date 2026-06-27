@@ -148,7 +148,7 @@
       },
       {
         "type": "boolean",
-        "id": "prop.hub",
+        "id": "prop.slayer",
         "title": {
           "type": "translatable",
           "translate": "eureka.config.tab.block.environmental_props.slayer"
@@ -329,36 +329,71 @@
       {
         "type": "boolean",
         "id": "entity.fishing_1",
-        "title": "Backwater Bayou",
-        "description": "",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.entity.model.backwater_bayou"
+        },
+        "description": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.entity.model.backwater_bayou.description",
+          "color": "gray"
+        },
         "default": true
       },
       {
         "type": "boolean",
         "id": "entity.dungeon",
-        "title": "Dungeons",
-        "description": "",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.entity.model.dungeon"
+        },
+        "description": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.entity.model.dungeon.description",
+          "color": "gray"
+        },
         "default": true
       },
       {
         "type": "boolean",
         "id": "entity.crystal_hollows",
-        "title": "Crystal Hollows",
-        "description": "",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.entity.model.crystal_hollows"
+        },
+        "description": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.entity.model.crystal_hollows.description",
+          "color": "gray"
+        },
         "default": true
       },
       {
         "type": "boolean",
         "id": "entity.mining_2",
-        "title": "Deep Caverns",
-        "description": "",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.entity.model.mining_2"
+        },
+        "description": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.entity.model.mining_2.description",
+          "color": "gray"
+        },
         "default": true
       },
       {
         "type": "boolean",
         "id": "entity.combat_1",
-        "title": "Spider's Den",
-        "description": "",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.entity.model.combat_1"
+        },
+        "description": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.entity.model.combat_1.description",
+          "color": "gray"
+        },
         "default": true
       }
     ]

@@ -1,0 +1,18 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "block/cube_all",
+	"textures": {
+		"1": "eureka:block/generic/slayer/inferno_demonlord/top",
+		"particle": "eureka:block/generic/slayer/inferno_demonlord/top"
+	},
+	"elements": [
+		{
+			"from": [2.5, 16, 2.5],
+			"to": [13.5, 16, 13.5],
+			"faces": {
+				"up": {"uv": [0, 0, 11, 11], "texture": "#1"}
+			}
+		}
+	]
+}
