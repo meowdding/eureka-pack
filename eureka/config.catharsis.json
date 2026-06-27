@@ -13,9 +13,7 @@
           "translate": "eureka.config.tab.info.about_eureka",
           "bold": true
         },
-        "description": {
-          "text": ""
-        }
+        "description": ""
       },
       {
         "type": "information",
@@ -86,7 +84,11 @@
           "type": "translatable",
           "translate": "eureka.config.tab.item.fishing_rod.part"
         },
-        "description": "",
+        "description": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.item.fishing_rod.part.description",
+          "color": "gray"
+        },
         "default": true
       }
     ]
@@ -115,7 +117,8 @@
           "translate": "eureka.config.tab.block.blocks.ore"
         },
         "description": {
-          "text": "Only for Pure Diamond.",
+          "type": "translatable",
+          "translate": "eureka.config.tab.block.blocks.ore.description",
           "color": "gray"
         },
         "default": true
@@ -128,7 +131,8 @@
           "translate": "eureka.config.tab.block.blocks.dwarven_metal"
         },
         "description": {
-          "text": "Only for Mithril at the moment.",
+          "type": "translatable",
+          "translate": "eureka.config.tab.block.blocks.dwarven_metal.description",
           "color": "gray"
         },
         "default": true
@@ -144,13 +148,28 @@
       },
       {
         "type": "boolean",
+        "id": "prop.slayer",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.block.environmental_props.slayer"
+        },
+        "description": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.block.environmental_props.slayer.description",
+          "color": "gray"
+        },
+        "default": true
+      },
+      {
+        "type": "boolean",
         "id": "prop.hub",
         "title": {
           "type": "translatable",
           "translate": "eureka.config.tab.block.environmental_props.hub"
         },
         "description": {
-          "text": "Transforms the banners inside and outside of the Auction House.",
+          "type": "translatable",
+          "translate": "eureka.config.tab.block.environmental_props.hub.description",
           "color": "gray"
         },
         "default": true
@@ -163,7 +182,8 @@
           "translate": "eureka.config.tab.block.environmental_props.mining_3"
         },
         "description": {
-          "text": "Transforms Dark Monoliths.",
+          "type": "translatable",
+          "translate": "eureka.config.tab.block.environmental_props.mining_3.description",
           "color": "gray"
         },
         "default": true
@@ -176,7 +196,8 @@
           "translate": "eureka.config.tab.block.environmental_props.rift"
         },
         "description": {
-          "text": "Transforms Blood Effigies.",
+          "type": "translatable",
+          "translate": "eureka.config.tab.block.environmental_props.rift.description",
           "color": "gray"
         },
         "default": true
@@ -202,8 +223,15 @@
       {
         "type": "boolean",
         "id": "skill_tree.hotm",
-        "title": "Heart of the Mountain",
-        "description": "",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.gui.skill_tree.hotm"
+        },
+        "description": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.gui.skill_tree.hotm.description",
+          "color": "gray"
+        },
         "default": true
       },
       {
@@ -222,7 +250,11 @@
           "type": "translatable",
           "translate": "eureka.config.tab.gui.gui.player_stat"
         },
-        "description": "",
+        "description": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.gui.gui.player_stat.description",
+          "color": "gray"
+        },
         "default": true
       },
       {
@@ -232,7 +264,11 @@
           "type": "translatable",
           "translate": "eureka.config.tab.gui.gui.mobtype"
         },
-        "description": "",
+        "description": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.gui.gui.mobtype.description",
+          "color": "gray"
+        },
         "default": true
       },
       {
@@ -251,7 +287,11 @@
           "type": "translatable",
           "translate": "eureka.config.tab.gui.tooltip.rarity"
         },
-        "description": "",
+        "description": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.gui.tooltip.rarity.description",
+          "color": "gray"
+        },
         "default": true
       },
       {
@@ -289,36 +329,71 @@
       {
         "type": "boolean",
         "id": "entity.fishing_1",
-        "title": "Backwater Bayou",
-        "description": "",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.entity.model.backwater_bayou"
+        },
+        "description": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.entity.model.backwater_bayou.description",
+          "color": "gray"
+        },
         "default": true
       },
       {
         "type": "boolean",
         "id": "entity.dungeon",
-        "title": "Dungeons",
-        "description": "",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.entity.model.dungeon"
+        },
+        "description": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.entity.model.dungeon.description",
+          "color": "gray"
+        },
         "default": true
       },
       {
         "type": "boolean",
         "id": "entity.crystal_hollows",
-        "title": "Crystal Hollows",
-        "description": "",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.entity.model.crystal_hollows"
+        },
+        "description": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.entity.model.crystal_hollows.description",
+          "color": "gray"
+        },
         "default": true
       },
       {
         "type": "boolean",
         "id": "entity.mining_2",
-        "title": "Deep Caverns",
-        "description": "",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.entity.model.mining_2"
+        },
+        "description": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.entity.model.mining_2.description",
+          "color": "gray"
+        },
         "default": true
       },
       {
         "type": "boolean",
         "id": "entity.combat_1",
-        "title": "Spider's Den",
-        "description": "",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.entity.model.combat_1"
+        },
+        "description": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.entity.model.combat_1.description",
+          "color": "gray"
+        },
         "default": true
       }
     ]

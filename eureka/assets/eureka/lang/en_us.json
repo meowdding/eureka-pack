@@ -7,10 +7,10 @@
   "eureka.config.tab.info.about_eureka": "About Eureka",
 
   "eureka.config.tab.info.about_eureka.version": "Version:\n",
-  "eureka.config.tab.info.about_eureka.version.number": "alpha-v0.0.4",
+  "eureka.config.tab.info.about_eureka.version.number": "alpha-v0.0.6",
 
   "eureka.config.tab.info.about_eureka.dependencies": "Dependencies:\n",
-  "eureka.config.tab.info.about_eureka.dependencies.catharsis": "Catharsis 1.0.0-beta.17",
+  "eureka.config.tab.info.about_eureka.dependencies.catharsis": "Catharsis 1.0.0-beta.18",
 
   "eureka.config.tab.info.about_eureka.license": "License:\n",
   "eureka.config.tab.info.about_eureka.license.kind": "All Rights Reserved",
@@ -18,34 +18,67 @@
   "eureka.config.tab.item": "Items",
 
   "eureka.config.tab.item.fishing_rod": "Fishing Rods",
-  "eureka.config.tab.item.fishing_rod.part": "Fishing Rod Part Overlays",
+  "eureka.config.tab.item.fishing_rod.part": "Rod Part Overlays",
+  "eureka.config.tab.item.fishing_rod.part.description": "Make applied Rod Parts actually visible on the rod itself!",
 
   "eureka.config.tab.block": "Blocks",
   "eureka.config.tab.block.blocks": "Block Textures",
   "eureka.config.tab.block.blocks.ore": "Ores",
+  "eureka.config.tab.block.blocks.ore.description": "Pure Iron/Gold/Diamond/Redstone.\n",
+
   "eureka.config.tab.block.blocks.dwarven_metal": "Dwarven Metals",
+  "eureka.config.tab.block.blocks.dwarven_metal.description": "Only for Mithril at the moment.\n\n",
 
   "eureka.config.tab.block.environmental_props": "Environmental Props",
-  "eureka.config.tab.block.environmental_props.hub": "Hub Props",
-  "eureka.config.tab.block.environmental_props.mining_3": "Dwarven Mines Props",
-  "eureka.config.tab.block.environmental_props.rift": "Rift Props",
+
+  "eureka.config.tab.block.environmental_props.slayer": "Slayers",
+  "eureka.config.tab.block.environmental_props.slayer.description": "Remodels interactable blocks in Slayer Boss fights.\n",
+
+  "eureka.config.tab.block.environmental_props.hub": "Hub",
+  "eureka.config.tab.block.environmental_props.hub.description": "Remodels the banners inside and outisde of the Auction House.\n",
+
+  "eureka.config.tab.block.environmental_props.mining_3": "Dwarven Mines",
+  "eureka.config.tab.block.environmental_props.mining_3.description": "Remodels the Dark Monolith.\n",
+
+  "eureka.config.tab.block.environmental_props.rift": "Rift",
+  "eureka.config.tab.block.environmental_props.rift.description": "Remodels Blood Effigies.\n ",
 
   "eureka.config.tab.gui": "GUI",
   "eureka.config.tab.gui.skill_tree": "Skill Trees",
+  "eureka.config.tab.gui.skill_tree.hotm": "Heart of the Mountain",
+  "eureka.config.tab.gui.skill_tree.hotm.description": "Constellation themed perk tree.\n\n",
+
   "eureka.config.tab.gui.gui": "GUI",
   "eureka.config.tab.gui.gui.player_stat": "Player Stats",
-  "eureka.config.tab.gui.gui.mobtype": "Mobtypes",
-  "eureka.config.tab.gui.tooltip": "Tooltips",
-  "eureka.config.tab.gui.tooltip.separator": "Item lore separators",
-  "eureka.config.tab.gui.tooltip.rarity": "Rarity-based tooltip backgrounds",
+  "eureka.config.tab.gui.gui.player_stat.description": "Retextures buttons that represent player stats (x16) and player stat icons in text (8x)\n",
 
-  "eureka.config.tab.glyph": "Glyphs",
-  "eureka.config.tab.glyph.glyphs": "Glyphs",
-  "eureka.config.tab.glyph.glyphs.stat": "Stats",
-  "eureka.config.tab.glyph.glyphs.mobtype": "Mobtypes",
+  "eureka.config.tab.gui.gui.mobtype": "Mobtypes",
+  "eureka.config.tab.gui.gui.mobtype.description": "Retextures buttons that represent mobtypes (x16) and mobtype icons in text (8x)\n\n",
+
+  "eureka.config.tab.gui.tooltip": "Tooltips",
+  "eureka.config.tab.gui.tooltip.rarity": "Rarity Gradients",
+  "eureka.config.tab.gui.tooltip.rarity.description": "Gives a faint gradient to item tooltip backgrounds based on rarity of the item.\n",
+
+  "eureka.config.tab.gui.tooltip.separator": "Item lore separators",
+  "eureka.config.tab.gui.tooltip.separator.description": "Categorises sections ofw lore in item tooltips",
 
   "eureka.config.tab.entity": "Entities",
   "eureka.config.tab.entity.model": "Custom Entity Models",
+
+  "eureka.config.tab.entity.model.backwater_bayou": "Backwater Bayou",
+  "eureka.config.tab.entity.model.backwater_bayou.description": "Bayou Sludge.\n",
+
+  "eureka.config.tab.entity.model.dungeon": "Dungeons",
+  "eureka.config.tab.entity.model.dungeon.description": "Only Goldor for now, missing animations & proper entity isolation.\n",
+
+  "eureka.config.tab.entity.model.crystal_hollows": "Crystal Hollows",
+  "eureka.config.tab.entity.model.crystal_hollows.description": "Sludge.\n",
+
+  "eureka.config.tab.entity.model.mining_2": "Deep Caverns",
+  "eureka.config.tab.entity.model.mining_2.description": "Emerald Slime.\n",
+
+  "eureka.config.tab.entity.model.combat_1": "Spider's Den",
+  "eureka.config.tab.entity.model.combat_1.description": "Rain Slimes & Toxic Rain Slimes.\n",
 
   "eureka.config.tab.accessibility": "Accessibility",
   "eureka.config.tab.accessibility.gui": "GUI",

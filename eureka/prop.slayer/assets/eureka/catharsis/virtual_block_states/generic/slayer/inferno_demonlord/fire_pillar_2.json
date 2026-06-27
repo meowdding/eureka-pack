@@ -1,0 +1,552 @@
+{
+  "multipart": [
+    {
+      "apply": [
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/1",
+          "weight": 1200
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/2",
+          "weight": 1201
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/3",
+          "weight": 1202
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/4",
+          "weight": 1203
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/5",
+          "weight": 1204
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/6",
+          "weight": 1205
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/7",
+          "weight": 1206
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/8",
+          "weight": 1207
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/9",
+          "weight": 1208
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/10",
+          "weight": 1209
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/11",
+          "weight": 1210
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/12",
+          "weight": 1211
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/13",
+          "weight": 1212
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/14",
+          "weight": 1213
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/15",
+          "weight": 1214
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/16",
+          "weight": 1215
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/17",
+          "weight": 1216
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/18",
+          "weight": 1217
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/19",
+          "weight": 1218
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/20",
+          "weight": 1219
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/21",
+          "weight": 1220
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/22",
+          "weight": 1221
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/23",
+          "weight": 1222
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/24",
+          "weight": 1223
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/25",
+          "weight": 1224
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/26",
+          "weight": 1225
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/27",
+          "weight": 1226
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/28",
+          "weight": 1227
+        }
+      ]
+    },
+    {
+      "apply": [
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/1",
+          "weight": 2200,
+          "y": 90
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/2",
+          "weight": 2201,
+          "y": 90
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/3",
+          "weight": 2202,
+          "y": 90
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/4",
+          "weight": 2203,
+          "y": 90
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/5",
+          "weight": 2204,
+          "y": 90
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/6",
+          "weight": 2205,
+          "y": 90
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/7",
+          "weight": 2206,
+          "y": 90
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/8",
+          "weight": 2207,
+          "y": 90
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/9",
+          "weight": 2208,
+          "y": 90
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/10",
+          "weight": 2209,
+          "y": 90
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/11",
+          "weight": 2210,
+          "y": 90
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/12",
+          "weight": 2211,
+          "y": 90
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/13",
+          "weight": 2212,
+          "y": 90
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/14",
+          "weight": 2213,
+          "y": 90
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/15",
+          "weight": 2214,
+          "y": 90
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/16",
+          "weight": 2215,
+          "y": 90
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/17",
+          "weight": 2216,
+          "y": 90
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/18",
+          "weight": 2217,
+          "y": 90
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/19",
+          "weight": 2218,
+          "y": 90
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/20",
+          "weight": 2219,
+          "y": 90
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/21",
+          "weight": 2220,
+          "y": 90
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/22",
+          "weight": 2221,
+          "y": 90
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/23",
+          "weight": 2222,
+          "y": 90
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/24",
+          "weight": 2223,
+          "y": 90
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/25",
+          "weight": 2224,
+          "y": 90
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/26",
+          "weight": 2225,
+          "y": 90
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/27",
+          "weight": 2226,
+          "y": 90
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/28",
+          "weight": 2227,
+          "y": 90
+        }
+      ]
+    },
+    {
+      "apply": [
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/1",
+          "weight": 3200,
+          "y": 180
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/2",
+          "weight": 3201,
+          "y": 180
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/3",
+          "weight": 3202,
+          "y": 180
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/4",
+          "weight": 3203,
+          "y": 180
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/5",
+          "weight": 3204,
+          "y": 180
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/6",
+          "weight": 3205,
+          "y": 180
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/7",
+          "weight": 3206,
+          "y": 180
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/8",
+          "weight": 3207,
+          "y": 180
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/9",
+          "weight": 3208,
+          "y": 180
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/10",
+          "weight": 3209,
+          "y": 180
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/11",
+          "weight": 3210,
+          "y": 180
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/12",
+          "weight": 3211,
+          "y": 180
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/13",
+          "weight": 3212,
+          "y": 180
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/14",
+          "weight": 3213,
+          "y": 180
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/15",
+          "weight": 3214,
+          "y": 180
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/16",
+          "weight": 3215,
+          "y": 180
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/17",
+          "weight": 3216,
+          "y": 180
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/18",
+          "weight": 3217,
+          "y": 180
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/19",
+          "weight": 3218,
+          "y": 180
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/20",
+          "weight": 3219,
+          "y": 180
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/21",
+          "weight": 3220,
+          "y": 180
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/22",
+          "weight": 3221,
+          "y": 180
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/23",
+          "weight": 3222,
+          "y": 180
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/24",
+          "weight": 3223,
+          "y": 180
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/25",
+          "weight": 3224,
+          "y": 180
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/26",
+          "weight": 3225,
+          "y": 180
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/27",
+          "weight": 3226,
+          "y": 180
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/28",
+          "weight": 3227,
+          "y": 180
+        }
+      ]
+    },
+    {
+      "apply": [
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/1",
+          "weight": 4200,
+          "y": 270
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/2",
+          "weight": 4201,
+          "y": 270
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/3",
+          "weight": 4202,
+          "y": 270
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/4",
+          "weight": 4203,
+          "y": 270
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/5",
+          "weight": 4204,
+          "y": 270
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/6",
+          "weight": 4205,
+          "y": 270
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/7",
+          "weight": 4206,
+          "y": 270
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/8",
+          "weight": 4207,
+          "y": 270
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/9",
+          "weight": 4208,
+          "y": 270
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/10",
+          "weight": 4209,
+          "y": 270
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/11",
+          "weight": 4210,
+          "y": 270
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/12",
+          "weight": 4211,
+          "y": 270
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/13",
+          "weight": 4212,
+          "y": 270
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/14",
+          "weight": 4213,
+          "y": 270
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/15",
+          "weight": 4214,
+          "y": 270
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/16",
+          "weight": 4215,
+          "y": 270
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/17",
+          "weight": 4216,
+          "y": 270
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/18",
+          "weight": 4217,
+          "y": 270
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/19",
+          "weight": 4218,
+          "y": 270
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/20",
+          "weight": 4219,
+          "y": 270
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/21",
+          "weight": 4220,
+          "y": 270
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/22",
+          "weight": 4221,
+          "y": 270
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/23",
+          "weight": 4222,
+          "y": 270
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/24",
+          "weight": 4223,
+          "y": 270
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/25",
+          "weight": 4224,
+          "y": 270
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/26",
+          "weight": 4225,
+          "y": 270
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/27",
+          "weight": 4226,
+          "y": 270
+        },
+        {
+          "model": "eureka:block/generic/slayer/inferno_demonlord/28",
+          "weight": 4227,
+          "y": 270
+        }
+      ]
+    }
+  ]
+}

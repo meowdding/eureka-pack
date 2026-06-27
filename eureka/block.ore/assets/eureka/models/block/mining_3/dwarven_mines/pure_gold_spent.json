@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "eureka:block/mining_3/dwarven_mines/pure_gold_spent"
+  }
+}

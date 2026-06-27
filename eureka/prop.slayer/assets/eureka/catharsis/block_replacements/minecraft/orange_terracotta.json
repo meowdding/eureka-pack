@@ -1,0 +1,161 @@
+{
+  "type": "catharsis:layered",
+  "definitions": [
+    {
+      "type": "conditional",
+      "definition": {
+        "type": "redirect",
+        "virtual_state": "eureka:generic/slayer/inferno_demonlord/fire_pillar_2"
+      },
+      "condition": {
+        "type": "and",
+        "conditions": [
+          { "type": "in_island", "island": "crimson_isle" },
+          {
+            "type": "or",
+            "conditions": [
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "relative",
+                    "offset": "0:1:0",
+                    "condition": {
+                      "type": "id",
+                      "block": "minecraft:yellow_terracotta"
+                    }
+                  },
+                  {
+                    "type": "relative",
+                    "offset": "0:-1:0",
+                    "condition": {
+                      "type": "id",
+                      "block": "minecraft:red_terracotta"
+                    }
+                  },
+                  {
+                    "type": "relative",
+                    "offset": "0:-2:0",
+                    "condition": {
+                      "type": "id",
+                      "block": "minecraft:brown_terracotta"
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "and",
+                "conditions": [
+                  {
+                    "type": "relative",
+                    "offset": "0:1:0",
+                    "condition": {
+                      "type": "id",
+                      "block": "minecraft:air"
+                    }
+                  },
+                  {
+                    "type": "relative",
+                    "offset": "0:-1:0",
+                    "condition": {
+                      "type": "id",
+                      "block": "minecraft:red_terracotta"
+                    }
+                  },
+                  {
+                    "type": "relative",
+                    "offset": "0:-2:0",
+                    "condition": {
+                      "type": "id",
+                      "block": "minecraft:brown_terracotta"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "catharsis:per_area",
+      "entries": {
+        "catharsis:crystal_hollows/magma_fields": {
+          "type": "select",
+          "definitions": [
+            {
+              "type": "conditional",
+              "definition": {
+                "type": "redirect",
+                "virtual_state": "eureka:generic/slayer/inferno_demonlord/fire_pillar_1"
+              },
+              "condition": {
+                "type": "or",
+                "conditions": [
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "relative",
+                        "offset": "0:1:0",
+                        "condition": {
+                          "type": "id",
+                          "block": "minecraft:yellow_terracotta"
+                        }
+                      },
+                      {
+                        "type": "relative",
+                        "offset": "0:-1:0",
+                        "condition": {
+                          "type": "id",
+                          "block": "minecraft:red_terracotta"
+                        }
+                      },
+                      {
+                        "type": "relative",
+                        "offset": "0:-2:0",
+                        "condition": {
+                          "type": "id",
+                          "block": "minecraft:brown_terracotta"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "and",
+                    "conditions": [
+                      {
+                        "type": "relative",
+                        "offset": "0:1:0",
+                        "condition": {
+                          "type": "id",
+                          "block": "minecraft:air"
+                        }
+                      },
+                      {
+                        "type": "relative",
+                        "offset": "0:-1:0",
+                        "condition": {
+                          "type": "id",
+                          "block": "minecraft:red_terracotta"
+                        }
+                      },
+                      {
+                        "type": "relative",
+                        "offset": "0:-2:0",
+                        "condition": {
+                          "type": "id",
+                          "block": "minecraft:brown_terracotta"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -45,10 +45,12 @@ jobs:
         run: |
           zip -r Eureka-dev.cats.zip pack.cats pack.mcmeta
           ls -lahR .
+          
+          PAYLOAD=$(jq -n --arg msg "$MESSAGE" '{"content":"<@&1516750118647238726>","embeds":[{"description":$msg,"color":16777215}]}')
+          
           curl "$WEBHOOK_URL" -X POST -H "Content-type: multipart/form-data" \
-            --form "content=<@&1516750118647238726>" \
-            --form "embeds: [{ description: \"\($MESSAGE)\", color: \"16777215\" }]" \
-            --form "files[0]=@pack.cats.zip"
+            --form "payload_json=$PAYLOAD" \
+            --form "files[0]=@Eureka-dev.cats.zip"
         env:
           WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
           MESSAGE: ${{ github.event.head_commit.message }}
