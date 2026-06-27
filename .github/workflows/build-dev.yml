@@ -46,8 +46,7 @@ jobs:
           zip -r Eureka-dev.cats.zip pack.cats pack.mcmeta
           ls -lahR .
           curl "$WEBHOOK_URL" -X POST -H "Content-type: multipart/form-data" \
-            --form "content=<@&1516750118647238726>" \
-            --form "embeds: [{ description: \"\($MESSAGE)\", color: \"16777215\" }]" \
+            --form 'payload_json={"content":"<@&1516750118647238726>","embeds":[{"description":"($MESSAGE)","color":16777215}]}'
             --form "files[0]=@pack.cats.zip"
         env:
           WEBHOOK_URL: ${{ secrets.WEBHOOK_URL }}
