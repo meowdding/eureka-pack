@@ -1,14 +1,14 @@
-name: Build Stable
+name: Build Development
 
 on:
   workflow_dispatch:
 
   push:
     branches:
-      - "stable"
+      - "development"
     paths:
       - "eureka/**"
-      - ".github/workflows/build.yml"
+      - ".github/workflows/build-dev.yml"
       - ".github/scripts/build.sh"
 
 jobs:
@@ -27,5 +27,5 @@ jobs:
       - name: Upload Pack
         uses: actions/upload-artifact@v6
         with:
-          name: "eureka.cats"
+          name: "eureka-dev.cats"
           path: "build"
