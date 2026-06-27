@@ -1,4 +1,7 @@
 name: Build Development
+permissions:
+  pull-requests: write
+  contents: read
 
 on:
   push:
