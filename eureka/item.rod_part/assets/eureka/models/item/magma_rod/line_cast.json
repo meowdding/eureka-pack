@@ -1,0 +1,4 @@
+{
+  "parent": "item/fishing_rod",
+  "textures": { "layer0": "eureka:item/magma_rod/line_cast" }
+}

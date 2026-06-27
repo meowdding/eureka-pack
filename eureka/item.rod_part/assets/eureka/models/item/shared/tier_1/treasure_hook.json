@@ -1,0 +1,4 @@
+{
+  "parent": "item/fishing_rod",
+  "textures": { "layer0": "eureka:item/shared/tier_1/treasure_hook" }
+}

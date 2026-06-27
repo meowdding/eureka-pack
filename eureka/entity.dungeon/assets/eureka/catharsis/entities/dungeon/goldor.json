@@ -1,0 +1,6 @@
+{
+  "texture": "eureka:textures/dungeon/goldor/goldor.png",
+  "emissive_texture": "eureka:textures/dungeon/goldor/goldor_emissive.png",
+  "model": "eureka:models/dungeon/goldor/goldor.geo.json",
+  "translucent": true
+}

@@ -1,11 +1,9 @@
-name: Build
+name: Build Stable
 
 on:
-  workflow_dispatch:
-
   push:
     branches:
-      - "main"
+      - "stable"
     paths:
       - "eureka/**"
       - ".github/workflows/build.yml"

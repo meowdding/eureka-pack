@@ -1,0 +1,256 @@
+{
+  "model": {
+    "type": "condition",
+    "property": "minecraft:fishing_rod/cast",
+    "on_false": {
+      "type": "composite",
+      "models": [
+        {
+          "type": "model",
+          "model": "eureka:item/legend_rod/base"
+        },
+        {
+          "type": "condition",
+          "property": "catharsis:is_data_type_present",
+          "data_type": "line",
+          "on_true": {
+            "type": "select",
+            "property": "catharsis:data_type",
+            "data_type": "line",
+            "cases": [
+              {
+                "when": "titan_line",
+                "model": {
+                  "type": "model",
+                  "model": "eureka:item/shared/tier_3/titan_line"
+                }
+              },
+              {
+                "when": "speedy_line",
+                "model": {
+                  "type": "model",
+                  "model": "eureka:item/shared/tier_3/speedy_line"
+                }
+              },
+              {
+                "when": "trophy_line",
+                "model": {
+                  "type": "model",
+                  "model": "eureka:item/shared/tier_3/trophy_line"
+                }
+              },
+              {
+                "when": "shredded_line",
+                "model": {
+                  "type": "model",
+                  "model": "eureka:item/shared/tier_3/shredded_line"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "eureka:item/legend_rod/line"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "eureka:item/legend_rod/line"
+          }
+        },
+        {
+          "type": "condition",
+          "property": "catharsis:is_data_type_present",
+          "data_type": "sinker",
+          "on_true": {
+            "type": "select",
+            "property": "catharsis:data_type",
+            "data_type": "sinker",
+            "cases": [
+              {
+                "when": "junk_sinker",
+                "model": {
+                  "type": "model",
+                  "model": "eureka:item/shared/sinker/junk_sinker"
+                }
+              },
+              {
+                "when": "lotus_sinker",
+                "model": {
+                  "type": "model",
+                  "model": "eureka:item/shared/sinker/lotus_sinker"
+                }
+              },
+              {
+                "when": "prismarine_sinker",
+                "model": {
+                  "type": "model",
+                  "model": "eureka:item/shared/sinker/prismarine_sinker"
+                }
+              },
+              {
+                "when": "icy_sinker",
+                "model": {
+                  "type": "model",
+                  "model": "eureka:item/shared/sinker/icy_sinker"
+                }
+              },
+              {
+                "when": "festive_sinker",
+                "model": {
+                  "type": "model",
+                  "model": "eureka:item/shared/sinker/festive_sinker"
+                }
+              },
+              {
+                "when": "sponge_sinker",
+                "model": {
+                  "type": "model",
+                  "model": "eureka:item/shared/sinker/sponge_sinker"
+                }
+              },
+              {
+                "when": "stingy_sinker",
+                "model": {
+                  "type": "model",
+                  "model": "eureka:item/shared/sinker/stingy_sinker"
+                }
+              },
+              {
+                "when": "hotspot_sinker",
+                "model": {
+                  "type": "model",
+                  "model": "eureka:item/shared/sinker/hotspot_sinker"
+                }
+              },
+              {
+                "when": "chum_sinker",
+                "model": {
+                  "type": "model",
+                  "model": "eureka:item/shared/sinker/chum_sinker"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "minecraft:empty"
+            }
+          },
+          "on_false": {
+            "type": "minecraft:empty"
+          }
+        },
+        {
+          "type": "condition",
+          "property": "catharsis:is_data_type_present",
+          "data_type": "hook",
+          "on_true": {
+            "type": "select",
+            "property": "catharsis:data_type",
+            "data_type": "hook",
+            "cases": [
+              {
+                "when": "puddle_jumper_hook",
+                "model": {
+                  "type": "model",
+                  "model": "eureka:item/shared/tier_3/puddle_jumper_hook"
+                }
+              },
+              {
+                "when": "treasure_hook",
+                "model": {
+                  "type": "model",
+                  "model": "eureka:item/shared/tier_3/treasure_hook"
+                }
+              },
+              {
+                "when": "phantom_hook",
+                "model": {
+                  "type": "model",
+                  "model": "eureka:item/shared/tier_3/phantom_hook"
+                }
+              },
+              {
+                "when": "common_hook",
+                "model": {
+                  "type": "model",
+                  "model": "eureka:item/shared/tier_3/common_hook"
+                }
+              },
+              {
+                "when": "hotspot_hook",
+                "model": {
+                  "type": "model",
+                  "model": "eureka:item/shared/tier_3/hotspot_hook"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "eureka:item/shared/tier_3/hook"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "eureka:item/shared/tier_3/hook"
+          }
+        }
+      ]
+    },
+    "on_true": {
+      "type": "composite",
+      "models": [
+        {
+          "type": "model",
+          "model": "eureka:item/legend_rod/base"
+        },
+        {
+          "type": "condition",
+          "property": "catharsis:is_data_type_present",
+          "data_type": "line",
+          "on_true": {
+            "type": "select",
+            "property": "catharsis:data_type",
+            "data_type": "line",
+            "cases": [
+              {
+                "when": "titan_line",
+                "model": {
+                  "type": "model",
+                  "model": "eureka:item/shared/tier_3/titan_line_cast"
+                }
+              },
+              {
+                "when": "speedy_line",
+                "model": {
+                  "type": "model",
+                  "model": "eureka:item/shared/tier_3/speedy_line_cast"
+                }
+              },
+              {
+                "when": "trophy_line",
+                "model": {
+                  "type": "model",
+                  "model": "eureka:item/shared/tier_3/trophy_line_cast"
+                }
+              },
+              {
+                "when": "shredded_line",
+                "model": {
+                  "type": "model",
+                  "model": "eureka:item/shared/tier_3/shredded_line_cast"
+                }
+              }
+            ],
+            "fallback": {
+              "type": "model",
+              "model": "eureka:item/legend_rod/line_cast"
+            }
+          },
+          "on_false": {
+            "type": "model",
+            "model": "eureka:item/legend_rod/line_cast"
+          }
+        }
+      ]
+    }
+  }
+}
