@@ -8,7 +8,7 @@
     "minecraft:bedrock": {
       "variants": {
         "": {
-          "model": "minecraft:block/gold_block"
+          "model": "eureka:block/mining_3/dwarven_mines/pure_gold_spent"
         }
       }
     }
