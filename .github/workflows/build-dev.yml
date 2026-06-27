@@ -1,8 +1,6 @@
 name: Build Development
 
 on:
-  workflow_dispatch:
-
   push:
     branches:
       - "development"
@@ -40,7 +38,7 @@ jobs:
         uses: actions/download-artifact@v5
         with:
           name: eureka-dev.cats
-      - name: Upload to #development-builds
+      - name: "Upload to #development-builds"
         run: |
           ls -lahR .
           curl "$WEBHOOK_URL" -X POST -H "Content-type: multipart/form-data" --form "files[0]=@$(echo *.cats.zip)"
