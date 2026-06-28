@@ -1,0 +1,105 @@
+{
+  "target": {
+    "type": "catharsis:definition",
+    "definition": "catharsis:fast_travel/fast_travel"
+  },
+  "overrideBackground": true,
+  "bounds": {
+    "width": 1664,
+    "height": 896
+  },
+  "elements": [
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/fast_travel/fast_travel",
+      "layer": "BACKGROUND",
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    }
+  ],
+  "slots": {
+    "skyblock_gui:fast_travel/private_island/spawn_unlocked": {
+      "position": { "x": 26, "y": 351 }
+    },
+    "skyblock_gui:fast_travel/hub/spawn_unlocked": {
+      "position": { "x": 23, "y": 210 }
+    },
+    "skyblock_gui:fast_travel/dungeon_hub/spawn_unlocked": {
+      "position": { "x": 0, "y": 200 }
+    },
+    "skyblock_gui:fast_travel/farming_islands/spawn_unlocked": {
+      "position": { "x": 116, "y": 218 }
+    },
+    "skyblock_gui:fast_travel/park/spawn_unlocked": {
+      "position": { "x": -82, "y": 168 }
+    },
+    "skyblock_gui:fast_travel/galatea/spawn_unlocked": {
+      "position": { "x": -222, "y": 107 }
+    },
+    "skyblock_gui:fast_travel/gold_mine/spawn_unlocked": {
+      "position": { "x": 96, "y": 181 }
+    },
+    "skyblock_gui:fast_travel/deep_caverns/spawn_unlocked": {
+      "position": { "x": 170, "y": 126 }
+    },
+    "skyblock_gui:fast_travel/dwarven_mines/spawn_unlocked": {
+      "position": { "x": 200, "y": 100 }
+    },
+    "skyblock_gui:fast_travel/crystal_hollows/entrance_unlocked": {
+      "position": { "x": 202, "y": 141 }
+    },
+    "skyblock_gui:fast_travel/spiders_den/spawn_unlocked": {
+      "position": { "x": 8, "y": 150 }
+    },
+    "skyblock_gui:fast_travel/the_end/spawn_unlocked": {
+      "position": { "x": -79, "y": 82 }
+    },
+    "skyblock_gui:fast_travel/crimson_isle/spawn_unlocked": {
+      "position": { "x": 22, "y": 90 }
+    },
+    "skyblock_gui:fast_travel/garden/spawn_unlocked": {
+      "position": { "x": 8, "y": 351 }
+    },
+    "skyblock_gui:fast_travel/rift/wizard_tower_unlocked": {
+      "position": { "x": -9, "y": 228 }
+    },
+    "skyblock_gui:fast_travel/backwater_bayou/spawn_unlocked": {
+      "position": { "x": 106, "y": 275 }
+    },
+    "skyblock_gui:fast_travel/lotus_atoll/spawn_unlocked": {
+      "position": { "x": 124, "y": 275 }
+    },
+    "skyblock_gui:fast_travel/jerrys_workshop/spawn_unlocked": {
+      "position": { "x": -10, "y": 351 }
+    },
+    "skyblock_gui:fast_travel/island_browser": {
+      "position": { "x": 116, "y": 351 }
+    },
+    "skyblock_gui:fast_travel/advanced_mode/enabled": {
+      "position": { "x": 98, "y": 351 }
+    },
+    "skyblock_gui:fast_travel/advanced_mode/disabled": {
+      "position": { "x": 98, "y": 351 }
+    },
+    "skyblock_gui:generic/navigation/close": {
+      "position": { "x": 80, "y": 351 }
+    },
+    "skyblock_gui:generic/navigation/go_back": {
+      "position": { "x": 62, "y": 351 }
+    },
+    "skyblock_gui:generic/miscellaneous/filler": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler": {
+      "hidden": true
+    }
+  }
+}

@@ -215,21 +215,35 @@
         "type": "separator",
         "title": {
           "type": "translatable",
-          "translate": "eureka.config.tab.gui.skill_tree",
+          "translate": "eureka.config.tab.gui.menu",
           "bold": true
         },
         "description": ""
       },
       {
         "type": "boolean",
-        "id": "skill_tree.hotm",
+        "id": "menu.skill_tree.hotm",
         "title": {
           "type": "translatable",
-          "translate": "eureka.config.tab.gui.skill_tree.hotm"
+          "translate": "eureka.config.tab.gui.menu.hotm"
         },
         "description": {
           "type": "translatable",
-          "translate": "eureka.config.tab.gui.skill_tree.hotm.description",
+          "translate": "eureka.config.tab.gui.menu.hotm.description",
+          "color": "gray"
+        },
+        "default": true
+      },
+      {
+        "type": "boolean",
+        "id": "menu.fast_travel",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.gui.menu.fast_travel"
+        },
+        "description": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.gui.menu.fast_travel.description",
           "color": "gray"
         },
         "default": true

@@ -44,11 +44,14 @@
   "eureka.config.tab.block.environmental_props.rift.description": "Remodels Blood Effigies.\n ",
 
   "eureka.config.tab.gui": "GUI",
-  "eureka.config.tab.gui.skill_tree": "Skill Trees",
-  "eureka.config.tab.gui.skill_tree.hotm": "Heart of the Mountain",
-  "eureka.config.tab.gui.skill_tree.hotm.description": "Constellation themed perk tree.\n\n",
+  "eureka.config.tab.gui.menu": "Custom Menus",
+  "eureka.config.tab.gui.menu.hotm": "Heart of the Mountain",
+  "eureka.config.tab.gui.menu.hotm.description": "Constellation themed perk tree.\n\n",
 
-  "eureka.config.tab.gui.gui": "GUI",
+  "eureka.config.tab.gui.menu.fast_travel": "Fast Travel",
+  "eureka.config.tab.gui.menu.fast_travel.description": "Quick Warp menu.\n\n",
+
+  "eureka.config.tab.gui.gui": "GUI Buttons",
   "eureka.config.tab.gui.gui.player_stat": "Player Stats",
   "eureka.config.tab.gui.gui.player_stat.description": "Retextures buttons that represent player stats (x16) and player stat icons in text (8x)\n",
 

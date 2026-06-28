@@ -99,11 +99,20 @@
         }
       },
       {
-        "directory": "skill_tree.hotm",
+        "directory": "menu.skill_tree.hotm",
         "condition": {
           "condition": "catharsis:config",
           "pack": "eureka",
-          "id": "skill_tree.hotm",
+          "id": "menu.skill_tree.hotm",
+          "value": "on"
+        }
+      },
+      {
+        "directory": "menu.fast_travel",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "eureka",
+          "id": "menu.fast_travel",
           "value": "on"
         }
       },
