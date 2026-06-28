@@ -11,7 +11,7 @@
             "virtual_state": "eureka:hub/auction_house/inside/banner/top_l"
           },
           "condition": {
-            "type": "and",
+            "type": "all",
             "conditions": [
               {
                 "type": "relative",
@@ -33,7 +33,7 @@
             "virtual_state": "eureka:hub/auction_house/inside/banner/mid_l"
           },
           "condition": {
-            "type": "and",
+            "type": "all",
             "conditions": [
               {
                 "type": "relative",
@@ -60,7 +60,7 @@
             "virtual_state": "eureka:hub/auction_house/inside/banner/mid_2_l"
           },
           "condition": {
-            "type": "and",
+            "type": "all",
             "conditions": [
               {
                 "type": "relative",
@@ -105,7 +105,7 @@
             "virtual_state": "eureka:hub/auction_house/inside/banner/mid"
           },
           "condition": {
-            "type": "and",
+            "type": "all",
             "conditions": [
               {
                 "type": "relative",
@@ -142,7 +142,7 @@
             "virtual_state": "eureka:hub/auction_house/inside/banner/mid_2"
           },
           "condition": {
-            "type": "and",
+            "type": "all",
             "conditions": [
               {
                 "type": "relative",
@@ -170,7 +170,7 @@
             "virtual_state": "eureka:hub/auction_house/inside/banner/bottom"
           },
           "condition": {
-            "type": "and",
+            "type": "all",
             "conditions": [
               {
                 "type": "relative",
@@ -198,7 +198,7 @@
             "virtual_state": "eureka:hub/auction_house/inside/banner/top_r"
           },
           "condition": {
-            "type": "and",
+            "type": "all",
             "conditions": [
               {
                 "type": "relative",
@@ -220,7 +220,7 @@
             "virtual_state": "eureka:hub/auction_house/inside/banner/mid_r"
           },
           "condition": {
-            "type": "and",
+            "type": "all",
             "conditions": [
               {
                 "type": "relative",
@@ -247,7 +247,7 @@
             "virtual_state": "eureka:hub/auction_house/inside/banner/mid_2_r"
           },
           "condition": {
-            "type": "and",
+            "type": "all",
             "conditions": [
               {
                 "type": "relative",
@@ -285,7 +285,7 @@
             "virtual_state": "eureka:hub/auction_house/outside/banner/left/top_l"
           },
           "condition": {
-            "type": "and",
+            "type": "all",
             "conditions": [
               {
                 "type": "relative",
@@ -310,7 +310,7 @@
             "virtual_state": "eureka:hub/auction_house/outside/banner/left/mid_l"
           },
           "condition": {
-            "type": "and",
+            "type": "all",
             "conditions": [
               {
                 "type": "relative",
@@ -335,7 +335,7 @@
             "virtual_state": "eureka:hub/auction_house/outside/banner/left/top_r"
           },
           "condition": {
-            "type": "and",
+            "type": "all",
             "conditions": [
               {
                 "type": "relative",
@@ -360,7 +360,7 @@
             "virtual_state": "eureka:hub/auction_house/outside/banner/left/mid_r"
           },
           "condition": {
-            "type": "and",
+            "type": "all",
             "conditions": [
               {
                 "type": "relative",
@@ -385,7 +385,7 @@
             "virtual_state": "eureka:hub/auction_house/outside/banner/left/mid_2_r"
           },
           "condition": {
-            "type": "and",
+            "type": "all",
             "conditions": [
               {
                 "type": "relative",
@@ -410,7 +410,7 @@
             "virtual_state": "eureka:hub/auction_house/outside/banner/right/top_l"
           },
           "condition": {
-            "type": "and",
+            "type": "all",
             "conditions": [
               {
                 "type": "relative",
@@ -435,7 +435,7 @@
             "virtual_state": "eureka:hub/auction_house/outside/banner/right/mid_l"
           },
           "condition": {
-            "type": "and",
+            "type": "all",
             "conditions": [
               {
                 "type": "relative",
@@ -460,7 +460,7 @@
             "virtual_state": "eureka:hub/auction_house/outside/banner/right/mid_2_l"
           },
           "condition": {
-            "type": "and",
+            "type": "all",
             "conditions": [
               {
                 "type": "relative",
@@ -485,7 +485,7 @@
             "virtual_state": "eureka:hub/auction_house/outside/banner/right/top_r"
           },
           "condition": {
-            "type": "and",
+            "type": "all",
             "conditions": [
               {
                 "type": "relative",
@@ -510,7 +510,7 @@
             "virtual_state": "eureka:hub/auction_house/outside/banner/right/mid_r"
           },
           "condition": {
-            "type": "and",
+            "type": "all",
             "conditions": [
               {
                 "type": "relative",

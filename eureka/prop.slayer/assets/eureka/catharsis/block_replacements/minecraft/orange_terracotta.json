@@ -8,14 +8,14 @@
         "virtual_state": "eureka:generic/slayer/inferno_demonlord/fire_pillar_2"
       },
       "condition": {
-        "type": "and",
+        "type": "all",
         "conditions": [
           { "type": "in_island", "island": "crimson_isle" },
           {
-            "type": "or",
+            "type": "any",
             "conditions": [
               {
-                "type": "and",
+                "type": "all",
                 "conditions": [
                   {
                     "type": "relative",
@@ -44,7 +44,7 @@
                 ]
               },
               {
-                "type": "and",
+                "type": "all",
                 "conditions": [
                   {
                     "type": "relative",
@@ -90,10 +90,10 @@
                 "virtual_state": "eureka:generic/slayer/inferno_demonlord/fire_pillar_1"
               },
               "condition": {
-                "type": "or",
+                "type": "any",
                 "conditions": [
                   {
-                    "type": "and",
+                    "type": "all",
                     "conditions": [
                       {
                         "type": "relative",
@@ -122,7 +122,7 @@
                     ]
                   },
                   {
-                    "type": "and",
+                    "type": "all",
                     "conditions": [
                       {
                         "type": "relative",
