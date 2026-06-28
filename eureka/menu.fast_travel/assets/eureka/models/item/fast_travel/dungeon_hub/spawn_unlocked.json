@@ -1,0 +1,7 @@
+{
+  "parent": "eureka:item/generic_x4",
+  "textures": {
+    "layer0": "eureka:item/fast_travel/dungeon_hub/spawn_unlocked_shadow",
+    "layer1": "eureka:item/fast_travel/dungeon_hub/spawn_unlocked"
+  }
+}
