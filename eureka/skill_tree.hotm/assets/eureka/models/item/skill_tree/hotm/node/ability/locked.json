@@ -1,4 +1,0 @@
-{
-  "parent": "eureka:item/generic_x2",
-  "textures": { "layer0": "eureka:item/skill_tree/hotm/node/ability/locked" }
-}

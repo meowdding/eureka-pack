@@ -12,5 +12,19 @@
         }
       }
     }
+  },
+  "display": {
+    "name": "Pure Diamond",
+    "lore": [
+      {
+        "text": "Ore"
+      },
+      {
+        "text": ""
+      },
+      { "text": "Properties", "color": "white" },
+      { "text": " Breaking Power:§2 3", "color": "white" },
+      { "text": " Block Strength:§e 600", "color": "white" }
+    ]
   }
 }

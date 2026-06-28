@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": {
+      "model": "minecraft:block/polished_diorite"
+    }
+  },
+  "display": {
+    "name": "Titanium Ore",
+    "lore": [
+      {
+        "text": "Dwarven Metal"
+      },
+      {
+        "text": ""
+      },
+      { "text": "Properties", "color": "white" },
+      { "text": " Breaking Power:§2 5", "color": "white" },
+      { "text": " Block Strength:§e 2,000", "color": "white" }
+    ]
+  }
+}

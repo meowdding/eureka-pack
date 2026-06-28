@@ -1,9 +1,0 @@
-{
-  "type": "catharsis:per_area",
-  "entries": {
-    "catharsis:dwarven_mines/mithril": {
-      "type": "redirect",
-      "virtual_state": "eureka:mining_3/dwarven_mines/mithril_0"
-    }
-  }
-}

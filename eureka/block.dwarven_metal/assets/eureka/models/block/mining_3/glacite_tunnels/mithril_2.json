@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "eureka:block/mining_3/glacite_tunnels/mithril_2"
+  }
+}

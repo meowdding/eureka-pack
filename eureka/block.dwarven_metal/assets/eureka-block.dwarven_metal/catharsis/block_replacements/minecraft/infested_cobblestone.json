@@ -1,0 +1,9 @@
+{
+  "type": "catharsis:per_area",
+  "entries": {
+    "catharsis:glacite_tunnels/tungsten": {
+      "type": "redirect",
+      "virtual_state": "eureka:mining_3/glacite_tunnels/tungsten_0"
+    }
+  }
+}

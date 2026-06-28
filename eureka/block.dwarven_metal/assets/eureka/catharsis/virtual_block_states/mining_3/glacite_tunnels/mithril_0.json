@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": {
+      "model": "eureka:block/mining_3/glacite_tunnels/mithril_0"
+    }
+  },
+  "display": {
+    "name": "Scarce Mithril Ore",
+    "lore": [
+      {
+        "text": "Dwarven Metal"
+      },
+      {
+        "text": ""
+      },
+      { "text": "Properties", "color": "white" },
+      { "text": " Breaking Power:§2 4", "color": "white" },
+      { "text": " Block Strength:§e 500", "color": "white" }
+    ]
+  }
+}

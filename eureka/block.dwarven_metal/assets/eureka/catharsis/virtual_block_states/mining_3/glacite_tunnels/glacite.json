@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": {
+      "model": "minecraft:block/packed_ice"
+    }
+  },
+  "display": {
+    "name": "Glacite",
+    "lore": [
+      {
+        "text": "Dwarven Metal"
+      },
+      {
+        "text": ""
+      },
+      { "text": "Properties", "color": "white" },
+      { "text": " Breaking Power:§2 9", "color": "white" },
+      { "text": " Block Strength:§e 6,000", "color": "white" }
+    ]
+  }
+}

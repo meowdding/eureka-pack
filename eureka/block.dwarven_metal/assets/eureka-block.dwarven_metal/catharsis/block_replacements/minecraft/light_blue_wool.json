@@ -1,0 +1,13 @@
+{
+  "type": "catharsis:per_area",
+  "entries": {
+    "catharsis:dwarven_mines/mithril": {
+      "type": "redirect",
+      "virtual_state": "eureka:mining_3/dwarven_mines/mithril_2"
+    },
+    "catharsis:glacite_tunnels/mithril": {
+      "type": "redirect",
+      "virtual_state": "eureka:mining_3/glacite_tunnels/mithril_2"
+    }
+  }
+}

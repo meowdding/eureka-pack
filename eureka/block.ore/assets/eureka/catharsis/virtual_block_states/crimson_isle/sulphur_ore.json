@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "": {
+      "model": "minecraft:block/sulfur"
+    }
+  },
+  "display": {
+    "model": "minecraft:sulfur",
+    "name": "Sulphur Ore",
+    "lore": [
+      {
+        "text": "Ore"
+      },
+      {
+        "text": ""
+      },
+      { "text": "Properties", "color": "white" },
+      { "text": " Breaking Power:§2 5", "color": "white" },
+      { "text": " Block Strength:§e 800", "color": "white" }
+    ]
+  }
+}

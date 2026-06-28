@@ -12,5 +12,20 @@
         }
       }
     }
+  },
+  "display": {
+    "model": "minecraft:raw_iron_block",
+    "name": "Pure Iron",
+    "lore": [
+      {
+        "text": "Ore"
+      },
+      {
+        "text": ""
+      },
+      { "text": "Properties", "color": "white" },
+      { "text": " Breaking Power:§2 3", "color": "white" },
+      { "text": " Block Strength:§e 600", "color": "white" }
+    ]
   }
 }

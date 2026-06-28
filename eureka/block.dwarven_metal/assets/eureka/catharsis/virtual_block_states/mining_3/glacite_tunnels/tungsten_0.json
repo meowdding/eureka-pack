@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": {
+      "model": "minecraft:block/cobblestone"
+    }
+  },
+  "display": {
+    "name": "Tungsten",
+    "lore": [
+      {
+        "text": "Dwarven Metal"
+      },
+      {
+        "text": ""
+      },
+      { "text": "Properties", "color": "white" },
+      { "text": " Breaking Power:§2 9", "color": "white" },
+      { "text": " Block Strength:§e 5,600", "color": "white" }
+    ]
+  }
+}

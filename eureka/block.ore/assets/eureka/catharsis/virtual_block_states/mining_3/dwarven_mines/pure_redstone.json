@@ -8,9 +8,23 @@
     "minecraft:bedrock": {
       "variants": {
         "": {
-          "model": "eureka:block/mining_3/dwarven_mines/pure_diamond_spent"
+          "model": "eureka:block/mining_3/dwarven_mines/pure_redstone_spent"
         }
       }
     }
+  },
+  "display": {
+    "name": "Pure Redstone",
+    "lore": [
+      {
+        "text": "Ore"
+      },
+      {
+        "text": ""
+      },
+      { "text": "Properties", "color": "white" },
+      { "text": " Breaking Power:§2 3", "color": "white" },
+      { "text": " Block Strength:§e 600", "color": "white" }
+    ]
   }
 }

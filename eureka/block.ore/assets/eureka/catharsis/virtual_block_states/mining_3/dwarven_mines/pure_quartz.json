@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "": {
+      "model": "minecraft:block/quartz_block"
+    }
+  },
+  "display": {
+    "name": "Pure Quartz",
+    "lore": [
+      {
+        "text": "Ore"
+      },
+      {
+        "text": ""
+      },
+      { "text": "Properties", "color": "white" },
+      { "text": " Breaking Power:§2 3", "color": "white" },
+      { "text": " Block Strength:§e 600", "color": "white" }
+    ]
+  }
+}

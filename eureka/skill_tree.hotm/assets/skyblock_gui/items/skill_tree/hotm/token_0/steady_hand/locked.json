@@ -1,0 +1,22 @@
+{
+  "oversized_in_gui": true,
+  "model": {
+    "type": "composite",
+    "models": [
+      {
+        "type": "model",
+        "model": "eureka:item/skill_tree/hotm/token_0/node/locked"
+      },
+      {
+        "type": "model",
+        "model": "eureka:item/skill_tree/hotm/token_0/branch/locked/8_4",
+        "transformation": {
+          "translation": [-0.5, -0.5, 0],
+          "left_rotation": [0, 0, 0, 1],
+          "right_rotation": [0, 0, 0, 1],
+          "scale": [2, 2, 1]
+        }
+      }
+    ]
+  }
+}

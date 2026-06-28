@@ -1,0 +1,8 @@
+{
+  "type": "conditional",
+  "condition": { "type": "catharsis:in_island", "island": "crimson_isle" },
+  "definition": {
+    "type": "redirect",
+    "virtual_state": "eureka:crimson_isle/sulphur_ore"
+  }
+}
