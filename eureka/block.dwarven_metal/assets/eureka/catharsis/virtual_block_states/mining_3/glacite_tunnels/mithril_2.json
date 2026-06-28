@@ -4,18 +4,59 @@
       "model": "eureka:block/mining_3/glacite_tunnels/mithril_2"
     }
   },
+  "overrides": {
+    "minecraft:bedrock": {
+      "variants": {
+        "": {
+          "model": "minecraft:block/bedrock"
+        }
+      },
+      "display": {
+        "model": "minecraft:bedrock",
+        "name": { "text": "Spent Dense Mithril Ore", "color": "gold" },
+        "lore": [
+          {
+            "text": "Ore"
+          },
+          {
+            "text": ""
+          },
+          { "text": "Properties", "color": "white" },
+          {
+            "text": " Breaking Power: ",
+            "color": "white",
+            "extra": [{ "text": "4", "color": "green" }]
+          },
+          {
+            "text": " Block Strength: ",
+            "color": "white",
+            "extra": [{ "text": "1,500", "color": "yellow" }]
+          }
+        ]
+      }
+    }
+  },
   "display": {
-    "name": "Dense Mithril Ore",
+    "model": "eureka-block.dwarven_metal:glacite_tunnels-mithril_2",
+    "name": { "text": "Dense Mithril Ore", "color": "gold" },
     "lore": [
       {
-        "text": "Dwarven Metal"
+        "text": "Ore"
       },
       {
         "text": ""
       },
       { "text": "Properties", "color": "white" },
-      { "text": " Breaking Power:§2 4", "color": "white" },
-      { "text": " Block Strength:§e 1,500", "color": "white" }
+      {
+        "text": " Breaking Power: ",
+        "color": "white",
+        "extra": [{ "text": "4", "color": "green" }]
+      },
+      {
+        "text": " Block Strength: ",
+        "color": "white",
+        "extra": [{ "text": "1,500", "color": "yellow" }]
+      }
     ]
   }
 }

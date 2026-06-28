@@ -6,7 +6,7 @@
   },
   "display": {
     "model": "minecraft:sulfur",
-    "name": "Sulphur Ore",
+    "name": { "text": "Sulphur Ore", "color": "gold" },
     "lore": [
       {
         "text": "Ore"
@@ -15,8 +15,16 @@
         "text": ""
       },
       { "text": "Properties", "color": "white" },
-      { "text": " Breaking Power:§2 5", "color": "white" },
-      { "text": " Block Strength:§e 800", "color": "white" }
+      {
+        "text": " Breaking Power: ",
+        "color": "white",
+        "extra": [{ "text": "5", "color": "green" }]
+      },
+      {
+        "text": " Block Strength: ",
+        "color": "white",
+        "extra": [{ "text": "800", "color": "yellow" }]
+      }
     ]
   }
 }

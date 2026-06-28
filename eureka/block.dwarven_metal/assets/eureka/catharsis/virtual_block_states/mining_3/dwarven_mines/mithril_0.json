@@ -4,18 +4,59 @@
       "model": "eureka:block/mining_3/dwarven_mines/mithril_0"
     }
   },
+  "overrides": {
+    "minecraft:bedrock": {
+      "variants": {
+        "": {
+          "model": "minecraft:block/bedrock"
+        }
+      },
+      "display": {
+        "model": "minecraft:bedrock",
+        "name": { "text": "Spent Scarce Mithril Ore", "color": "gold" },
+        "lore": [
+          {
+            "text": "Ore"
+          },
+          {
+            "text": ""
+          },
+          { "text": "Properties", "color": "white" },
+          {
+            "text": " Breaking Power: ",
+            "color": "white",
+            "extra": [{ "text": "4", "color": "green" }]
+          },
+          {
+            "text": " Block Strength: ",
+            "color": "white",
+            "extra": [{ "text": "500", "color": "yellow" }]
+          }
+        ]
+      }
+    }
+  },
   "display": {
-    "name": "Scarce Mithril Ore",
+    "model": "eureka-block.dwarven_metal:dwarven_mines-mithril_0",
+    "name": { "text": "Scarce Mithril Ore", "color": "gold" },
     "lore": [
       {
-        "text": "Dwarven Metal"
+        "text": "Ore"
       },
       {
         "text": ""
       },
       { "text": "Properties", "color": "white" },
-      { "text": " Breaking Power:§2 4", "color": "white" },
-      { "text": " Block Strength:§e 500", "color": "white" }
+      {
+        "text": " Breaking Power: ",
+        "color": "white",
+        "extra": [{ "text": "4", "color": "green" }]
+      },
+      {
+        "text": " Block Strength: ",
+        "color": "white",
+        "extra": [{ "text": "500", "color": "yellow" }]
+      }
     ]
   }
 }

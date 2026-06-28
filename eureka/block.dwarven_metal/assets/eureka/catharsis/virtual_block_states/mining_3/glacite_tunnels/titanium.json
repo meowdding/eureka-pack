@@ -4,18 +4,59 @@
       "model": "minecraft:block/polished_diorite"
     }
   },
+  "overrides": {
+    "minecraft:bedrock": {
+      "variants": {
+        "": {
+          "model": "minecraft:block/bedrock"
+        }
+      },
+      "display": {
+        "model": "minecraft:bedrock",
+        "name": { "text": "Spent Titanium Ore", "color": "gold" },
+        "lore": [
+          {
+            "text": "Ore"
+          },
+          {
+            "text": ""
+          },
+          { "text": "Properties", "color": "white" },
+          {
+            "text": " Breaking Power: ",
+            "color": "white",
+            "extra": [{ "text": "5", "color": "green" }]
+          },
+          {
+            "text": " Block Strength: ",
+            "color": "white",
+            "extra": [{ "text": "2,000", "color": "yellow" }]
+          }
+        ]
+      }
+    }
+  },
   "display": {
-    "name": "Titanium Ore",
+    "model": "minecraft:polished_diorite",
+    "name": { "text": "Titanium Ore", "color": "gold" },
     "lore": [
       {
-        "text": "Dwarven Metal"
+        "text": "Ore"
       },
       {
         "text": ""
       },
       { "text": "Properties", "color": "white" },
-      { "text": " Breaking Power:§2 5", "color": "white" },
-      { "text": " Block Strength:§e 2,000", "color": "white" }
+      {
+        "text": " Breaking Power: ",
+        "color": "white",
+        "extra": [{ "text": "5", "color": "green" }]
+      },
+      {
+        "text": " Block Strength: ",
+        "color": "white",
+        "extra": [{ "text": "2,000", "color": "yellow" }]
+      }
     ]
   }
 }

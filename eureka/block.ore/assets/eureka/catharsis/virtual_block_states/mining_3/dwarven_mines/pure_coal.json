@@ -4,9 +4,41 @@
       "model": "minecraft:block/coal_block"
     }
   },
+  "overrides": {
+    "minecraft:bedrock": {
+      "variants": {
+        "": {
+          "model": "minecraft:block/bedrock"
+        }
+      },
+      "display": {
+        "model": "minecraft:bedrock",
+        "name": { "text": "Spent Pure Coal", "color": "gold" },
+        "lore": [
+          {
+            "text": "Ore"
+          },
+          {
+            "text": ""
+          },
+          { "text": "Properties", "color": "white" },
+          {
+            "text": " Breaking Power: ",
+            "color": "white",
+            "extra": [{ "text": "3", "color": "green" }]
+          },
+          {
+            "text": " Block Strength: ",
+            "color": "white",
+            "extra": [{ "text": "600", "color": "yellow" }]
+          }
+        ]
+      }
+    }
+  },
   "display": {
     "model": "minecraft:coal_block",
-    "name": "Pure Coal",
+    "name": { "text": "Pure Coal", "color": "gold" },
     "lore": [
       {
         "text": "Ore"
@@ -15,8 +47,16 @@
         "text": ""
       },
       { "text": "Properties", "color": "white" },
-      { "text": " Breaking Power:§2 3", "color": "white" },
-      { "text": " Block Strength:§e 600", "color": "white" }
+      {
+        "text": " Breaking Power: ",
+        "color": "white",
+        "extra": [{ "text": "3", "color": "green" }]
+      },
+      {
+        "text": " Block Strength: ",
+        "color": "white",
+        "extra": [{ "text": "600", "color": "yellow" }]
+      }
     ]
   }
 }

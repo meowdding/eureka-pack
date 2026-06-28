@@ -5,17 +5,26 @@
     }
   },
   "display": {
-    "name": "Glacite",
+    "model": "minecraft:packed_ice",
+    "name": { "text": "Glacite", "color": "gold" },
     "lore": [
       {
-        "text": "Dwarven Metal"
+        "text": "Ore"
       },
       {
         "text": ""
       },
       { "text": "Properties", "color": "white" },
-      { "text": " Breaking Power:§2 9", "color": "white" },
-      { "text": " Block Strength:§e 6,000", "color": "white" }
+      {
+        "text": " Breaking Power: ",
+        "color": "white",
+        "extra": [{ "text": "9", "color": "green" }]
+      },
+      {
+        "text": " Block Strength: ",
+        "color": "white",
+        "extra": [{ "text": "6,000", "color": "yellow" }]
+      }
     ]
   }
 }

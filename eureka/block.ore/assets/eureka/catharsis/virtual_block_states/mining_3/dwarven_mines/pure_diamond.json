@@ -10,11 +10,35 @@
         "": {
           "model": "eureka:block/mining_3/dwarven_mines/pure_diamond_spent"
         }
+      },
+      "display": {
+        "model": "eureka-block.ore:pure_diamond_spent",
+        "name": { "text": "Spent Pure Diamond", "color": "gold" },
+        "lore": [
+          {
+            "text": "Ore"
+          },
+          {
+            "text": ""
+          },
+          { "text": "Properties", "color": "white" },
+          {
+            "text": " Breaking Power: ",
+            "color": "white",
+            "extra": [{ "text": "3", "color": "green" }]
+          },
+          {
+            "text": " Block Strength: ",
+            "color": "white",
+            "extra": [{ "text": "600", "color": "yellow" }]
+          }
+        ]
       }
     }
   },
   "display": {
-    "name": "Pure Diamond",
+    "model": "eureka-block.ore:pure_diamond",
+    "name": { "text": "Pure Diamond", "color": "gold" },
     "lore": [
       {
         "text": "Ore"
@@ -23,8 +47,16 @@
         "text": ""
       },
       { "text": "Properties", "color": "white" },
-      { "text": " Breaking Power:§2 3", "color": "white" },
-      { "text": " Block Strength:§e 600", "color": "white" }
+      {
+        "text": " Breaking Power: ",
+        "color": "white",
+        "extra": [{ "text": "3", "color": "green" }]
+      },
+      {
+        "text": " Block Strength: ",
+        "color": "white",
+        "extra": [{ "text": "600", "color": "yellow" }]
+      }
     ]
   }
 }

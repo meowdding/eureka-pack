@@ -4,8 +4,41 @@
       "model": "minecraft:block/lapis_block"
     }
   },
+  "overrides": {
+    "minecraft:bedrock": {
+      "variants": {
+        "": {
+          "model": "minecraft:block/bedrock"
+        }
+      },
+      "display": {
+        "model": "minecraft:bedrock",
+        "name": { "text": "Spent Pure Lapis", "color": "gold" },
+        "lore": [
+          {
+            "text": "Ore"
+          },
+          {
+            "text": ""
+          },
+          { "text": "Properties", "color": "white" },
+          {
+            "text": " Breaking Power: ",
+            "color": "white",
+            "extra": [{ "text": "3", "color": "green" }]
+          },
+          {
+            "text": " Block Strength: ",
+            "color": "white",
+            "extra": [{ "text": "600", "color": "yellow" }]
+          }
+        ]
+      }
+    }
+  },
   "display": {
-    "name": "Pure Lapis",
+    "model": "minecraft:lapis_block",
+    "name": { "text": "Pure Lapis", "color": "gold" },
     "lore": [
       {
         "text": "Ore"
@@ -14,8 +47,16 @@
         "text": ""
       },
       { "text": "Properties", "color": "white" },
-      { "text": " Breaking Power:§2 3", "color": "white" },
-      { "text": " Block Strength:§e 600", "color": "white" }
+      {
+        "text": " Breaking Power: ",
+        "color": "white",
+        "extra": [{ "text": "3", "color": "green" }]
+      },
+      {
+        "text": " Block Strength: ",
+        "color": "white",
+        "extra": [{ "text": "600", "color": "yellow" }]
+      }
     ]
   }
 }
