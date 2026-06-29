@@ -6,14 +6,16 @@
 
   "eureka.config.tab.info.about_eureka": "About Eureka",
 
-  "eureka.config.tab.info.about_eureka.version": "Version:\n",
-  "eureka.config.tab.info.about_eureka.version.number": "alpha-v0.0.6",
+  "eureka.config.tab.info.about_eureka.version": "Version:",
+  "eureka.config.tab.info.about_eureka.version.number": "alpha-v0.0.6\n",
 
-  "eureka.config.tab.info.about_eureka.dependencies": "Dependencies:\n",
-  "eureka.config.tab.info.about_eureka.dependencies.catharsis": "Catharsis 1.0.0-beta.18",
+  "eureka.config.tab.info.about_eureka.dependencies": "Dependencies:",
+  "eureka.config.tab.info.about_eureka.dependencies.catharsis": "Catharsis 1.0.0-beta.19\n",
 
-  "eureka.config.tab.info.about_eureka.license": "License:\n",
-  "eureka.config.tab.info.about_eureka.license.kind": "All Rights Reserved",
+  "eureka.config.tab.info.about_eureka.license": "License:",
+  "eureka.config.tab.info.about_eureka.license.kind": "All Rights Reserved\n",
+
+  "eureka.config.tab.info.credits": "Credits",
 
   "eureka.config.tab.item": "Items",
 

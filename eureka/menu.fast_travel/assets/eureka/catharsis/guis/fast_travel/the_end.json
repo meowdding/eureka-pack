@@ -1,0 +1,18 @@
+{
+  "target": {
+    "title": "The End Warps",
+    "type": "catharsis:title"
+  },
+  "layout": [
+    {
+      "id": "eureka:generic/miscellaneous/filler",
+      "target": {
+        "type": "catharsis:slot",
+        "slot": {
+          "min": 36,
+          "max": 71
+        }
+      }
+    }
+  ]
+}

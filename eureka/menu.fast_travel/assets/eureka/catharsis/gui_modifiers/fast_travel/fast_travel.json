@@ -4,9 +4,10 @@
     "definition": "catharsis:fast_travel/fast_travel"
   },
   "overrideBackground": true,
+  "overrideLabels": true,
   "bounds": {
-    "width": 1664,
-    "height": 896
+    "width": 832,
+    "height": 448
   },
   "elements": [
     {

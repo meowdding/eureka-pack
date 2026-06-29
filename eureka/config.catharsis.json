@@ -12,51 +12,56 @@
           "type": "translatable",
           "translate": "eureka.config.tab.info.about_eureka",
           "bold": true
-        },
-        "description": ""
+        }
       },
       {
         "type": "information",
-        "title": "",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.info.about_eureka.version",
+          "color": "white",
+          "bold": true
+        },
         "description": {
-          "text": "",
-          "extra": [
-            {
-              "type": "translatable",
-              "translate": "eureka.config.tab.info.about_eureka.version",
-              "color": "white",
-              "bold": true
-            },
-            {
-              "type": "translatable",
-              "translate": "eureka.config.tab.info.about_eureka.version.number",
-              "color": "gray"
-            },
-            { "text": "\n\n" },
-            {
-              "type": "translatable",
-              "translate": "eureka.config.tab.info.about_eureka.dependencies",
-              "color": "white",
-              "bold": true
-            },
-            {
-              "type": "translatable",
-              "translate": "eureka.config.tab.info.about_eureka.dependencies.catharsis",
-              "color": "gray"
-            },
-            { "text": "\n\n" },
-            {
-              "type": "translatable",
-              "translate": "eureka.config.tab.info.about_eureka.license",
-              "color": "white",
-              "bold": true
-            },
-            {
-              "type": "translatable",
-              "translate": "eureka.config.tab.info.about_eureka.license.kind",
-              "color": "gray"
-            }
-          ]
+          "type": "translatable",
+          "translate": "eureka.config.tab.info.about_eureka.version.number",
+          "color": "gray"
+        }
+      },
+      {
+        "type": "information",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.info.about_eureka.dependencies",
+          "color": "white",
+          "bold": true
+        },
+        "description": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.info.about_eureka.dependencies.catharsis",
+          "color": "gray"
+        }
+      },
+      {
+        "type": "information",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.info.about_eureka.license",
+          "color": "white",
+          "bold": true
+        },
+        "description": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.info.about_eureka.license.kind",
+          "color": "gray"
+        }
+      },
+      {
+        "type": "separator",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.info.credits",
+          "bold": true
         }
       }
     ]
@@ -74,8 +79,7 @@
           "type": "translatable",
           "translate": "eureka.config.tab.item.fishing_rod",
           "bold": true
-        },
-        "description": ""
+        }
       },
       {
         "type": "boolean",
