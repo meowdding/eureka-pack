@@ -34,10 +34,10 @@
       "position": { "x": -210, "y": 92 }
     },
     "skyblock_gui:generic/navigation/close": {
-      "position": { "x": 80, "y": 351 }
+      "position": { "x": 80, "y": 333 }
     },
     "skyblock_gui:generic/navigation/go_back": {
-      "position": { "x": 62, "y": 351 }
+      "position": { "x": 62, "y": 333 }
     },
     "skyblock_gui:generic/miscellaneous/filler": {
       "hidden": true

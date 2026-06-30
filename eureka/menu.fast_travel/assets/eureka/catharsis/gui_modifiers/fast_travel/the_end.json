@@ -26,15 +26,57 @@
       }
     }
   ],
+  "widgets": [
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/fast_travel/see",
+      "hovered": "eureka:gui_modifiers/fast_travel/see",
+      "interaction": { "type": "catharsis:slot", "slot": 11 },
+      "tooltip": { "type": "catharsis:slot", "slot": 11 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 0,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": 0,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/fast_travel/go_back",
+      "hovered": "eureka:gui_modifiers/fast_travel/go_back",
+      "interaction": { "type": "catharsis:slot", "slot": 30 },
+      "tooltip": { "type": "catharsis:slot", "slot": 30 },
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    }
+  ],
   "slots": {
     "skyblock_gui:fast_travel/the_end/spawn_unlocked": {
       "position": { "x": -79, "y": 64 }
     },
+    "skyblock_gui:fast_travel/the_end/nest_unlocked": {
+      "position": { "x": -120, "y": 86 }
+    },
+    "skyblock_gui:fast_travel/the_end/sepulture_unlocked": {
+      "position": { "x": -100, "y": 30 }
+    },
     "skyblock_gui:generic/navigation/close": {
-      "position": { "x": 80, "y": 351 }
+      "position": { "x": 80, "y": 333 }
     },
     "skyblock_gui:generic/navigation/go_back": {
-      "position": { "x": 62, "y": 351 }
+      "position": { "x": 62, "y": 333 }
     },
     "skyblock_gui:generic/miscellaneous/filler": {
       "hidden": true

@@ -52,10 +52,10 @@
       "position": { "x": 170, "y": 126 }
     },
     "skyblock_gui:fast_travel/dwarven_mines/spawn_unlocked": {
-      "position": { "x": 200, "y": 100 }
+      "position": { "x": 190, "y": 135 }
     },
     "skyblock_gui:fast_travel/crystal_hollows/entrance_unlocked": {
-      "position": { "x": 202, "y": 141 }
+      "position": { "x": 197, "y": 150 }
     },
     "skyblock_gui:fast_travel/spiders_den/spawn_unlocked": {
       "position": { "x": 8, "y": 150 }
