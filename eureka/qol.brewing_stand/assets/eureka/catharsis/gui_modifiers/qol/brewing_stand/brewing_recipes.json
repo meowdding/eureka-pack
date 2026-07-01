@@ -1,0 +1,251 @@
+{
+  "target": {
+    "type": "catharsis:definition",
+    "definition": "eureka:qol/brewing_stand"
+  },
+  "bounds": {
+    "width": 176,
+    "height": 221
+  },
+  "elements": [
+    {
+      "type": "catharsis:text",
+      "text": {
+        "text": "Brewing Recipes",
+        "shadow_color": [1, 1, 1, 0]
+      },
+      "color": 4282400832,
+      "x": {
+        "offset": -192,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 6,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/qol/brewing_stand/plate",
+      "layer": "BACKGROUND",
+      "width": 176,
+      "height": 221,
+      "x": {
+        "offset": -200,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 0,
+        "alignment": "START"
+      }
+    }
+  ],
+  "widgets": [
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/qol/brewing_stand/absorption_potion",
+      "hovered": "eureka:gui_modifiers/qol/brewing_stand/absorption_potion",
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "",
+            "extra": [
+              { "text": "Absorption I/" },
+              { "text": "III/", "color": "green" },
+              { "text": "V ", "color": "blue" },
+              { "text": "Potion" }
+            ]
+          },
+          {
+            "text": "",
+            "extra": [
+              { "text": "Grants ", "color": "gray" },
+              { "text": "+20/60/100  Absorption", "color": "gold" },
+              { "text": "." }
+            ]
+          },
+          { "text": "" },
+          {
+            "text": "",
+            "extra": [
+              { "text": "I - " },
+              {
+                "atlas": "minecraft:items",
+                "sprite": "item/gold_ingot"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "extra": [
+              { "text": "III - Ench. ", "color": "green" },
+              {
+                "atlas": "minecraft:items",
+                "sprite": "item/gold_ingot"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "extra": [
+              { "text": "V - Ench. ", "color": "blue" },
+              {
+                "atlas": "minecraft:blocks",
+                "sprite": "block/gold_block"
+              }
+            ]
+          }
+        ]
+      },
+      "interaction": {
+        "type": "catharsis:link",
+        "url": "https://hypixelskyblock.minecraft.wiki/w/Absorption_Potion"
+      },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -192,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 18,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/qol/brewing_stand/adrenaline_potion",
+      "hovered": "eureka:gui_modifiers/qol/brewing_stand/adrenaline_potion",
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "",
+            "extra": [
+              { "text": "Adrenaline I/" },
+              { "text": "III/", "color": "green" },
+              { "text": "V ", "color": "blue" },
+              { "text": "Potion" }
+            ]
+          },
+          {
+            "text": "",
+            "extra": [
+              { "text": "Grants ", "color": "gray" },
+              { "text": "+20/60/100  Absorption", "color": "gold" }
+            ]
+          },
+          {
+            "text": "",
+            "extra": [
+              { "text": "and ", "color": "gray" },
+              { "text": "+5/15/25  Speed." }
+            ]
+          },
+          { "text": "" },
+          {
+            "text": "",
+            "extra": [
+              { "text": "I - " },
+              {
+                "atlas": "minecraft:items",
+                "sprite": "item/cocoa_beans"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "extra": [
+              { "text": "III - Ench. ", "color": "green" },
+              {
+                "atlas": "minecraft:items",
+                "sprite": "item/cocoa_beans"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "extra": [
+              { "text": "V - Ench. ", "color": "blue" },
+              {
+                "atlas": "minecraft:items",
+                "sprite": "item/cookie"
+              }
+            ]
+          }
+        ]
+      },
+      "interaction": {
+        "type": "catharsis:link",
+        "url": "https://hypixelskyblock.minecraft.wiki/w/Adrenaline_Potion"
+      },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -174,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 18,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/qol/brewing_stand/agility_potion",
+      "hovered": "eureka:gui_modifiers/qol/brewing_stand/agility_potion",
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "Agility I Potion"
+          },
+          {
+            "text": "",
+            "extra": [
+              { "text": "Grants ", "color": "gray" },
+              { "text": "+10  Speed " },
+              { "text": "and", "color": "gray" }
+            ]
+          },
+          { "text": "increases the chance for mob", "color": "gray" },
+          {
+            "text": "",
+            "extra": [
+              { "text": "attacks to miss by ", "color": "gray" },
+              { "text": "10%", "color": "green" },
+              { "text": ".", "color": "gray" }
+            ]
+          },
+          { "text": "" },
+          {
+            "text": "",
+            "extra": [
+              { "text": "I - Ench. " },
+              {
+                "atlas": "minecraft:items",
+                "sprite": "item/cake"
+              }
+            ]
+          }
+        ]
+      },
+      "interaction": {
+        "type": "catharsis:link",
+        "url": "https://hypixelskyblock.minecraft.wiki/w/Agility_Potion"
+      },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -156,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 18,
+        "alignment": "START"
+      }
+    }
+  ],
+  "slots": {}
+}

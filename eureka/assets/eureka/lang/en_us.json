@@ -53,7 +53,11 @@
   "eureka.config.tab.gui.menu.fast_travel": "Fast Travel",
   "eureka.config.tab.gui.menu.fast_travel.description": "Quick Warp menu.\n\n",
 
-  "eureka.config.tab.gui.gui": "GUI Buttons",
+  "eureka.config.tab.gui.menu.filler": "Menu Filler",
+  "eureka.config.tab.gui.menu.filler.description": "Makes black stained glass panes in menus the same color as the container and connects them seamlessly.\n\n",
+  "eureka.config.tab.gui.menu.filler.hidden": "Note: hiding filler may only benefits transparent Resource Packs with translucent GUIs.\n\n",
+
+  "eureka.config.tab.gui.gui": "Iconography",
   "eureka.config.tab.gui.gui.player_stat": "Player Stats",
   "eureka.config.tab.gui.gui.player_stat.description": "Retextures buttons that represent player stats (x16) and player stat icons in text (8x)\n",
 
@@ -85,8 +89,15 @@
   "eureka.config.tab.entity.model.combat_1": "Spider's Den",
   "eureka.config.tab.entity.model.combat_1.description": "Rain Slimes & Toxic Rain Slimes.\n",
 
+  "eureka.config.tab.qol": "QoL",
+  "eureka.config.tab.qol.guide": "Guides",
+
+  "eureka.config.tab.qol.guide.brewing_stand": "Brewing Recipes",
+  "eureka.config.tab.qol.guide.brewing_stand.description": "When in a Brewing Stand Menu, a side panel will appearing showing all potion recipes!",
+
   "eureka.config.tab.accessibility": "Accessibility",
   "eureka.config.tab.accessibility.gui": "GUI",
+  "eureka.config.tab.accessibility.gui.high_contrast": "High Contrast GUIs",
 
   "eureka.tooltip.separator.gemstones": "\uE000",
   "eureka.tooltip.separator.stats": "\uE000",

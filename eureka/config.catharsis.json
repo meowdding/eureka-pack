@@ -253,6 +253,66 @@
         "default": true
       },
       {
+        "type": "dropdown",
+        "id": "menu.filler",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.gui.menu.filler"
+        },
+        "descriptions": {
+          "off": [
+            {
+              "type": "translatable",
+              "translate": "eureka.config.tab.gui.menu.filler.description",
+              "color": "gray"
+            }
+          ],
+          "on": [
+            {
+              "type": "translatable",
+              "translate": "eureka.config.tab.gui.menu.filler.description",
+              "color": "gray"
+            }
+          ],
+          "hidden": [
+            {
+              "type": "translatable",
+              "translate": "eureka.config.tab.gui.menu.filler.description",
+              "color": "gray"
+            },
+            {
+              "type": "translatable",
+              "translate": "eureka.config.tab.gui.menu.filler.hidden",
+              "color": "red"
+            }
+          ]
+        },
+        "options": [
+          {
+            "value": "off",
+            "text": {
+              "type": "translatable",
+              "translate": "options.off"
+            }
+          },
+          {
+            "value": "on",
+            "text": {
+              "type": "translatable",
+              "translate": "options.on"
+            },
+            "default": true
+          },
+          {
+            "value": "hidden",
+            "text": {
+              "type": "translatable",
+              "translate": "options.hidden"
+            }
+          }
+        ]
+      },
+      {
         "type": "separator",
         "title": {
           "type": "translatable",
@@ -420,6 +480,38 @@
     "type": "tab",
     "title": {
       "type": "translatable",
+      "translate": "eureka.config.tab.qol"
+    },
+    "options": [
+      {
+        "type": "separator",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.qol.guide",
+          "bold": true
+        },
+        "description": ""
+      },
+      {
+        "type": "boolean",
+        "id": "qol.brewing_stand",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.qol.guide.brewing_stand"
+        },
+        "description": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.qol.guide.brewing_stand.description",
+          "color": "gray"
+        },
+        "default": true
+      }
+    ]
+  },
+  {
+    "type": "tab",
+    "title": {
+      "type": "translatable",
       "translate": "eureka.config.tab.accessibility"
     },
     "options": [
@@ -434,8 +526,12 @@
       },
       {
         "type": "boolean",
-        "id": "accessibility.highcontrast",
-        "title": "High Contrast GUIs",
+        "id": "accessibility.high_contrast",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.accessibility.gui.high_contrast",
+          "bold": true
+        },
         "description": "",
         "default": false
       }

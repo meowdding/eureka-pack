@@ -117,6 +117,24 @@
         }
       },
       {
+        "directory": "menu.filler",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "eureka",
+          "id": "menu.filler",
+          "value": "on"
+        }
+      },
+      {
+        "directory": "menu.filler.hidden",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "eureka",
+          "id": "menu.filler",
+          "value": "hidden"
+        }
+      },
+      {
         "directory": "gui.stat",
         "condition": {
           "condition": "catharsis:config",
@@ -186,6 +204,14 @@
           "condition": "catharsis:config",
           "pack": "eureka",
           "id": "entity.combat_1"
+        }
+      },
+      {
+        "directory": "qol.brewing_stand",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "eureka",
+          "id": "qol.brewing_stand"
         }
       },
       {

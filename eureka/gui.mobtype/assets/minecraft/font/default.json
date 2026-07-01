@@ -1,0 +1,249 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "eureka:font/stat/combat/attack_speed.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "eureka:font/stat/combat/ability_damage.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "eureka:font/stat/combat/intelligence.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "eureka:font/stat/rift/mana_regen.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "eureka:font/stat/mining/breaking_power.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "eureka:font/stat/miscellaneous/cold_resistance.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "eureka:font/stat/combat/defense.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "eureka:font/stat/fishing/double_hook_chance.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "eureka:font/stat/fishing/fishing_speed.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "eureka:font/stat/combat/strength.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "eureka:font/stat/mining/gemstone_spread.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "eureka:font/stat/combat/health_regen.png",
+      "ascent": 6,
+      "height": 6,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "eureka:font/stat/miscellaneous/heat_resistance.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "eureka:font/stat/miscellaneous/pet_luck.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "eureka:font/stat/mining/mining_speed.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "eureka:font/stat/mining/mining_spread.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "eureka:font/stat/miscellaneous/magic_find.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "eureka:font/stat/miscellaneous/pressure_resistance.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "eureka:font/stat/miscellaneous/respiration.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "eureka:font/stat/rift/hearts.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "eureka:font/stat/miscellaneous/speed.png",
+      "ascent": 6,
+      "height": 6,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "eureka:font/stat/combat/true_defense.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "eureka:font/stat/combat/vitality.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "eureka:font/stat/hunting/pull.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "eureka:font/stat/wisdom/wisdom.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": ["☯"]
+    },
+    {
+      "type": "bitmap",
+      "file": "eureka:font/mobtype/animal.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "eureka:font/mobtype/arthropod.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "eureka:font/mobtype/construct.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "eureka:font/mobtype/frozen.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "eureka:font/mobtype/glacial.png",
+      "ascent": 7,
+      "height": 7,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "eureka:font/mobtype/humanoid.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "eureka:font/mobtype/infernal.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "eureka:font/mobtype/magmatic.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "eureka:font/mobtype/shielded.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "eureka:font/mobtype/spooky.png",
+      "ascent": 8,
+      "height": 8,
+      "chars": [""]
+    }
+  ]
+}
