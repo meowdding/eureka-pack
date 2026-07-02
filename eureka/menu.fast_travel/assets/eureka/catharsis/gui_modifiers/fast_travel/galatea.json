@@ -41,6 +41,42 @@
       }
     }
   ],
+  "widgets": [
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/fast_travel/go_back",
+      "hovered": "eureka:gui_modifiers/fast_travel/go_back",
+      "interaction": { "type": "catharsis:slot", "slot": 30 },
+      "tooltip": { "type": "catharsis:slot", "slot": 30 },
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/fast_travel/see",
+      "hovered": "eureka:gui_modifiers/fast_travel/see",
+      "interaction": { "type": "catharsis:slot", "slot": 12 },
+      "tooltip": { "type": "catharsis:slot", "slot": 12 },
+      "width": 18,
+      "height": 18,
+      "x": {
+        "offset": -200,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": 58,
+        "alignment": "CENTER"
+      }
+    }
+  ],
   "slots": {
     "skyblock_gui:fast_travel/galatea/spawn_unlocked": {
       "position": { "x": -176, "y": 92 }

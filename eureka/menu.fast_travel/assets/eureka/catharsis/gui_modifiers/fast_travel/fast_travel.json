@@ -24,6 +24,82 @@
         "offset": -224,
         "alignment": "CENTER"
       }
+    },
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/fast_travel/galatea",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/galatea/spawn_unlocked"
+      },
+      "layer": "FOREGROUND",
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/fast_travel/the_end",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/the_end/spawn_unlocked"
+      },
+      "layer": "FOREGROUND",
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/fast_travel/the_park",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/park/spawn_unlocked"
+      },
+      "layer": "FOREGROUND",
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    }
+  ],
+  "widgets": [
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/fast_travel/see",
+      "hovered": "eureka:gui_modifiers/fast_travel/see",
+      "interaction": { "type": "catharsis:slot", "slot": 30 },
+      "tooltip": { "type": "catharsis:slot", "slot": 30 },
+      "width": 40,
+      "height": 40,
+      "x": {
+        "offset": -200,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": 308,
+        "alignment": "CENTER"
+      }
     }
   ],
   "slots": {
