@@ -11,7 +11,7 @@
     {
       "type": "catharsis:text",
       "text": {
-        "text": "Brewing Recipes",
+        "text": "Buffs",
         "shadow_color": [1, 1, 1, 0]
       },
       "color": 4282400832,
@@ -21,6 +21,38 @@
       },
       "y": {
         "offset": 6,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:text",
+      "text": {
+        "text": "Debuffs",
+        "shadow_color": [1, 1, 1, 0]
+      },
+      "color": 4282400832,
+      "x": {
+        "offset": -192,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 74,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:text",
+      "text": {
+        "text": "Modifiers",
+        "shadow_color": [1, 1, 1, 0]
+      },
+      "color": 4282400832,
+      "x": {
+        "offset": -192,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 105,
         "alignment": "START"
       }
     },
@@ -45,59 +77,67 @@
       "type": "catharsis:button",
       "normal": "eureka:gui_modifiers/qol/brewing_stand/absorption_potion",
       "hovered": "eureka:gui_modifiers/qol/brewing_stand/absorption_potion",
-      "tooltip": {
-        "type": "catharsis:text",
-        "text": [
-          {
-            "text": "",
-            "extra": [
-              { "text": "Absorption I/" },
-              { "text": "III/", "color": "green" },
-              { "text": "V ", "color": "blue" },
-              { "text": "Potion" }
-            ]
-          },
-          {
-            "text": "",
-            "extra": [
-              { "text": "Grants ", "color": "gray" },
-              { "text": "+20/60/100  Absorption", "color": "gold" },
-              { "text": "." }
-            ]
-          },
-          { "text": "" },
-          {
-            "text": "",
-            "extra": [
-              { "text": "I - " },
+      "tooltip": [
+        {
+          "type": "catharsis:id",
+          "id": "potion:absorption:1"
+        },
+        {
+          "type": "catharsis:text",
+          "text": {
+            "translate": "\nIngredients:\n%s\n%s\n%s\n%s\n\n%s",
+            "color": "yellow",
+            "with": [
               {
-                "atlas": "minecraft:items",
-                "sprite": "item/gold_ingot"
-              }
-            ]
-          },
-          {
-            "text": "",
-            "extra": [
-              { "text": "III - Ench. ", "color": "green" },
+                "translate": "• Base - %s Awkward Potion",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/potion"
+                  }
+                ]
+              },
               {
-                "atlas": "minecraft:items",
-                "sprite": "item/gold_ingot"
-              }
-            ]
-          },
-          {
-            "text": "",
-            "extra": [
-              { "text": "V - Ench. ", "color": "blue" },
+                "translate": "• Tier I - %s Gold Ingot",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/gold_ingot"
+                  }
+                ]
+              },
               {
-                "atlas": "minecraft:blocks",
-                "sprite": "block/gold_block"
+                "translate": "• Tier III - %s Enchanted Gold Ingot",
+                "color": "green",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/gold_ingot",
+                    "color": "white"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier V - %s Enchanted Gold Block",
+                "color": "blue",
+                "with": [
+                  {
+                    "atlas": "minecraft:blocks",
+                    "sprite": "block/gold_block",
+                    "color": "white"
+                  }
+                ]
+              },
+              {
+                "type": "translatable",
+                "translate": "eureka.click_event.open_wiki"
               }
             ]
           }
-        ]
-      },
+        }
+      ],
       "interaction": {
         "type": "catharsis:link",
         "url": "https://hypixelskyblock.minecraft.wiki/w/Absorption_Potion"
@@ -117,65 +157,67 @@
       "type": "catharsis:button",
       "normal": "eureka:gui_modifiers/qol/brewing_stand/adrenaline_potion",
       "hovered": "eureka:gui_modifiers/qol/brewing_stand/adrenaline_potion",
-      "tooltip": {
-        "type": "catharsis:text",
-        "text": [
-          {
-            "text": "",
-            "extra": [
-              { "text": "Adrenaline I/" },
-              { "text": "III/", "color": "green" },
-              { "text": "V ", "color": "blue" },
-              { "text": "Potion" }
-            ]
-          },
-          {
-            "text": "",
-            "extra": [
-              { "text": "Grants ", "color": "gray" },
-              { "text": "+20/60/100  Absorption", "color": "gold" }
-            ]
-          },
-          {
-            "text": "",
-            "extra": [
-              { "text": "and ", "color": "gray" },
-              { "text": "+5/15/25  Speed." }
-            ]
-          },
-          { "text": "" },
-          {
-            "text": "",
-            "extra": [
-              { "text": "I - " },
+      "tooltip": [
+        {
+          "type": "catharsis:id",
+          "id": "potion:adrenaline:1"
+        },
+        {
+          "type": "catharsis:text",
+          "text": {
+            "translate": "\nIngredients:\n%s\n%s\n%s\n%s\n\n%s",
+            "color": "yellow",
+            "with": [
               {
-                "atlas": "minecraft:items",
-                "sprite": "item/cocoa_beans"
-              }
-            ]
-          },
-          {
-            "text": "",
-            "extra": [
-              { "text": "III - Ench. ", "color": "green" },
+                "translate": "• Base - %s Awkward Potion",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/potion"
+                  }
+                ]
+              },
               {
-                "atlas": "minecraft:items",
-                "sprite": "item/cocoa_beans"
-              }
-            ]
-          },
-          {
-            "text": "",
-            "extra": [
-              { "text": "V - Ench. ", "color": "blue" },
+                "translate": "• Tier I - %s Cocoa Beans",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/cocoa_beans"
+                  }
+                ]
+              },
               {
-                "atlas": "minecraft:items",
-                "sprite": "item/cookie"
+                "translate": "• Tier III - %s Enchanted Cocoa Beans",
+                "color": "green",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/cocoa_beans",
+                    "color": "white"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier V - %s Enchanted Cookie",
+                "color": "blue",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/cookie",
+                    "color": "white"
+                  }
+                ]
+              },
+              {
+                "type": "translatable",
+                "translate": "eureka.click_event.open_wiki"
               }
             ]
           }
-        ]
-      },
+        }
+      ],
       "interaction": {
         "type": "catharsis:link",
         "url": "https://hypixelskyblock.minecraft.wiki/w/Adrenaline_Potion"
@@ -195,42 +237,67 @@
       "type": "catharsis:button",
       "normal": "eureka:gui_modifiers/qol/brewing_stand/agility_potion",
       "hovered": "eureka:gui_modifiers/qol/brewing_stand/agility_potion",
-      "tooltip": {
-        "type": "catharsis:text",
-        "text": [
-          {
-            "text": "Agility I Potion"
-          },
-          {
-            "text": "",
-            "extra": [
-              { "text": "Grants ", "color": "gray" },
-              { "text": "+10  Speed " },
-              { "text": "and", "color": "gray" }
-            ]
-          },
-          { "text": "increases the chance for mob", "color": "gray" },
-          {
-            "text": "",
-            "extra": [
-              { "text": "attacks to miss by ", "color": "gray" },
-              { "text": "10%", "color": "green" },
-              { "text": ".", "color": "gray" }
-            ]
-          },
-          { "text": "" },
-          {
-            "text": "",
-            "extra": [
-              { "text": "I - Ench. " },
+      "tooltip": [
+        {
+          "type": "catharsis:id",
+          "id": "potion:agility:1"
+        },
+        {
+          "type": "catharsis:text",
+          "text": {
+            "translate": "\nIngredients:\n%s\n%s\n%s\n%s\n\n%s",
+            "color": "yellow",
+            "with": [
               {
-                "atlas": "minecraft:items",
-                "sprite": "item/cake"
+                "translate": "• Base - %s Awkward Potion",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/potion"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier I - %s Cocoa Beans",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/cocoa_beans"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier III - %s Enchanted Cocoa Beans",
+                "color": "green",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/cocoa_beans",
+                    "color": "white"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier V - %s Enchanted Cookie",
+                "color": "blue",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/cookie",
+                    "color": "white"
+                  }
+                ]
+              },
+              {
+                "type": "translatable",
+                "translate": "eureka.click_event.open_wiki"
               }
             ]
           }
-        ]
-      },
+        }
+      ],
       "interaction": {
         "type": "catharsis:link",
         "url": "https://hypixelskyblock.minecraft.wiki/w/Agility_Potion"
@@ -243,6 +310,2225 @@
       },
       "y": {
         "offset": 18,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/qol/brewing_stand/archery_potion",
+      "hovered": "eureka:gui_modifiers/qol/brewing_stand/archery_potion",
+      "tooltip": [
+        {
+          "type": "catharsis:id",
+          "id": "potion:archery:1"
+        },
+        {
+          "type": "catharsis:text",
+          "text": {
+            "translate": "\nIngredients:\n%s\n%s\n\n%s",
+            "color": "yellow",
+            "with": [
+              {
+                "translate": "• Base - %s Awkward Potion",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/potion"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier I - %s Feather",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/feather"
+                  }
+                ]
+              },
+              {
+                "type": "translatable",
+                "translate": "eureka.click_event.open_wiki"
+              }
+            ]
+          }
+        }
+      ],
+      "interaction": {
+        "type": "catharsis:link",
+        "url": "https://hypixelskyblock.minecraft.wiki/w/Archery_Potion"
+      },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -138,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 18,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/qol/brewing_stand/burning_potion",
+      "hovered": "eureka:gui_modifiers/qol/brewing_stand/burning_potion",
+      "tooltip": [
+        {
+          "type": "catharsis:id",
+          "id": "potion:burning:1"
+        },
+        {
+          "type": "catharsis:text",
+          "text": {
+            "translate": "\nIngredients:\n%s\n%s\n\n%s",
+            "color": "yellow",
+            "with": [
+              {
+                "translate": "• Base - %s Awkward Potion",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/potion"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier I - %s Red Sand",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:blocks",
+                    "sprite": "block/red_sand"
+                  }
+                ]
+              },
+              {
+                "type": "translatable",
+                "translate": "eureka.click_event.open_wiki"
+              }
+            ]
+          }
+        }
+      ],
+      "interaction": {
+        "type": "catharsis:link",
+        "url": "https://hypixelskyblock.minecraft.wiki/w/Burning_Potion"
+      },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -120,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 18,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/qol/brewing_stand/cold_resistance_potion",
+      "hovered": "eureka:gui_modifiers/qol/brewing_stand/cold_resistance_potion",
+      "tooltip": [
+        {
+          "type": "catharsis:id",
+          "id": "potion:cold_resistance:1"
+        },
+        {
+          "type": "catharsis:text",
+          "text": {
+            "translate": "\nIngredients:\n%s\n%s\n\n%s",
+            "color": "yellow",
+            "with": [
+              {
+                "translate": "• Base - %s Awkward Potion",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/potion"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier I - %s Enchanted Packed Ice",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:blocks",
+                    "sprite": "block/packed_ice"
+                  }
+                ]
+              },
+              {
+                "type": "translatable",
+                "translate": "eureka.click_event.open_wiki"
+              }
+            ]
+          }
+        }
+      ],
+      "interaction": {
+        "type": "catharsis:link",
+        "url": "https://hypixelskyblock.minecraft.wiki/w/Cold_Resistance_Potion"
+      },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -102,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 18,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/qol/brewing_stand/critical_potion",
+      "hovered": "eureka:gui_modifiers/qol/brewing_stand/critical_potion",
+      "tooltip": [
+        {
+          "type": "catharsis:id",
+          "id": "potion:critical:1"
+        },
+        {
+          "type": "catharsis:text",
+          "text": {
+            "translate": "\nIngredients:\n%s\n%s\n\n%s",
+            "color": "yellow",
+            "with": [
+              {
+                "translate": "• Base - %s Awkward Potion",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/potion"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier I - %s Flint",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/flint"
+                  }
+                ]
+              },
+              {
+                "type": "translatable",
+                "translate": "eureka.click_event.open_wiki"
+              }
+            ]
+          }
+        }
+      ],
+      "interaction": {
+        "type": "catharsis:link",
+        "url": "https://hypixelskyblock.minecraft.wiki/w/Critical_Potion"
+      },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -84,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 18,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/qol/brewing_stand/dodge_potion",
+      "hovered": "eureka:gui_modifiers/qol/brewing_stand/dodge_potion",
+      "tooltip": [
+        {
+          "type": "catharsis:id",
+          "id": "potion:dodge:1"
+        },
+        {
+          "type": "catharsis:text",
+          "text": {
+            "translate": "\nIngredients:\n%s\n%s\n\n%s",
+            "color": "yellow",
+            "with": [
+              {
+                "translate": "• Base - %s Awkward Potion",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/potion"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier I - %s Raw Salmon",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/salmon"
+                  }
+                ]
+              },
+              {
+                "type": "translatable",
+                "translate": "eureka.click_event.open_wiki"
+              }
+            ]
+          }
+        }
+      ],
+      "interaction": {
+        "type": "catharsis:link",
+        "url": "https://hypixelskyblock.minecraft.wiki/w/Dodge_Potion"
+      },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -66,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 18,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/qol/brewing_stand/experience_potion",
+      "hovered": "eureka:gui_modifiers/qol/brewing_stand/experience_potion",
+      "tooltip": [
+        {
+          "type": "catharsis:id",
+          "id": "potion:experience:1"
+        },
+        {
+          "type": "catharsis:text",
+          "text": {
+            "translate": "\nIngredients:\n%s\n%s\n\n%s",
+            "color": "yellow",
+            "with": [
+              {
+                "translate": "• Base - %s Awkward Potion",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/potion"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier I - %s Lapis Lazuli",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/lapis_lazuli"
+                  }
+                ]
+              },
+              {
+                "type": "translatable",
+                "translate": "eureka.click_event.open_wiki"
+              }
+            ]
+          }
+        }
+      ],
+      "interaction": {
+        "type": "catharsis:link",
+        "url": "https://hypixelskyblock.minecraft.wiki/w/Experience_Potion"
+      },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -48,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 18,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/qol/brewing_stand/fire_resistance_potion",
+      "hovered": "eureka:gui_modifiers/qol/brewing_stand/fire_resistance_potion",
+      "tooltip": [
+        {
+          "type": "catharsis:id",
+          "id": "potion:fire_resistance:1"
+        },
+        {
+          "type": "catharsis:text",
+          "text": {
+            "translate": "\nIngredients:\n%s\n%s\n\n%s",
+            "color": "yellow",
+            "with": [
+              {
+                "translate": "• Base - %s Awkward Potion",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/potion"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier I - %s Magma Cream",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/magma_cream"
+                  }
+                ]
+              },
+              {
+                "type": "translatable",
+                "translate": "eureka.click_event.open_wiki"
+              }
+            ]
+          }
+        }
+      ],
+      "interaction": {
+        "type": "catharsis:link",
+        "url": "https://hypixelskyblock.minecraft.wiki/w/Fire_Resistance_Potion"
+      },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -192,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 36,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/qol/brewing_stand/haste_potion",
+      "hovered": "eureka:gui_modifiers/qol/brewing_stand/haste_potion",
+      "tooltip": [
+        {
+          "type": "catharsis:id",
+          "id": "potion:haste:1"
+        },
+        {
+          "type": "catharsis:text",
+          "text": {
+            "translate": "\nIngredients:\n%s\n%s\n\n%s",
+            "color": "yellow",
+            "with": [
+              {
+                "translate": "• Base - %s Awkward Potion",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/potion"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier I - %s Coal",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/coal"
+                  }
+                ]
+              },
+              {
+                "type": "translatable",
+                "translate": "eureka.click_event.open_wiki"
+              }
+            ]
+          }
+        }
+      ],
+      "interaction": {
+        "type": "catharsis:link",
+        "url": "https://hypixelskyblock.minecraft.wiki/w/Haste_Potion"
+      },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -174,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 36,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/qol/brewing_stand/healing_potion",
+      "hovered": "eureka:gui_modifiers/qol/brewing_stand/healing_potion",
+      "tooltip": [
+        {
+          "type": "catharsis:id",
+          "id": "potion:healing:1"
+        },
+        {
+          "type": "catharsis:text",
+          "text": {
+            "translate": "\nIngredients:\n%s\n%s\n%s\n%s\n\n%s",
+            "color": "yellow",
+            "with": [
+              {
+                "translate": "• Base - %s Awkward Potion",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/potion"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier I - %s Glistering Melon Slice",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/glistering_melon_slice"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier III - %s Enchanted Melon Slice",
+                "color": "green",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/melon_slice",
+                    "color": "white"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier V - %s Enchanted Glistering Melon Slice",
+                "color": "blue",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/glistering_melon_slice",
+                    "color": "white"
+                  }
+                ]
+              },
+              {
+                "type": "translatable",
+                "translate": "eureka.click_event.open_wiki"
+              }
+            ]
+          }
+        }
+      ],
+      "interaction": {
+        "type": "catharsis:link",
+        "url": "https://hypixelskyblock.minecraft.wiki/w/Healing_Potion"
+      },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -156,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 36,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/qol/brewing_stand/invisibility_potion",
+      "hovered": "eureka:gui_modifiers/qol/brewing_stand/invisibility_potion",
+      "tooltip": [
+        {
+          "type": "catharsis:id",
+          "id": "potion:invisibility:1"
+        },
+        {
+          "type": "catharsis:text",
+          "text": {
+            "translate": "\nIngredients:\n%s\n%s\n\n%s",
+            "color": "yellow",
+            "with": [
+              {
+                "translate": "• Base - %s Potion of Night Vision",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/potion"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier I - %s Fermented Spider Eye",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/fermented_spider_eye"
+                  }
+                ]
+              },
+              {
+                "type": "translatable",
+                "translate": "eureka.click_event.open_wiki"
+              }
+            ]
+          }
+        }
+      ],
+      "interaction": {
+        "type": "catharsis:link",
+        "url": "https://hypixelskyblock.minecraft.wiki/w/Invisibility_Potion"
+      },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -138,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 36,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/qol/brewing_stand/jump_boost_potion",
+      "hovered": "eureka:gui_modifiers/qol/brewing_stand/jump_boost_potion",
+      "tooltip": [
+        {
+          "type": "catharsis:id",
+          "id": "potion:jump_boost:1"
+        },
+        {
+          "type": "catharsis:text",
+          "text": {
+            "translate": "\nIngredients:\n%s\n%s\n\n%s",
+            "color": "yellow",
+            "with": [
+              {
+                "translate": "• Base - %s Awkward Potion",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/potion"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier I - %s Rabbit's Foot",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/rabbit_foot"
+                  }
+                ]
+              },
+              {
+                "type": "translatable",
+                "translate": "eureka.click_event.open_wiki"
+              }
+            ]
+          }
+        }
+      ],
+      "interaction": {
+        "type": "catharsis:link",
+        "url": "https://hypixelskyblock.minecraft.wiki/w/Jump_Boost_Potion"
+      },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -120,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 36,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/qol/brewing_stand/knockback_potion",
+      "hovered": "eureka:gui_modifiers/qol/brewing_stand/knockback_potion",
+      "tooltip": [
+        {
+          "type": "catharsis:id",
+          "id": "potion:knockback:1"
+        },
+        {
+          "type": "catharsis:text",
+          "text": {
+            "translate": "\nIngredients:\n%s\n%s\n\n%s",
+            "color": "yellow",
+            "with": [
+              {
+                "translate": "• Base - %s Awkward Potion",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/potion"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier I - %s Slimeball",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/slime_ball"
+                  }
+                ]
+              },
+              {
+                "type": "translatable",
+                "translate": "eureka.click_event.open_wiki"
+              }
+            ]
+          }
+        }
+      ],
+      "interaction": {
+        "type": "catharsis:link",
+        "url": "https://hypixelskyblock.minecraft.wiki/w/Knockback_Potion"
+      },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -102,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 36,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/qol/brewing_stand/mana_potion",
+      "hovered": "eureka:gui_modifiers/qol/brewing_stand/mana_potion",
+      "tooltip": [
+        {
+          "type": "catharsis:id",
+          "id": "potion:mana:1"
+        },
+        {
+          "type": "catharsis:text",
+          "text": {
+            "translate": "\nIngredients:\n%s\n%s\n%s\n%s\n\n%s",
+            "color": "yellow",
+            "with": [
+              {
+                "translate": "• Base - %s Awkward Potion",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/potion"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier I - %s Raw Mutton",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/mutton"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier III - %s Enchanted Raw Mutton",
+                "color": "green",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/mutton",
+                    "color": "white"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier V - %s Enchanted Cooked Mutton",
+                "color": "blue",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/cooked_mutton",
+                    "color": "white"
+                  }
+                ]
+              },
+              {
+                "type": "translatable",
+                "translate": "eureka.click_event.open_wiki"
+              }
+            ]
+          }
+        }
+      ],
+      "interaction": {
+        "type": "catharsis:link",
+        "url": "https://hypixelskyblock.minecraft.wiki/w/Mana_Potion"
+      },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -84,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 36,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/qol/brewing_stand/night_vision_potion",
+      "hovered": "eureka:gui_modifiers/qol/brewing_stand/night_vision_potion",
+      "tooltip": [
+        {
+          "type": "catharsis:id",
+          "id": "potion:night_vision:1"
+        },
+        {
+          "type": "catharsis:text",
+          "text": {
+            "translate": "\nIngredients:\n%s\n%s\n\n%s",
+            "color": "yellow",
+            "with": [
+              {
+                "translate": "• Base - %s Awkward Potion",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/potion"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier I - %s Golden Carrot",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/golden_carrot"
+                  }
+                ]
+              },
+              {
+                "type": "translatable",
+                "translate": "eureka.click_event.open_wiki"
+              }
+            ]
+          }
+        }
+      ],
+      "interaction": {
+        "type": "catharsis:link",
+        "url": "https://hypixelskyblock.minecraft.wiki/w/Night_Vision_Potion"
+      },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -66,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 36,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/qol/brewing_stand/pet_luck_potion",
+      "hovered": "eureka:gui_modifiers/qol/brewing_stand/pet_luck_potion",
+      "tooltip": [
+        {
+          "type": "catharsis:id",
+          "id": "potion:pet_luck:1"
+        },
+        {
+          "type": "catharsis:text",
+          "text": {
+            "translate": "\nIngredients:\n%s\n%s\n\n%s",
+            "color": "yellow",
+            "with": [
+              {
+                "translate": "• Base - %s Awkward Potion",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/potion"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier I - %s Enchanted Rabbit Hide",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/rabbit_hide"
+                  }
+                ]
+              },
+              {
+                "type": "translatable",
+                "translate": "eureka.click_event.open_wiki"
+              }
+            ]
+          }
+        }
+      ],
+      "interaction": {
+        "type": "catharsis:link",
+        "url": "https://hypixelskyblock.minecraft.wiki/w/Pet_Luck_Potion"
+      },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -48,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 36,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/qol/brewing_stand/rabbit_potion",
+      "hovered": "eureka:gui_modifiers/qol/brewing_stand/rabbit_potion",
+      "tooltip": [
+        {
+          "type": "catharsis:id",
+          "id": "potion:rabbit:1"
+        },
+        {
+          "type": "catharsis:text",
+          "text": {
+            "translate": "\nIngredients:\n%s\n%s\n%s\n\n%s",
+            "color": "yellow",
+            "with": [
+              {
+                "translate": "• Base - %s Awkward Potion",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/potion"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier I - %s Raw Rabbit",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/rabbit"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier III - %s Enchanted Rabbit Foot",
+                "color": "green",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/rabbit_foot",
+                    "color": "white"
+                  }
+                ]
+              },
+              {
+                "type": "translatable",
+                "translate": "eureka.click_event.open_wiki"
+              }
+            ]
+          }
+        }
+      ],
+      "interaction": {
+        "type": "catharsis:link",
+        "url": "https://hypixelskyblock.minecraft.wiki/w/Rabbit_Potion"
+      },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -192,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 54,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/qol/brewing_stand/regeneration_potion",
+      "hovered": "eureka:gui_modifiers/qol/brewing_stand/regeneration_potion",
+      "tooltip": [
+        {
+          "type": "catharsis:id",
+          "id": "potion:regeneration:1"
+        },
+        {
+          "type": "catharsis:text",
+          "text": {
+            "translate": "\nIngredients:\n%s\n%s\n%s\n\n%s",
+            "color": "yellow",
+            "with": [
+              {
+                "translate": "• Base - %s Awkward Potion",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/potion"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier I - %s Ghast Tear",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/ghast_tear"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier V - %s Enchanted Ghast Tear",
+                "color": "blue",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/ghast_tear",
+                    "color": "white"
+                  }
+                ]
+              },
+              {
+                "type": "translatable",
+                "translate": "eureka.click_event.open_wiki"
+              }
+            ]
+          }
+        }
+      ],
+      "interaction": {
+        "type": "catharsis:link",
+        "url": "https://hypixelskyblock.minecraft.wiki/w/Regeneration_Potion"
+      },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -174,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 54,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/qol/brewing_stand/resistance_potion",
+      "hovered": "eureka:gui_modifiers/qol/brewing_stand/resistance_potion",
+      "tooltip": [
+        {
+          "type": "catharsis:id",
+          "id": "potion:resistance:1"
+        },
+        {
+          "type": "catharsis:text",
+          "text": {
+            "translate": "\nIngredients:\n%s\n%s\n%s\n%s\n\n%s",
+            "color": "yellow",
+            "with": [
+              {
+                "translate": "• Base - %s Awkward Potion",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/potion"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier I - %s Cactus",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:blocks",
+                    "sprite": "block/cactus_side"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier III - %s Enchanted Cactus Green",
+                "color": "green",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/green_dye",
+                    "color": "white"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier V - %s Enchanted Cactus",
+                "color": "blue",
+                "with": [
+                  {
+                    "atlas": "minecraft:blocks",
+                    "sprite": "block/cactus_side",
+                    "color": "white"
+                  }
+                ]
+              },
+              {
+                "type": "translatable",
+                "translate": "eureka.click_event.open_wiki"
+              }
+            ]
+          }
+        }
+      ],
+      "interaction": {
+        "type": "catharsis:link",
+        "url": "https://hypixelskyblock.minecraft.wiki/w/Resistance_Potion"
+      },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -156,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 54,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/qol/brewing_stand/speed_potion",
+      "hovered": "eureka:gui_modifiers/qol/brewing_stand/speed_potion",
+      "tooltip": [
+        {
+          "type": "catharsis:id",
+          "id": "potion:speed:1"
+        },
+        {
+          "type": "catharsis:text",
+          "text": {
+            "translate": "\nIngredients:\n%s\n%s\n%s\n%s\n\n%s",
+            "color": "yellow",
+            "with": [
+              {
+                "translate": "• Base - %s Awkward Potion",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/potion"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier I - %s Sugar",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/sugar"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier III - %s Enchanted Sugar",
+                "color": "green",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/sugar",
+                    "color": "white"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier V - %s Enchanted Sugar Cane",
+                "color": "blue",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/sugar_cane",
+                    "color": "white"
+                  }
+                ]
+              },
+              {
+                "type": "translatable",
+                "translate": "eureka.click_event.open_wiki"
+              }
+            ]
+          }
+        }
+      ],
+      "interaction": {
+        "type": "catharsis:link",
+        "url": "https://hypixelskyblock.minecraft.wiki/w/Speed_Potion"
+      },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -138,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 54,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/qol/brewing_stand/spelunker_potion",
+      "hovered": "eureka:gui_modifiers/qol/brewing_stand/spelunker_potion",
+      "tooltip": [
+        {
+          "type": "catharsis:id",
+          "id": "potion:spelunker:1"
+        },
+        {
+          "type": "catharsis:text",
+          "text": {
+            "translate": "\nIngredients:\n%s\n%s\n\n%s",
+            "color": "yellow",
+            "with": [
+              {
+                "translate": "• Base - %s Awkward Potion",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/potion"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier I - %s Mithril",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "hypixel_skyblock:item/uncategorized/mithril"
+                  }
+                ]
+              },
+              {
+                "type": "translatable",
+                "translate": "eureka.click_event.open_wiki"
+              }
+            ]
+          }
+        }
+      ],
+      "interaction": {
+        "type": "catharsis:link",
+        "url": "https://hypixelskyblock.minecraft.wiki/w/Spelunker_Potion"
+      },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -120,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 54,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/qol/brewing_stand/strength_potion",
+      "hovered": "eureka:gui_modifiers/qol/brewing_stand/strength_potion",
+      "tooltip": [
+        {
+          "type": "catharsis:id",
+          "id": "potion:strength:1"
+        },
+        {
+          "type": "catharsis:text",
+          "text": {
+            "translate": "\nIngredients:\n%s\n%s\n%s\n%s\n\n%s",
+            "color": "yellow",
+            "with": [
+              {
+                "translate": "• Base - %s Awkward Potion",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/potion"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier I - %s Blaze Powder",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/blaze_powder"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier II - %s Enchanted Blaze Powder",
+                "color": "green",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/blaze_powder",
+                    "color": "white"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier v - %s Enchanted Blaze Rod",
+                "color": "blue",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/blaze_rod",
+                    "color": "white"
+                  }
+                ]
+              },
+              {
+                "type": "translatable",
+                "translate": "eureka.click_event.open_wiki"
+              }
+            ]
+          }
+        }
+      ],
+      "interaction": {
+        "type": "catharsis:link",
+        "url": "https://hypixelskyblock.minecraft.wiki/w/Strength_Potion"
+      },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -102,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 54,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/qol/brewing_stand/true_resistance_potion",
+      "hovered": "eureka:gui_modifiers/qol/brewing_stand/true_resistance_potion",
+      "tooltip": [
+        {
+          "type": "catharsis:id",
+          "id": "potion:true_defense:1"
+        },
+        {
+          "type": "catharsis:text",
+          "text": {
+            "translate": "\nIngredients:\n%s\n%s\n\n%s",
+            "color": "yellow",
+            "with": [
+              {
+                "translate": "• Base - %s Awkward Potion",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/potion"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier I - %s True Essence ",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/gray_dye"
+                  }
+                ]
+              },
+              {
+                "type": "translatable",
+                "translate": "eureka.click_event.open_wiki"
+              }
+            ]
+          }
+        }
+      ],
+      "interaction": {
+        "type": "catharsis:link",
+        "url": "https://hypixelskyblock.minecraft.wiki/w/True_Resistance_Potion"
+      },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -84,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 54,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/qol/brewing_stand/water_breathing_potion",
+      "hovered": "eureka:gui_modifiers/qol/brewing_stand/water_breathing_potion",
+      "tooltip": [
+        {
+          "type": "catharsis:id",
+          "id": "potion:water_breathing:1"
+        },
+        {
+          "type": "catharsis:text",
+          "text": {
+            "translate": "\nIngredients:\n%s\n%s\n%s\n\n%s",
+            "color": "yellow",
+            "with": [
+              {
+                "translate": "• Base - %s Awkward Potion",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/potion"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier I - %s Enchanted Rabbit Hide",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/pufferfish"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier III - %s Enchanted Rabbit Hide",
+                "color": "green",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/pufferfish",
+                    "color": "white"
+                  }
+                ]
+              },
+              {
+                "type": "translatable",
+                "translate": "eureka.click_event.open_wiki"
+              }
+            ]
+          }
+        }
+      ],
+      "interaction": {
+        "type": "catharsis:link",
+        "url": "https://hypixelskyblock.minecraft.wiki/w/Water_Breathing_Potion"
+      },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -66,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 54,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/qol/brewing_stand/blindness_potion",
+      "hovered": "eureka:gui_modifiers/qol/brewing_stand/blindness_potion",
+      "tooltip": [
+        {
+          "type": "catharsis:id",
+          "id": "potion:blindness:1"
+        },
+        {
+          "type": "catharsis:text",
+          "text": {
+            "translate": "\nIngredients:\n%s\n%s\n%s\n\n%s",
+            "color": "yellow",
+            "with": [
+              {
+                "translate": "• Base - %s Awkward Potion",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/potion"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier I - %s Ink Sac",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/ink_sac"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier III - %s Enchanted Ink Sac",
+                "color": "green",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/ink_sac",
+                    "color": "white"
+                  }
+                ]
+              },
+              {
+                "type": "translatable",
+                "translate": "eureka.click_event.open_wiki"
+              }
+            ]
+          }
+        }
+      ],
+      "interaction": {
+        "type": "catharsis:link",
+        "url": "https://hypixelskyblock.minecraft.wiki/w/Blindness_Potion"
+      },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -192,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 85,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/qol/brewing_stand/damage_potion",
+      "hovered": "eureka:gui_modifiers/qol/brewing_stand/damage_potion",
+      "tooltip": [
+        {
+          "type": "catharsis:id",
+          "id": "potion:damage:1"
+        },
+        {
+          "type": "catharsis:text",
+          "text": {
+            "translate": "\nIngredients:\n%s\n%s\n\n%s",
+            "color": "yellow",
+            "with": [
+              {
+                "translate": "• Base - %s Healing Potion",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/potion"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier I - %s Fermented Spider Eye",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/fermented_spider_eye"
+                  }
+                ]
+              },
+              {
+                "type": "translatable",
+                "translate": "eureka.click_event.open_wiki"
+              }
+            ]
+          }
+        }
+      ],
+      "interaction": {
+        "type": "catharsis:link",
+        "url": "https://hypixelskyblock.minecraft.wiki/w/Damage_Potion"
+      },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -174,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 85,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/qol/brewing_stand/poison_potion",
+      "hovered": "eureka:gui_modifiers/qol/brewing_stand/poison_potion",
+      "tooltip": [
+        {
+          "type": "catharsis:id",
+          "id": "potion:poison:1"
+        },
+        {
+          "type": "catharsis:text",
+          "text": {
+            "translate": "\nIngredients:\n%s\n%s\n\n%s",
+            "color": "yellow",
+            "with": [
+              {
+                "translate": "• Base - %s Awkward Potion",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/potion"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier I - %s Spider Eye",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/spider_eye"
+                  }
+                ]
+              },
+              {
+                "type": "translatable",
+                "translate": "eureka.click_event.open_wiki"
+              }
+            ]
+          }
+        }
+      ],
+      "interaction": {
+        "type": "catharsis:link",
+        "url": "https://hypixelskyblock.minecraft.wiki/w/Poison_Potion"
+      },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -156,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 85,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/qol/brewing_stand/slowness_potion",
+      "hovered": "eureka:gui_modifiers/qol/brewing_stand/slowness_potion",
+      "tooltip": [
+        {
+          "type": "catharsis:id",
+          "id": "potion:slowness:1"
+        },
+        {
+          "type": "catharsis:text",
+          "text": {
+            "translate": "\nIngredients:\n%s\n%s\n\n%s",
+            "color": "yellow",
+            "with": [
+              {
+                "translate": "• Base - %s Speed Potion",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/potion"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier I - %s Fermented Spider Eye",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/fermented_spider_eye"
+                  }
+                ]
+              },
+              {
+                "type": "translatable",
+                "translate": "eureka.click_event.open_wiki"
+              }
+            ]
+          }
+        }
+      ],
+      "interaction": {
+        "type": "catharsis:link",
+        "url": "https://hypixelskyblock.minecraft.wiki/w/Slowness_Potion"
+      },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -138,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 85,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/qol/brewing_stand/stun_potion",
+      "hovered": "eureka:gui_modifiers/qol/brewing_stand/stun_potion",
+      "tooltip": [
+        {
+          "type": "catharsis:id",
+          "id": "potion:stun:1"
+        },
+        {
+          "type": "catharsis:text",
+          "text": {
+            "translate": "\nIngredients:\n%s\n%s\n\n%s",
+            "color": "yellow",
+            "with": [
+              {
+                "translate": "• Base - %s Awkward Potion",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/potion"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier I - %s t",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:blocks",
+                    "sprite": "block/obsidian"
+                  }
+                ]
+              },
+              {
+                "type": "translatable",
+                "translate": "eureka.click_event.open_wiki"
+              }
+            ]
+          }
+        }
+      ],
+      "interaction": {
+        "type": "catharsis:link",
+        "url": "https://hypixelskyblock.minecraft.wiki/w/Stun_Potion"
+      },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -120,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 85,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/qol/brewing_stand/venomous_potion",
+      "hovered": "eureka:gui_modifiers/qol/brewing_stand/venomous_potion",
+      "tooltip": [
+        {
+          "type": "catharsis:id",
+          "id": "potion:venomous:1"
+        },
+        {
+          "type": "catharsis:text",
+          "text": {
+            "translate": "\nIngredients:\n%s\n%s\n\n%s",
+            "color": "yellow",
+            "with": [
+              {
+                "translate": "• Base - %s Awkward Potion",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/potion"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier I - %s Poisonous Potato",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/poisonous_potato"
+                  }
+                ]
+              },
+              {
+                "type": "translatable",
+                "translate": "eureka.click_event.open_wiki"
+              }
+            ]
+          }
+        }
+      ],
+      "interaction": {
+        "type": "catharsis:link",
+        "url": "https://hypixelskyblock.minecraft.wiki/w/Venomous_Potion"
+      },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -102,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 85,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/qol/brewing_stand/weakness_potion",
+      "hovered": "eureka:gui_modifiers/qol/brewing_stand/weakness_potion",
+      "tooltip": [
+        {
+          "type": "catharsis:id",
+          "id": "potion:weakness:1"
+        },
+        {
+          "type": "catharsis:text",
+          "text": {
+            "translate": "\nIngredients:\n%s\n%s\n%s\n%s\n\n%s",
+            "color": "yellow",
+            "with": [
+              {
+                "translate": "• Base - %s Awkward Potion",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/potion"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier I - %s Fermented Spider Eye",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/fermented_spider_eye"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier III - %s Enchanted Spider Eye",
+                "color": "green",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/spider_eye",
+                    "color": "white"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier V - %s Enchanted Fermented Spider Eye",
+                "color": "blue",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/fermented_spider_eye",
+                    "color": "white"
+                  }
+                ]
+              },
+              {
+                "type": "translatable",
+                "translate": "eureka.click_event.open_wiki"
+              }
+            ]
+          }
+        }
+      ],
+      "interaction": {
+        "type": "catharsis:link",
+        "url": "https://hypixelskyblock.minecraft.wiki/w/Weakness_Potion"
+      },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -84,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 85,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/qol/brewing_stand/wounded_potion",
+      "hovered": "eureka:gui_modifiers/qol/brewing_stand/wounded_potion",
+      "tooltip": [
+        {
+          "type": "catharsis:id",
+          "id": "potion:wounded:1"
+        },
+        {
+          "type": "catharsis:text",
+          "text": {
+            "translate": "\nIngredients:\n%s\n%s\n\n%s",
+            "color": "yellow",
+            "with": [
+              {
+                "translate": "• Base - %s Awkward Potion",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/potion"
+                  }
+                ]
+              },
+              {
+                "translate": "• Tier I - %s Netherrack",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:blocks",
+                    "sprite": "block/netherrack"
+                  }
+                ]
+              },
+              {
+                "type": "translatable",
+                "translate": "eureka.click_event.open_wiki"
+              }
+            ]
+          }
+        }
+      ],
+      "interaction": {
+        "type": "catharsis:link",
+        "url": "https://hypixelskyblock.minecraft.wiki/w/Wounded_Potion"
+      },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -66,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 85,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/qol/brewing_stand/glowstone_dust",
+      "hovered": "eureka:gui_modifiers/qol/brewing_stand/glowstone_dust",
+      "tooltip": [
+        {
+          "type": "catharsis:text",
+          "text": {
+            "translate": "Level Modifiers:\n%s\n%s\n%s\n\n%s",
+            "color": "yellow",
+            "with": [
+              {
+                "translate": "• Level +1 - %s Glowstone Dust",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/glowstone_dust"
+                  }
+                ]
+              },
+              {
+                "translate": "• Level +2 - %s Enchanted Glowstone Dust",
+                "color": "green",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/glowstone_dust",
+                    "color": "white"
+                  }
+                ]
+              },
+              {
+                "translate": "• Level +3 - %s Enchanted Glowstone",
+                "color": "blue",
+                "with": [
+                  {
+                    "atlas": "minecraft:blocks",
+                    "sprite": "block/glowstone",
+                    "color": "white"
+                  }
+                ]
+              },
+              {
+                "type": "translatable",
+                "translate": "eureka.click_event.open_wiki"
+              }
+            ]
+          }
+        }
+      ],
+      "interaction": {
+        "type": "catharsis:link",
+        "url": "https://hypixelskyblock.minecraft.wiki/w/Potions#Modifiers"
+      },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -192,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 116,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/qol/brewing_stand/redstone_dust",
+      "hovered": "eureka:gui_modifiers/qol/brewing_stand/redstone_dust",
+      "tooltip": [
+        {
+          "type": "catharsis:text",
+          "text": {
+            "translate": "Length Modifiers:\n%s\n%s\n%s\n\n%s",
+            "color": "yellow",
+            "with": [
+              {
+                "translate": "• 8 Minutes - %s Redstone Dust",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/redstone"
+                  }
+                ]
+              },
+              {
+                "translate": "• 16 Minutes - %s Enchanted Redstone Dust",
+                "color": "green",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/redstone",
+                    "color": "white"
+                  }
+                ]
+              },
+              {
+                "translate": "• 40 Minutes - %s Enchanted Redstone Block",
+                "color": "blue",
+                "with": [
+                  {
+                    "atlas": "minecraft:blocks",
+                    "sprite": "block/redstone_block",
+                    "color": "white"
+                  }
+                ]
+              },
+              {
+                "type": "translatable",
+                "translate": "eureka.click_event.open_wiki"
+              }
+            ]
+          }
+        }
+      ],
+      "interaction": {
+        "type": "catharsis:link",
+        "url": "https://hypixelskyblock.minecraft.wiki/w/Potions#Modifiers"
+      },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -174,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 116,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/qol/brewing_stand/redstone_lamp",
+      "hovered": "eureka:gui_modifiers/qol/brewing_stand/redstone_lamp",
+      "tooltip": [
+        {
+          "type": "catharsis:text",
+          "text": {
+            "translate": "Level & Length Modifiers:\n%s\n%s\n%s\n\n%s\n\n%s",
+            "color": "yellow",
+            "with": [
+              {
+                "translate": "%s Enchanted Redstone Lamp",
+                "color": "white",
+                "with": [
+                  {
+                    "atlas": "minecraft:blocks",
+                    "sprite": "block/redstone_lamp",
+                    "color": "white"
+                  }
+                ]
+              },
+              { "text": "• 16 Minutes", "color": "green" },
+              {
+                "text": "• Level +3",
+                "color": "blue"
+              },
+              {
+                "text": "Does not stack with other\nSpeed or Length modifiers.",
+                "color": "red"
+              },
+              {
+                "type": "translatable",
+                "translate": "eureka.click_event.open_wiki"
+              }
+            ]
+          }
+        }
+      ],
+      "interaction": {
+        "type": "catharsis:link",
+        "url": "https://hypixelskyblock.minecraft.wiki/w/Potions#Modifiers"
+      },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -156,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 116,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/qol/brewing_stand/gunpowder",
+      "hovered": "eureka:gui_modifiers/qol/brewing_stand/gunpowder",
+      "tooltip": [
+        {
+          "type": "catharsis:text",
+          "text": {
+            "translate": "Type Modifiers:\n%s\n%s\n\n%s",
+            "color": "yellow",
+            "with": [
+              {
+                "translate": "• Splashable, %s Duration - %s Gunpowder",
+                "color": "white",
+                "with": [
+                  {
+                    "text": "-50%"
+                  },
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/gunpowder",
+                    "color": "white"
+                  }
+                ]
+              },
+              {
+                "translate": "• Splashable, no Debuff - %s Enchanted Gunpowder",
+                "color": "green",
+                "with": [
+                  {
+                    "atlas": "minecraft:items",
+                    "sprite": "item/gunpowder",
+                    "color": "white"
+                  }
+                ]
+              },
+              {
+                "type": "translatable",
+                "translate": "eureka.click_event.open_wiki"
+              }
+            ]
+          }
+        }
+      ],
+      "interaction": {
+        "type": "catharsis:link",
+        "url": "https://hypixelskyblock.minecraft.wiki/w/Potions#Modifiers"
+      },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -138,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 116,
         "alignment": "START"
       }
     }
