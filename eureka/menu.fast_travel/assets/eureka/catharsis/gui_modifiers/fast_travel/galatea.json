@@ -12,8 +12,23 @@
   "elements": [
     {
       "type": "catharsis:sprite",
-      "sprite": "eureka:gui_modifiers/fast_travel/galatea",
+      "sprite": "eureka:gui_modifiers/fast_travel/fast_travel_silhouette_focused",
       "layer": "BACKGROUND",
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/fast_travel/galatea",
+      "layer": "FOREGROUND",
       "width": 832,
       "height": 448,
       "x": {

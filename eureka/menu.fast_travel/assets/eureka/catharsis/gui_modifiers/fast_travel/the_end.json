@@ -12,7 +12,7 @@
   "elements": [
     {
       "type": "catharsis:sprite",
-      "sprite": "eureka:gui_modifiers/fast_travel/the_end",
+      "sprite": "eureka:gui_modifiers/fast_travel/fast_travel_silhouette_focused",
       "layer": "BACKGROUND",
       "width": 832,
       "height": 448,
@@ -24,32 +24,11 @@
         "offset": -224,
         "alignment": "CENTER"
       }
-    }
-  ],
-  "widgets": [
-    {
-      "type": "catharsis:button",
-      "normal": "eureka:gui_modifiers/fast_travel/see",
-      "hovered": "eureka:gui_modifiers/fast_travel/see",
-      "interaction": { "type": "catharsis:slot", "slot": 11 },
-      "tooltip": { "type": "catharsis:slot", "slot": 11 },
-      "width": 16,
-      "height": 16,
-      "x": {
-        "offset": 0,
-        "alignment": "CENTER"
-      },
-      "y": {
-        "offset": 0,
-        "alignment": "CENTER"
-      }
     },
     {
-      "type": "catharsis:button",
-      "normal": "eureka:gui_modifiers/fast_travel/go_back",
-      "hovered": "eureka:gui_modifiers/fast_travel/go_back",
-      "interaction": { "type": "catharsis:slot", "slot": 30 },
-      "tooltip": { "type": "catharsis:slot", "slot": 30 },
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/fast_travel/the_end",
+      "layer": "FOREGROUND",
       "width": 832,
       "height": 448,
       "x": {

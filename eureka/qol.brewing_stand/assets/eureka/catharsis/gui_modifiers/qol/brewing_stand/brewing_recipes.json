@@ -142,14 +142,14 @@
         "type": "catharsis:link",
         "url": "https://hypixelskyblock.minecraft.wiki/w/Absorption_Potion"
       },
-      "width": 16,
-      "height": 16,
+      "width": 18,
+      "height": 18,
       "x": {
-        "offset": -192,
+        "offset": -193,
         "alignment": "START"
       },
       "y": {
-        "offset": 18,
+        "offset": 17,
         "alignment": "START"
       }
     },
@@ -222,14 +222,14 @@
         "type": "catharsis:link",
         "url": "https://hypixelskyblock.minecraft.wiki/w/Adrenaline_Potion"
       },
-      "width": 16,
-      "height": 16,
+      "width": 18,
+      "height": 18,
       "x": {
-        "offset": -174,
+        "offset": -175,
         "alignment": "START"
       },
       "y": {
-        "offset": 18,
+        "offset": 17,
         "alignment": "START"
       }
     },
@@ -302,14 +302,14 @@
         "type": "catharsis:link",
         "url": "https://hypixelskyblock.minecraft.wiki/w/Agility_Potion"
       },
-      "width": 16,
-      "height": 16,
+      "width": 18,
+      "height": 18,
       "x": {
-        "offset": -156,
+        "offset": -157,
         "alignment": "START"
       },
       "y": {
-        "offset": 18,
+        "offset": 17,
         "alignment": "START"
       }
     },
@@ -360,14 +360,14 @@
         "type": "catharsis:link",
         "url": "https://hypixelskyblock.minecraft.wiki/w/Archery_Potion"
       },
-      "width": 16,
-      "height": 16,
+      "width": 18,
+      "height": 18,
       "x": {
-        "offset": -138,
+        "offset": -139,
         "alignment": "START"
       },
       "y": {
-        "offset": 18,
+        "offset": 17,
         "alignment": "START"
       }
     },
@@ -418,14 +418,14 @@
         "type": "catharsis:link",
         "url": "https://hypixelskyblock.minecraft.wiki/w/Burning_Potion"
       },
-      "width": 16,
-      "height": 16,
+      "width": 18,
+      "height": 18,
       "x": {
-        "offset": -120,
+        "offset": -121,
         "alignment": "START"
       },
       "y": {
-        "offset": 18,
+        "offset": 17,
         "alignment": "START"
       }
     },
@@ -476,14 +476,14 @@
         "type": "catharsis:link",
         "url": "https://hypixelskyblock.minecraft.wiki/w/Cold_Resistance_Potion"
       },
-      "width": 16,
-      "height": 16,
+      "width": 18,
+      "height": 18,
       "x": {
-        "offset": -102,
+        "offset": -103,
         "alignment": "START"
       },
       "y": {
-        "offset": 18,
+        "offset": 17,
         "alignment": "START"
       }
     },
@@ -534,14 +534,14 @@
         "type": "catharsis:link",
         "url": "https://hypixelskyblock.minecraft.wiki/w/Critical_Potion"
       },
-      "width": 16,
-      "height": 16,
+      "width": 18,
+      "height": 18,
       "x": {
-        "offset": -84,
+        "offset": -85,
         "alignment": "START"
       },
       "y": {
-        "offset": 18,
+        "offset": 17,
         "alignment": "START"
       }
     },
@@ -592,14 +592,14 @@
         "type": "catharsis:link",
         "url": "https://hypixelskyblock.minecraft.wiki/w/Dodge_Potion"
       },
-      "width": 16,
-      "height": 16,
+      "width": 18,
+      "height": 18,
       "x": {
-        "offset": -66,
+        "offset": -67,
         "alignment": "START"
       },
       "y": {
-        "offset": 18,
+        "offset": 17,
         "alignment": "START"
       }
     },
@@ -650,14 +650,14 @@
         "type": "catharsis:link",
         "url": "https://hypixelskyblock.minecraft.wiki/w/Experience_Potion"
       },
-      "width": 16,
-      "height": 16,
+      "width": 18,
+      "height": 18,
       "x": {
-        "offset": -48,
+        "offset": -49,
         "alignment": "START"
       },
       "y": {
-        "offset": 18,
+        "offset": 17,
         "alignment": "START"
       }
     },
@@ -708,14 +708,14 @@
         "type": "catharsis:link",
         "url": "https://hypixelskyblock.minecraft.wiki/w/Fire_Resistance_Potion"
       },
-      "width": 16,
-      "height": 16,
+      "width": 18,
+      "height": 18,
       "x": {
-        "offset": -192,
+        "offset": -193,
         "alignment": "START"
       },
       "y": {
-        "offset": 36,
+        "offset": 35,
         "alignment": "START"
       }
     },
@@ -766,14 +766,14 @@
         "type": "catharsis:link",
         "url": "https://hypixelskyblock.minecraft.wiki/w/Haste_Potion"
       },
-      "width": 16,
-      "height": 16,
+      "width": 18,
+      "height": 18,
       "x": {
-        "offset": -174,
+        "offset": -175,
         "alignment": "START"
       },
       "y": {
-        "offset": 36,
+        "offset": 35,
         "alignment": "START"
       }
     },
@@ -846,14 +846,14 @@
         "type": "catharsis:link",
         "url": "https://hypixelskyblock.minecraft.wiki/w/Healing_Potion"
       },
-      "width": 16,
-      "height": 16,
+      "width": 18,
+      "height": 18,
       "x": {
-        "offset": -156,
+        "offset": -157,
         "alignment": "START"
       },
       "y": {
-        "offset": 36,
+        "offset": 35,
         "alignment": "START"
       }
     },
@@ -904,14 +904,14 @@
         "type": "catharsis:link",
         "url": "https://hypixelskyblock.minecraft.wiki/w/Invisibility_Potion"
       },
-      "width": 16,
-      "height": 16,
+      "width": 18,
+      "height": 18,
       "x": {
-        "offset": -138,
+        "offset": -139,
         "alignment": "START"
       },
       "y": {
-        "offset": 36,
+        "offset": 35,
         "alignment": "START"
       }
     },
@@ -962,14 +962,14 @@
         "type": "catharsis:link",
         "url": "https://hypixelskyblock.minecraft.wiki/w/Jump_Boost_Potion"
       },
-      "width": 16,
-      "height": 16,
+      "width": 18,
+      "height": 18,
       "x": {
-        "offset": -120,
+        "offset": -121,
         "alignment": "START"
       },
       "y": {
-        "offset": 36,
+        "offset": 35,
         "alignment": "START"
       }
     },
@@ -1020,14 +1020,14 @@
         "type": "catharsis:link",
         "url": "https://hypixelskyblock.minecraft.wiki/w/Knockback_Potion"
       },
-      "width": 16,
-      "height": 16,
+      "width": 18,
+      "height": 18,
       "x": {
-        "offset": -102,
+        "offset": -103,
         "alignment": "START"
       },
       "y": {
-        "offset": 36,
+        "offset": 35,
         "alignment": "START"
       }
     },
@@ -1100,14 +1100,14 @@
         "type": "catharsis:link",
         "url": "https://hypixelskyblock.minecraft.wiki/w/Mana_Potion"
       },
-      "width": 16,
-      "height": 16,
+      "width": 18,
+      "height": 18,
       "x": {
-        "offset": -84,
+        "offset": -85,
         "alignment": "START"
       },
       "y": {
-        "offset": 36,
+        "offset": 35,
         "alignment": "START"
       }
     },
@@ -1158,14 +1158,14 @@
         "type": "catharsis:link",
         "url": "https://hypixelskyblock.minecraft.wiki/w/Night_Vision_Potion"
       },
-      "width": 16,
-      "height": 16,
+      "width": 18,
+      "height": 18,
       "x": {
-        "offset": -66,
+        "offset": -67,
         "alignment": "START"
       },
       "y": {
-        "offset": 36,
+        "offset": 35,
         "alignment": "START"
       }
     },
@@ -1216,14 +1216,14 @@
         "type": "catharsis:link",
         "url": "https://hypixelskyblock.minecraft.wiki/w/Pet_Luck_Potion"
       },
-      "width": 16,
-      "height": 16,
+      "width": 18,
+      "height": 18,
       "x": {
-        "offset": -48,
+        "offset": -49,
         "alignment": "START"
       },
       "y": {
-        "offset": 36,
+        "offset": 35,
         "alignment": "START"
       }
     },
@@ -1285,14 +1285,14 @@
         "type": "catharsis:link",
         "url": "https://hypixelskyblock.minecraft.wiki/w/Rabbit_Potion"
       },
-      "width": 16,
-      "height": 16,
+      "width": 18,
+      "height": 18,
       "x": {
-        "offset": -192,
+        "offset": -193,
         "alignment": "START"
       },
       "y": {
-        "offset": 54,
+        "offset": 53,
         "alignment": "START"
       }
     },
@@ -1354,14 +1354,14 @@
         "type": "catharsis:link",
         "url": "https://hypixelskyblock.minecraft.wiki/w/Regeneration_Potion"
       },
-      "width": 16,
-      "height": 16,
+      "width": 18,
+      "height": 18,
       "x": {
-        "offset": -174,
+        "offset": -175,
         "alignment": "START"
       },
       "y": {
-        "offset": 54,
+        "offset": 53,
         "alignment": "START"
       }
     },
@@ -1434,14 +1434,14 @@
         "type": "catharsis:link",
         "url": "https://hypixelskyblock.minecraft.wiki/w/Resistance_Potion"
       },
-      "width": 16,
-      "height": 16,
+      "width": 18,
+      "height": 18,
       "x": {
-        "offset": -156,
+        "offset": -157,
         "alignment": "START"
       },
       "y": {
-        "offset": 54,
+        "offset": 53,
         "alignment": "START"
       }
     },
@@ -1514,14 +1514,14 @@
         "type": "catharsis:link",
         "url": "https://hypixelskyblock.minecraft.wiki/w/Speed_Potion"
       },
-      "width": 16,
-      "height": 16,
+      "width": 18,
+      "height": 18,
       "x": {
-        "offset": -138,
+        "offset": -139,
         "alignment": "START"
       },
       "y": {
-        "offset": 54,
+        "offset": 53,
         "alignment": "START"
       }
     },
@@ -1572,14 +1572,14 @@
         "type": "catharsis:link",
         "url": "https://hypixelskyblock.minecraft.wiki/w/Spelunker_Potion"
       },
-      "width": 16,
-      "height": 16,
+      "width": 18,
+      "height": 18,
       "x": {
-        "offset": -120,
+        "offset": -121,
         "alignment": "START"
       },
       "y": {
-        "offset": 54,
+        "offset": 53,
         "alignment": "START"
       }
     },
@@ -1652,14 +1652,14 @@
         "type": "catharsis:link",
         "url": "https://hypixelskyblock.minecraft.wiki/w/Strength_Potion"
       },
-      "width": 16,
-      "height": 16,
+      "width": 18,
+      "height": 18,
       "x": {
-        "offset": -102,
+        "offset": -103,
         "alignment": "START"
       },
       "y": {
-        "offset": 54,
+        "offset": 53,
         "alignment": "START"
       }
     },
@@ -1710,14 +1710,14 @@
         "type": "catharsis:link",
         "url": "https://hypixelskyblock.minecraft.wiki/w/True_Resistance_Potion"
       },
-      "width": 16,
-      "height": 16,
+      "width": 18,
+      "height": 18,
       "x": {
-        "offset": -84,
+        "offset": -85,
         "alignment": "START"
       },
       "y": {
-        "offset": 54,
+        "offset": 53,
         "alignment": "START"
       }
     },
@@ -1779,14 +1779,14 @@
         "type": "catharsis:link",
         "url": "https://hypixelskyblock.minecraft.wiki/w/Water_Breathing_Potion"
       },
-      "width": 16,
-      "height": 16,
+      "width": 18,
+      "height": 18,
       "x": {
-        "offset": -66,
+        "offset": -67,
         "alignment": "START"
       },
       "y": {
-        "offset": 54,
+        "offset": 53,
         "alignment": "START"
       }
     },
@@ -1848,14 +1848,14 @@
         "type": "catharsis:link",
         "url": "https://hypixelskyblock.minecraft.wiki/w/Blindness_Potion"
       },
-      "width": 16,
-      "height": 16,
+      "width": 18,
+      "height": 18,
       "x": {
-        "offset": -192,
+        "offset": -193,
         "alignment": "START"
       },
       "y": {
-        "offset": 85,
+        "offset": 84,
         "alignment": "START"
       }
     },
@@ -1906,14 +1906,14 @@
         "type": "catharsis:link",
         "url": "https://hypixelskyblock.minecraft.wiki/w/Damage_Potion"
       },
-      "width": 16,
-      "height": 16,
+      "width": 18,
+      "height": 18,
       "x": {
-        "offset": -174,
+        "offset": -175,
         "alignment": "START"
       },
       "y": {
-        "offset": 85,
+        "offset": 84,
         "alignment": "START"
       }
     },
@@ -1964,14 +1964,14 @@
         "type": "catharsis:link",
         "url": "https://hypixelskyblock.minecraft.wiki/w/Poison_Potion"
       },
-      "width": 16,
-      "height": 16,
+      "width": 18,
+      "height": 18,
       "x": {
-        "offset": -156,
+        "offset": -157,
         "alignment": "START"
       },
       "y": {
-        "offset": 85,
+        "offset": 84,
         "alignment": "START"
       }
     },
@@ -2022,14 +2022,14 @@
         "type": "catharsis:link",
         "url": "https://hypixelskyblock.minecraft.wiki/w/Slowness_Potion"
       },
-      "width": 16,
-      "height": 16,
+      "width": 18,
+      "height": 18,
       "x": {
-        "offset": -138,
+        "offset": -139,
         "alignment": "START"
       },
       "y": {
-        "offset": 85,
+        "offset": 84,
         "alignment": "START"
       }
     },
@@ -2080,14 +2080,14 @@
         "type": "catharsis:link",
         "url": "https://hypixelskyblock.minecraft.wiki/w/Stun_Potion"
       },
-      "width": 16,
-      "height": 16,
+      "width": 18,
+      "height": 18,
       "x": {
-        "offset": -120,
+        "offset": -121,
         "alignment": "START"
       },
       "y": {
-        "offset": 85,
+        "offset": 84,
         "alignment": "START"
       }
     },
@@ -2138,14 +2138,14 @@
         "type": "catharsis:link",
         "url": "https://hypixelskyblock.minecraft.wiki/w/Venomous_Potion"
       },
-      "width": 16,
-      "height": 16,
+      "width": 18,
+      "height": 18,
       "x": {
-        "offset": -102,
+        "offset": -103,
         "alignment": "START"
       },
       "y": {
-        "offset": 85,
+        "offset": 84,
         "alignment": "START"
       }
     },
@@ -2218,14 +2218,14 @@
         "type": "catharsis:link",
         "url": "https://hypixelskyblock.minecraft.wiki/w/Weakness_Potion"
       },
-      "width": 16,
-      "height": 16,
+      "width": 18,
+      "height": 18,
       "x": {
-        "offset": -84,
+        "offset": -85,
         "alignment": "START"
       },
       "y": {
-        "offset": 85,
+        "offset": 84,
         "alignment": "START"
       }
     },
@@ -2276,14 +2276,14 @@
         "type": "catharsis:link",
         "url": "https://hypixelskyblock.minecraft.wiki/w/Wounded_Potion"
       },
-      "width": 16,
-      "height": 16,
+      "width": 18,
+      "height": 18,
       "x": {
-        "offset": -66,
+        "offset": -67,
         "alignment": "START"
       },
       "y": {
-        "offset": 85,
+        "offset": 84,
         "alignment": "START"
       }
     },
@@ -2342,14 +2342,14 @@
         "type": "catharsis:link",
         "url": "https://hypixelskyblock.minecraft.wiki/w/Potions#Modifiers"
       },
-      "width": 16,
-      "height": 16,
+      "width": 18,
+      "height": 18,
       "x": {
-        "offset": -192,
+        "offset": -193,
         "alignment": "START"
       },
       "y": {
-        "offset": 116,
+        "offset": 115,
         "alignment": "START"
       }
     },
@@ -2408,14 +2408,14 @@
         "type": "catharsis:link",
         "url": "https://hypixelskyblock.minecraft.wiki/w/Potions#Modifiers"
       },
-      "width": 16,
-      "height": 16,
+      "width": 18,
+      "height": 18,
       "x": {
-        "offset": -174,
+        "offset": -175,
         "alignment": "START"
       },
       "y": {
-        "offset": 116,
+        "offset": 115,
         "alignment": "START"
       }
     },
@@ -2462,14 +2462,14 @@
         "type": "catharsis:link",
         "url": "https://hypixelskyblock.minecraft.wiki/w/Potions#Modifiers"
       },
-      "width": 16,
-      "height": 16,
+      "width": 18,
+      "height": 18,
       "x": {
-        "offset": -156,
+        "offset": -157,
         "alignment": "START"
       },
       "y": {
-        "offset": 116,
+        "offset": 115,
         "alignment": "START"
       }
     },
@@ -2521,14 +2521,14 @@
         "type": "catharsis:link",
         "url": "https://hypixelskyblock.minecraft.wiki/w/Potions#Modifiers"
       },
-      "width": 16,
-      "height": 16,
+      "width": 18,
+      "height": 18,
       "x": {
-        "offset": -138,
+        "offset": -139,
         "alignment": "START"
       },
       "y": {
-        "offset": 116,
+        "offset": 115,
         "alignment": "START"
       }
     }

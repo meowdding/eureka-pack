@@ -12,7 +12,7 @@
   "elements": [
     {
       "type": "catharsis:sprite",
-      "sprite": "eureka:gui_modifiers/fast_travel/fast_travel",
+      "sprite": "eureka:gui_modifiers/fast_travel/fast_travel_silhouette",
       "layer": "BACKGROUND",
       "width": 832,
       "height": 448,
