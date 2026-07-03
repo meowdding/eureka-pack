@@ -27,10 +27,10 @@
     },
     {
       "type": "catharsis:sprite",
-      "sprite": "eureka:gui_modifiers/fast_travel/galatea",
+      "sprite": "eureka:gui_modifiers/fast_travel/foraging_1_locked",
       "condition": {
         "type": "catharsis:has_slot",
-        "slot": "skyblock_gui:fast_travel/galatea/spawn_unlocked"
+        "slot": "skyblock_gui:fast_travel/foraging_1/spawn/locked"
       },
       "layer": "FOREGROUND",
       "width": 832,
@@ -46,10 +46,10 @@
     },
     {
       "type": "catharsis:sprite",
-      "sprite": "eureka:gui_modifiers/fast_travel/the_end",
+      "sprite": "eureka:gui_modifiers/fast_travel/foraging_1",
       "condition": {
         "type": "catharsis:has_slot",
-        "slot": "skyblock_gui:fast_travel/the_end/spawn_unlocked"
+        "slot": "skyblock_gui:fast_travel/foraging_1/spawn/unlocked"
       },
       "layer": "FOREGROUND",
       "width": 832,
@@ -65,10 +65,67 @@
     },
     {
       "type": "catharsis:sprite",
-      "sprite": "eureka:gui_modifiers/fast_travel/the_park",
+      "sprite": "eureka:gui_modifiers/fast_travel/foraging_2_locked",
       "condition": {
         "type": "catharsis:has_slot",
-        "slot": "skyblock_gui:fast_travel/park/spawn_unlocked"
+        "slot": "skyblock_gui:fast_travel/foraging_2/spawn/locked"
+      },
+      "layer": "FOREGROUND",
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/fast_travel/foraging_2",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/foraging_2/spawn/unlocked"
+      },
+      "layer": "FOREGROUND",
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/fast_travel/combat_3_locked",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/combat_3/spawn/locked"
+      },
+      "layer": "FOREGROUND",
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/fast_travel/combat_3",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/combat_3/spawn/unlocked"
       },
       "layer": "FOREGROUND",
       "width": 832,
@@ -87,7 +144,6 @@
     {
       "type": "catharsis:button",
       "normal": "eureka:gui_modifiers/fast_travel/see",
-      "hovered": "eureka:gui_modifiers/fast_travel/see",
       "interaction": { "type": "catharsis:slot", "slot": 30 },
       "tooltip": { "type": "catharsis:slot", "slot": 30 },
       "width": 40,
@@ -103,58 +159,166 @@
     }
   ],
   "slots": {
-    "skyblock_gui:fast_travel/private_island/spawn_unlocked": {
+    "skyblock_gui:fast_travel/dynamic/spawn/undiscovered": {
       "position": { "x": 26, "y": 351 }
     },
-    "skyblock_gui:fast_travel/hub/spawn_unlocked": {
+    "skyblock_gui:fast_travel/dynamic/spawn/locked": {
+      "position": { "x": 26, "y": 351 }
+    },
+    "skyblock_gui:fast_travel/dynamic/spawn/unlocked": {
+      "position": { "x": 26, "y": 351 }
+    },
+    "skyblock_gui:fast_travel/hub/spawn/undiscovered": {
       "position": { "x": 23, "y": 210 }
     },
-    "skyblock_gui:fast_travel/dungeon_hub/spawn_unlocked": {
+    "skyblock_gui:fast_travel/hub/spawn/locked": {
+      "position": { "x": 23, "y": 210 }
+    },
+    "skyblock_gui:fast_travel/hub/spawn/unlocked": {
+      "position": { "x": 23, "y": 210 }
+    },
+    "skyblock_gui:fast_travel/dungeon_hub/spawn/undiscovered": {
       "position": { "x": 0, "y": 200 }
     },
-    "skyblock_gui:fast_travel/farming_islands/spawn_unlocked": {
+    "skyblock_gui:fast_travel/dungeon_hub/spawn/locked": {
+      "position": { "x": 0, "y": 200 }
+    },
+    "skyblock_gui:fast_travel/dungeon_hub/spawn/unlocked": {
+      "position": { "x": 0, "y": 200 }
+    },
+    "skyblock_gui:fast_travel/farming_1/spawn/undiscovered": {
       "position": { "x": 116, "y": 218 }
     },
-    "skyblock_gui:fast_travel/park/spawn_unlocked": {
+    "skyblock_gui:fast_travel/farming_1/spawn/locked": {
+      "position": { "x": 116, "y": 218 }
+    },
+    "skyblock_gui:fast_travel/farming_1/spawn/unlocked": {
+      "position": { "x": 116, "y": 218 }
+    },
+    "skyblock_gui:fast_travel/foraging_1/spawn/undiscovered": {
       "position": { "x": -82, "y": 168 }
     },
-    "skyblock_gui:fast_travel/galatea/spawn_unlocked": {
+    "skyblock_gui:fast_travel/foraging_1/spawn/locked": {
+      "position": { "x": -82, "y": 168 }
+    },
+    "skyblock_gui:fast_travel/foraging_1/spawn/unlocked": {
+      "position": { "x": -82, "y": 168 }
+    },
+    "skyblock_gui:fast_travel/foraging_2/spawn/undiscovered": {
       "position": { "x": -176, "y": 110 }
     },
-    "skyblock_gui:fast_travel/gold_mine/spawn_unlocked": {
+    "skyblock_gui:fast_travel/foraging_2/spawn/locked": {
+      "position": { "x": -176, "y": 110 }
+    },
+    "skyblock_gui:fast_travel/foraging_2/spawn/unlocked": {
+      "position": { "x": -176, "y": 110 }
+    },
+    "skyblock_gui:fast_travel/mining_1/spawn/undiscovered": {
       "position": { "x": 96, "y": 181 }
     },
-    "skyblock_gui:fast_travel/deep_caverns/spawn_unlocked": {
+    "skyblock_gui:fast_travel/mining_1/spawn/locked": {
+      "position": { "x": 96, "y": 181 }
+    },
+    "skyblock_gui:fast_travel/mining_1/spawn/unlocked": {
+      "position": { "x": 96, "y": 181 }
+    },
+    "skyblock_gui:fast_travel/mining_2/spawn/undiscovered": {
       "position": { "x": 170, "y": 126 }
     },
-    "skyblock_gui:fast_travel/dwarven_mines/spawn_unlocked": {
+    "skyblock_gui:fast_travel/mining_2/spawn/locked": {
+      "position": { "x": 170, "y": 126 }
+    },
+    "skyblock_gui:fast_travel/mining_2/spawn/unlocked": {
+      "position": { "x": 170, "y": 126 }
+    },
+    "skyblock_gui:fast_travel/mining_3/spawn/undiscovered": {
       "position": { "x": 190, "y": 135 }
     },
-    "skyblock_gui:fast_travel/crystal_hollows/entrance_unlocked": {
+    "skyblock_gui:fast_travel/mining_3/spawn/locked": {
+      "position": { "x": 190, "y": 135 }
+    },
+    "skyblock_gui:fast_travel/mining_3/spawn/unlocked": {
+      "position": { "x": 190, "y": 135 }
+    },
+    "skyblock_gui:fast_travel/crystal_hollows/entrance/undiscovered": {
       "position": { "x": 197, "y": 150 }
     },
-    "skyblock_gui:fast_travel/spiders_den/spawn_unlocked": {
+    "skyblock_gui:fast_travel/crystal_hollows/entrance/locked": {
+      "position": { "x": 197, "y": 150 }
+    },
+    "skyblock_gui:fast_travel/crystal_hollows/entrance/unlocked": {
+      "position": { "x": 197, "y": 150 }
+    },
+    "skyblock_gui:fast_travel/combat_1/spawn/undiscovered": {
       "position": { "x": 8, "y": 150 }
     },
-    "skyblock_gui:fast_travel/the_end/spawn_unlocked": {
+    "skyblock_gui:fast_travel/combat_1/spawn/locked": {
+      "position": { "x": 8, "y": 150 }
+    },
+    "skyblock_gui:fast_travel/combat_1/spawn/unlocked": {
+      "position": { "x": 8, "y": 150 }
+    },
+    "skyblock_gui:fast_travel/combat_3/spawn/undiscovered": {
       "position": { "x": -79, "y": 82 }
     },
-    "skyblock_gui:fast_travel/crimson_isle/spawn_unlocked": {
+    "skyblock_gui:fast_travel/combat_3/spawn/locked": {
+      "position": { "x": -79, "y": 82 }
+    },
+    "skyblock_gui:fast_travel/combat_3/spawn/unlocked": {
+      "position": { "x": -79, "y": 82 }
+    },
+    "skyblock_gui:fast_travel/crimson_isle/spawn/undiscovered": {
       "position": { "x": 22, "y": 90 }
     },
-    "skyblock_gui:fast_travel/garden/spawn_unlocked": {
+    "skyblock_gui:fast_travel/crimson_isle/spawn/locked": {
+      "position": { "x": 22, "y": 90 }
+    },
+    "skyblock_gui:fast_travel/crimson_isle/spawn/unlocked": {
+      "position": { "x": 22, "y": 90 }
+    },
+    "skyblock_gui:fast_travel/garden/spawn/undiscovered": {
       "position": { "x": 8, "y": 351 }
     },
-    "skyblock_gui:fast_travel/rift/wizard_tower_unlocked": {
+    "skyblock_gui:fast_travel/garden/spawn/locked": {
+      "position": { "x": 8, "y": 351 }
+    },
+    "skyblock_gui:fast_travel/garden/spawn/unlocked": {
+      "position": { "x": 8, "y": 351 }
+    },
+    "skyblock_gui:fast_travel/rift/wizard_tower/undiscovered": {
       "position": { "x": -9, "y": 228 }
     },
-    "skyblock_gui:fast_travel/backwater_bayou/spawn_unlocked": {
+    "skyblock_gui:fast_travel/rift/wizard_tower/locked": {
+      "position": { "x": -9, "y": 228 }
+    },
+    "skyblock_gui:fast_travel/rift/wizard_tower/unlocked": {
+      "position": { "x": -9, "y": 228 }
+    },
+    "skyblock_gui:fast_travel/fishing_1/spawn/undiscovered": {
       "position": { "x": 106, "y": 275 }
     },
-    "skyblock_gui:fast_travel/lotus_atoll/spawn_unlocked": {
+    "skyblock_gui:fast_travel/fishing_1/spawn/locked": {
+      "position": { "x": 106, "y": 275 }
+    },
+    "skyblock_gui:fast_travel/fishing_1/spawn/unlocked": {
+      "position": { "x": 106, "y": 275 }
+    },
+    "skyblock_gui:fast_travel/lotus_atoll/spawn/undiscovered": {
       "position": { "x": 124, "y": 275 }
     },
-    "skyblock_gui:fast_travel/jerrys_workshop/spawn_unlocked": {
+    "skyblock_gui:fast_travel/lotus_atoll/spawn/locked": {
+      "position": { "x": 124, "y": 275 }
+    },
+    "skyblock_gui:fast_travel/lotus_atoll/spawn/unlocked": {
+      "position": { "x": 124, "y": 275 }
+    },
+    "skyblock_gui:fast_travel/winter/spawn/undiscovered": {
+      "position": { "x": -10, "y": 351 }
+    },
+    "skyblock_gui:fast_travel/winter/spawn/locked": {
+      "position": { "x": -10, "y": 351 }
+    },
+    "skyblock_gui:fast_travel/winter/spawn/unlocked": {
       "position": { "x": -10, "y": 351 }
     },
     "skyblock_gui:fast_travel/island_browser": {
