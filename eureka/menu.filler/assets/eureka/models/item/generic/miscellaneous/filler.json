@@ -1,4 +1,1 @@
-{
-  "parent": "eureka:item/generic_x2",
-  "textures": { "layer0": "eureka:item/generic/miscellaneous/filler" }
-}
+{"parent":"eureka:item/generic_x2","textures":{"layer0":"eureka:item/generic/miscellaneous/filler"}}

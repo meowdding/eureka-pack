@@ -1,4 +1,1 @@
-{
-  "parent": "eureka:item/generic_x4",
-  "textures": { "layer0": "eureka:item/skill_tree/hotm/token_0/branch/6_5" }
-}
+{"parent":"eureka:item/generic_x4","textures":{"layer0":"eureka:item/skill_tree/hotm/token_0/branch/6_5"}}

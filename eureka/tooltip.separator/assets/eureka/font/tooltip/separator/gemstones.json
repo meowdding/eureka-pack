@@ -1,17 +1,1 @@
-{
-  "providers": [
-    {
-      "type": "bitmap",
-      "file": "eureka:font/tooltip/separator/gemstones.png",
-      "ascent": 5,
-      "height": 9,
-      "chars": ["\uE000"]
-    },
-    {
-      "type": "space",
-      "advances": {
-        "\uE001": 101
-      }
-    }
-  ]
-}
+{"providers":[{"type":"bitmap","file":"eureka:font/tooltip/separator/gemstones.png","ascent":5,"height":9,"chars":[""]},{"type":"space","advances":{"":101}}]}

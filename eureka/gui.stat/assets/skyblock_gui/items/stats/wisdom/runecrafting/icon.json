@@ -1,15 +1,1 @@
-{
-  "model": {
-    "type": "composite",
-    "models": [
-      {
-        "type": "model",
-        "model": "eureka:item/skills/widget/primary/runecrafting/icon"
-      },
-      {
-        "type": "model",
-        "model": "eureka:item/stats/widget/secondary/wisdom"
-      }
-    ]
-  }
-}
+{"model":{"type":"composite","models":[{"type":"model","model":"eureka:item/skills/widget/primary/runecrafting/icon"},{"type":"model","model":"eureka:item/stats/widget/secondary/wisdom"}]}}

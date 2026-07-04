@@ -1,6 +1,1 @@
-{
-  "model": {
-    "type": "minecraft:model",
-    "model": "eureka:block/mining_3/dwarven_mines/pure_diamond"
-  }
-}
+{"model":{"type":"model","model":"eureka:block/mining_3/dwarven_mines/pure_diamond"}}

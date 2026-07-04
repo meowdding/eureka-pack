@@ -1,5 +1,1 @@
-{
-  "texture": "eureka:textures/mining_2/emerald_slime/emerald_slime.png",
-  "model": "eureka:models/mining_2/emerald_slime/emerald_slime.geo.json",
-  "translucent": true
-}
+{"texture":"eureka:textures/mining_2/emerald_slime/emerald_slime.png","model":"eureka:models/mining_2/emerald_slime/emerald_slime.geo.json","translucent":true}

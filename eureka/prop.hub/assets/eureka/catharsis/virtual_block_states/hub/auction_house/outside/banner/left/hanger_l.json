@@ -1,7 +1,1 @@
-{
-  "variants": {
-    "": {
-      "model": "eureka:block/hub/auction_house/outside/banner/left/hanger_l"
-    }
-  }
-}
+{"variants":{"":{"model":"eureka:block/hub/auction_house/outside/banner/left/hanger_l"}}}
