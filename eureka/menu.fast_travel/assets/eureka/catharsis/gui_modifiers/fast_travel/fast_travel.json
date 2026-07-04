@@ -1124,80 +1124,80 @@
       "width": 16,
       "height": 16,
       "x": {
-        "offset": 22,
-        "alignment": "START"
-      },
-      "y": {
-        "offset": 90,
-        "alignment": "START"
-      }
-    },
-    {
-      "type": "catharsis:button",
-      "condition": {
-        "type": "catharsis:has_slot",
-        "slot": "skyblock_gui:fast_travel/crimson_isle/spawn/undiscovered"
-      },
-      "normal": "eureka:gui_modifiers/fast_travel/empty",
-      "interaction": {
-        "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:fast_travel/crimson_isle/spawn/undiscovered"
-      },
-      "tooltip": { "type": "catharsis:slot", "slot": 24 },
-      "width": 16,
-      "height": 16,
-      "x": {
-        "offset": 22,
-        "alignment": "START"
-      },
-      "y": {
-        "offset": 90,
-        "alignment": "START"
-      }
-    },
-    {
-      "type": "catharsis:button",
-      "condition": {
-        "type": "catharsis:has_slot",
-        "slot": "skyblock_gui:fast_travel/crimson_isle/spawn/locked"
-      },
-      "normal": "eureka:gui_modifiers/fast_travel/empty",
-      "interaction": {
-        "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:fast_travel/crimson_isle/spawn/locked"
-      },
-      "tooltip": { "type": "catharsis:slot", "slot": 24 },
-      "width": 16,
-      "height": 16,
-      "x": {
-        "offset": 22,
-        "alignment": "START"
-      },
-      "y": {
-        "offset": 90,
-        "alignment": "START"
-      }
-    },
-    {
-      "type": "catharsis:button",
-      "condition": {
-        "type": "catharsis:has_slot",
-        "slot": "skyblock_gui:fast_travel/crimson_isle/spawn/unlocked"
-      },
-      "normal": "eureka:gui_modifiers/fast_travel/empty",
-      "interaction": {
-        "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:fast_travel/crimson_isle/spawn/unlocked"
-      },
-      "tooltip": { "type": "catharsis:slot", "slot": 24 },
-      "width": 16,
-      "height": 16,
-      "x": {
         "offset": 8,
         "alignment": "START"
       },
       "y": {
         "offset": 150,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/spawn/undiscovered"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/spawn/undiscovered"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 24 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 22,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 90,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/spawn/locked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/spawn/locked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 24 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 22,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 90,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/spawn/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/spawn/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 24 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 22,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 90,
         "alignment": "START"
       }
     }

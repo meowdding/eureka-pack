@@ -1,5 +1,11 @@
 - License
-All Rights Reserved (ARR)
+All Rights Reserved (ARR), most asset copyright @Junenya.
+
+Texture assets for rod parts (Except Sinkers) are remixed from the Official Hypixel Skyblock Resource Pack, copyright @Hypixel.
+
+Texture assets for the custom Quick Travel menu map are remixed from the hub Map on Hypixel Skyblock, copyright @Hypixel.
+
+I have been unable to directly ask for permission, contact @Junenya on Discord for inquiries (E.g. Removal).
 
 - Created & Owned by:
 @junenya on Discord
@@ -20,5 +26,3 @@ https://development.catharsis-e4x.pages.dev/
 - Catharsis Repository (Mod Dependency!)
 https://github.com/meowdding/catharsis
 
-- Fishing Rod Textures by the Hypixel Art Team (Remixed and used in the Rod Parts overlay)
-Contact @Junenya on Discord to request removal.

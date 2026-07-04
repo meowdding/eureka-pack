@@ -1,0 +1,295 @@
+{
+  "target": {
+    "type": "catharsis:definition",
+    "definition": "catharsis:fast_travel/farming_1"
+  },
+  "overrideBackground": true,
+  "overrideLabels": true,
+  "bounds": {
+    "width": 832,
+    "height": 448
+  },
+  "elements": [
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/fast_travel/fast_travel_silhouette_focused",
+      "layer": "BACKGROUND",
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/fast_travel/farming_1",
+      "layer": "FOREGROUND",
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    }
+  ],
+  "widgets": [
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/farming_1/spawn/locked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/farming_1/spawn/locked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 10 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 116,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 200,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/farming_1/spawn/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/farming_1/spawn/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 10 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 116,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 200,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/farming_1/desert/locked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/farming_1/desert/locked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 12 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 177,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 178,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/farming_1/desert/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/farming_1/desert/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 12 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 177,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 178,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/farming_1/glowing_mushroom_cave/locked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/farming_1/glowing_mushroom_cave/locked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 16 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 292,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 152,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/farming_1/glowing_mushroom_cave/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/farming_1/glowing_mushroom_cave/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 16 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 292,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 152,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/farming_1/glowing_mushroom_cave/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/farming_1/glowing_mushroom_cave/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 16 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 251,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 157,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/farming_1/trappers/locked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/farming_1/trappers/locked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 14 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 251,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 157,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/go_back"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 30 },
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    }
+  ],
+  "slots": {
+    "skyblock_gui:fast_travel/farming_1/spawn/locked": {
+      "position": { "x": 116, "y": 200 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/farming_1/spawn/unlocked": {
+      "position": { "x": 116, "y": 200 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/farming_1/desert/locked": {
+      "position": { "x": 177, "y": 178 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/farming_1/desert/unlocked": {
+      "position": { "x": 177, "y": 178 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/farming_1/trappers/locked": {
+      "position": { "x": 292, "y": 152 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/farming_1/trappers/unlocked": {
+      "position": { "x": 292, "y": 152 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/farming_1/glowing_mushroom_cave/locked": {
+      "position": { "x": 251, "y": 157 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/farming_1/glowing_mushroom_cave/unlocked": {
+      "position": { "x": 251, "y": 157 },
+      "clickable": false
+    },
+    "skyblock_gui:generic/navigation/close": {
+      "position": { "x": 80, "y": 333 }
+    },
+    "skyblock_gui:generic/navigation/go_back": {
+      "position": { "x": 62, "y": 333 }
+    },
+    "skyblock_gui:generic/miscellaneous/filler": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler": {
+      "hidden": true
+    }
+  }
+}

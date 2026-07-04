@@ -114,13 +114,6 @@
     },
     {
       "type": "bitmap",
-      "file": "eureka:font/stat/miscellaneous/magic_find.png",
-      "ascent": 7,
-      "height": 7,
-      "chars": [""]
-    },
-    {
-      "type": "bitmap",
       "file": "eureka:font/stat/miscellaneous/pressure_resistance.png",
       "ascent": 7,
       "height": 8,
