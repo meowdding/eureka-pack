@@ -41,15 +41,162 @@
       }
     }
   ],
+  "widgets": [
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/foraging_1/spawn/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/foraging_1/spawn/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 11 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -82,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 150,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/foraging_1/howling_cave/locked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/foraging_1/howling_cave/locked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 15 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -98,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 125,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/foraging_1/howling_cave/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/foraging_1/howling_cave/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 15 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -98,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 125,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/foraging_1/jungle/locked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/foraging_1/jungle/locked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 13 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -127,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 106,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/foraging_1/jungle/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/foraging_1/jungle/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 13 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -127,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 106,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/go_back"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 30 },
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    }
+  ],
   "slots": {
     "skyblock_gui:fast_travel/foraging_1/spawn/unlocked": {
-      "position": { "x": -82, "y": 152 }
+      "position": { "x": -82, "y": 150 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/foraging_1/jungle/locked": {
+      "position": { "x": -127, "y": 106 },
+      "clickable": false
     },
     "skyblock_gui:fast_travel/foraging_1/jungle/unlocked": {
-      "position": { "x": -127, "y": 106 }
+      "position": { "x": -127, "y": 106 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/foraging_1/howling_cave/locked": {
+      "position": { "x": -98, "y": 125 },
+      "clickable": false
     },
     "skyblock_gui:fast_travel/foraging_1/howling_cave/unlocked": {
-      "position": { "x": -98, "y": 125 }
+      "position": { "x": -98, "y": 125 },
+      "clickable": false
     },
     "skyblock_gui:generic/navigation/close": {
       "position": { "x": 80, "y": 333 }

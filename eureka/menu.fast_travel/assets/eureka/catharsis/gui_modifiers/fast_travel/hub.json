@@ -1,0 +1,480 @@
+{
+  "target": {
+    "type": "catharsis:definition",
+    "definition": "catharsis:fast_travel/hub"
+  },
+  "overrideBackground": true,
+  "overrideLabels": true,
+  "bounds": {
+    "width": 832,
+    "height": 448
+  },
+  "elements": [
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/fast_travel/fast_travel_silhouette_focused",
+      "layer": "BACKGROUND",
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/fast_travel/hub",
+      "layer": "FOREGROUND",
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    }
+  ],
+  "widgets": [
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/hub/spawn/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 10 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 19,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 209,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/hub/wizard_tower/locked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/hub/wizard_tower/locked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 20 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -9,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 220,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/hub/wizard_tower/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/hub/wizard_tower/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 20 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -9,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 220,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/hub/carnival/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 22 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -8,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 180,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/hub/crypts/locked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/hub/crypts/locked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 14 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -14,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 164,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/hub/crypts/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/hub/crypts/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 14 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -14,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 164,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/hub/trading/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/hub/trading/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 24 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 26,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 193,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/hub/taylor/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/hub/taylor/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 16 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 35,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 215,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/hub/elizabeth/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/hub/elizabeth/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 12 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 2,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 204,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/hub/museum/locked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/hub/museum/locked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 15 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 18,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 225,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/hub/museum/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/hub/museum/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 15 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 18,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 225,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/hub/castle/locked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/hub/castle/locked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 11 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -96,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 165,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/hub/castle/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/hub/castle/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 11 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -96,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 165,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/hub/sirius/locked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/hub/sirius/locked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 13 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -30,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 263,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/hub/sirius/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/hub/sirius/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 13 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -30,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 263,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/go_back"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 39 },
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    }
+  ],
+  "slots": {
+    "skyblock_gui:fast_travel/hub/spawn/unlocked": {
+      "position": { "x": 19, "y": 209 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/hub/wizard_tower/locked": {
+      "position": { "x": -9, "y": 220 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/hub/wizard_tower/unlocked": {
+      "position": { "x": -9, "y": 220 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/hub/castle/locked": {
+      "position": { "x": -96, "y": 165 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/hub/castle/unlocked": {
+      "position": { "x": -96, "y": 165 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/hub/elizabeth/unlocked": {
+      "position": { "x": 2, "y": 204 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/hub/museum/locked": {
+      "position": { "x": 18, "y": 225 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/hub/museum/unlocked": {
+      "position": { "x": 18, "y": 225 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/hub/taylor/unlocked": {
+      "position": { "x": 35, "y": 215 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/hub/crypts/locked": {
+      "position": { "x": -14, "y": 164 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/hub/crypts/unlocked": {
+      "position": { "x": -14, "y": 164 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/hub/sirius/locked": {
+      "position": { "x": -30, "y": 263 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/hub/sirius/unlocked": {
+      "position": { "x": -30, "y": 263 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/hub/trading/unlocked": {
+      "position": { "x": 26, "y": 193 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/hub/carnival/locked": {
+      "position": { "x": -8, "y": 180 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/hub/carnival/unlocked": {
+      "position": { "x": -8, "y": 180 },
+      "clickable": false
+    },
+    "skyblock_gui:generic/navigation/close": {
+      "position": { "x": 80, "y": 333 }
+    },
+    "skyblock_gui:generic/navigation/go_back": {
+      "position": { "x": 62, "y": 333 }
+    },
+    "skyblock_gui:generic/miscellaneous/filler": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler": {
+      "hidden": true
+    }
+  }
+}

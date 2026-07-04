@@ -44,8 +44,80 @@
   "widgets": [
     {
       "type": "catharsis:button",
-      "normal": "eureka:gui_modifiers/fast_travel/go_back",
-      "interaction": { "type": "catharsis:slot", "slot": 30 },
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/foraging_2/spawn/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/foraging_2/spawn/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 12 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -176,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 92,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/foraging_2/murkwater/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/foraging_2/murkwater/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 14 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -210,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 92,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/foraging_2/murkwater/locked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/foraging_2/murkwater/locked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 14 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -210,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 92,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/go_back"
+      },
       "tooltip": { "type": "catharsis:slot", "slot": 30 },
       "width": 832,
       "height": 448,
@@ -57,30 +129,20 @@
         "offset": -224,
         "alignment": "CENTER"
       }
-    },
-    {
-      "type": "catharsis:button",
-      "normal": "eureka:gui_modifiers/fast_travel/see",
-      "interaction": { "type": "catharsis:slot", "slot": 12 },
-      "tooltip": { "type": "catharsis:slot", "slot": 12 },
-      "width": 18,
-      "height": 18,
-      "x": {
-        "offset": -200,
-        "alignment": "CENTER"
-      },
-      "y": {
-        "offset": 58,
-        "alignment": "CENTER"
-      }
     }
   ],
   "slots": {
     "skyblock_gui:fast_travel/foraging_2/spawn/unlocked": {
-      "position": { "x": -176, "y": 92 }
+      "position": { "x": -176, "y": 92 },
+      "clickable": false
     },
     "skyblock_gui:fast_travel/foraging_2/murkwater/unlocked": {
-      "position": { "x": -210, "y": 92 }
+      "position": { "x": -210, "y": 92 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/foraging_2/murkwater/locked": {
+      "position": { "x": -210, "y": 92 },
+      "clickable": false
     },
     "skyblock_gui:generic/navigation/close": {
       "position": { "x": 80, "y": 333 }

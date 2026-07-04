@@ -41,15 +41,162 @@
       }
     }
   ],
+  "widgets": [
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/combat_3/spawn/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/combat_3/spawn/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 11 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -79,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 64,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/combat_3/sepulture/locked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/combat_3/sepulture/locked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 15 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -100,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 30,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/combat_3/sepulture/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/combat_3/sepulture/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 15 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -100,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 30,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/combat_3/nest/locked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/combat_3/nest/locked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 13 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -120,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 86,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/combat_3/nest/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/combat_3/nest/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 13 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -120,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 86,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/go_back"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 30 },
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    }
+  ],
   "slots": {
     "skyblock_gui:fast_travel/combat_3/spawn/unlocked": {
-      "position": { "x": -79, "y": 64 }
+      "position": { "x": -79, "y": 64 },
+      "clickable": false
     },
     "skyblock_gui:fast_travel/combat_3/nest/unlocked": {
-      "position": { "x": -120, "y": 86 }
+      "position": { "x": -120, "y": 86 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/combat_3/nest/locked": {
+      "position": { "x": -120, "y": 86 },
+      "clickable": false
     },
     "skyblock_gui:fast_travel/combat_3/sepulture/unlocked": {
-      "position": { "x": -100, "y": 30 }
+      "position": { "x": -100, "y": 30 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/combat_3/sepulture/locked": {
+      "position": { "x": -100, "y": 30 },
+      "clickable": false
     },
     "skyblock_gui:generic/navigation/close": {
       "position": { "x": 80, "y": 333 }
