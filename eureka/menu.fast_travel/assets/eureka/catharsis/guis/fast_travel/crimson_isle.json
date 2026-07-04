@@ -1,0 +1,18 @@
+{
+  "target": {
+    "title": "Crimson Isle Warps",
+    "type": "catharsis:title"
+  },
+  "layout": [
+    {
+      "id": "eureka:generic/miscellaneous/filler",
+      "target": {
+        "type": "catharsis:slot",
+        "slot": {
+          "min": 45,
+          "max": 80
+        }
+      }
+    }
+  ]
+}
