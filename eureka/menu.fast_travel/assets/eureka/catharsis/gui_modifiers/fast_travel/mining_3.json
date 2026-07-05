@@ -1,0 +1,214 @@
+{
+  "target": {
+    "type": "catharsis:definition",
+    "definition": "catharsis:fast_travel/mining_3"
+  },
+  "overrideBackground": true,
+  "overrideLabels": true,
+  "bounds": {
+    "width": 832,
+    "height": 448
+  },
+  "elements": [
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/fast_travel/fast_travel_silhouette_focused",
+      "layer": "BACKGROUND",
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/fast_travel/mining_2",
+      "layer": "FOREGROUND",
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    }
+  ],
+  "widgets": [
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/mining_3/spawn/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/mining_3/spawn/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 11 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 190,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 117,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/mining_3/forge/locked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/mining_3/forge/locked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 13 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 172,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 123,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/mining_3/forge/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/mining_3/forge/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 13 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 172,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 123,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/mining_3/base_camp/locked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/mining_3/base_camp/locked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 15 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 208,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 123,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/mining_3/base_camp/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/mining_3/base_camp/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 15 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 208,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 123,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/go_back"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 30 },
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    }
+  ],
+  "slots": {
+    "skyblock_gui:fast_travel/mining_3/spawn/unlocked": {
+      "position": { "x": 190, "y": 117 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/mining_3/forge/locked": {
+      "position": { "x": 172, "y": 123 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/mining_3/forge/unlocked": {
+      "position": { "x": 172, "y": 123 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/mining_3/base_camp/locked": {
+      "position": { "x": 208, "y": 123 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/mining_3/base_camp/unlocked": {
+      "position": { "x": 208, "y": 123 },
+      "clickable": false
+    },
+    "skyblock_gui:generic/navigation/close": {
+      "position": { "x": 80, "y": 333 }
+    },
+    "skyblock_gui:generic/navigation/go_back": {
+      "position": { "x": 62, "y": 333 }
+    },
+    "skyblock_gui:generic/miscellaneous/filler": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler": {
+      "hidden": true
+    }
+  }
+}

@@ -1,1 +1,214 @@
-{"target":{"type":"catharsis:definition","definition":"catharsis:fast_travel/combat_1"},"overrideBackground":true,"overrideLabels":true,"bounds":{"width":832,"height":448},"elements":[{"type":"catharsis:sprite","sprite":"eureka:gui_modifiers/fast_travel/fast_travel_silhouette_focused","layer":"BACKGROUND","width":832,"height":448,"x":{"offset":-416,"alignment":"CENTER"},"y":{"offset":-224,"alignment":"CENTER"}},{"type":"catharsis:sprite","sprite":"eureka:gui_modifiers/fast_travel/combat_1","layer":"FOREGROUND","width":832,"height":448,"x":{"offset":-416,"alignment":"CENTER"},"y":{"offset":-224,"alignment":"CENTER"}}],"widgets":[{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/combat_1/spawn/unlocked"},"normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/combat_1/spawn/unlocked"},"tooltip":{"type":"catharsis:slot","slot":11},"width":16,"height":16,"x":{"offset":8,"alignment":"START"},"y":{"offset":132,"alignment":"START"}},{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/combat_1/arachne/locked"},"normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/combat_1/arachne/locked"},"tooltip":{"type":"catharsis:slot","slot":15},"width":16,"height":16,"x":{"offset":-44,"alignment":"START"},"y":{"offset":112,"alignment":"START"}},{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/combat_1/arachne/unlocked"},"normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/combat_1/arachne/unlocked"},"tooltip":{"type":"catharsis:slot","slot":15},"width":16,"height":16,"x":{"offset":-44,"alignment":"START"},"y":{"offset":112,"alignment":"START"}},{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/combat_1/top_of_nest/locked"},"normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/combat_1/top_of_nest/locked"},"tooltip":{"type":"catharsis:slot","slot":13},"width":16,"height":16,"x":{"offset":41,"alignment":"START"},"y":{"offset":82,"alignment":"START"}},{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/combat_1/top_of_nest/unlocked"},"normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/combat_1/top_of_nest/unlocked"},"tooltip":{"type":"catharsis:slot","slot":13},"width":16,"height":16,"x":{"offset":41,"alignment":"START"},"y":{"offset":82,"alignment":"START"}},{"type":"catharsis:button","normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:generic/navigation/go_back"},"tooltip":{"type":"catharsis:slot","slot":30},"width":832,"height":448,"x":{"offset":-416,"alignment":"CENTER"},"y":{"offset":-224,"alignment":"CENTER"}}],"slots":{"skyblock_gui:fast_travel/combat_1/spawn/unlocked":{"position":{"x":8,"y":132},"clickable":false},"skyblock_gui:fast_travel/combat_1/top_of_nest/locked":{"position":{"x":41,"y":82},"clickable":false},"skyblock_gui:fast_travel/combat_1/top_of_nest/unlocked":{"position":{"x":41,"y":82},"clickable":false},"skyblock_gui:fast_travel/combat_1/arachne/locked":{"position":{"x":-44,"y":112},"clickable":false},"skyblock_gui:fast_travel/combat_1/arachne/unlocked":{"position":{"x":-44,"y":112},"clickable":false},"skyblock_gui:generic/navigation/close":{"position":{"x":80,"y":333}},"skyblock_gui:generic/navigation/go_back":{"position":{"x":62,"y":333}},"skyblock_gui:generic/miscellaneous/filler":{"hidden":true},"eureka:generic/miscellaneous/filler":{"hidden":true}}}
+{
+  "target": {
+    "type": "catharsis:definition",
+    "definition": "catharsis:fast_travel/combat_1"
+  },
+  "overrideBackground": true,
+  "overrideLabels": true,
+  "bounds": {
+    "width": 832,
+    "height": 448
+  },
+  "elements": [
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/fast_travel/fast_travel_silhouette_focused",
+      "layer": "BACKGROUND",
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/fast_travel/combat_1",
+      "layer": "FOREGROUND",
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    }
+  ],
+  "widgets": [
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/combat_1/spawn/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/combat_1/spawn/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 11 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 8,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 132,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/combat_1/arachne/locked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/combat_1/arachne/locked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 15 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -44,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 112,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/combat_1/arachne/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/combat_1/arachne/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 15 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -44,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 112,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/combat_1/top_of_nest/locked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/combat_1/top_of_nest/locked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 13 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 41,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 82,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/combat_1/top_of_nest/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/combat_1/top_of_nest/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 13 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 41,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 82,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/go_back"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 30 },
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    }
+  ],
+  "slots": {
+    "skyblock_gui:fast_travel/combat_1/spawn/unlocked": {
+      "position": { "x": 8, "y": 132 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/combat_1/top_of_nest/locked": {
+      "position": { "x": 41, "y": 82 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/combat_1/top_of_nest/unlocked": {
+      "position": { "x": 41, "y": 82 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/combat_1/arachne/locked": {
+      "position": { "x": -44, "y": 112 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/combat_1/arachne/unlocked": {
+      "position": { "x": -44, "y": 112 },
+      "clickable": false
+    },
+    "skyblock_gui:generic/navigation/close": {
+      "position": { "x": 80, "y": 333 }
+    },
+    "skyblock_gui:generic/navigation/go_back": {
+      "position": { "x": 62, "y": 333 }
+    },
+    "skyblock_gui:generic/miscellaneous/filler": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler": {
+      "hidden": true
+    }
+  }
+}

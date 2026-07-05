@@ -1,1 +1,1415 @@
-{"target":{"type":"catharsis:definition","definition":"catharsis:fast_travel/fast_travel"},"overrideBackground":true,"overrideLabels":true,"bounds":{"width":832,"height":448},"elements":[{"type":"catharsis:sprite","sprite":"eureka:gui_modifiers/fast_travel/fast_travel_silhouette","layer":"BACKGROUND","width":832,"height":448,"x":{"offset":-416,"alignment":"CENTER"},"y":{"offset":-224,"alignment":"CENTER"}},{"type":"catharsis:sprite","sprite":"eureka:gui_modifiers/fast_travel/foraging_1_locked","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/foraging_1/spawn/locked"},"layer":"FOREGROUND","width":832,"height":448,"x":{"offset":-416,"alignment":"CENTER"},"y":{"offset":-224,"alignment":"CENTER"}},{"type":"catharsis:sprite","sprite":"eureka:gui_modifiers/fast_travel/foraging_1","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/foraging_1/spawn/unlocked"},"layer":"FOREGROUND","width":832,"height":448,"x":{"offset":-416,"alignment":"CENTER"},"y":{"offset":-224,"alignment":"CENTER"}},{"type":"catharsis:sprite","sprite":"eureka:gui_modifiers/fast_travel/foraging_2_locked","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/foraging_2/spawn/locked"},"layer":"FOREGROUND","width":832,"height":448,"x":{"offset":-416,"alignment":"CENTER"},"y":{"offset":-224,"alignment":"CENTER"}},{"type":"catharsis:sprite","sprite":"eureka:gui_modifiers/fast_travel/foraging_2","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/foraging_2/spawn/unlocked"},"layer":"FOREGROUND","width":832,"height":448,"x":{"offset":-416,"alignment":"CENTER"},"y":{"offset":-224,"alignment":"CENTER"}},{"type":"catharsis:sprite","sprite":"eureka:gui_modifiers/fast_travel/combat_3_locked","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/combat_3/spawn/locked"},"layer":"FOREGROUND","width":832,"height":448,"x":{"offset":-416,"alignment":"CENTER"},"y":{"offset":-224,"alignment":"CENTER"}},{"type":"catharsis:sprite","sprite":"eureka:gui_modifiers/fast_travel/combat_3","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/combat_3/spawn/unlocked"},"layer":"FOREGROUND","width":832,"height":448,"x":{"offset":-416,"alignment":"CENTER"},"y":{"offset":-224,"alignment":"CENTER"}},{"type":"catharsis:sprite","sprite":"eureka:gui_modifiers/fast_travel/hub","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/hub/spawn/unlocked"},"layer":"FOREGROUND","width":832,"height":448,"x":{"offset":-416,"alignment":"CENTER"},"y":{"offset":-224,"alignment":"CENTER"}},{"type":"catharsis:sprite","sprite":"eureka:gui_modifiers/fast_travel/farming_1_locked","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/farming_1/spawn/locked"},"layer":"FOREGROUND","width":832,"height":448,"x":{"offset":-416,"alignment":"CENTER"},"y":{"offset":-224,"alignment":"CENTER"}},{"type":"catharsis:sprite","sprite":"eureka:gui_modifiers/fast_travel/farming_1","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/farming_1/spawn/unlocked"},"layer":"FOREGROUND","width":832,"height":448,"x":{"offset":-416,"alignment":"CENTER"},"y":{"offset":-224,"alignment":"CENTER"}},{"type":"catharsis:sprite","sprite":"eureka:gui_modifiers/fast_travel/mining_1_locked","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/mining_1/spawn/locked"},"layer":"FOREGROUND","width":832,"height":448,"x":{"offset":-416,"alignment":"CENTER"},"y":{"offset":-224,"alignment":"CENTER"}},{"type":"catharsis:sprite","sprite":"eureka:gui_modifiers/fast_travel/mining_1","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/mining_1/spawn/unlocked"},"layer":"FOREGROUND","width":832,"height":448,"x":{"offset":-416,"alignment":"CENTER"},"y":{"offset":-224,"alignment":"CENTER"}},{"type":"catharsis:sprite","sprite":"eureka:gui_modifiers/fast_travel/mining_2_locked","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/mining_2/spawn/locked"},"layer":"FOREGROUND","width":832,"height":448,"x":{"offset":-416,"alignment":"CENTER"},"y":{"offset":-224,"alignment":"CENTER"}},{"type":"catharsis:sprite","sprite":"eureka:gui_modifiers/fast_travel/mining_2","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/mining_2/spawn/unlocked"},"layer":"FOREGROUND","width":832,"height":448,"x":{"offset":-416,"alignment":"CENTER"},"y":{"offset":-224,"alignment":"CENTER"}},{"type":"catharsis:sprite","sprite":"eureka:gui_modifiers/fast_travel/combat_1_locked","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/combat_1/spawn/locked"},"layer":"FOREGROUND","width":832,"height":448,"x":{"offset":-416,"alignment":"CENTER"},"y":{"offset":-224,"alignment":"CENTER"}},{"type":"catharsis:sprite","sprite":"eureka:gui_modifiers/fast_travel/combat_1","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/combat_1/spawn/unlocked"},"layer":"FOREGROUND","width":832,"height":448,"x":{"offset":-416,"alignment":"CENTER"},"y":{"offset":-224,"alignment":"CENTER"}},{"type":"catharsis:sprite","sprite":"eureka:gui_modifiers/fast_travel/crimson_isle_locked","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/crimson_isle/spawn/locked"},"layer":"FOREGROUND","width":832,"height":448,"x":{"offset":-416,"alignment":"CENTER"},"y":{"offset":-224,"alignment":"CENTER"}},{"type":"catharsis:sprite","sprite":"eureka:gui_modifiers/fast_travel/crimson_isle","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/crimson_isle/spawn/unlocked"},"layer":"FOREGROUND","width":832,"height":448,"x":{"offset":-416,"alignment":"CENTER"},"y":{"offset":-224,"alignment":"CENTER"}}],"widgets":[{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/foraging_2/spawn/undiscovered"},"normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/foraging_2/spawn/undiscovered"},"tooltip":{"type":"catharsis:slot","slot":15},"width":16,"height":16,"x":{"offset":-176,"alignment":"START"},"y":{"offset":110,"alignment":"START"}},{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/foraging_2/spawn/locked"},"normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/foraging_2/spawn/locked"},"tooltip":{"type":"catharsis:slot","slot":15},"width":16,"height":16,"x":{"offset":-176,"alignment":"START"},"y":{"offset":110,"alignment":"START"}},{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/foraging_2/spawn/unlocked"},"normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/foraging_2/spawn/unlocked"},"tooltip":{"type":"catharsis:slot","slot":15},"width":16,"height":16,"x":{"offset":-176,"alignment":"START"},"y":{"offset":110,"alignment":"START"}},{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/foraging_1/spawn/undiscovered"},"normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/foraging_1/spawn/undiscovered"},"tooltip":{"type":"catharsis:slot","slot":14},"width":16,"height":16,"x":{"offset":-82,"alignment":"START"},"y":{"offset":168,"alignment":"START"}},{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/foraging_1/spawn/locked"},"normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/foraging_1/spawn/locked"},"tooltip":{"type":"catharsis:slot","slot":14},"width":16,"height":16,"x":{"offset":-82,"alignment":"START"},"y":{"offset":168,"alignment":"START"}},{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/foraging_1/spawn/unlocked"},"normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/foraging_1/spawn/unlocked"},"tooltip":{"type":"catharsis:slot","slot":14},"width":16,"height":16,"x":{"offset":-82,"alignment":"START"},"y":{"offset":168,"alignment":"START"}},{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/combat_3/spawn/undiscovered"},"normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/combat_3/spawn/undiscovered"},"tooltip":{"type":"catharsis:slot","slot":23},"width":16,"height":16,"x":{"offset":-79,"alignment":"START"},"y":{"offset":82,"alignment":"START"}},{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/combat_3/spawn/locked"},"normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/combat_3/spawn/locked"},"tooltip":{"type":"catharsis:slot","slot":23},"width":16,"height":16,"x":{"offset":-79,"alignment":"START"},"y":{"offset":82,"alignment":"START"}},{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/combat_3/spawn/unlocked"},"normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/combat_3/spawn/unlocked"},"tooltip":{"type":"catharsis:slot","slot":23},"width":16,"height":16,"x":{"offset":-79,"alignment":"START"},"y":{"offset":82,"alignment":"START"}},{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/hub/spawn/unlocked"},"normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/hub/spawn/unlocked"},"tooltip":{"type":"catharsis:slot","slot":11},"width":16,"height":16,"x":{"offset":19,"alignment":"START"},"y":{"offset":218,"alignment":"START"}},{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/rift/wizard_tower/undiscovered"},"normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/rift/wizard_tower/undiscovered"},"tooltip":{"type":"catharsis:slot","slot":29},"width":16,"height":16,"x":{"offset":-9,"alignment":"START"},"y":{"offset":229,"alignment":"START"}},{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/rift/wizard_tower/locked"},"normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/rift/wizard_tower/locked"},"tooltip":{"type":"catharsis:slot","slot":29},"width":16,"height":16,"x":{"offset":-9,"alignment":"START"},"y":{"offset":229,"alignment":"START"}},{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/rift/wizard_tower/unlocked"},"normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/rift/wizard_tower/unlocked"},"tooltip":{"type":"catharsis:slot","slot":29},"width":16,"height":16,"x":{"offset":-9,"alignment":"START"},"y":{"offset":229,"alignment":"START"}},{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/dungeon_hub/spawn/undiscovered"},"normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/dungeon_hub/spawn/undiscovered"},"tooltip":{"type":"catharsis:slot","slot":12},"width":16,"height":16,"x":{"offset":0,"alignment":"START"},"y":{"offset":200,"alignment":"START"}},{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/dungeon_hub/spawn/locked"},"normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/dungeon_hub/spawn/locked"},"tooltip":{"type":"catharsis:slot","slot":12},"width":16,"height":16,"x":{"offset":0,"alignment":"START"},"y":{"offset":200,"alignment":"START"}},{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/dungeon_hub/spawn/unlocked"},"normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/dungeon_hub/spawn/unlocked"},"tooltip":{"type":"catharsis:slot","slot":12},"width":16,"height":16,"x":{"offset":0,"alignment":"START"},"y":{"offset":200,"alignment":"START"}},{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/farming_1/spawn/undiscovered"},"normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/farming_1/spawn/undiscovered"},"tooltip":{"type":"catharsis:slot","slot":13},"width":16,"height":16,"x":{"offset":116,"alignment":"START"},"y":{"offset":218,"alignment":"START"}},{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/farming_1/spawn/locked"},"normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/farming_1/spawn/locked"},"tooltip":{"type":"catharsis:slot","slot":13},"width":16,"height":16,"x":{"offset":116,"alignment":"START"},"y":{"offset":218,"alignment":"START"}},{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/farming_1/spawn/unlocked"},"normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/farming_1/spawn/unlocked"},"tooltip":{"type":"catharsis:slot","slot":13},"width":16,"height":16,"x":{"offset":116,"alignment":"START"},"y":{"offset":218,"alignment":"START"}},{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/mining_1/spawn/undiscovered"},"normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/mining_1/spawn/undiscovered"},"tooltip":{"type":"catharsis:slot","slot":16},"width":16,"height":16,"x":{"offset":96,"alignment":"START"},"y":{"offset":181,"alignment":"START"}},{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/mining_1/spawn/locked"},"normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/mining_1/spawn/locked"},"tooltip":{"type":"catharsis:slot","slot":16},"width":16,"height":16,"x":{"offset":96,"alignment":"START"},"y":{"offset":181,"alignment":"START"}},{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/mining_1/spawn/unlocked"},"normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/mining_1/spawn/unlocked"},"tooltip":{"type":"catharsis:slot","slot":16},"width":16,"height":16,"x":{"offset":96,"alignment":"START"},"y":{"offset":181,"alignment":"START"}},{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/mining_2/spawn/undiscovered"},"normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/mining_2/spawn/undiscovered"},"tooltip":{"type":"catharsis:slot","slot":19},"width":16,"height":16,"x":{"offset":170,"alignment":"START"},"y":{"offset":126,"alignment":"START"}},{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/mining_2/spawn/locked"},"normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/mining_2/spawn/locked"},"tooltip":{"type":"catharsis:slot","slot":19},"width":16,"height":16,"x":{"offset":170,"alignment":"START"},"y":{"offset":126,"alignment":"START"}},{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/mining_2/spawn/unlocked"},"normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/mining_2/spawn/unlocked"},"tooltip":{"type":"catharsis:slot","slot":19},"width":16,"height":16,"x":{"offset":170,"alignment":"START"},"y":{"offset":126,"alignment":"START"}},{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/mining_3/spawn/undiscovered"},"normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/mining_3/spawn/undiscovered"},"tooltip":{"type":"catharsis:slot","slot":20},"width":16,"height":16,"x":{"offset":190,"alignment":"START"},"y":{"offset":135,"alignment":"START"}},{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/mining_3/spawn/locked"},"normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/mining_3/spawn/locked"},"tooltip":{"type":"catharsis:slot","slot":20},"width":16,"height":16,"x":{"offset":190,"alignment":"START"},"y":{"offset":135,"alignment":"START"}},{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/mining_3/spawn/unlocked"},"normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/mining_3/spawn/unlocked"},"tooltip":{"type":"catharsis:slot","slot":20},"width":16,"height":16,"x":{"offset":190,"alignment":"START"},"y":{"offset":135,"alignment":"START"}},{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/crystal_hollows/entrance/undiscovered"},"normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/crystal_hollows/entrance/undiscovered"},"tooltip":{"type":"catharsis:slot","slot":21},"width":16,"height":16,"x":{"offset":197,"alignment":"START"},"y":{"offset":150,"alignment":"START"}},{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/crystal_hollows/entrance/locked"},"normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/crystal_hollows/entrance/locked"},"tooltip":{"type":"catharsis:slot","slot":21},"width":16,"height":16,"x":{"offset":197,"alignment":"START"},"y":{"offset":150,"alignment":"START"}},{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/crystal_hollows/entrance/unlocked"},"normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/crystal_hollows/entrance/unlocked"},"tooltip":{"type":"catharsis:slot","slot":21},"width":16,"height":16,"x":{"offset":197,"alignment":"START"},"y":{"offset":150,"alignment":"START"}},{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/combat_1/spawn/undiscovered"},"normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/combat_1/spawn/undiscovered"},"tooltip":{"type":"catharsis:slot","slot":22},"width":16,"height":16,"x":{"offset":8,"alignment":"START"},"y":{"offset":150,"alignment":"START"}},{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/combat_1/spawn/locked"},"normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/combat_1/spawn/locked"},"tooltip":{"type":"catharsis:slot","slot":22},"width":16,"height":16,"x":{"offset":8,"alignment":"START"},"y":{"offset":150,"alignment":"START"}},{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/combat_1/spawn/unlocked"},"normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/combat_1/spawn/unlocked"},"tooltip":{"type":"catharsis:slot","slot":22},"width":16,"height":16,"x":{"offset":8,"alignment":"START"},"y":{"offset":150,"alignment":"START"}},{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/crimson_isle/spawn/undiscovered"},"normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/crimson_isle/spawn/undiscovered"},"tooltip":{"type":"catharsis:slot","slot":24},"width":16,"height":16,"x":{"offset":22,"alignment":"START"},"y":{"offset":90,"alignment":"START"}},{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/crimson_isle/spawn/locked"},"normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/crimson_isle/spawn/locked"},"tooltip":{"type":"catharsis:slot","slot":24},"width":16,"height":16,"x":{"offset":22,"alignment":"START"},"y":{"offset":90,"alignment":"START"}},{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/crimson_isle/spawn/unlocked"},"normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/crimson_isle/spawn/unlocked"},"tooltip":{"type":"catharsis:slot","slot":24},"width":16,"height":16,"x":{"offset":22,"alignment":"START"},"y":{"offset":90,"alignment":"START"}}],"slots":{"skyblock_gui:fast_travel/dynamic/spawn/unlocked":{"position":{"x":26,"y":351}},"skyblock_gui:fast_travel/hub/spawn/unlocked":{"position":{"x":19,"y":218},"clickable":false},"skyblock_gui:fast_travel/dungeon_hub/spawn/undiscovered":{"position":{"x":0,"y":200},"clickable":false},"skyblock_gui:fast_travel/dungeon_hub/spawn/locked":{"position":{"x":0,"y":200},"clickable":false},"skyblock_gui:fast_travel/dungeon_hub/spawn/unlocked":{"position":{"x":0,"y":200},"clickable":false},"skyblock_gui:fast_travel/farming_1/spawn/undiscovered":{"position":{"x":116,"y":218},"clickable":false},"skyblock_gui:fast_travel/farming_1/spawn/locked":{"position":{"x":116,"y":218},"clickable":false},"skyblock_gui:fast_travel/farming_1/spawn/unlocked":{"position":{"x":116,"y":218},"clickable":false},"skyblock_gui:fast_travel/foraging_1/spawn/undiscovered":{"position":{"x":-82,"y":168},"clickable":false},"skyblock_gui:fast_travel/foraging_1/spawn/locked":{"position":{"x":-82,"y":168},"clickable":false},"skyblock_gui:fast_travel/foraging_1/spawn/unlocked":{"position":{"x":-82,"y":168},"clickable":false},"skyblock_gui:fast_travel/foraging_2/spawn/undiscovered":{"position":{"x":-176,"y":110},"clickable":false},"skyblock_gui:fast_travel/foraging_2/spawn/locked":{"position":{"x":-176,"y":110},"clickable":false},"skyblock_gui:fast_travel/foraging_2/spawn/unlocked":{"position":{"x":-176,"y":110},"clickable":false},"skyblock_gui:fast_travel/mining_1/spawn/undiscovered":{"position":{"x":96,"y":181},"clickable":false},"skyblock_gui:fast_travel/mining_1/spawn/locked":{"position":{"x":96,"y":181},"clickable":false},"skyblock_gui:fast_travel/mining_1/spawn/unlocked":{"position":{"x":96,"y":181},"clickable":false},"skyblock_gui:fast_travel/mining_2/spawn/undiscovered":{"position":{"x":170,"y":126},"clickable":false},"skyblock_gui:fast_travel/mining_2/spawn/locked":{"position":{"x":170,"y":126},"clickable":false},"skyblock_gui:fast_travel/mining_2/spawn/unlocked":{"position":{"x":170,"y":126},"clickable":false},"skyblock_gui:fast_travel/mining_3/spawn/undiscovered":{"position":{"x":190,"y":135},"clickable":false},"skyblock_gui:fast_travel/mining_3/spawn/locked":{"position":{"x":190,"y":135},"clickable":false},"skyblock_gui:fast_travel/mining_3/spawn/unlocked":{"position":{"x":190,"y":135},"clickable":false},"skyblock_gui:fast_travel/crystal_hollows/entrance/undiscovered":{"position":{"x":197,"y":150},"clickable":false},"skyblock_gui:fast_travel/crystal_hollows/entrance/locked":{"position":{"x":197,"y":150},"clickable":false},"skyblock_gui:fast_travel/crystal_hollows/entrance/unlocked":{"position":{"x":197,"y":150},"clickable":false},"skyblock_gui:fast_travel/combat_1/spawn/undiscovered":{"position":{"x":8,"y":150},"clickable":false},"skyblock_gui:fast_travel/combat_1/spawn/locked":{"position":{"x":8,"y":150},"clickable":false},"skyblock_gui:fast_travel/combat_1/spawn/unlocked":{"position":{"x":8,"y":150},"clickable":false},"skyblock_gui:fast_travel/combat_3/spawn/undiscovered":{"position":{"x":-79,"y":82},"clickable":false},"skyblock_gui:fast_travel/combat_3/spawn/locked":{"position":{"x":-79,"y":82},"clickable":false},"skyblock_gui:fast_travel/combat_3/spawn/unlocked":{"position":{"x":-79,"y":82},"clickable":false},"skyblock_gui:fast_travel/crimson_isle/spawn/undiscovered":{"position":{"x":22,"y":90},"clickable":false},"skyblock_gui:fast_travel/crimson_isle/spawn/locked":{"position":{"x":22,"y":90},"clickable":false},"skyblock_gui:fast_travel/crimson_isle/spawn/unlocked":{"position":{"x":22,"y":90},"clickable":false},"skyblock_gui:fast_travel/garden/spawn/undiscovered":{"position":{"x":8,"y":351}},"skyblock_gui:fast_travel/garden/spawn/locked":{"position":{"x":8,"y":351}},"skyblock_gui:fast_travel/garden/spawn/unlocked":{"position":{"x":8,"y":351}},"skyblock_gui:fast_travel/rift/wizard_tower/undiscovered":{"position":{"x":-9,"y":229},"clickable":false},"skyblock_gui:fast_travel/rift/wizard_tower/locked":{"position":{"x":-9,"y":229},"clickable":false},"skyblock_gui:fast_travel/rift/wizard_tower/unlocked":{"position":{"x":-9,"y":229},"clickable":false},"skyblock_gui:fast_travel/fishing_1/spawn/undiscovered":{"position":{"x":106,"y":275}},"skyblock_gui:fast_travel/fishing_1/spawn/locked":{"position":{"x":106,"y":275}},"skyblock_gui:fast_travel/fishing_1/spawn/unlocked":{"position":{"x":106,"y":275}},"skyblock_gui:fast_travel/lotus_atoll/spawn/undiscovered":{"position":{"x":124,"y":275}},"skyblock_gui:fast_travel/lotus_atoll/spawn/locked":{"position":{"x":124,"y":275}},"skyblock_gui:fast_travel/lotus_atoll/spawn/unlocked":{"position":{"x":124,"y":275}},"skyblock_gui:fast_travel/winter/spawn/undiscovered":{"position":{"x":-10,"y":351}},"skyblock_gui:fast_travel/winter/spawn/locked":{"position":{"x":-10,"y":351}},"skyblock_gui:fast_travel/winter/spawn/unlocked":{"position":{"x":-10,"y":351}},"skyblock_gui:fast_travel/island_browser":{"position":{"x":116,"y":351}},"skyblock_gui:fast_travel/advanced_mode/enabled":{"position":{"x":98,"y":351}},"skyblock_gui:fast_travel/advanced_mode/disabled":{"position":{"x":98,"y":351}},"skyblock_gui:generic/navigation/close":{"position":{"x":80,"y":351}},"skyblock_gui:generic/navigation/go_back":{"position":{"x":62,"y":351}},"skyblock_gui:generic/miscellaneous/filler":{"hidden":true},"eureka:generic/miscellaneous/filler":{"hidden":true}}}
+{
+  "target": {
+    "type": "catharsis:definition",
+    "definition": "catharsis:fast_travel/fast_travel"
+  },
+  "overrideBackground": true,
+  "overrideLabels": true,
+  "bounds": {
+    "width": 832,
+    "height": 448
+  },
+  "elements": [
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/fast_travel/fast_travel_silhouette",
+      "layer": "BACKGROUND",
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/fast_travel/foraging_1_locked",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/foraging_1/spawn/locked"
+      },
+      "layer": "FOREGROUND",
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/fast_travel/foraging_1",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/foraging_1/spawn/unlocked"
+      },
+      "layer": "FOREGROUND",
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/fast_travel/foraging_2_locked",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/foraging_2/spawn/locked"
+      },
+      "layer": "FOREGROUND",
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/fast_travel/foraging_2",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/foraging_2/spawn/unlocked"
+      },
+      "layer": "FOREGROUND",
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/fast_travel/combat_3_locked",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/combat_3/spawn/locked"
+      },
+      "layer": "FOREGROUND",
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/fast_travel/combat_3",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/combat_3/spawn/unlocked"
+      },
+      "layer": "FOREGROUND",
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/fast_travel/hub",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/hub/spawn/unlocked"
+      },
+      "layer": "FOREGROUND",
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/fast_travel/farming_1_locked",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/farming_1/spawn/locked"
+      },
+      "layer": "FOREGROUND",
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/fast_travel/farming_1",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/farming_1/spawn/unlocked"
+      },
+      "layer": "FOREGROUND",
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/fast_travel/mining_1_locked",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/mining_1/spawn/locked"
+      },
+      "layer": "FOREGROUND",
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/fast_travel/mining_1",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/mining_1/spawn/unlocked"
+      },
+      "layer": "FOREGROUND",
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/fast_travel/mining_2_locked",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/mining_2/spawn/locked"
+      },
+      "layer": "FOREGROUND",
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/fast_travel/mining_2",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/mining_2/spawn/unlocked"
+      },
+      "layer": "FOREGROUND",
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/fast_travel/combat_1_locked",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/combat_1/spawn/locked"
+      },
+      "layer": "FOREGROUND",
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/fast_travel/combat_1",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/combat_1/spawn/unlocked"
+      },
+      "layer": "FOREGROUND",
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/fast_travel/crimson_isle_locked",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/spawn/locked"
+      },
+      "layer": "FOREGROUND",
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/fast_travel/crimson_isle",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/spawn/unlocked"
+      },
+      "layer": "FOREGROUND",
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    }
+  ],
+  "widgets": [
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/foraging_2/spawn/undiscovered"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/foraging_2/spawn/undiscovered"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 15 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -176,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 110,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/foraging_2/spawn/locked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/foraging_2/spawn/locked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 15 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -176,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 110,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/foraging_2/spawn/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/foraging_2/spawn/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 15 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -176,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 110,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/foraging_1/spawn/undiscovered"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/foraging_1/spawn/undiscovered"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 14 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -82,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 168,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/foraging_1/spawn/locked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/foraging_1/spawn/locked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 14 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -82,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 168,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/foraging_1/spawn/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/foraging_1/spawn/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 14 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -82,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 168,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/combat_3/spawn/undiscovered"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/combat_3/spawn/undiscovered"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 23 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -79,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 82,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/combat_3/spawn/locked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/combat_3/spawn/locked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 23 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -79,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 82,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/combat_3/spawn/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/combat_3/spawn/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 23 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -79,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 82,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/hub/spawn/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/hub/spawn/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 11 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 19,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 218,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/rift/wizard_tower/undiscovered"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/rift/wizard_tower/undiscovered"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 29 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -9,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 229,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/rift/wizard_tower/locked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/rift/wizard_tower/locked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 29 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -9,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 229,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/rift/wizard_tower/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/rift/wizard_tower/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 29 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -9,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 229,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/dungeon_hub/spawn/undiscovered"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/dungeon_hub/spawn/undiscovered"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 12 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 0,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 200,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/dungeon_hub/spawn/locked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/dungeon_hub/spawn/locked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 12 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 0,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 200,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/dungeon_hub/spawn/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/dungeon_hub/spawn/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 12 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 0,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 200,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/farming_1/spawn/undiscovered"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/farming_1/spawn/undiscovered"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 13 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 116,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 218,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/farming_1/spawn/locked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/farming_1/spawn/locked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 13 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 116,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 218,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/farming_1/spawn/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/farming_1/spawn/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 13 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 116,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 218,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/mining_1/spawn/undiscovered"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/mining_1/spawn/undiscovered"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 16 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 96,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 181,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/mining_1/spawn/locked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/mining_1/spawn/locked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 16 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 96,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 181,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/mining_1/spawn/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/mining_1/spawn/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 16 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 96,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 181,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/mining_2/spawn/undiscovered"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/mining_2/spawn/undiscovered"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 19 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 170,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 126,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/mining_2/spawn/locked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/mining_2/spawn/locked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 19 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 170,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 126,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/mining_2/spawn/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/mining_2/spawn/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 19 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 170,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 126,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/mining_3/spawn/undiscovered"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/mining_3/spawn/undiscovered"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 20 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 190,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 135,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/mining_3/spawn/locked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/mining_3/spawn/locked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 20 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 190,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 135,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/mining_3/spawn/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/mining_3/spawn/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 20 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 190,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 135,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/crystal_hollows/entrance/undiscovered"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/crystal_hollows/entrance/undiscovered"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 21 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 197,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 150,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/crystal_hollows/entrance/locked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/crystal_hollows/entrance/locked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 21 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 197,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 150,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/crystal_hollows/entrance/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/crystal_hollows/entrance/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 21 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 197,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 150,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/combat_1/spawn/undiscovered"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/combat_1/spawn/undiscovered"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 22 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 8,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 150,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/combat_1/spawn/locked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/combat_1/spawn/locked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 22 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 8,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 150,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/combat_1/spawn/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/combat_1/spawn/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 22 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 8,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 150,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/spawn/undiscovered"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/spawn/undiscovered"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 24 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 22,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 90,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/spawn/locked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/spawn/locked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 24 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 22,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 90,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/spawn/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/spawn/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 24 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 22,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 90,
+        "alignment": "START"
+      }
+    }
+  ],
+  "slots": {
+    "skyblock_gui:fast_travel/dynamic/spawn/unlocked": {
+      "position": { "x": 26, "y": 351 }
+    },
+    "skyblock_gui:fast_travel/hub/spawn/unlocked": {
+      "position": { "x": 19, "y": 218 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/dungeon_hub/spawn/undiscovered": {
+      "position": { "x": 0, "y": 200 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/dungeon_hub/spawn/locked": {
+      "position": { "x": 0, "y": 200 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/dungeon_hub/spawn/unlocked": {
+      "position": { "x": 0, "y": 200 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/farming_1/spawn/undiscovered": {
+      "position": { "x": 116, "y": 218 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/farming_1/spawn/locked": {
+      "position": { "x": 116, "y": 218 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/farming_1/spawn/unlocked": {
+      "position": { "x": 116, "y": 218 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/foraging_1/spawn/undiscovered": {
+      "position": { "x": -82, "y": 168 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/foraging_1/spawn/locked": {
+      "position": { "x": -82, "y": 168 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/foraging_1/spawn/unlocked": {
+      "position": { "x": -82, "y": 168 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/foraging_2/spawn/undiscovered": {
+      "position": { "x": -176, "y": 110 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/foraging_2/spawn/locked": {
+      "position": { "x": -176, "y": 110 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/foraging_2/spawn/unlocked": {
+      "position": { "x": -176, "y": 110 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/mining_1/spawn/undiscovered": {
+      "position": { "x": 96, "y": 181 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/mining_1/spawn/locked": {
+      "position": { "x": 96, "y": 181 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/mining_1/spawn/unlocked": {
+      "position": { "x": 96, "y": 181 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/mining_2/spawn/undiscovered": {
+      "position": { "x": 170, "y": 126 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/mining_2/spawn/locked": {
+      "position": { "x": 170, "y": 126 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/mining_2/spawn/unlocked": {
+      "position": { "x": 170, "y": 126 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/mining_3/spawn/undiscovered": {
+      "position": { "x": 190, "y": 135 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/mining_3/spawn/locked": {
+      "position": { "x": 190, "y": 135 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/mining_3/spawn/unlocked": {
+      "position": { "x": 190, "y": 135 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/crystal_hollows/entrance/undiscovered": {
+      "position": { "x": 197, "y": 150 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/crystal_hollows/entrance/locked": {
+      "position": { "x": 197, "y": 150 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/crystal_hollows/entrance/unlocked": {
+      "position": { "x": 197, "y": 150 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/combat_1/spawn/undiscovered": {
+      "position": { "x": 8, "y": 150 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/combat_1/spawn/locked": {
+      "position": { "x": 8, "y": 150 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/combat_1/spawn/unlocked": {
+      "position": { "x": 8, "y": 150 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/combat_3/spawn/undiscovered": {
+      "position": { "x": -79, "y": 82 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/combat_3/spawn/locked": {
+      "position": { "x": -79, "y": 82 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/combat_3/spawn/unlocked": {
+      "position": { "x": -79, "y": 82 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/crimson_isle/spawn/undiscovered": {
+      "position": { "x": 22, "y": 90 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/crimson_isle/spawn/locked": {
+      "position": { "x": 22, "y": 90 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/crimson_isle/spawn/unlocked": {
+      "position": { "x": 22, "y": 90 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/garden/spawn/undiscovered": {
+      "position": { "x": 8, "y": 351 }
+    },
+    "skyblock_gui:fast_travel/garden/spawn/locked": {
+      "position": { "x": 8, "y": 351 }
+    },
+    "skyblock_gui:fast_travel/garden/spawn/unlocked": {
+      "position": { "x": 8, "y": 351 }
+    },
+    "skyblock_gui:fast_travel/rift/wizard_tower/undiscovered": {
+      "position": { "x": -9, "y": 229 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/rift/wizard_tower/locked": {
+      "position": { "x": -9, "y": 229 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/rift/wizard_tower/unlocked": {
+      "position": { "x": -9, "y": 229 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/fishing_1/spawn/undiscovered": {
+      "position": { "x": 106, "y": 275 }
+    },
+    "skyblock_gui:fast_travel/fishing_1/spawn/locked": {
+      "position": { "x": 106, "y": 275 }
+    },
+    "skyblock_gui:fast_travel/fishing_1/spawn/unlocked": {
+      "position": { "x": 106, "y": 275 }
+    },
+    "skyblock_gui:fast_travel/lotus_atoll/spawn/undiscovered": {
+      "position": { "x": 124, "y": 275 }
+    },
+    "skyblock_gui:fast_travel/lotus_atoll/spawn/locked": {
+      "position": { "x": 124, "y": 275 }
+    },
+    "skyblock_gui:fast_travel/lotus_atoll/spawn/unlocked": {
+      "position": { "x": 124, "y": 275 }
+    },
+    "skyblock_gui:fast_travel/winter/spawn/undiscovered": {
+      "position": { "x": -10, "y": 351 }
+    },
+    "skyblock_gui:fast_travel/winter/spawn/locked": {
+      "position": { "x": -10, "y": 351 }
+    },
+    "skyblock_gui:fast_travel/winter/spawn/unlocked": {
+      "position": { "x": -10, "y": 351 }
+    },
+    "skyblock_gui:fast_travel/island_browser": {
+      "position": { "x": 116, "y": 351 }
+    },
+    "skyblock_gui:fast_travel/advanced_mode/enabled": {
+      "position": { "x": 98, "y": 351 }
+    },
+    "skyblock_gui:fast_travel/advanced_mode/disabled": {
+      "position": { "x": 98, "y": 351 }
+    },
+    "skyblock_gui:generic/navigation/close": {
+      "position": { "x": 80, "y": 351 }
+    },
+    "skyblock_gui:generic/navigation/go_back": {
+      "position": { "x": 62, "y": 351 }
+    },
+    "skyblock_gui:generic/miscellaneous/filler": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler": {
+      "hidden": true
+    }
+  }
+}

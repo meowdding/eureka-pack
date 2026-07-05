@@ -1,1 +1,7 @@
-{"parent":"eureka:item/generic_x4","textures":{"layer0":"eureka:item/fast_travel/hub/trading/unlocked_shadow","layer1":"eureka:item/fast_travel/hub/trading/unlocked"}}
+{
+  "parent": "eureka:item/generic_x4",
+  "textures": {
+    "layer0": "eureka:item/fast_travel/hub/trading/unlocked_shadow",
+    "layer1": "eureka:item/fast_travel/hub/trading/unlocked"
+  }
+}
