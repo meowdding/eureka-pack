@@ -1,1 +1,22 @@
-{"variants":{"":{"model":"minecraft:block/sulfur"}},"display":{"model":"minecraft:sulfur","name":{"text":"Sulphur Ore","color":"gold"},"lore":[{"text":"Ore"},{"text":""},{"text":"Properties","color":"white"},{"text":" Breaking Power: ","color":"white","extra":[{"text":"5","color":"green"}]},{"text":" Block Strength: ","color":"white","extra":[{"text":"800","color":"yellow"}]}]}}
+{
+  "variants": { "": { "model": "eureka:block/crimson_isle/sulfur_ore" } },
+  "display": {
+    "model": "eureka-block.ore:sulfur_ore",
+    "name": { "text": "Sulphur Ore", "color": "gold" },
+    "lore": [
+      { "text": "Ore" },
+      { "text": "" },
+      { "text": "Properties", "color": "white" },
+      {
+        "text": " Breaking Power: ",
+        "color": "white",
+        "extra": [{ "text": "5", "color": "green" }]
+      },
+      {
+        "text": " Block Strength: ",
+        "color": "white",
+        "extra": [{ "text": "800", "color": "yellow" }]
+      }
+    ]
+  }
+}
