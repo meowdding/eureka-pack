@@ -7,7 +7,7 @@
         "type": "separator",
         "title": {
           "type": "translatable",
-          "translate": "eureka.config.tab.info.about_eureka",
+          "translate": "eureka.config.tab.info.versioning",
           "bold": true
         }
       },
@@ -15,13 +15,13 @@
         "type": "information",
         "title": {
           "type": "translatable",
-          "translate": "eureka.config.tab.info.about_eureka.version",
+          "translate": "eureka.config.tab.info.versioning.version",
           "color": "white",
           "bold": true
         },
         "description": {
           "type": "translatable",
-          "translate": "eureka.config.tab.info.about_eureka.version.number",
+          "translate": "eureka.config.tab.info.versioning.version.number",
           "color": "gray"
         }
       },
@@ -29,27 +29,13 @@
         "type": "information",
         "title": {
           "type": "translatable",
-          "translate": "eureka.config.tab.info.about_eureka.dependencies",
+          "translate": "eureka.config.tab.info.versioning.dependencies",
           "color": "white",
           "bold": true
         },
         "description": {
           "type": "translatable",
-          "translate": "eureka.config.tab.info.about_eureka.dependencies.catharsis",
-          "color": "gray"
-        }
-      },
-      {
-        "type": "information",
-        "title": {
-          "type": "translatable",
-          "translate": "eureka.config.tab.info.about_eureka.license",
-          "color": "white",
-          "bold": true
-        },
-        "description": {
-          "type": "translatable",
-          "translate": "eureka.config.tab.info.about_eureka.license.kind",
+          "translate": "eureka.config.tab.info.versioning.dependencies.catharsis",
           "color": "gray"
         }
       },
@@ -60,6 +46,151 @@
           "translate": "eureka.config.tab.info.credits",
           "bold": true
         }
+      },
+      {
+        "type": "information",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.info.credits.license",
+          "color": "white",
+          "bold": true
+        },
+        "description": [
+          {
+            "type": "translatable",
+            "translate": "eureka.config.tab.info.credits.license.disclaimer",
+            "color": "gray",
+            "with": [
+              {
+                "type": "translatable",
+                "translate": "eureka.config.tab.info.credits.license.type",
+                "underlined": true,
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "Click to read more!",
+                    "color": "white"
+                  }
+                },
+                "click_event": {
+                  "action": "open_url",
+                  "url": "https://en.wikipedia.org/wiki/All_rights_reserved"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "information",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.info.credits.hypixel",
+          "color": "white",
+          "bold": true
+        },
+        "description": [
+          {
+            "type": "translatable",
+            "translate": "eureka.config.tab.info.credits.hypixel.rod_parts",
+            "color": "gray"
+          },
+          {
+            "type": "translatable",
+            "translate": "eureka.config.tab.info.credits.hypixel.quick_travel",
+            "color": "gray"
+          },
+          {
+            "type": "translatable",
+            "translate": "eureka.config.tab.info.credits.hypixel.disclaimer",
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "type": "information",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.info.credits.eureka_repository",
+          "color": "white",
+          "bold": true
+        },
+        "description": [
+          {
+            "type": "translatable",
+            "translate": "eureka.config.tab.info.credits.eureka_repository.catsquash",
+            "color": "gray",
+            "with": [
+              {
+                "text": "Catsquash",
+                "underlined": true,
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "Click to view the Github Repository!",
+                    "color": "white"
+                  }
+                },
+                "click_event": {
+                  "action": "open_url",
+                  "url": "https://github.com/meowdding/catsquash"
+                }
+              },
+              {
+                "text": "Meowdding",
+                "underlined": true,
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "Click to view the Github Organization!",
+                    "color": "white"
+                  }
+                },
+                "click_event": {
+                  "action": "open_url",
+                  "url": "https://github.com/meowdding/"
+                }
+              }
+            ]
+          },
+          {
+            "type": "translatable",
+            "translate": "eureka.config.tab.info.credits.eureka_repository.workflows",
+            "color": "gray",
+            "with": [
+              {
+                "text": "@Meowara",
+                "underlined": true,
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "Click to view their Github Profile!",
+                    "color": "white"
+                  }
+                },
+                "click_event": {
+                  "action": "open_url",
+                  "url": "https://github.com/meowora"
+                }
+              },
+              {
+                "text": "@Juna",
+                "underlined": true,
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "Click to view their Github Profile!",
+                    "color": "white"
+                  }
+                },
+                "click_event": {
+                  "action": "open_url",
+                  "url": "https://github.com/j10a1n15"
+                }
+              }
+            ]
+          }
+        ]
       }
     ]
   },
