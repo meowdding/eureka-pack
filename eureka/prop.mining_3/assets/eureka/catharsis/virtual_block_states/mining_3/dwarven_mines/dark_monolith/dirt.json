@@ -1,15 +1,1 @@
-{
-  "multipart": [
-    {
-      "apply": {
-        "model": "eureka:block/mining_3/dwarven_mines/dark_monolith/model"
-      }
-    },
-    {
-      "apply": {
-        "model": "eureka:block/mining_3/dwarven_mines/dark_monolith/dirt"
-      }
-    }
-  ],
-  "blend": "translucent"
-}
+{"multipart":[{"apply":{"model":"eureka:block/mining_3/dwarven_mines/dark_monolith/model"}},{"apply":{"model":"eureka:block/mining_3/dwarven_mines/dark_monolith/dirt"}}],"blend":"translucent"}

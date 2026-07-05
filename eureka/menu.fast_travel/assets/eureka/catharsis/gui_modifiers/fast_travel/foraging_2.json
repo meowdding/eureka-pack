@@ -1,0 +1,160 @@
+{
+  "target": {
+    "type": "catharsis:definition",
+    "definition": "catharsis:fast_travel/foraging_2"
+  },
+  "overrideBackground": true,
+  "overrideLabels": true,
+  "bounds": {
+    "width": 832,
+    "height": 448
+  },
+  "elements": [
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/fast_travel/fast_travel_silhouette_focused",
+      "layer": "BACKGROUND",
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/fast_travel/foraging_2",
+      "layer": "FOREGROUND",
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    }
+  ],
+  "widgets": [
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/foraging_2/spawn/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/foraging_2/spawn/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 12 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -176,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 92,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/foraging_2/murkwater/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/foraging_2/murkwater/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 14 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -210,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 92,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/foraging_2/murkwater/locked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/foraging_2/murkwater/locked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 14 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": -210,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 92,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/go_back"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 30 },
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    }
+  ],
+  "slots": {
+    "skyblock_gui:fast_travel/foraging_2/spawn/unlocked": {
+      "position": { "x": -176, "y": 92 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/foraging_2/murkwater/unlocked": {
+      "position": { "x": -210, "y": 92 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/foraging_2/murkwater/locked": {
+      "position": { "x": -210, "y": 92 },
+      "clickable": false
+    },
+    "skyblock_gui:generic/navigation/close": {
+      "position": { "x": 80, "y": 333 }
+    },
+    "skyblock_gui:generic/navigation/go_back": {
+      "position": { "x": 62, "y": 333 }
+    },
+    "skyblock_gui:generic/miscellaneous/filler": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler": {
+      "hidden": true
+    }
+  }
+}

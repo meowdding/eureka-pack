@@ -1,5 +1,1 @@
-{
-  "texture": "eureka:textures/crystal_hollows/sludge/sludge.png",
-  "model": "eureka:models/crystal_hollows/sludge/sludge.geo.json",
-  "translucent": true
-}
+{"texture":"eureka:textures/crystal_hollows/sludge/sludge.png","model":"eureka:models/crystal_hollows/sludge/sludge.geo.json","translucent":true}

@@ -1,4 +1,0 @@
-{
-  "parent": "item/generated",
-  "textures": { "layer0": "eureka:item/skill_tree/hotm/node/maxed" }
-}

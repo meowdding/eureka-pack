@@ -1,4 +1,1 @@
-{
-  "parent": "item/generated",
-  "textures": { "layer0": "eureka:item/stats/widget/primary/hunting/icon" }
-}
+{"parent":"item/generated","textures":{"layer0":"eureka:item/stats/widget/primary/hunting/icon"}}

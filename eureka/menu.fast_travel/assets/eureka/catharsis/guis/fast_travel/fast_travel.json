@@ -1,0 +1,18 @@
+{
+  "target": {
+    "title": "Fast Travel",
+    "type": "catharsis:title"
+  },
+  "layout": [
+    {
+      "id": "eureka:generic/miscellaneous/filler",
+      "target": {
+        "type": "catharsis:slot",
+        "slot": {
+          "min": 54,
+          "max": 89
+        }
+      }
+    }
+  ]
+}

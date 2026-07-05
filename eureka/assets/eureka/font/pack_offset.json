@@ -1,11 +1,1 @@
-{
-  "providers": [
-    {
-      "type": "bitmap",
-      "file": "eureka:font/empty.png",
-      "ascent": -16384,
-      "height": -38,
-      "chars": ["\uE000"]
-    }
-  ]
-}
+{"providers":[{"type":"bitmap","file":"eureka:font/empty.png","ascent":-16384,"height":-38,"chars":[""]}]}

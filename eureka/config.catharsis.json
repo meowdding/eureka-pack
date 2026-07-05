@@ -1,72 +1,202 @@
 [
   {
     "type": "tab",
-    "title": {
-      "type": "translatable",
-      "translate": "eureka.config.tab.info"
-    },
+    "title": { "type": "translatable", "translate": "eureka.config.tab.info" },
     "options": [
       {
         "type": "separator",
         "title": {
           "type": "translatable",
-          "translate": "eureka.config.tab.info.about_eureka",
+          "translate": "eureka.config.tab.info.versioning",
           "bold": true
-        },
-        "description": ""
+        }
       },
       {
         "type": "information",
-        "title": "",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.info.versioning.version",
+          "color": "white",
+          "bold": true
+        },
         "description": {
-          "text": "",
-          "extra": [
-            {
-              "type": "translatable",
-              "translate": "eureka.config.tab.info.about_eureka.version",
-              "color": "white",
-              "bold": true
-            },
-            {
-              "type": "translatable",
-              "translate": "eureka.config.tab.info.about_eureka.version.number",
-              "color": "gray"
-            },
-            { "text": "\n\n" },
-            {
-              "type": "translatable",
-              "translate": "eureka.config.tab.info.about_eureka.dependencies",
-              "color": "white",
-              "bold": true
-            },
-            {
-              "type": "translatable",
-              "translate": "eureka.config.tab.info.about_eureka.dependencies.catharsis",
-              "color": "gray"
-            },
-            { "text": "\n\n" },
-            {
-              "type": "translatable",
-              "translate": "eureka.config.tab.info.about_eureka.license",
-              "color": "white",
-              "bold": true
-            },
-            {
-              "type": "translatable",
-              "translate": "eureka.config.tab.info.about_eureka.license.kind",
-              "color": "gray"
-            }
-          ]
+          "type": "translatable",
+          "translate": "eureka.config.tab.info.versioning.version.number",
+          "color": "gray"
         }
+      },
+      {
+        "type": "information",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.info.versioning.dependencies",
+          "color": "white",
+          "bold": true
+        },
+        "description": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.info.versioning.dependencies.catharsis",
+          "color": "gray"
+        }
+      },
+      {
+        "type": "separator",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.info.credits",
+          "bold": true
+        }
+      },
+      {
+        "type": "information",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.info.credits.license",
+          "color": "white",
+          "bold": true
+        },
+        "description": [
+          {
+            "type": "translatable",
+            "translate": "eureka.config.tab.info.credits.license.disclaimer",
+            "color": "gray",
+            "with": [
+              {
+                "type": "translatable",
+                "translate": "eureka.config.tab.info.credits.license.type",
+                "underlined": true,
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "Click to read more!",
+                    "color": "white"
+                  }
+                },
+                "click_event": {
+                  "action": "open_url",
+                  "url": "https://en.wikipedia.org/wiki/All_rights_reserved"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "information",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.info.credits.hypixel",
+          "color": "white",
+          "bold": true
+        },
+        "description": [
+          {
+            "type": "translatable",
+            "translate": "eureka.config.tab.info.credits.hypixel.rod_parts",
+            "color": "gray"
+          },
+          {
+            "type": "translatable",
+            "translate": "eureka.config.tab.info.credits.hypixel.quick_travel",
+            "color": "gray"
+          },
+          {
+            "type": "translatable",
+            "translate": "eureka.config.tab.info.credits.hypixel.disclaimer",
+            "color": "red"
+          }
+        ]
+      },
+      {
+        "type": "information",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.info.credits.eureka_repository",
+          "color": "white",
+          "bold": true
+        },
+        "description": [
+          {
+            "type": "translatable",
+            "translate": "eureka.config.tab.info.credits.eureka_repository.catsquash",
+            "color": "gray",
+            "with": [
+              {
+                "text": "Catsquash",
+                "underlined": true,
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "Click to view the Github Repository!",
+                    "color": "white"
+                  }
+                },
+                "click_event": {
+                  "action": "open_url",
+                  "url": "https://github.com/meowdding/catsquash"
+                }
+              },
+              {
+                "text": "Meowdding",
+                "underlined": true,
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "Click to view the Github Organization!",
+                    "color": "white"
+                  }
+                },
+                "click_event": {
+                  "action": "open_url",
+                  "url": "https://github.com/meowdding/"
+                }
+              }
+            ]
+          },
+          {
+            "type": "translatable",
+            "translate": "eureka.config.tab.info.credits.eureka_repository.workflows",
+            "color": "gray",
+            "with": [
+              {
+                "text": "@Meowara",
+                "underlined": true,
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "Click to view their Github Profile!",
+                    "color": "white"
+                  }
+                },
+                "click_event": {
+                  "action": "open_url",
+                  "url": "https://github.com/meowora"
+                }
+              },
+              {
+                "text": "@Juna",
+                "underlined": true,
+                "hover_event": {
+                  "action": "show_text",
+                  "value": {
+                    "text": "Click to view their Github Profile!",
+                    "color": "white"
+                  }
+                },
+                "click_event": {
+                  "action": "open_url",
+                  "url": "https://github.com/j10a1n15"
+                }
+              }
+            ]
+          }
+        ]
       }
     ]
   },
   {
     "type": "tab",
-    "title": {
-      "type": "translatable",
-      "translate": "eureka.config.tab.item"
-    },
+    "title": { "type": "translatable", "translate": "eureka.config.tab.item" },
     "options": [
       {
         "type": "separator",
@@ -74,8 +204,7 @@
           "type": "translatable",
           "translate": "eureka.config.tab.item.fishing_rod",
           "bold": true
-        },
-        "description": ""
+        }
       },
       {
         "type": "boolean",
@@ -95,10 +224,7 @@
   },
   {
     "type": "tab",
-    "title": {
-      "type": "translatable",
-      "translate": "eureka.config.tab.block"
-    },
+    "title": { "type": "translatable", "translate": "eureka.config.tab.block" },
     "options": [
       {
         "type": "separator",
@@ -206,33 +332,95 @@
   },
   {
     "type": "tab",
-    "title": {
-      "type": "translatable",
-      "translate": "eureka.config.tab.gui"
-    },
+    "title": { "type": "translatable", "translate": "eureka.config.tab.gui" },
     "options": [
       {
         "type": "separator",
         "title": {
           "type": "translatable",
-          "translate": "eureka.config.tab.gui.skill_tree",
+          "translate": "eureka.config.tab.gui.menu",
           "bold": true
         },
         "description": ""
       },
       {
         "type": "boolean",
-        "id": "skill_tree.hotm",
+        "id": "menu.skill_tree.hotm",
         "title": {
           "type": "translatable",
-          "translate": "eureka.config.tab.gui.skill_tree.hotm"
+          "translate": "eureka.config.tab.gui.menu.hotm"
         },
         "description": {
           "type": "translatable",
-          "translate": "eureka.config.tab.gui.skill_tree.hotm.description",
+          "translate": "eureka.config.tab.gui.menu.hotm.description",
           "color": "gray"
         },
         "default": true
+      },
+      {
+        "type": "boolean",
+        "id": "menu.fast_travel",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.gui.menu.fast_travel"
+        },
+        "description": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.gui.menu.fast_travel.description",
+          "color": "gray"
+        },
+        "default": true
+      },
+      {
+        "type": "dropdown",
+        "id": "menu.filler",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.gui.menu.filler"
+        },
+        "descriptions": {
+          "off": [
+            {
+              "type": "translatable",
+              "translate": "eureka.config.tab.gui.menu.filler.description",
+              "color": "gray"
+            }
+          ],
+          "on": [
+            {
+              "type": "translatable",
+              "translate": "eureka.config.tab.gui.menu.filler.description",
+              "color": "gray"
+            }
+          ],
+          "hidden": [
+            {
+              "type": "translatable",
+              "translate": "eureka.config.tab.gui.menu.filler.description",
+              "color": "gray"
+            },
+            {
+              "type": "translatable",
+              "translate": "eureka.config.tab.gui.menu.filler.hidden",
+              "color": "red"
+            }
+          ]
+        },
+        "options": [
+          {
+            "value": "off",
+            "text": { "type": "translatable", "translate": "options.off" }
+          },
+          {
+            "value": "on",
+            "text": { "type": "translatable", "translate": "options.on" },
+            "default": true
+          },
+          {
+            "value": "hidden",
+            "text": { "type": "translatable", "translate": "options.hidden" }
+          }
+        ]
       },
       {
         "type": "separator",
@@ -400,6 +588,35 @@
   },
   {
     "type": "tab",
+    "title": { "type": "translatable", "translate": "eureka.config.tab.qol" },
+    "options": [
+      {
+        "type": "separator",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.qol.guide",
+          "bold": true
+        },
+        "description": ""
+      },
+      {
+        "type": "boolean",
+        "id": "qol.brewing_stand",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.qol.guide.brewing_stand"
+        },
+        "description": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.qol.guide.brewing_stand.description",
+          "color": "gray"
+        },
+        "default": true
+      }
+    ]
+  },
+  {
+    "type": "tab",
     "title": {
       "type": "translatable",
       "translate": "eureka.config.tab.accessibility"
@@ -416,8 +633,12 @@
       },
       {
         "type": "boolean",
-        "id": "accessibility.highcontrast",
-        "title": "High Contrast GUIs",
+        "id": "accessibility.high_contrast",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.accessibility.gui.high_contrast",
+          "bold": true
+        },
         "description": "",
         "default": false
       }

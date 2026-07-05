@@ -1,7 +1,1 @@
-{
-  "target": {
-    "type": "island",
-    "island": "dungeon"
-  },
-  "type": "minecraft:wither"
-}
+{"target":{"type":"island","island":"dungeon"},"type":"minecraft:wither"}

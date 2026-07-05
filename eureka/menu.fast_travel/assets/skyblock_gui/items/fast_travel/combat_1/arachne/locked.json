@@ -1,0 +1,18 @@
+{
+  "oversized_in_gui": true,
+  "model": {
+    "type": "composite",
+    "models": [
+      {
+        "type": "model",
+        "model": "eureka:item/fast_travel/combat_1/arachne/locked",
+        "transformation": {
+          "translation": [-3.25, -1.5, 0],
+          "left_rotation": [0, 0, 0, 1],
+          "right_rotation": [0, 0, 0, 1],
+          "scale": [4, 4, 1]
+        }
+      }
+    ]
+  }
+}

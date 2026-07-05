@@ -1,7 +1,1 @@
-{
-  "variants": {
-    "": {
-      "model": "eureka:block/hub/auction_house/inside/banner/mid_r"
-    }
-  }
-}
+{"variants":{"":{"model":"eureka:block/hub/auction_house/inside/banner/mid_r"}}}

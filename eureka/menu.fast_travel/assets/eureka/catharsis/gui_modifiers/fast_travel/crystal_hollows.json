@@ -1,0 +1,164 @@
+{
+  "target": {
+    "type": "catharsis:definition",
+    "definition": "catharsis:fast_travel/crystal_hollows"
+  },
+  "overrideBackground": true,
+  "overrideLabels": true,
+  "bounds": {
+    "width": 832,
+    "height": 448
+  },
+  "elements": [
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/fast_travel/fast_travel_silhouette_focused",
+      "layer": "BACKGROUND",
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/fast_travel/mining_2",
+      "layer": "FOREGROUND",
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    }
+  ],
+  "widgets": [
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/crystal_hollows/entrance/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/crystal_hollows/entrance/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 12 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 197,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 132,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/crystal_hollows/crystal_nucleus/locked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/crystal_hollows/crystal_nucleus/locked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 14 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 179,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 130,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/crystal_hollows/crystal_nucleus/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/crystal_hollows/crystal_nucleus/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 14 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 179,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 130,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/go_back"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 30 },
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    }
+  ],
+  "slots": {
+    "skyblock_gui:fast_travel/crystal_hollows/entrance/locked": {
+      "position": { "x": 197, "y": 132 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/crystal_hollows/entrance/unlocked": {
+      "position": { "x": 197, "y": 132 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/crystal_hollows/crystal_nucleus/locked": {
+      "position": { "x": 179, "y": 130 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/crystal_hollows/crystal_nucleus/unlocked": {
+      "position": { "x": 179, "y": 130 },
+      "clickable": false
+    },
+    "skyblock_gui:generic/navigation/close": {
+      "position": { "x": 80, "y": 333 }
+    },
+    "skyblock_gui:generic/navigation/go_back": {
+      "position": { "x": 62, "y": 333 }
+    },
+    "skyblock_gui:generic/miscellaneous/filler": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler": {
+      "hidden": true
+    }
+  }
+}
