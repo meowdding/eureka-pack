@@ -1,1 +1,410 @@
+<<<<<<< Updated upstream
 {"target":{"type":"catharsis:definition","definition":"catharsis:fast_travel/crimson_isle"},"overrideBackground":true,"overrideLabels":true,"bounds":{"width":832,"height":448},"elements":[{"type":"catharsis:sprite","sprite":"eureka:gui_modifiers/fast_travel/fast_travel_silhouette_focused","layer":"BACKGROUND","width":832,"height":448,"x":{"offset":-416,"alignment":"CENTER"},"y":{"offset":-224,"alignment":"CENTER"}},{"type":"catharsis:sprite","sprite":"eureka:gui_modifiers/fast_travel/crimson_isle","layer":"FOREGROUND","width":832,"height":448,"x":{"offset":-416,"alignment":"CENTER"},"y":{"offset":-224,"alignment":"CENTER"}}],"widgets":[{"type":"catharsis:button","condition":{"type":"catharsis:has_slot","slot":"skyblock_gui:fast_travel/crimson_isle/spawn/unlocked"},"normal":"eureka:gui_modifiers/fast_travel/see","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:fast_travel/crimson_isle/spawn/unlocked"},"tooltip":{"type":"catharsis:slot","slot":13},"width":16,"height":16,"x":{"offset":22,"alignment":"START"},"y":{"offset":81,"alignment":"START"}},{"type":"catharsis:button","normal":"eureka:gui_modifiers/fast_travel/empty","interaction":{"type":"catharsis:slot_id","slot":"skyblock_gui:generic/navigation/meow"},"tooltip":{"type":"catharsis:slot","slot":39},"width":832,"height":448,"x":{"offset":-416,"alignment":"CENTER"},"y":{"offset":-224,"alignment":"CENTER"}}],"slots":{"skyblock_gui:fast_travel/crimson_isle/spawn/unlocked":{"position":{"x":22,"y":81},"clickable":false},"skyblock_gui:fast_travel/crimson_isle/forgotten_skull/locked":{"position":{"x":212,"y":-38},"clickable":false},"skyblock_gui:fast_travel/crimson_isle/forgotten_skull/unlocked":{"position":{"x":212,"y":-38},"clickable":false},"skyblock_gui:fast_travel/crimson_isle/smoldering_tomb/unlocked":{"position":{"x":237,"y":0},"clickable":false},"skyblock_gui:fast_travel/crimson_isle/smoldering_tomb/locked":{"position":{"x":237,"y":0},"clickable":false},"skyblock_gui:generic/navigation/close":{"position":{"x":80,"y":333}},"skyblock_gui:generic/navigation/go_back":{"position":{"x":62,"y":333}},"skyblock_gui:generic/miscellaneous/filler":{"hidden":true},"eureka:generic/miscellaneous/filler":{"hidden":true}}}
+=======
+{
+  "target": {
+    "type": "catharsis:definition",
+    "definition": "catharsis:fast_travel/crimson_isle"
+  },
+  "overrideBackground": true,
+  "overrideLabels": true,
+  "bounds": {
+    "width": 832,
+    "height": 448
+  },
+  "elements": [
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/fast_travel/fast_travel_silhouette_focused",
+      "layer": "BACKGROUND",
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/fast_travel/crimson_isle",
+      "layer": "FOREGROUND",
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    }
+  ],
+  "widgets": [
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/spawn/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/spawn/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 13 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 22,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 81,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/smoldering_tomb/locked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/smoldering_tomb/locked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 24 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 237,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 0,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/smoldering_tomb/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/smoldering_tomb/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 24 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 237,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 0,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/forgotten_skull/locked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/forgotten_skull/locked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 20 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 212,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -38,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/forgotten_skull/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/forgotten_skull/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 20 },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 212,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -38,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/dragontail/locked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/dragontail/locked"
+      },
+      "tooltip": [
+        { "type": "catharsis:slot", "slot": 22 },
+        {
+          "type": "catharsis:text",
+          "text": {
+            "text": "This warp is exclusive to Bingo Profiles!",
+            "color": "red"
+          }
+        }
+      ],
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 95,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -34,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/dragontail/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/dragontail/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 22 },
+
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 95,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -34,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/wasteland/locked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/wasteland/locked"
+      },
+      "tooltip": [
+        { "type": "catharsis:slot", "slot": 21 },
+        {
+          "type": "catharsis:text",
+          "text": {
+            "text": "This warp is exclusive to Bingo Profiles!",
+            "color": "red"
+          }
+        }
+      ],
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 184,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -5,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/wasteland/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/wasteland/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 21 },
+
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 184,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -5,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/scarleton/locked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/scarleton/locked"
+      },
+      "tooltip": [
+        { "type": "catharsis:slot", "slot": 23 },
+        {
+          "type": "catharsis:text",
+          "text": {
+            "text": "This warp is exclusive to Bingo Profiles!",
+            "color": "red"
+          }
+        }
+      ],
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 252,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 57,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/scarleton/unlocked"
+      },
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/scarleton/unlocked"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 23 },
+
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 252,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 57,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/fast_travel/empty",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/go_back"
+      },
+      "tooltip": { "type": "catharsis:slot", "slot": 39 },
+      "width": 832,
+      "height": 448,
+      "x": {
+        "offset": -416,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -224,
+        "alignment": "CENTER"
+      }
+    }
+  ],
+  "slots": {
+    "skyblock_gui:fast_travel/crimson_isle/spawn/unlocked": {
+      "position": { "x": 22, "y": 81 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/crimson_isle/forgotten_skull/locked": {
+      "position": { "x": 212, "y": -38 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/crimson_isle/forgotten_skull/unlocked": {
+      "position": { "x": 212, "y": -38 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/crimson_isle/smoldering_tomb/unlocked": {
+      "position": { "x": 237, "y": 0 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/crimson_isle/smoldering_tomb/locked": {
+      "position": { "x": 237, "y": 0 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/crimson_isle/dragontail/locked": {
+      "position": { "x": 95, "y": -34 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/crimson_isle/dragontail/unlocked": {
+      "position": { "x": 95, "y": -34 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/crimson_isle/wasteland/unlocked": {
+      "position": { "x": 184, "y": -5 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/crimson_isle/wasteland/locked": {
+      "position": { "x": 184, "y": -5 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/crimson_isle/scarleton/unlocked": {
+      "position": { "x": 252, "y": 57 },
+      "clickable": false
+    },
+    "skyblock_gui:fast_travel/crimson_isle/scarleton/locked": {
+      "position": { "x": 252, "y": 57 },
+      "clickable": false
+    },
+    "skyblock_gui:generic/navigation/close": {
+      "position": { "x": 80, "y": 333 }
+    },
+    "skyblock_gui:generic/navigation/go_back": {
+      "position": { "x": 62, "y": 333 }
+    },
+    "skyblock_gui:generic/miscellaneous/filler": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler": {
+      "hidden": true
+    }
+  }
+}
+>>>>>>> Stashed changes
