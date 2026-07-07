@@ -1,11 +1,11 @@
 - License
 All Rights Reserved (ARR), most asset copyright @Junenya.
 
-Texture assets for rod parts (Except Sinkers) are remixed from the Official Hypixel Skyblock Resource Pack, copyright @Hypixel.
+Texture assets for rod parts (Except Sinkers) are remixed from the Official Hypixel Skyblock Resource Pack, Copyright © 2026 Hypixel Inc. All rights reserved.
 
-Texture assets for the custom Quick Travel menu map are remixed from the hub Map on Hypixel Skyblock, copyright @Hypixel.
+Texture assets for the custom Quick Travel menu map are remixed from the hub Map on Hypixel Skyblock, Copyright © 2026 Hypixel Inc. All rights reserved.
 
-I have been unable to directly ask for permission, contact @Junenya on Discord for inquiries (E.g. Removal).
+Not directly endorsed by Hypixel inc.
 
 - Created & Owned by:
 @junenya on Discord
