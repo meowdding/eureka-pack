@@ -213,6 +213,14 @@
         }
       },
       {
+        "directory": "legacy.hypixel.tooltip",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "eureka",
+          "id": "legacy.hypixel.tooltip"
+        }
+      },
+      {
         "directory": "accessibility.high_contrast",
         "condition": {
           "condition": "catharsis:config",

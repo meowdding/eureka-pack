@@ -77,9 +77,16 @@
   "eureka.config.tab.qol.guide": "Guides",
   "eureka.config.tab.qol.guide.brewing_stand": "Brewing Recipes",
   "eureka.config.tab.qol.guide.brewing_stand.description": "When in a Brewing Stand Menu, a side panel will appearing showing all potion recipes!",
+
+  "eureka.config.tab.legacy": "Legacy",
+  "eureka.config.tab.legacy.hypixel": "Hypixel",
+  "eureka.config.tab.legacy.hypixel.tooltip": "Tooltips",
+  "eureka.config.tab.legacy.hypixel.tooltip.description": "Uses Vanilla tooltip textures instead of Hypixel's.",
+
   "eureka.config.tab.accessibility": "Accessibility",
   "eureka.config.tab.accessibility.gui": "GUI",
   "eureka.config.tab.accessibility.gui.high_contrast": "High Contrast GUIs",
+
   "eureka.tooltip.separator.gemstones": "",
   "eureka.tooltip.separator.stats": "",
   "eureka.tooltip.gemstone_slot.slot": "",

@@ -619,6 +619,38 @@
     "type": "tab",
     "title": {
       "type": "translatable",
+      "translate": "eureka.config.tab.legacy"
+    },
+    "options": [
+      {
+        "type": "separator",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.legacy.hypixel",
+          "bold": true
+        },
+        "description": ""
+      },
+      {
+        "type": "boolean",
+        "id": "legacy.hypixel.tooltip",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.legacy.hypixel.tooltip"
+        },
+        "description": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.legacy.hypixel.tooltip.description",
+          "color": "gray"
+        },
+        "default": false
+      }
+    ]
+  },
+  {
+    "type": "tab",
+    "title": {
+      "type": "translatable",
       "translate": "eureka.config.tab.accessibility"
     },
     "options": [
