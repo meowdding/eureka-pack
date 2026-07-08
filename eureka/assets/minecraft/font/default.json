@@ -1,0 +1,6 @@
+{
+  "providers": [
+    { "type": "reference", "id": "eureka:mobtype" },
+    { "type": "reference", "id": "eureka:stat" }
+  ]
+}
