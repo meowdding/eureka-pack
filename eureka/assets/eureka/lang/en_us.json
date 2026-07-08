@@ -83,6 +83,9 @@
   "eureka.config.tab.legacy.hypixel.tooltip": "Tooltips",
   "eureka.config.tab.legacy.hypixel.tooltip.description": "Uses Vanilla tooltip textures instead of Hypixel's.",
 
+  "eureka.config.tab.legacy.hypixel.text_color": "Text colors",
+  "eureka.config.tab.legacy.hypixel.text_color.description": "Uses Vanilla Color Hexes for text instead of Hypixel's.",
+
   "eureka.config.tab.accessibility": "Accessibility",
   "eureka.config.tab.accessibility.gui": "GUI",
   "eureka.config.tab.accessibility.gui.high_contrast": "High Contrast GUIs",

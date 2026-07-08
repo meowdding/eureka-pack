@@ -221,6 +221,14 @@
         }
       },
       {
+        "directory": "legacy.hypixel.text_color",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "eureka",
+          "id": "legacy.hypixel.text_color"
+        }
+      },
+      {
         "directory": "accessibility.high_contrast",
         "condition": {
           "condition": "catharsis:config",

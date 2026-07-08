@@ -644,6 +644,20 @@
           "color": "gray"
         },
         "default": false
+      },
+      {
+        "type": "boolean",
+        "id": "legacy.hypixel.text_color",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.legacy.hypixel.text_color"
+        },
+        "description": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.legacy.hypixel.text_color.description",
+          "color": "gray"
+        },
+        "default": false
       }
     ]
   },
