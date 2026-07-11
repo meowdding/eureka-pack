@@ -1,0 +1,10 @@
+{
+  "_comment": "Blocks culled by the Red Banners inside the Hub Auction house",
+  "type": "multiple",
+  "boxes": [
+    { "min": "-29:81:-14", "max": "-29:81:-12" },
+    { "min": "-39:81:-14", "max": "-39:81:-12" }
+  ],
+  "islands": "hub",
+  "min_size": 4
+}

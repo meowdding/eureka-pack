@@ -1,0 +1,22 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "minecraft:block/polished_basalt_top",
+    "side": "minecraft:block/polished_basalt_side"
+  },
+  "elements": [
+    {
+      "from": [0, 0, 0],
+      "to": [16, 16, 16],
+      "rotation": { "angle": 0, "axis": "y", "origin": [8, 8, 8] },
+      "faces": {
+        "north": { "uv": [0, 0, 16, 16], "texture": "#side" },
+        "east": { "uv": [0, 0, 16, 16], "texture": "#side" },
+        "south": { "uv": [0, 0, 16, 16], "texture": "#side" },
+        "west": { "uv": [16, 0, 0, 16], "texture": "#side" },
+        "up": { "uv": [0, 0, 16, 16], "texture": "#end" },
+        "down": { "uv": [0, 0, 16, 16], "texture": "#end" }
+      }
+    }
+  ]
+}
