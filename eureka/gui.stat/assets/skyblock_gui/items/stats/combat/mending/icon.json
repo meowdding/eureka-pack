@@ -1,1 +1,3 @@
-{"model":{"type":"model","model":"eureka:item/stats/combat/mending"}}
+{
+  "model": { "type": "model", "model": "eureka:item/stats/main/combat/mending" }
+}

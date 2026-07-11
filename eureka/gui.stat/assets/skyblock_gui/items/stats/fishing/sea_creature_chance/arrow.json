@@ -1,1 +1,6 @@
-{"model":{"type":"model","model":"eureka:item/stats/shared/arrow/dark_aqua"}}
+{
+  "model": {
+    "type": "model",
+    "model": "eureka:item/stats/main/shared/arrow/dark_aqua"
+  }
+}

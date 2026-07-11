@@ -1,1 +1,15 @@
-{"model":{"type":"composite","models":[{"type":"model","model":"eureka:item/stats/widget/primary/fishing/double_hook"},{"type":"model","model":"eureka:item/stats/widget/secondary/shared/flat_bonuses/blue"}]}}
+{
+  "model": {
+    "type": "composite",
+    "models": [
+      {
+        "type": "model",
+        "model": "eureka:item/stats/primary/fishing/double_hook"
+      },
+      {
+        "type": "model",
+        "model": "eureka:item/stats/secondary/shared/flat_bonuses/blue"
+      }
+    ]
+  }
+}

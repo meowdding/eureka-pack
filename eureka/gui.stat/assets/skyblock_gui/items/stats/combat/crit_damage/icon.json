@@ -4,11 +4,11 @@
     "models": [
       {
         "type": "model",
-        "model": "eureka:item/stats/widget/primary/combat/crit"
+        "model": "eureka:item/stats/primary/combat/crit"
       },
       {
         "type": "model",
-        "model": "eureka:item/stats/widget/secondary/combat/damage"
+        "model": "eureka:item/stats/secondary/combat/damage"
       }
     ]
   }

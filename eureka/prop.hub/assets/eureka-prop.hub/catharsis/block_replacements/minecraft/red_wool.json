@@ -1,1 +1,558 @@
-{"type":"per_area","entries":{"eureka:hub/auction_house/inside/banner":{"type":"select","definitions":[{"type":"conditional","definition":{"type":"redirect","virtual_state":"eureka:hub/auction_house/inside/banner/top_l"},"condition":{"type":"all","conditions":[{"type":"relative","offset":"0:1:0","condition":{"type":"id","block":"minecraft:spruce_fence"}},{"type":"relative","offset":"0:0:1","condition":{"type":"id","block":"minecraft:air"}}]}},{"type":"conditional","definition":{"type":"redirect","virtual_state":"eureka:hub/auction_house/inside/banner/mid_l"},"condition":{"type":"all","conditions":[{"type":"relative","offset":"0:1:0","condition":{"type":"id","block":"minecraft:red_wool"}},{"type":"relative","offset":"0:-1:0","condition":{"type":"id","block":"minecraft:red_wool"}},{"type":"relative","offset":"0:0:1","condition":{"type":"id","block":"minecraft:air"}}]}},{"type":"conditional","definition":{"type":"redirect","virtual_state":"eureka:hub/auction_house/inside/banner/mid_2_l"},"condition":{"type":"all","conditions":[{"type":"relative","offset":"0:-1:0","condition":{"type":"id","block":"minecraft:mangrove_slab"}},{"type":"relative","offset":"0:-1:0","condition":{"type":"id","block":"minecraft:mangrove_slab"}},{"type":"relative","offset":"0:0:1","condition":{"type":"id","block":"minecraft:air"}}]}},{"type":"conditional","definition":{"type":"redirect","virtual_state":"eureka:hub/auction_house/inside/banner/top"},"condition":{"type":"relative","offset":"0:1:0","condition":{"type":"id","block":"minecraft:air"}}},{"type":"conditional","definition":{"type":"redirect","virtual_state":"eureka:hub/auction_house/inside/banner/mid"},"condition":{"type":"all","conditions":[{"type":"relative","offset":"0:1:0","condition":{"type":"id","block":"minecraft:red_wool"}},{"type":"relative","offset":"0:-1:0","condition":{"type":"id","block":"minecraft:red_wool"}},{"type":"relative","offset":"0:-2:0","condition":{"type":"id","block":"minecraft:red_wool"}},{"type":"relative","offset":"0:0:1","condition":{"type":"id","block":"minecraft:red_wool"}},{"type":"relative","offset":"0:0:-1","condition":{"type":"id","block":"minecraft:red_wool"}}]}},{"type":"conditional","definition":{"type":"redirect","virtual_state":"eureka:hub/auction_house/inside/banner/mid_2"},"condition":{"type":"all","conditions":[{"type":"relative","offset":"0:-1:1","condition":{"type":"id","block":"minecraft:mangrove_slab"}},{"type":"relative","offset":"0:-1:-1","condition":{"type":"id","block":"minecraft:mangrove_slab"}}]}},{"type":"conditional","definition":{"type":"redirect","virtual_state":"eureka:hub/auction_house/inside/banner/bottom"},"condition":{"type":"all","conditions":[{"type":"relative","offset":"0:0:1","condition":{"type":"id","block":"minecraft:mangrove_slab"}},{"type":"relative","offset":"0:0:-1","condition":{"type":"id","block":"minecraft:mangrove_slab"}}]}},{"type":"conditional","definition":{"type":"redirect","virtual_state":"eureka:hub/auction_house/inside/banner/top_r"},"condition":{"type":"all","conditions":[{"type":"relative","offset":"0:1:0","condition":{"type":"id","block":"minecraft:spruce_fence"}},{"type":"relative","offset":"0:0:-1","condition":{"type":"id","block":"minecraft:air"}}]}},{"type":"conditional","definition":{"type":"redirect","virtual_state":"eureka:hub/auction_house/inside/banner/mid_r"},"condition":{"type":"all","conditions":[{"type":"relative","offset":"0:1:0","condition":{"type":"id","block":"minecraft:red_wool"}},{"type":"relative","offset":"0:-1:0","condition":{"type":"id","block":"minecraft:red_wool"}},{"type":"relative","offset":"0:0:-1","condition":{"type":"id","block":"minecraft:air"}}]}},{"type":"conditional","definition":{"type":"redirect","virtual_state":"eureka:hub/auction_house/inside/banner/mid_2_r"},"condition":{"type":"all","conditions":[{"type":"relative","offset":"0:-1:0","condition":{"type":"id","block":"minecraft:mangrove_slab"}},{"type":"relative","offset":"0:-1:0","condition":{"type":"id","block":"minecraft:mangrove_slab"}},{"type":"relative","offset":"0:0:-1","condition":{"type":"id","block":"minecraft:air"}}]}}]},"eureka:hub/auction_house/outside/banner":{"type":"select","definitions":[{"type":"conditional","definition":{"type":"redirect","virtual_state":"eureka:hub/auction_house/outside/banner/left/top_l"},"condition":{"type":"all","conditions":[{"type":"relative","offset":"0:0:1","condition":{"type":"id","block":"minecraft:air"}},{"type":"relative","offset":"0:-2:0","condition":{"type":"id","block":"minecraft:mangrove_stairs"}}]}},{"type":"conditional","definition":{"type":"redirect","virtual_state":"eureka:hub/auction_house/outside/banner/left/mid_l"},"condition":{"type":"all","conditions":[{"type":"relative","offset":"0:0:1","condition":{"type":"id","block":"minecraft:air"}},{"type":"relative","offset":"0:-1:0","condition":{"type":"id","block":"minecraft:mangrove_stairs"}}]}},{"type":"conditional","definition":{"type":"redirect","virtual_state":"eureka:hub/auction_house/outside/banner/left/top_r"},"condition":{"type":"all","conditions":[{"type":"relative","offset":"0:0:-1","condition":{"type":"id","block":"minecraft:air"}},{"type":"relative","offset":"0:-3:0","condition":{"type":"id","block":"minecraft:mangrove_slab"}}]}},{"type":"conditional","definition":{"type":"redirect","virtual_state":"eureka:hub/auction_house/outside/banner/left/mid_r"},"condition":{"type":"all","conditions":[{"type":"relative","offset":"0:0:-1","condition":{"type":"id","block":"minecraft:air"}},{"type":"relative","offset":"0:-2:0","condition":{"type":"id","block":"minecraft:mangrove_slab"}}]}},{"type":"conditional","definition":{"type":"redirect","virtual_state":"eureka:hub/auction_house/outside/banner/left/mid_2_r"},"condition":{"type":"all","conditions":[{"type":"relative","offset":"0:0:-1","condition":{"type":"id","block":"minecraft:air"}},{"type":"relative","offset":"0:-1:0","condition":{"type":"id","block":"minecraft:mangrove_slab"}}]}},{"type":"conditional","definition":{"type":"redirect","virtual_state":"eureka:hub/auction_house/outside/banner/right/top_l"},"condition":{"type":"all","conditions":[{"type":"relative","offset":"0:0:1","condition":{"type":"id","block":"minecraft:air"}},{"type":"relative","offset":"0:-3:0","condition":{"type":"id","block":"minecraft:mangrove_slab"}}]}},{"type":"conditional","definition":{"type":"redirect","virtual_state":"eureka:hub/auction_house/outside/banner/right/mid_l"},"condition":{"type":"all","conditions":[{"type":"relative","offset":"0:0:1","condition":{"type":"id","block":"minecraft:air"}},{"type":"relative","offset":"0:-2:0","condition":{"type":"id","block":"minecraft:mangrove_slab"}}]}},{"type":"conditional","definition":{"type":"redirect","virtual_state":"eureka:hub/auction_house/outside/banner/right/mid_2_l"},"condition":{"type":"all","conditions":[{"type":"relative","offset":"0:0:1","condition":{"type":"id","block":"minecraft:air"}},{"type":"relative","offset":"0:-1:0","condition":{"type":"id","block":"minecraft:mangrove_slab"}}]}},{"type":"conditional","definition":{"type":"redirect","virtual_state":"eureka:hub/auction_house/outside/banner/right/top_r"},"condition":{"type":"all","conditions":[{"type":"relative","offset":"0:0:-1","condition":{"type":"id","block":"minecraft:air"}},{"type":"relative","offset":"0:-2:0","condition":{"type":"id","block":"minecraft:mangrove_stairs"}}]}},{"type":"conditional","definition":{"type":"redirect","virtual_state":"eureka:hub/auction_house/outside/banner/right/mid_r"},"condition":{"type":"all","conditions":[{"type":"relative","offset":"0:0:-1","condition":{"type":"id","block":"minecraft:air"}},{"type":"relative","offset":"0:-1:0","condition":{"type":"id","block":"minecraft:mangrove_stairs"}}]}}]}}}
+{
+  "type": "per_area",
+  "entries": {
+    "eureka:hub/auction_house/inside/banner": {
+      "type": "select",
+      "definitions": [
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:hub/auction_house/inside/banner/top_l"
+          },
+          "condition": {
+            "type": "all",
+            "conditions": [
+              {
+                "type": "relative",
+                "offset": "0:1:0",
+                "condition": { "type": "id", "block": "minecraft:spruce_fence" }
+              },
+              {
+                "type": "relative",
+                "offset": "0:0:1",
+                "condition": { "type": "id", "block": "minecraft:air" }
+              }
+            ]
+          }
+        },
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:hub/auction_house/inside/banner/mid_l"
+          },
+          "condition": {
+            "type": "all",
+            "conditions": [
+              {
+                "type": "relative",
+                "offset": "0:1:0",
+                "condition": { "type": "id", "block": "minecraft:red_wool" }
+              },
+              {
+                "type": "relative",
+                "offset": "0:-1:0",
+                "condition": { "type": "id", "block": "minecraft:red_wool" }
+              },
+              {
+                "type": "relative",
+                "offset": "0:0:1",
+                "condition": { "type": "id", "block": "minecraft:air" }
+              }
+            ]
+          }
+        },
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:hub/auction_house/inside/banner/bottom_l"
+          },
+          "condition": {
+            "type": "all",
+            "conditions": [
+              {
+                "type": "relative",
+                "offset": "0:-1:0",
+                "condition": {
+                  "type": "id",
+                  "block": "minecraft:air"
+                }
+              },
+              {
+                "type": "relative",
+                "offset": "0:-1:1",
+                "condition": {
+                  "type": "id",
+                  "block": "minecraft:air"
+                }
+              },
+              {
+                "type": "relative",
+                "offset": "0:0:-1",
+                "condition": { "type": "id", "block": "minecraft:red_wool" }
+              }
+            ]
+          }
+        },
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:hub/auction_house/inside/banner/top"
+          },
+          "condition": {
+            "type": "relative",
+            "offset": "0:1:0",
+            "condition": { "type": "id", "block": "minecraft:air" }
+          }
+        },
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:hub/auction_house/inside/banner/mid"
+          },
+          "condition": {
+            "type": "all",
+            "conditions": [
+              {
+                "type": "relative",
+                "offset": "0:1:0",
+                "condition": { "type": "id", "block": "minecraft:red_wool" }
+              },
+              {
+                "type": "relative",
+                "offset": "0:-1:0",
+                "condition": { "type": "id", "block": "minecraft:red_wool" }
+              },
+              {
+                "type": "relative",
+                "offset": "0:-2:0",
+                "condition": { "type": "id", "block": "minecraft:red_wool" }
+              },
+              {
+                "type": "relative",
+                "offset": "0:0:1",
+                "condition": { "type": "id", "block": "minecraft:red_wool" }
+              },
+              {
+                "type": "relative",
+                "offset": "0:0:-1",
+                "condition": { "type": "id", "block": "minecraft:red_wool" }
+              }
+            ]
+          }
+        },
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:hub/auction_house/inside/banner/mid_2"
+          },
+          "condition": {
+            "type": "all",
+            "conditions": [
+              {
+                "type": "relative",
+                "offset": "0:0:1",
+                "condition": {
+                  "type": "id",
+                  "block": "minecraft:red_wool"
+                }
+              },
+              {
+                "type": "relative",
+                "offset": "0:0:-1",
+                "condition": {
+                  "type": "id",
+                  "block": "minecraft:red_wool"
+                }
+              },
+              {
+                "type": "relative",
+                "offset": "0:-1:1",
+                "condition": {
+                  "type": "id",
+                  "block": "minecraft:air"
+                }
+              },
+              {
+                "type": "relative",
+                "offset": "0:-1:-1",
+                "condition": {
+                  "type": "id",
+                  "block": "minecraft:air"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:hub/auction_house/inside/banner/bottom"
+          },
+          "condition": {
+            "type": "all",
+            "conditions": [
+              {
+                "type": "relative",
+                "offset": "0:0:1",
+                "condition": {
+                  "type": "id",
+                  "block": "minecraft:air"
+                }
+              },
+              {
+                "type": "relative",
+                "offset": "0:0:-1",
+                "condition": {
+                  "type": "id",
+                  "block": "minecraft:air"
+                }
+              },
+              {
+                "type": "relative",
+                "offset": "0:-1:0",
+                "condition": {
+                  "type": "id",
+                  "block": "minecraft:air"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:hub/auction_house/inside/banner/top_r"
+          },
+          "condition": {
+            "type": "all",
+            "conditions": [
+              {
+                "type": "relative",
+                "offset": "0:1:0",
+                "condition": { "type": "id", "block": "minecraft:spruce_fence" }
+              },
+              {
+                "type": "relative",
+                "offset": "0:0:-1",
+                "condition": { "type": "id", "block": "minecraft:air" }
+              }
+            ]
+          }
+        },
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:hub/auction_house/inside/banner/mid_r"
+          },
+          "condition": {
+            "type": "all",
+            "conditions": [
+              {
+                "type": "relative",
+                "offset": "0:1:0",
+                "condition": { "type": "id", "block": "minecraft:red_wool" }
+              },
+              {
+                "type": "relative",
+                "offset": "0:-1:0",
+                "condition": { "type": "id", "block": "minecraft:red_wool" }
+              },
+              {
+                "type": "relative",
+                "offset": "0:0:-1",
+                "condition": { "type": "id", "block": "minecraft:air" }
+              }
+            ]
+          }
+        },
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:hub/auction_house/inside/banner/bottom_r"
+          },
+          "condition": {
+            "type": "all",
+            "conditions": [
+              {
+                "type": "relative",
+                "offset": "0:-1:0",
+                "condition": {
+                  "type": "id",
+                  "block": "minecraft:air"
+                }
+              },
+              {
+                "type": "relative",
+                "offset": "0:-1:-1",
+                "condition": {
+                  "type": "id",
+                  "block": "minecraft:air"
+                }
+              },
+              {
+                "type": "relative",
+                "offset": "0:0:1",
+                "condition": { "type": "id", "block": "minecraft:red_wool" }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "eureka:hub/auction_house/outside/banner": {
+      "type": "select",
+      "definitions": [
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:hub/auction_house/outside/banner/left/top_l"
+          },
+          "condition": {
+            "type": "all",
+            "conditions": [
+              {
+                "type": "relative",
+                "offset": "0:0:1",
+                "condition": { "type": "id", "block": "minecraft:air" }
+              },
+              {
+                "type": "relative",
+                "offset": "0:-2:0",
+                "condition": {
+                  "type": "id",
+                  "block": "minecraft:mangrove_stairs"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:hub/auction_house/outside/banner/left/mid_l"
+          },
+          "condition": {
+            "type": "all",
+            "conditions": [
+              {
+                "type": "relative",
+                "offset": "0:0:1",
+                "condition": { "type": "id", "block": "minecraft:air" }
+              },
+              {
+                "type": "relative",
+                "offset": "0:-1:0",
+                "condition": {
+                  "type": "id",
+                  "block": "minecraft:mangrove_stairs"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:hub/auction_house/outside/banner/left/top_r"
+          },
+          "condition": {
+            "type": "all",
+            "conditions": [
+              {
+                "type": "relative",
+                "offset": "0:0:-1",
+                "condition": { "type": "id", "block": "minecraft:air" }
+              },
+              {
+                "type": "relative",
+                "offset": "0:-3:0",
+                "condition": {
+                  "type": "id",
+                  "block": "minecraft:mangrove_slab"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:hub/auction_house/outside/banner/left/mid_r"
+          },
+          "condition": {
+            "type": "all",
+            "conditions": [
+              {
+                "type": "relative",
+                "offset": "0:0:-1",
+                "condition": { "type": "id", "block": "minecraft:air" }
+              },
+              {
+                "type": "relative",
+                "offset": "0:-2:0",
+                "condition": {
+                  "type": "id",
+                  "block": "minecraft:mangrove_slab"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:hub/auction_house/outside/banner/left/mid_2_r"
+          },
+          "condition": {
+            "type": "all",
+            "conditions": [
+              {
+                "type": "relative",
+                "offset": "0:0:-1",
+                "condition": { "type": "id", "block": "minecraft:air" }
+              },
+              {
+                "type": "relative",
+                "offset": "0:-1:0",
+                "condition": {
+                  "type": "id",
+                  "block": "minecraft:mangrove_slab"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:hub/auction_house/outside/banner/right/top_l"
+          },
+          "condition": {
+            "type": "all",
+            "conditions": [
+              {
+                "type": "relative",
+                "offset": "0:0:1",
+                "condition": { "type": "id", "block": "minecraft:air" }
+              },
+              {
+                "type": "relative",
+                "offset": "0:-3:0",
+                "condition": {
+                  "type": "id",
+                  "block": "minecraft:mangrove_slab"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:hub/auction_house/outside/banner/right/mid_l"
+          },
+          "condition": {
+            "type": "all",
+            "conditions": [
+              {
+                "type": "relative",
+                "offset": "0:0:1",
+                "condition": { "type": "id", "block": "minecraft:air" }
+              },
+              {
+                "type": "relative",
+                "offset": "0:-2:0",
+                "condition": {
+                  "type": "id",
+                  "block": "minecraft:mangrove_slab"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:hub/auction_house/outside/banner/right/mid_2_l"
+          },
+          "condition": {
+            "type": "all",
+            "conditions": [
+              {
+                "type": "relative",
+                "offset": "0:0:1",
+                "condition": { "type": "id", "block": "minecraft:air" }
+              },
+              {
+                "type": "relative",
+                "offset": "0:-1:0",
+                "condition": {
+                  "type": "id",
+                  "block": "minecraft:mangrove_slab"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:hub/auction_house/outside/banner/right/top_r"
+          },
+          "condition": {
+            "type": "all",
+            "conditions": [
+              {
+                "type": "relative",
+                "offset": "0:0:-1",
+                "condition": { "type": "id", "block": "minecraft:air" }
+              },
+              {
+                "type": "relative",
+                "offset": "0:-2:0",
+                "condition": {
+                  "type": "id",
+                  "block": "minecraft:mangrove_stairs"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:hub/auction_house/outside/banner/right/mid_r"
+          },
+          "condition": {
+            "type": "all",
+            "conditions": [
+              {
+                "type": "relative",
+                "offset": "0:0:-1",
+                "condition": { "type": "id", "block": "minecraft:air" }
+              },
+              {
+                "type": "relative",
+                "offset": "0:-1:0",
+                "condition": {
+                  "type": "id",
+                  "block": "minecraft:mangrove_stairs"
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

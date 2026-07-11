@@ -4,9 +4,9 @@
     "models": [
       {
         "type": "model",
-        "model": "eureka:item/stats/widget/primary/combat/swing"
+        "model": "eureka:item/stats/primary/combat/attack"
       },
-      { "type": "model", "model": "eureka:item/stats/widget/secondary/range" }
+      { "type": "model", "model": "eureka:item/stats/secondary/range" }
     ]
   }
 }

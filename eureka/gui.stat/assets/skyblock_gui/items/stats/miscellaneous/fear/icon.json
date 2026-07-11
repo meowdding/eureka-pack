@@ -1,1 +1,6 @@
-{"model":{"type":"model","model":"eureka:item/stats/miscellaneous/fear"}}
+{
+  "model": {
+    "type": "model",
+    "model": "eureka:item/stats/main/miscellaneous/fear"
+  }
+}

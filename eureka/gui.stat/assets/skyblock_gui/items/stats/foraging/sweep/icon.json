@@ -1,1 +1,3 @@
-{"model":{"type":"model","model":"eureka:item/stats/foraging/sweep"}}
+{
+  "model": { "type": "model", "model": "eureka:item/stats/main/foraging/sweep" }
+}

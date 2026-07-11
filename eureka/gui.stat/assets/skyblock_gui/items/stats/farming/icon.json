@@ -1,1 +1,3 @@
-{"model":{"type":"model","model":"eureka:item/stats/farming/icon"}}
+{
+  "model": { "type": "model", "model": "eureka:item/skills/main/farming/icon" }
+}

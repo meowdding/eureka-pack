@@ -1,1 +1,12 @@
-{"model":{"type":"composite","models":[{"type":"model","model":"eureka:item/stats/widget/primary/hunting/icon"},{"type":"model","model":"eureka:item/stats/widget/secondary/wisdom"}]}}
+{
+  "model": {
+    "type": "composite",
+    "models": [
+      {
+        "type": "model",
+        "model": "eureka:item/skills/primary/hunting/icon"
+      },
+      { "type": "model", "model": "eureka:item/stats/secondary/wisdom/icon" }
+    ]
+  }
+}

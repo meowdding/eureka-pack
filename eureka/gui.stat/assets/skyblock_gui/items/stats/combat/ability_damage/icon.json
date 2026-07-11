@@ -1,1 +1,6 @@
-{"model":{"type":"model","model":"eureka:item/stats/combat/ability_damage"}}
+{
+  "model": {
+    "type": "model",
+    "model": "eureka:item/stats/main/combat/ability_damage"
+  }
+}

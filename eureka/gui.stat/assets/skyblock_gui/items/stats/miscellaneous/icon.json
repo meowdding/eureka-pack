@@ -1,1 +1,6 @@
-{"model":{"type":"model","model":"eureka:item/stats/miscellaneous/icon"}}
+{
+  "model": {
+    "type": "model",
+    "model": "eureka:item/stats/main/miscellaneous/icon"
+  }
+}
