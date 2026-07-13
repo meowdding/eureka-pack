@@ -112,16 +112,43 @@
                   },
                   {
                     "type": "not",
-                    "conditions": [
-                      {
-                        "type": "relative",
-                        "offset": "0:-1:0",
-                        "condition": {
-                          "type": "id",
-                          "block": "minecraft:cyan_terracotta"
+                    "condition": {
+                      "type": "any",
+                      "conditions": [
+                        {
+                          "type": "relative",
+                          "offset": "0:-1:0",
+                          "condition": {
+                            "type": "id",
+                            "block": "minecraft:cyan_terracotta"
+                          }
+                        },
+                        {
+                          "type": "relative",
+                          "offset": "0:-1:0",
+                          "condition": {
+                            "type": "id",
+                            "block": "minecraft:brown_terracotta"
+                          }
+                        },
+                        {
+                          "type": "relative",
+                          "offset": "0:-1:0",
+                          "condition": {
+                            "type": "id",
+                            "block": "minecraft:air"
+                          }
+                        },
+                        {
+                          "type": "relative",
+                          "offset": "0:-1:0",
+                          "condition": {
+                            "type": "id",
+                            "block": "minecraft:gray_wool"
+                          }
                         }
-                      }
-                    ]
+                      ]
+                    }
                   }
                 ]
               }

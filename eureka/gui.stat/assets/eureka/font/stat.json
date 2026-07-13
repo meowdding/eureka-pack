@@ -25,7 +25,7 @@
       "type": "bitmap",
       "file": "eureka:font/stat/rift/mana_regen.png",
       "ascent": 7,
-      "height": 8,
+      "height": 7,
       "chars": [""]
     },
     {
@@ -139,6 +139,20 @@
       "ascent": 6,
       "height": 6,
       "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "eureka:font/stat/foraging/sweep.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": ["\ue023"]
+    },
+    {
+      "type": "bitmap",
+      "file": "eureka:font/stat/combat/swing_range.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": ["\ue024"]
     },
     {
       "type": "bitmap",
