@@ -481,20 +481,6 @@
           "color": "gray"
         },
         "default": true
-      },
-      {
-        "type": "boolean",
-        "id": "tooltip.separator",
-        "title": {
-          "type": "translatable",
-          "translate": "eureka.config.tab.gui.tooltip.separator"
-        },
-        "description": {
-          "type": "translatable",
-          "translate": "eureka.config.generic.disabled_warning",
-          "color": "red"
-        },
-        "default": false
       }
     ]
   },

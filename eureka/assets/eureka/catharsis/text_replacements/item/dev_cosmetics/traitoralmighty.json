@@ -1,0 +1,28 @@
+{
+  "replacer": {
+    "type": "catharsis:regex",
+    "regex": "\\[\\w+\\+\\] TraitorAlmighty",
+    "propagate": false,
+    "replacement": {
+      "text": "",
+      "extra": [
+        {
+          "translate": "[%s] TraitorAlmighty %s",
+          "color": "white",
+          "italic": false,
+          "bold": false,
+          "with": [
+            {
+              "text": "???",
+              "obfuscated": true
+            },
+            {
+              "translate": "eureka.dev_cosmetics.traitoralmighty.emblem",
+              "font": "eureka:dev_cosmetics/traitoralmighty/emblem"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
