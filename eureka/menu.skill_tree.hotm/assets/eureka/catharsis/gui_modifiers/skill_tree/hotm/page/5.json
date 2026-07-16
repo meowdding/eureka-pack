@@ -1,0 +1,792 @@
+{
+  "target": {
+    "type": "catharsis:definition",
+    "definition": "eureka:skill_tree/hotm/page/5"
+  },
+  "overrideBackground": true,
+  "disableItemList": true,
+  "hiddenModElements": [
+    "skyocean:crafthelper",
+    "skyocean:inventory_buttons",
+    "skyblocker:quickNavigation"
+  ],
+  "bounds": { "width": 368, "height": 512 },
+  "elements": [
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/background",
+      "layer": "BACKGROUND",
+      "width": 368,
+      "height": 512,
+      "x": {
+        "offset": -184,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -256,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/grid",
+      "layer": "FOREGROUND",
+      "width": 368,
+      "height": 512,
+      "x": {
+        "offset": -184,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -256,
+        "alignment": "CENTER"
+      }
+    }
+  ],
+  "widgets": [
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/tier/unknown/10",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/scroll_up"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:text",
+          "text": [
+            { "text": "Tier 10", "color": "gray" },
+            {
+              "text": "The contents of this page are\ncurrently not visible.\n",
+              "color": "dark_gray"
+            },
+            {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Left-click ",
+                  "color": "yellow"
+                },
+                {
+                  "text": "to scroll up!\n",
+                  "color": "gray"
+                }
+              ]
+            },
+            {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Right-click ",
+                  "color": "yellow"
+                },
+                {
+                  "text": "to go to the top tier!",
+                  "color": "gray"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": -360,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -32,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/tier/unlocked/9",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skill_tree/hotm/icon"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:slot",
+          "slot": 0
+        }
+      ],
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": -328,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -32,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/tier/unlocked/8",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skill_tree/hotm/icon"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:slot",
+          "slot": 9
+        }
+      ],
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": -296,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -32,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/tier/unlocked/7",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skill_tree/hotm/icon"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:slot",
+          "slot": 18
+        }
+      ],
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": -264,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -32,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/tier/unlocked/6",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skill_tree/hotm/icon"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:slot",
+          "slot": 27
+        }
+      ],
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": -232,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -32,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/tier/unlocked/5",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skill_tree/hotm/icon"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:slot",
+          "slot": 36
+        }
+      ],
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": -360,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": 0,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/tier/unknown/4",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/scroll_down"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:text",
+          "text": [
+            { "text": "Tier 4", "color": "gray" },
+            {
+              "text": "The contents of this page are\ncurrently not visible.\n",
+              "color": "dark_gray"
+            },
+            {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Left-click ",
+                  "color": "yellow"
+                },
+                {
+                  "text": "to scroll down!\n",
+                  "color": "gray"
+                }
+              ]
+            },
+            {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Right-click ",
+                  "color": "yellow"
+                },
+                {
+                  "text": "to go to the bottom tier!",
+                  "color": "gray"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": -328,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": 0,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/tier/unknown/3",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/scroll_down"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:text",
+          "text": [
+            { "text": "Tier 3", "color": "gray" },
+            {
+              "text": "The contents of this page are\ncurrently not visible.\n",
+              "color": "dark_gray"
+            },
+            {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Left-click ",
+                  "color": "yellow"
+                },
+                {
+                  "text": "to scroll down!\n",
+                  "color": "gray"
+                }
+              ]
+            },
+            {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Right-click ",
+                  "color": "yellow"
+                },
+                {
+                  "text": "to go to the bottom tier!",
+                  "color": "gray"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": -296,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": 0,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/tier/unknown/2",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/scroll_down"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:text",
+          "text": [
+            { "text": "Tier 2", "color": "gray" },
+            {
+              "text": "The contents of this page are\ncurrently not visible.\n",
+              "color": "dark_gray"
+            },
+            {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Left-click ",
+                  "color": "yellow"
+                },
+                {
+                  "text": "to scroll down!\n",
+                  "color": "gray"
+                }
+              ]
+            },
+            {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Right-click ",
+                  "color": "yellow"
+                },
+                {
+                  "text": "to go to the bottom tier!",
+                  "color": "gray"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": -264,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": 0,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/tier/unknown/1",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/scroll_down"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:text",
+          "text": [
+            { "text": "Tier 1", "color": "gray" },
+            {
+              "text": "The contents of this page are\ncurrently not visible.\n",
+              "color": "dark_gray"
+            },
+            {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Left-click ",
+                  "color": "yellow"
+                },
+                {
+                  "text": "to scroll down!\n",
+                  "color": "gray"
+                }
+              ]
+            },
+            {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Right-click ",
+                  "color": "yellow"
+                },
+                {
+                  "text": "to go to the bottom tier!",
+                  "color": "gray"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": -232,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": 0,
+        "alignment": "CENTER"
+      }
+    }
+  ],
+  "slots": {
+    "eureka:skill_tree/hotm/token_1/daily_grind/locked": {
+      "position": { "x": -16, "y": 127 }
+    },
+    "eureka:skill_tree/hotm/token_1/daily_grind/unlocked": {
+      "position": { "x": -16, "y": 127 }
+    },
+    "eureka:skill_tree/hotm/token_1/daily_grind/maxed": {
+      "position": { "x": -16, "y": 127 }
+    },
+    "eureka:skill_tree/hotm/token_1/daily_grind/disabled": {
+      "position": { "x": -16, "y": 127 }
+    },
+    "eureka:skill_tree/hotm/token_1/core_of_the_mountain/locked": {
+      "position": { "x": 80, "y": 127 }
+    },
+    "eureka:skill_tree/hotm/token_1/core_of_the_mountain/unlocked/tier_1": {
+      "position": { "x": 80, "y": 127 }
+    },
+    "eureka:skill_tree/hotm/token_1/core_of_the_mountain/unlocked/tier_2": {
+      "position": { "x": 80, "y": 127 }
+    },
+    "eureka:skill_tree/hotm/token_1/core_of_the_mountain/unlocked/tier_3": {
+      "position": { "x": 80, "y": 127 }
+    },
+    "eureka:skill_tree/hotm/token_1/core_of_the_mountain/unlocked/tier_4": {
+      "position": { "x": 80, "y": 127 }
+    },
+    "eureka:skill_tree/hotm/token_1/core_of_the_mountain/unlocked/tier_5": {
+      "position": { "x": 80, "y": 127 }
+    },
+    "eureka:skill_tree/hotm/token_1/core_of_the_mountain/unlocked/tier_6": {
+      "position": { "x": 80, "y": 127 }
+    },
+    "eureka:skill_tree/hotm/token_1/core_of_the_mountain/unlocked/tier_7": {
+      "position": { "x": 80, "y": 127 }
+    },
+    "eureka:skill_tree/hotm/token_1/core_of_the_mountain/unlocked/tier_8": {
+      "position": { "x": 80, "y": 127 }
+    },
+    "eureka:skill_tree/hotm/token_1/core_of_the_mountain/unlocked/tier_9": {
+      "position": { "x": 80, "y": 127 }
+    },
+    "eureka:skill_tree/hotm/token_1/core_of_the_mountain/unlocked/tier_10": {
+      "position": { "x": 80, "y": 127 }
+    },
+    "eureka:skill_tree/hotm/token_1/daily_powder/locked": {
+      "position": { "x": 176, "y": 127 }
+    },
+    "eureka:skill_tree/hotm/token_1/daily_powder/unlocked": {
+      "position": { "x": 176, "y": 31271 }
+    },
+    "eureka:skill_tree/hotm/token_1/daily_powder/maxed": {
+      "position": { "x": 176, "y": 127 }
+    },
+    "eureka:skill_tree/hotm/token_1/daily_powder/disabled": {
+      "position": { "x": 176, "y": 127 }
+    },
+    "eureka:skill_tree/hotm/token_1/tunnel_vision/locked": {
+      "position": { "x": -64, "y": 79 }
+    },
+    "eureka:skill_tree/hotm/token_1/tunnel_vision/unlocked": {
+      "position": { "x": -64, "y": 79 }
+    },
+    "eureka:skill_tree/hotm/token_1/tunnel_vision/disabled": {
+      "position": { "x": -64, "y": 79 }
+    },
+    "eureka:skill_tree/hotm/token_1/blockhead/locked": {
+      "position": { "x": -16, "y": 79 }
+    },
+    "eureka:skill_tree/hotm/token_1/blockhead/unlocked": {
+      "position": { "x": -16, "y": 79 }
+    },
+    "eureka:skill_tree/hotm/token_1/blockhead/maxed": {
+      "position": { "x": -16, "y": 79 }
+    },
+    "eureka:skill_tree/hotm/token_1/blockhead/disabled": {
+      "position": { "x": -16, "y": 79 }
+    },
+    "eureka:skill_tree/hotm/token_1/subterranean_fisher/locked": {
+      "position": { "x": 32, "y": 79 }
+    },
+    "eureka:skill_tree/hotm/token_1/subterranean_fisher/unlocked": {
+      "position": { "x": 32, "y": 79 }
+    },
+    "eureka:skill_tree/hotm/token_1/subterranean_fisher/maxed": {
+      "position": { "x": 32, "y": 79 }
+    },
+    "eureka:skill_tree/hotm/token_1/subterranean_fisher/disabled": {
+      "position": { "x": 32, "y": 79 }
+    },
+    "eureka:skill_tree/hotm/token_1/keep_it_cool/locked": {
+      "position": { "x": 80, "y": 79 }
+    },
+    "eureka:skill_tree/hotm/token_1/keep_it_cool/unlocked": {
+      "position": { "x": 80, "y": 79 }
+    },
+    "eureka:skill_tree/hotm/token_1/keep_it_cool/maxed": {
+      "position": { "x": 80, "y": 79 }
+    },
+    "eureka:skill_tree/hotm/token_1/keep_it_cool/disabled": {
+      "position": { "x": 80, "y": 79 }
+    },
+    "eureka:skill_tree/hotm/token_1/lonesome_miner/locked": {
+      "position": { "x": 128, "y": 79 }
+    },
+    "eureka:skill_tree/hotm/token_1/lonesome_miner/unlocked": {
+      "position": { "x": 128, "y": 79 }
+    },
+    "eureka:skill_tree/hotm/token_1/lonesome_miner/maxed": {
+      "position": { "x": 128, "y": 79 }
+    },
+    "eureka:skill_tree/hotm/token_1/lonesome_miner/disabled": {
+      "position": { "x": 128, "y": 79 }
+    },
+    "eureka:skill_tree/hotm/token_1/great_explorer/locked": {
+      "position": { "x": 176, "y": 79 }
+    },
+    "eureka:skill_tree/hotm/token_1/great_explorer/unlocked": {
+      "position": { "x": 176, "y": 79 }
+    },
+    "eureka:skill_tree/hotm/token_1/great_explorer/maxed": {
+      "position": { "x": 176, "y": 79 }
+    },
+    "eureka:skill_tree/hotm/token_1/great_explorer/disabled": {
+      "position": { "x": 176, "y": 79 }
+    },
+    "eureka:skill_tree/hotm/token_1/maniac_miner/locked": {
+      "position": { "x": 224, "y": 79 }
+    },
+    "eureka:skill_tree/hotm/token_1/maniac_miner/unlocked": {
+      "position": { "x": 224, "y": 79 }
+    },
+    "eureka:skill_tree/hotm/token_1/maniac_miner/disabled": {
+      "position": { "x": 224, "y": 79 }
+    },
+    "eureka:skill_tree/hotm/token_1/speedy_mineman/locked": {
+      "position": { "x": -16, "y": 31 }
+    },
+    "eureka:skill_tree/hotm/token_1/speedy_mineman/unlocked": {
+      "position": { "x": -16, "y": 31 }
+    },
+    "eureka:skill_tree/hotm/token_1/speedy_mineman/maxed": {
+      "position": { "x": -16, "y": 31 }
+    },
+    "eureka:skill_tree/hotm/token_1/speedy_mineman/disabled": {
+      "position": { "x": -16, "y": 31 }
+    },
+    "eureka:skill_tree/hotm/token_1/powder_buff/locked": {
+      "position": { "x": 80, "y": 31 }
+    },
+    "eureka:skill_tree/hotm/token_1/powder_buff/unlocked": {
+      "position": { "x": 80, "y": 31 }
+    },
+    "eureka:skill_tree/hotm/token_1/powder_buff/maxed": {
+      "position": { "x": 80, "y": 31 }
+    },
+    "eureka:skill_tree/hotm/token_1/powder_buff/disabled": {
+      "position": { "x": 80, "y": 31 }
+    },
+    "eureka:skill_tree/hotm/token_1/fortunate_mineman/locked": {
+      "position": { "x": 176, "y": 31 }
+    },
+    "eureka:skill_tree/hotm/token_1/fortunate_mineman/unlocked": {
+      "position": { "x": 176, "y": 31 }
+    },
+    "eureka:skill_tree/hotm/token_1/fortunate_mineman/maxed": {
+      "position": { "x": 176, "y": 31 }
+    },
+    "eureka:skill_tree/hotm/token_1/fortunate_mineman/disabled": {
+      "position": { "x": 176, "y": 31 }
+    },
+    "eureka:skill_tree/hotm/token_1/miners_blessing/locked": {
+      "position": { "x": -64, "y": -17 }
+    },
+    "eureka:skill_tree/hotm/token_1/miners_blessing/unlocked": {
+      "position": { "x": -64, "y": -17 }
+    },
+    "eureka:skill_tree/hotm/token_1/miners_blessing/disabled": {
+      "position": { "x": -64, "y": -17 }
+    },
+    "eureka:skill_tree/hotm/token_1/no_stone_unturned/locked": {
+      "position": { "x": -16, "y": -17 }
+    },
+    "eureka:skill_tree/hotm/token_1/no_stone_unturned/unlocked": {
+      "position": { "x": -16, "y": -17 }
+    },
+    "eureka:skill_tree/hotm/token_1/no_stone_unturned/maxed": {
+      "position": { "x": -16, "y": -17 }
+    },
+    "eureka:skill_tree/hotm/token_1/no_stone_unturned/disabled": {
+      "position": { "x": -16, "y": -17 }
+    },
+    "eureka:skill_tree/hotm/token_1/strong_arm/locked": {
+      "position": { "x": 32, "y": -17 }
+    },
+    "eureka:skill_tree/hotm/token_1/strong_arm/unlocked": {
+      "position": { "x": 32, "y": -17 }
+    },
+    "eureka:skill_tree/hotm/token_1/strong_arm/maxed": {
+      "position": { "x": 32, "y": -17 }
+    },
+    "eureka:skill_tree/hotm/token_1/strong_arm/disabled": {
+      "position": { "x": 32, "y": -17 }
+    },
+    "eureka:skill_tree/hotm/token_1/steady_hand/locked": {
+      "position": { "x": 80, "y": -17 }
+    },
+    "eureka:skill_tree/hotm/token_1/steady_hand/unlocked": {
+      "position": { "x": 80, "y": -17 }
+    },
+    "eureka:skill_tree/hotm/token_1/steady_hand/maxed": {
+      "position": { "x": 80, "y": -17 }
+    },
+    "eureka:skill_tree/hotm/token_1/steady_hand/disabled": {
+      "position": { "x": 80, "y": -17 }
+    },
+    "eureka:skill_tree/hotm/token_1/warm_heart/locked": {
+      "position": { "x": 128, "y": -17 }
+    },
+    "eureka:skill_tree/hotm/token_1/warm_heart/unlocked": {
+      "position": { "x": 128, "y": -17 }
+    },
+    "eureka:skill_tree/hotm/token_1/warm_heart/maxed": {
+      "position": { "x": 128, "y": -17 }
+    },
+    "eureka:skill_tree/hotm/token_1/warm_heart/disabled": {
+      "position": { "x": 128, "y": -17 }
+    },
+    "eureka:skill_tree/hotm/token_1/surveyor/locked": {
+      "position": { "x": 176, "y": -17 }
+    },
+    "eureka:skill_tree/hotm/token_1/surveyor/unlocked": {
+      "position": { "x": 176, "y": -17 }
+    },
+    "eureka:skill_tree/hotm/token_1/surveyor/maxed": {
+      "position": { "x": 176, "y": -17 }
+    },
+    "eureka:skill_tree/hotm/token_1/surveyor/disabled": {
+      "position": { "x": 176, "y": -17 }
+    },
+    "eureka:skill_tree/hotm/token_1/mineshaft_mayhem/locked": {
+      "position": { "x": 224, "y": -17 }
+    },
+    "eureka:skill_tree/hotm/token_1/mineshaft_mayhem/unlocked": {
+      "position": { "x": 224, "y": -17 }
+    },
+    "eureka:skill_tree/hotm/token_1/mineshaft_mayhem/disabled": {
+      "position": { "x": 224, "y": -17 }
+    },
+    "eureka:skill_tree/hotm/token_1/metal_head/locked": {
+      "position": { "x": -16, "y": -65 }
+    },
+    "eureka:skill_tree/hotm/token_1/metal_head/unlocked": {
+      "position": { "x": -16, "y": -65 }
+    },
+    "eureka:skill_tree/hotm/token_1/metal_head/maxed": {
+      "position": { "x": -16, "y": -65 }
+    },
+    "eureka:skill_tree/hotm/token_1/metal_head/disabled": {
+      "position": { "x": -16, "y": -65 }
+    },
+    "eureka:skill_tree/hotm/token_1/rags_to_riches/locked": {
+      "position": { "x": 80, "y": -65 }
+    },
+    "eureka:skill_tree/hotm/token_1/rags_to_riches/unlocked": {
+      "position": { "x": 80, "y": -65 }
+    },
+    "eureka:skill_tree/hotm/token_1/rags_to_riches/maxed": {
+      "position": { "x": 80, "y": -65 }
+    },
+    "eureka:skill_tree/hotm/token_1/rags_to_riches/disabled": {
+      "position": { "x": 80, "y": -65 }
+    },
+    "eureka:skill_tree/hotm/token_1/eager_adventurer/locked": {
+      "position": { "x": 176, "y": -65 }
+    },
+    "eureka:skill_tree/hotm/token_1/eager_adventurer/unlocked": {
+      "position": { "x": 176, "y": -65 }
+    },
+    "eureka:skill_tree/hotm/token_1/eager_adventurer/maxed": {
+      "position": { "x": 176, "y": -65 }
+    },
+    "eureka:skill_tree/hotm/token_1/eager_adventurer/disabled": {
+      "position": { "x": 176, "y": -65 }
+    },
+    "eureka:generic/miscellaneous/filler": {
+      "hidden": true
+    },
+    "skyblock_gui:generic/miscellaneous/filler": {
+      "hidden": true
+    },
+    "skyblock_gui:generic/navigation/close": {
+      "position": { "x": 80, "y": 367 }
+    },
+    "skyblock_gui:generic/navigation/go_back": {
+      "position": { "x": 64, "y": 367 }
+    },
+    "skyblock_gui:skill_tree/hotm/tier_5/locked": {
+      "hidden": true
+    },
+    "skyblock_gui:skill_tree/hotm/tier_5/unlocking": {
+      "hidden": true
+    },
+    "skyblock_gui:skill_tree/hotm/tier_5/unlocked": {
+      "hidden": true
+    },
+    "skyblock_gui:skill_tree/hotm/tier_6/locked": {
+      "hidden": true
+    },
+    "skyblock_gui:skill_tree/hotm/tier_6/unlocking": {
+      "hidden": true
+    },
+    "skyblock_gui:skill_tree/hotm/tier_6/unlocked": {
+      "hidden": true
+    },
+    "skyblock_gui:skill_tree/hotm/tier_7/locked": {
+      "hidden": true
+    },
+    "skyblock_gui:skill_tree/hotm/tier_7/unlocking": {
+      "hidden": true
+    },
+    "skyblock_gui:skill_tree/hotm/tier_7/unlocked": {
+      "hidden": true
+    },
+    "skyblock_gui:skill_tree/hotm/tier_8/locked": {
+      "hidden": true
+    },
+    "skyblock_gui:skill_tree/hotm/tier_8/unlocking": {
+      "hidden": true
+    },
+    "skyblock_gui:skill_tree/hotm/tier_8/unlocked": {
+      "hidden": true
+    },
+    "skyblock_gui:skill_tree/hotm/tier_9/locked": {
+      "hidden": true
+    },
+    "skyblock_gui:skill_tree/hotm/tier_9/unlocking": {
+      "hidden": true
+    },
+    "skyblock_gui:skill_tree/hotm/tier_9/unlocked": {
+      "hidden": true
+    }
+  }
+}
