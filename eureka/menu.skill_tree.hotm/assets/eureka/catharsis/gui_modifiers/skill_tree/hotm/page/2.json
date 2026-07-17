@@ -68,20 +68,7 @@
                   "color": "yellow"
                 },
                 {
-                  "text": "to scroll up!\n",
-                  "color": "gray"
-                }
-              ]
-            },
-            {
-              "text": "",
-              "extra": [
-                {
-                  "text": "Right-click ",
-                  "color": "yellow"
-                },
-                {
-                  "text": "to go to the top tier!",
+                  "text": "to view Tiers 6-10!",
                   "color": "gray"
                 }
               ]
@@ -92,11 +79,11 @@
       "width": 32,
       "height": 32,
       "x": {
-        "offset": -360,
+        "offset": 200,
         "alignment": "CENTER"
       },
       "y": {
-        "offset": -32,
+        "offset": -232,
         "alignment": "CENTER"
       }
     },
@@ -124,20 +111,7 @@
                   "color": "yellow"
                 },
                 {
-                  "text": "to scroll up!\n",
-                  "color": "gray"
-                }
-              ]
-            },
-            {
-              "text": "",
-              "extra": [
-                {
-                  "text": "Right-click ",
-                  "color": "yellow"
-                },
-                {
-                  "text": "to go to the top tier!",
+                  "text": "to view Tiers 6-10!",
                   "color": "gray"
                 }
               ]
@@ -148,11 +122,11 @@
       "width": 32,
       "height": 32,
       "x": {
-        "offset": -328,
+        "offset": 200,
         "alignment": "CENTER"
       },
       "y": {
-        "offset": -32,
+        "offset": -184,
         "alignment": "CENTER"
       }
     },
@@ -180,20 +154,7 @@
                   "color": "yellow"
                 },
                 {
-                  "text": "to scroll up!\n",
-                  "color": "gray"
-                }
-              ]
-            },
-            {
-              "text": "",
-              "extra": [
-                {
-                  "text": "Right-click ",
-                  "color": "yellow"
-                },
-                {
-                  "text": "to go to the top tier!",
+                  "text": "to view Tiers 6-10!",
                   "color": "gray"
                 }
               ]
@@ -204,11 +165,11 @@
       "width": 32,
       "height": 32,
       "x": {
-        "offset": -296,
+        "offset": 200,
         "alignment": "CENTER"
       },
       "y": {
-        "offset": -32,
+        "offset": -136,
         "alignment": "CENTER"
       }
     },
@@ -236,20 +197,7 @@
                   "color": "yellow"
                 },
                 {
-                  "text": "to scroll up!\n",
-                  "color": "gray"
-                }
-              ]
-            },
-            {
-              "text": "",
-              "extra": [
-                {
-                  "text": "Right-click ",
-                  "color": "yellow"
-                },
-                {
-                  "text": "to go to the top tier!",
+                  "text": "to view Tiers 6-10!",
                   "color": "gray"
                 }
               ]
@@ -260,11 +208,11 @@
       "width": 32,
       "height": 32,
       "x": {
-        "offset": -264,
+        "offset": 200,
         "alignment": "CENTER"
       },
       "y": {
-        "offset": -32,
+        "offset": -88,
         "alignment": "CENTER"
       }
     },
@@ -284,11 +232,11 @@
       "width": 32,
       "height": 32,
       "x": {
-        "offset": -232,
+        "offset": 200,
         "alignment": "CENTER"
       },
       "y": {
-        "offset": -32,
+        "offset": -40,
         "alignment": "CENTER"
       }
     },
@@ -308,7 +256,7 @@
       "width": 32,
       "height": 32,
       "x": {
-        "offset": -360,
+        "offset": 200,
         "alignment": "CENTER"
       },
       "y": {
@@ -332,11 +280,11 @@
       "width": 32,
       "height": 32,
       "x": {
-        "offset": -328,
+        "offset": 200,
         "alignment": "CENTER"
       },
       "y": {
-        "offset": 0,
+        "offset": 56,
         "alignment": "CENTER"
       }
     },
@@ -356,7 +304,7 @@
       "width": 32,
       "height": 32,
       "x": {
-        "offset": -296,
+        "offset": 200,
         "alignment": "CENTER"
       },
       "y": {
@@ -380,11 +328,11 @@
       "width": 32,
       "height": 32,
       "x": {
-        "offset": -264,
+        "offset": 200,
         "alignment": "CENTER"
       },
       "y": {
-        "offset": 0,
+        "offset": 104,
         "alignment": "CENTER"
       }
     },
@@ -412,20 +360,7 @@
                   "color": "yellow"
                 },
                 {
-                  "text": "to scroll down!\n",
-                  "color": "gray"
-                }
-              ]
-            },
-            {
-              "text": "",
-              "extra": [
-                {
-                  "text": "Right-click ",
-                  "color": "yellow"
-                },
-                {
-                  "text": "to go to the bottom tier!",
+                  "text": "to view Tiers 1-5!",
                   "color": "gray"
                 }
               ]
@@ -436,11 +371,83 @@
       "width": 32,
       "height": 32,
       "x": {
+        "offset": 200,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": 152,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/loadout",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skill_tree/hotm/loadout"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:slot",
+          "slot": 47
+        }
+      ],
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": -360,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": 200,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/crystal_hollows_crystals",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skill_tree/hotm/crystal_hollows_crystals"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:slot",
+          "slot": 50
+        }
+      ],
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": -296,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": 64,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/rng_meter",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skill_tree/hotm/rng_meter"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:slot",
+          "slot": 51
+        }
+      ],
+      "width": 32,
+      "height": 32,
+      "x": {
         "offset": -232,
         "alignment": "CENTER"
       },
       "y": {
-        "offset": 0,
+        "offset": 64,
         "alignment": "CENTER"
       }
     }
@@ -752,17 +759,32 @@
     "eureka:skill_tree/hotm/token_1/maniac_miner/disabled": {
       "position": { "x": 224, "y": 79 }
     },
+    "skyblock_gui:generic/navigation/close": {
+      "position": { "x": 80, "y": 367 }
+    },
+    "skyblock_gui:generic/navigation/go_back": {
+      "position": { "x": 64, "y": 367 }
+    },
     "eureka:generic/miscellaneous/filler": {
       "hidden": true
     },
     "skyblock_gui:generic/miscellaneous/filler": {
       "hidden": true
     },
-    "skyblock_gui:generic/navigation/close": {
-      "position": { "x": 80, "y": 367 }
+    "skyblock_gui:generic/navigation/scroll_up": {
+      "hidden": true
     },
-    "skyblock_gui:generic/navigation/go_back": {
-      "position": { "x": 64, "y": 367 }
+    "skyblock_gui:generic/navigation/scroll_down": {
+      "hidden": true
+    },
+    "skyblock_gui:skill_tree/hotm/loadout": {
+      "hidden": true
+    },
+    "skyblock_gui:skill_tree/hotm/crystal_hollows_crystals": {
+      "hidden": true
+    },
+    "skyblock_gui:skill_tree/hotm/rng_meter": {
+      "hidden": true
     },
     "skyblock_gui:skill_tree/hotm/tier_2/locked": {
       "hidden": true
