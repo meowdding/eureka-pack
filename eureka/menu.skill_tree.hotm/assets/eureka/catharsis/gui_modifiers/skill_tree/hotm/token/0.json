@@ -1,0 +1,23 @@
+{
+  "target": {
+    "type": "catharsis:definition",
+    "definition": "eureka:skill_tree/hotm/token/0"
+  },
+  "elements": [
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/background",
+      "layer": "BACKGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": -184,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -256,
+        "alignment": "CENTER"
+      }
+    }
+  ]
+}
