@@ -11,6 +11,3567 @@
     "skyblocker:quickNavigation"
   ],
   "bounds": { "width": 368, "height": 512 },
+  "elements": [
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "not",
+        "condition": {
+          "type": "catharsis:has_slot",
+          "slot": "skyblock_gui:generic/navigation/scroll_up"
+        }
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/navigation/scroll_up_unavailable",
+      "layer": "FOREGROUND",
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": 248,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -40,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "not",
+        "condition": {
+          "type": "catharsis:has_slot",
+          "slot": "skyblock_gui:generic/navigation/scroll_down"
+        }
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/navigation/scroll_down_unavailable",
+      "layer": "FOREGROUND",
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": 248,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": 8,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/mining_speed/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/mining_speed/locked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 76,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 315,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/mining_speed/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/mining_speed/unlocked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 76,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 315,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/mining_speed/maxed"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/mining_speed/maxed",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 76,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 315,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/mining_speed/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/mining_speed/disabled",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 76,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 315,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/mining_speed_boost/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/mining_speed_boost/locked",
+      "layer": "FOREGROUND",
+      "x": {
+        "offset": -27,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 259,
+        "alignment": "START"
+      },
+      "width": 37,
+      "height": 39
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/mining_speed_boost/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/mining_speed_boost/unlocked",
+      "layer": "FOREGROUND",
+      "x": {
+        "offset": -27,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 259,
+        "alignment": "START"
+      },
+      "width": 37,
+      "height": 39
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/mining_speed_boost/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/mining_speed_boost/disabled",
+      "layer": "FOREGROUND",
+      "x": {
+        "offset": -27,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 259,
+        "alignment": "START"
+      },
+      "width": 37,
+      "height": 39
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/precision_mining/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/precision_mining/locked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 28,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 267,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/precision_mining/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/precision_mining/unlocked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 28,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 267,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/precision_mining/maxed"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/precision_mining/maxed",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 28,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 267,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/precision_mining/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/precision_mining/disabled",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 28,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 267,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/mining_fortune/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/mining_fortune/locked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 76,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 267,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/mining_fortune/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/mining_fortune/unlocked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 76,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 267,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/mining_fortune/maxed"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/mining_fortune/maxed",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 76,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 267,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/mining_fortune/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/mining_fortune/disabled",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 76,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 267,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/titanium_insanium/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/titanium_insanium/locked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 124,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 267,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/titanium_insanium/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/titanium_insanium/unlocked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 124,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 267,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/titanium_insanium/maxed"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/titanium_insanium/maxed",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 124,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 267,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/titanium_insanium/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/titanium_insanium/disabled",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 124,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 267,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/pickobulus/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/pickobulus/locked",
+      "layer": "FOREGROUND",
+      "x": {
+        "offset": 165,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 259,
+        "alignment": "START"
+      },
+      "width": 37,
+      "height": 39
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/pickobulus/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/pickobulus/unlocked",
+      "layer": "FOREGROUND",
+      "x": {
+        "offset": 165,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 259,
+        "alignment": "START"
+      },
+      "width": 37,
+      "height": 39
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/pickobulus/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/pickobulus/disabled",
+      "layer": "FOREGROUND",
+      "x": {
+        "offset": 165,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 259,
+        "alignment": "START"
+      },
+      "width": 37,
+      "height": 39
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/luck_of_the_cave/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/luck_of_the_cave/locked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": -20,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 219,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/luck_of_the_cave/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/luck_of_the_cave/unlocked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": -20,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 219,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/luck_of_the_cave/maxed"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/luck_of_the_cave/maxed",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": -20,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 219,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/luck_of_the_cave/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/luck_of_the_cave/disabled",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": -20,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 219,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/efficient_miner/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/efficient_miner/locked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 76,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 219,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/efficient_miner/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/efficient_miner/unlocked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 76,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 219,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/efficient_miner/maxed"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/efficient_miner/maxed",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 76,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 219,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/efficient_miner/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/efficient_miner/disabled",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 76,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 219,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/quick_forge/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/quick_forge/locked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 172,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 219,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/quick_forge/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/quick_forge/unlocked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 172,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 219,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/quick_forge/maxed"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/quick_forge/maxed",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 172,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 219,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/quick_forge/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/quick_forge/disabled",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 172,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 219,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/sky_mall/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/sky_mall/locked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": -68,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 171,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/sky_mall/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/sky_mall/unlocked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": -68,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 171,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/sky_mall/maxed"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/sky_mall/maxed",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": -68,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 171,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/sky_mall/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/sky_mall/disabled",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": -68,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 171,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/old_school/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/old_school/locked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": -20,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 171,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/old_school/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/old_school/unlocked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": -20,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 171,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/old_school/maxed"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/old_school/maxed",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": -20,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 171,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/old_school/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/old_school/disabled",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": -20,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 171,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/professional/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/professional/locked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 28,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 171,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/professional/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/professional/unlocked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 28,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 171,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/professional/maxed"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/professional/maxed",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 28,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 171,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/professional/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/professional/disabled",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 28,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 171,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/mole/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/mole/locked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 76,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 171,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/mole/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/mole/unlocked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 76,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 171,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/mole/maxed"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/mole/maxed",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 76,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 171,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/mole/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/mole/disabled",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 76,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 171,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/gem_lover/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/gem_lover/locked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 124,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 171,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/gem_lover/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/gem_lover/unlocked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 124,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 171,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/gem_lover/maxed"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/gem_lover/maxed",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 124,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 171,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/gem_lover/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/gem_lover/disabled",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 124,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 171,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/seasoned_mineman/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/seasoned_mineman/locked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 172,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 171,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/seasoned_mineman/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/seasoned_mineman/unlocked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 172,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 171,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/seasoned_mineman/maxed"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/seasoned_mineman/maxed",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 172,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 171,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/seasoned_mineman/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/seasoned_mineman/disabled",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 172,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 171,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/front_loaded/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/front_loaded/locked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 220,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 171,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/front_loaded/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/front_loaded/unlocked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 220,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 171,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/front_loaded/maxed"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/front_loaded/maxed",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 220,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 171,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/front_loaded/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/front_loaded/disabled",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 220,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 171,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/daily_grind/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/daily_grind/locked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": -20,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 123,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/daily_grind/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/daily_grind/unlocked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": -20,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 123,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/daily_grind/maxed"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/daily_grind/maxed",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": -20,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 123,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/daily_grind/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/daily_grind/disabled",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": -20,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 123,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/core_of_the_mountain/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/core_of_the_mountain/locked",
+      "layer": "FOREGROUND",
+      "width": 48,
+      "height": 48,
+      "x": {
+        "offset": 64,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 111,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/core_of_the_mountain/unlocked/tier_1"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/core_of_the_mountain/unlocked/tier_1",
+      "layer": "FOREGROUND",
+      "width": 48,
+      "height": 48,
+      "x": {
+        "offset": 64,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 111,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/core_of_the_mountain/unlocked/tier_2"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/core_of_the_mountain/unlocked/tier_2",
+      "layer": "FOREGROUND",
+      "width": 48,
+      "height": 48,
+      "x": {
+        "offset": 64,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 111,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/core_of_the_mountain/unlocked/tier_3"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/core_of_the_mountain/unlocked/tier_3",
+      "layer": "FOREGROUND",
+      "width": 48,
+      "height": 48,
+      "x": {
+        "offset": 64,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 111,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/core_of_the_mountain/unlocked/tier_4"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/core_of_the_mountain/unlocked/tier_4",
+      "layer": "FOREGROUND",
+      "width": 48,
+      "height": 48,
+      "x": {
+        "offset": 64,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 111,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/core_of_the_mountain/unlocked/tier_5"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/core_of_the_mountain/unlocked/tier_5",
+      "layer": "FOREGROUND",
+      "width": 48,
+      "height": 48,
+      "x": {
+        "offset": 64,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 111,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/core_of_the_mountain/unlocked/tier_6"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/core_of_the_mountain/unlocked/tier_6",
+      "layer": "FOREGROUND",
+      "width": 48,
+      "height": 48,
+      "x": {
+        "offset": 64,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 111,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/core_of_the_mountain/unlocked/tier_7"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/core_of_the_mountain/unlocked/tier_7",
+      "layer": "FOREGROUND",
+      "width": 48,
+      "height": 48,
+      "x": {
+        "offset": 64,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 111,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/core_of_the_mountain/unlocked/tier_8"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/core_of_the_mountain/unlocked/tier_8",
+      "layer": "FOREGROUND",
+      "width": 48,
+      "height": 48,
+      "x": {
+        "offset": 64,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 111,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/core_of_the_mountain/unlocked/tier_9"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/core_of_the_mountain/unlocked/tier_9",
+      "layer": "FOREGROUND",
+      "width": 48,
+      "height": 48,
+      "x": {
+        "offset": 64,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 111,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/core_of_the_mountain/unlocked/tier_10"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/core_of_the_mountain/unlocked/tier_10",
+      "layer": "FOREGROUND",
+      "width": 48,
+      "height": 48,
+      "x": {
+        "offset": 64,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 111,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/daily_powder/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/daily_powder/locked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 172,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 123,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/daily_powder/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/daily_powder/unlocked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 172,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 123,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/daily_powder/maxed"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/daily_powder/maxed",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 172,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 123,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/daily_powder/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/daily_powder/disabled",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 172,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 123,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/tunnel_vision/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/tunnel_vision/locked",
+      "layer": "FOREGROUND",
+      "x": {
+        "offset": -75,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 67,
+        "alignment": "START"
+      },
+      "width": 37,
+      "height": 39
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/tunnel_vision/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/tunnel_vision/unlocked",
+      "layer": "FOREGROUND",
+      "x": {
+        "offset": -75,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 67,
+        "alignment": "START"
+      },
+      "width": 37,
+      "height": 39
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/tunnel_vision/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/tunnel_vision/disabled",
+      "layer": "FOREGROUND",
+      "x": {
+        "offset": -75,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 67,
+        "alignment": "START"
+      },
+      "width": 37,
+      "height": 39
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/blockhead/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/blockhead/locked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": -20,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 75,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/blockhead/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/blockhead/unlocked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": -20,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 75,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/blockhead/maxed"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/blockhead/maxed",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": -20,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 75,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/blockhead/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/blockhead/disabled",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": -20,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 75,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/subterranean_fisher/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/subterranean_fisher/locked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 28,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 75,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/subterranean_fisher/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/subterranean_fisher/unlocked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 28,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 75,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/subterranean_fisher/maxed"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/subterranean_fisher/maxed",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 28,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 75,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/subterranean_fisher/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/subterranean_fisher/disabled",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 28,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 75,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/keep_it_cool/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/keep_it_cool/locked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 76,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 75,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/keep_it_cool/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/keep_it_cool/unlocked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 76,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 75,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/keep_it_cool/maxed"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/keep_it_cool/maxed",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 76,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 75,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/keep_it_cool/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/keep_it_cool/disabled",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 76,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 75,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/lonesome_miner/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/lonesome_miner/locked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 124,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 75,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/lonesome_miner/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/lonesome_miner/unlocked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 124,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 75,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/lonesome_miner/maxed"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/lonesome_miner/maxed",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 124,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 75,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/lonesome_miner/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/lonesome_miner/disabled",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 124,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 75,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/great_explorer/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/great_explorer/locked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 172,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 75,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/great_explorer/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/great_explorer/unlocked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 172,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 75,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/great_explorer/maxed"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/great_explorer/maxed",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 172,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 75,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/great_explorer/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/great_explorer/disabled",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 172,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 75,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/maniac_miner/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/maniac_miner/locked",
+      "layer": "FOREGROUND",
+      "x": {
+        "offset": 213,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 67,
+        "alignment": "START"
+      },
+      "width": 37,
+      "height": 39
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/maniac_miner/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/maniac_miner/unlocked",
+      "layer": "FOREGROUND",
+      "x": {
+        "offset": 213,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 67,
+        "alignment": "START"
+      },
+      "width": 37,
+      "height": 39
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/maniac_miner/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/maniac_miner/disabled",
+      "layer": "FOREGROUND",
+      "x": {
+        "offset": 213,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 67,
+        "alignment": "START"
+      },
+      "width": 37,
+      "height": 39
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/speedy_mineman/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/speedy_mineman/locked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": -20,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 27,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/speedy_mineman/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/speedy_mineman/unlocked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": -20,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 27,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/speedy_mineman/maxed"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/speedy_mineman/maxed",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": -20,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 27,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/speedy_mineman/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/speedy_mineman/disabled",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": -20,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 27,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/powder_buff/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/powder_buff/locked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 76,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 27,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/powder_buff/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/powder_buff/unlocked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 76,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 27,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/powder_buff/maxed"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/powder_buff/maxed",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 76,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 27,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/powder_buff/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/powder_buff/disabled",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 76,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 27,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/fortunate_mineman/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/fortunate_mineman/locked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 172,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 27,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/fortunate_mineman/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/fortunate_mineman/unlocked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 172,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 27,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/fortunate_mineman/maxed"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/fortunate_mineman/maxed",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 172,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 27,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/fortunate_mineman/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/fortunate_mineman/disabled",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 172,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 27,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/miners_blessing/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/miners_blessing/locked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": -68,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -21,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/miners_blessing/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/miners_blessing/unlocked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": -68,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -21,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/miners_blessing/maxed"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/miners_blessing/maxed",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": -68,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -21,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/miners_blessing/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/miners_blessing/disabled",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": -68,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -21,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/no_stone_unturned/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/no_stone_unturned/locked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": -20,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -21,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/no_stone_unturned/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/no_stone_unturned/unlocked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": -20,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -21,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/no_stone_unturned/maxed"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/no_stone_unturned/maxed",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": -20,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -21,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/no_stone_unturned/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/no_stone_unturned/disabled",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": -20,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -21,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/strong_arm/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/strong_arm/locked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 28,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -21,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/strong_arm/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/strong_arm/unlocked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 28,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -21,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/strong_arm/maxed"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/strong_arm/maxed",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 28,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -21,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/strong_arm/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/strong_arm/disabled",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 28,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -21,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/steady_hand/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/steady_hand/locked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 76,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -21,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/steady_hand/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/steady_hand/unlocked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 76,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -21,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/steady_hand/maxed"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/steady_hand/maxed",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 76,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -21,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/steady_hand/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/steady_hand/disabled",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 76,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -21,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/warm_heart/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/warm_heart/locked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 124,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -21,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/warm_heart/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/warm_heart/unlocked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 124,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -21,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/warm_heart/maxed"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/warm_heart/maxed",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 124,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -21,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/warm_heart/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/warm_heart/disabled",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 124,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -21,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/surveyor/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/surveyor/locked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 172,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -21,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/surveyor/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/surveyor/unlocked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 172,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -21,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/surveyor/maxed"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/surveyor/maxed",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 172,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -21,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/surveyor/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/surveyor/disabled",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 172,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -21,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/mineshaft_mayhem/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/mineshaft_mayhem/locked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 220,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -21,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/mineshaft_mayhem/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/mineshaft_mayhem/unlocked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 220,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -21,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/mineshaft_mayhem/maxed"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/mineshaft_mayhem/maxed",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 220,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -21,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/mineshaft_mayhem/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/mineshaft_mayhem/disabled",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 220,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -21,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/metal_head/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/metal_head/locked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": -20,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -69,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/metal_head/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/metal_head/unlocked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": -20,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -69,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/metal_head/maxed"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/metal_head/maxed",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": -20,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -69,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/metal_head/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/metal_head/disabled",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": -20,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -69,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/rags_to_riches/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/rags_to_riches/locked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 76,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -69,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/rags_to_riches/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/rags_to_riches/unlocked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 76,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -69,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/rags_to_riches/maxed"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/rags_to_riches/maxed",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 76,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -69,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/rags_to_riches/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/rags_to_riches/disabled",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 76,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -69,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/eager_adventurer/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/eager_adventurer/locked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 172,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -69,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/eager_adventurer/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/eager_adventurer/unlocked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 172,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -69,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/eager_adventurer/maxed"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/eager_adventurer/maxed",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 172,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -69,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/eager_adventurer/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/eager_adventurer/disabled",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 172,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -69,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/gemstone_infusion/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/gemstone_infusion/locked",
+      "layer": "FOREGROUND",
+      "x": {
+        "offset": -75,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -125,
+        "alignment": "START"
+      },
+      "width": 37,
+      "height": 39
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/gemstone_infusion/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/gemstone_infusion/unlocked",
+      "layer": "FOREGROUND",
+      "x": {
+        "offset": -75,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -125,
+        "alignment": "START"
+      },
+      "width": 37,
+      "height": 39
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/gemstone_infusion/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/gemstone_infusion/disabled",
+      "layer": "FOREGROUND",
+      "x": {
+        "offset": -75,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -125,
+        "alignment": "START"
+      },
+      "width": 37,
+      "height": 39
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/crystalline/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/crystalline/locked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": -20,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -117,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/crystalline/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/crystalline/unlocked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": -20,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -117,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/crystalline/maxed"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/crystalline/maxed",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": -20,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -117,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/crystalline/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/crystalline/disabled",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": -20,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -117,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/gifts_from_the_departed/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/gifts_from_the_departed/locked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 28,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -117,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/gifts_from_the_departed/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/gifts_from_the_departed/unlocked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 28,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -117,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/gifts_from_the_departed/maxed"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/gifts_from_the_departed/maxed",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 28,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -117,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/gifts_from_the_departed/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/gifts_from_the_departed/disabled",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 28,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -117,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/mining_master/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/mining_master/locked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 76,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -117,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/mining_master/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/mining_master/unlocked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 76,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -117,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/mining_master/maxed"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/mining_master/maxed",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 76,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -117,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/mining_master/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/mining_master/disabled",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 76,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -117,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/dead_mans_chest/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/dead_mans_chest/locked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 124,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -117,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/dead_mans_chest/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/dead_mans_chest/unlocked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 124,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -117,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/dead_mans_chest/maxed"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/dead_mans_chest/maxed",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 124,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -117,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/dead_mans_chest/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/dead_mans_chest/disabled",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 124,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -117,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/vanguard_seeker/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/vanguard_seeker/locked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 172,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -117,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/vanguard_seeker/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/vanguard_seeker/unlocked",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 172,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -117,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/vanguard_seeker/maxed"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/vanguard_seeker/maxed",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 172,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -117,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/vanguard_seeker/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/vanguard_seeker/disabled",
+      "layer": "FOREGROUND",
+      "width": 24,
+      "height": 24,
+      "x": {
+        "offset": 172,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -117,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/sheer_force/locked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/sheer_force/locked",
+      "layer": "FOREGROUND",
+      "x": {
+        "offset": 213,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -125,
+        "alignment": "START"
+      },
+      "width": 37,
+      "height": 39
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/sheer_force/unlocked"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/sheer_force/unlocked",
+      "layer": "FOREGROUND",
+      "x": {
+        "offset": 213,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -125,
+        "alignment": "START"
+      },
+      "width": 37,
+      "height": 39
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/sheer_force/disabled"
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/sheer_force/disabled",
+      "layer": "FOREGROUND",
+      "x": {
+        "offset": 213,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -125,
+        "alignment": "START"
+      },
+      "width": 37,
+      "height": 39
+    }
+  ],
   "widgets": [
     {
       "type": "catharsis:button",
@@ -319,6 +3880,1344 @@
         "offset": 0,
         "alignment": "CENTER"
       }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:generic/navigation/scroll_up"
+      },
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/navigation/scroll_up",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/scroll_up"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:slot_id",
+          "slot": "skyblock_gui:generic/navigation/scroll_up"
+        }
+      ],
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": 248,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -40,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:generic/navigation/scroll_down"
+      },
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/navigation/scroll_down",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/scroll_down"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:slot_id",
+          "slot": "skyblock_gui:generic/navigation/scroll_down"
+        }
+      ],
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": 248,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": 8,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/node/mining_speed/unavailable",
+      "condition": {
+        "type": "not",
+        "condition": {
+          "type": "or",
+          "conditions": [
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_1/locked"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_1/unlocking"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_1/unlocked"
+            }
+          ]
+        }
+      },
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/scroll_down"
+      },
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "Mining Speed",
+            "color": "dark_gray"
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "level ?",
+                "color": "gray"
+              },
+              {
+                "text": "/50\n",
+                "color": "dark_gray"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Grants ",
+                "color": "gray"
+              },
+              {
+                "text": "+20  Mining Speed",
+                "color": "gold"
+              },
+              {
+                "text": ".\n",
+                "color": "gray"
+              }
+            ]
+          },
+          {
+            "text": "UNAVAILABLE\n",
+            "color": "gray",
+            "bold": true
+          },
+          {
+            "text": "Click to jump to this perk!",
+            "color": "yellow"
+          }
+        ]
+      },
+      "x": {
+        "offset": 76,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 315,
+        "alignment": "START"
+      },
+      "width": 24,
+      "height": 24
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/node/mining_speed_boost/unavailable",
+      "condition": {
+        "type": "not",
+        "condition": {
+          "type": "or",
+          "conditions": [
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_1/locked"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_1/unlocking"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_1/unlocked"
+            }
+          ]
+        }
+      },
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/scroll_down"
+      },
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "Mining Speed Boost",
+            "color": "dark_gray"
+          },
+          {
+            "text": "Pickaxe Ability: Mining Speed Boost",
+            "color": "gold"
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Grants ",
+                "color": "gray"
+              },
+              {
+                "text": "+200% ",
+                "color": "gold"
+              },
+              {
+                "text": " Mining Speed ",
+                "color": "gold"
+              },
+              {
+                "text": "for",
+                "color": "gray"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "10s",
+                "color": "green"
+              },
+              {
+                "text": ".",
+                "color": "gray"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Cooldown: ",
+                "color": "dark_gray"
+              },
+              {
+                "text": "120s\n",
+                "color": "green"
+              }
+            ]
+          },
+          {
+            "text": "Pickaxe Abilities apply to all of your",
+            "color": "dark_gray"
+          },
+          {
+            "text": "Pickaxes. You can select a Pickaxe",
+            "color": "dark_gray"
+          },
+          {
+            "text": "Ability from your Heart of the",
+            "color": "dark_gray"
+          },
+          {
+            "text": "Mountain.\n",
+            "color": "dark_gray"
+          },
+          {
+            "text": "Upgrade your Pickaxe Abilities by",
+            "color": "dark_gray"
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "unlocking ",
+                "color": "dark_gray"
+              },
+              {
+                "text": "Core of the Mountain ",
+                "color": "red"
+              },
+              {
+                "text": "in",
+                "color": "dark_gray"
+              }
+            ]
+          },
+          {
+            "text": "this menu!\n",
+            "color": "dark_gray"
+          },
+          {
+            "text": "UNAVAILABLE\n",
+            "color": "gray",
+            "bold": true
+          },
+          {
+            "text": "Click to jump to this perk!",
+            "color": "yellow"
+          }
+        ]
+      },
+      "x": {
+        "offset": -27,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 259,
+        "alignment": "START"
+      },
+      "width": 37,
+      "height": 39
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/node/precision_mining/unavailable",
+      "condition": {
+        "type": "not",
+        "condition": {
+          "type": "or",
+          "conditions": [
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_1/locked"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_1/unlocking"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_1/unlocked"
+            }
+          ]
+        }
+      },
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/scroll_down"
+      },
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "Precision Mining",
+            "color": "dark_gray"
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "When Mining ",
+                "color": "gray"
+              },
+              {
+                "text": "Ores",
+                "color": "gold"
+              },
+              {
+                "text": " or ",
+                "color": "gray"
+              },
+              {
+                "text": "Dwarven Metals",
+                "color": "dark_gray"
+              },
+              {
+                "text": ",",
+                "color": "gray"
+              }
+            ]
+          },
+          {
+            "text": "a particle target appears on the",
+            "color": "gray"
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "block that increases your ",
+                "color": "gray"
+              },
+              {
+                "text": " Mining",
+                "color": "gold"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Speed ",
+                "color": "gold"
+              },
+              {
+                "text": "by ",
+                "color": "gray"
+              },
+              {
+                "text": "30% ",
+                "color": "green"
+              },
+              {
+                "text": "when aiming at it.\n",
+                "color": "gray"
+              }
+            ]
+          },
+          {
+            "text": "UNAVAILABLE\n",
+            "color": "gray",
+            "bold": true
+          },
+          {
+            "text": "Click to jump to this perk!",
+            "color": "yellow"
+          }
+        ]
+      },
+      "x": {
+        "offset": 28,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 267,
+        "alignment": "START"
+      },
+      "width": 24,
+      "height": 24
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/node/mining_fortune/unavailable",
+      "condition": {
+        "type": "not",
+        "condition": {
+          "type": "or",
+          "conditions": [
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_1/locked"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_1/unlocking"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_1/unlocked"
+            }
+          ]
+        }
+      },
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/scroll_down"
+      },
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "Mining Fortune",
+            "color": "dark_gray"
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "level ?",
+                "color": "gray"
+              },
+              {
+                "text": "/50\n",
+                "color": "dark_gray"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Grants ",
+                "color": "gray"
+              },
+              {
+                "text": "+2 Mining Fortune",
+                "color": "gold"
+              },
+              {
+                "text": ".\n",
+                "color": "gray"
+              }
+            ]
+          },
+          {
+            "text": "UNAVAILABLE\n",
+            "color": "gray",
+            "bold": true
+          },
+          {
+            "text": "Click to jump to this perk!",
+            "color": "yellow"
+          }
+        ]
+      },
+      "x": {
+        "offset": 76,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 267,
+        "alignment": "START"
+      },
+      "width": 24,
+      "height": 24
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/node/pickobulus/unavailable",
+      "condition": {
+        "type": "not",
+        "condition": {
+          "type": "or",
+          "conditions": [
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_1/locked"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_1/unlocking"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_1/unlocked"
+            }
+          ]
+        }
+      },
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/scroll_down"
+      },
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "Pickobulus",
+            "color": "dark_gray"
+          },
+          {
+            "text": "Pickaxe Ability: Pickobulus",
+            "color": "gold"
+          },
+          {
+            "text": "Throw your pickaxe to create an",
+            "color": "gray"
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "explosion mining all ores in a ",
+                "color": "gray"
+              },
+              {
+                "text": "3 ",
+                "color": "green"
+              },
+              {
+                "text": "block",
+                "color": "gray"
+              }
+            ]
+          },
+          {
+            "text": "radius.",
+            "color": "gray"
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Cooldown: ",
+                "color": "dark_gray"
+              },
+              {
+                "text": "60s",
+                "color": "green"
+              }
+            ]
+          },
+          "",
+          {
+            "text": "Pickaxe Abilities apply to all of your",
+            "color": "dark_gray"
+          },
+          {
+            "text": "Pickaxes. You can select a Pickaxe",
+            "color": "dark_gray"
+          },
+          {
+            "text": "Ability from your Heart of the",
+            "color": "dark_gray"
+          },
+          {
+            "text": "Mountain.",
+            "color": "dark_gray"
+          },
+          "",
+          {
+            "text": "Upgrade your Pickaxe Abilities by",
+            "color": "dark_gray"
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "unlocking ",
+                "color": "dark_gray"
+              },
+              {
+                "text": "Core of the Mountain ",
+                "color": "red"
+              },
+              {
+                "text": "in",
+                "color": "dark_gray"
+              }
+            ]
+          },
+          {
+            "text": "this menu!\n",
+            "color": "dark_gray"
+          },
+          {
+            "text": "UNAVAILABLE\n",
+            "color": "gray",
+            "bold": true
+          },
+          {
+            "text": "Click to jump to this perk!",
+            "color": "yellow"
+          }
+        ]
+      },
+      "x": {
+        "offset": 165,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 259,
+        "alignment": "START"
+      },
+      "width": 37,
+      "height": 39
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/node/tunnel_vision/unavailable",
+      "condition": {
+        "type": "not",
+        "condition": {
+          "type": "or",
+          "conditions": [
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_6/locked"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_6/unlocking"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_6/unlocked"
+            }
+          ]
+        }
+      },
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/scroll_up"
+      },
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "Tunnel Vision",
+            "color": "dark_gray"
+          },
+          {
+            "text": "Pickaxe Ability: Tunnel Vision",
+            "color": "gold"
+          },
+          {
+            "text": "Increases the chances of triggering",
+            "color": "gray"
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "rare occurrences by ",
+                "color": "gray"
+              },
+              {
+                "text": "30%",
+                "color": "green"
+              },
+              {
+                "text": " for ",
+                "color": "gray"
+              },
+              {
+                "text": "30s",
+                "color": "green"
+              },
+              {
+                "text": ".",
+                "color": "gray"
+              }
+            ]
+          },
+          "",
+          {
+            "text": "Rare occurrences include:",
+            "color": "gray"
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": " ■ ",
+                "color": "dark_gray"
+              },
+              {
+                "text": "Golden Goblins",
+                "color": "gold"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": " ■ ",
+                "color": "dark_gray"
+              },
+              {
+                "text": "Fallen Stars",
+                "color": "dark_purple"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": " ■ ",
+                "color": "dark_gray"
+              },
+              {
+                "text": "Powder Ghasts",
+                "color": "gold"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": " ■ ",
+                "color": "dark_gray"
+              },
+              {
+                "text": "Worms",
+                "color": "gold"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": " ■ ",
+                "color": "dark_gray"
+              },
+              {
+                "text": "Glacite Mineshafts",
+                "color": "aqua"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Cooldown: ",
+                "color": "dark_gray"
+              },
+              {
+                "text": "120s",
+                "color": "green"
+              }
+            ]
+          },
+          "",
+          {
+            "text": "Pickaxe Abilities apply to all of your",
+            "color": "dark_gray"
+          },
+          {
+            "text": "Pickaxes. You can select a Pickaxe",
+            "color": "dark_gray"
+          },
+          {
+            "text": "Ability from your Heart of the",
+            "color": "dark_gray"
+          },
+          {
+            "text": "Mountain.",
+            "color": "dark_gray"
+          },
+          "",
+          {
+            "text": "Upgrade your Pickaxe Abilities by",
+            "color": "dark_gray"
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "unlocking ",
+                "color": "dark_gray"
+              },
+              {
+                "text": "Core of the Mountain ",
+                "color": "red"
+              },
+              {
+                "text": "in",
+                "color": "dark_gray"
+              }
+            ]
+          },
+          {
+            "text": "this menu!\n",
+            "color": "dark_gray"
+          },
+          {
+            "text": "UNAVAILABLE\n",
+            "color": "gray",
+            "bold": true
+          },
+          {
+            "text": "Click to jump to this perk!",
+            "color": "yellow"
+          }
+        ]
+      },
+      "x": {
+        "offset": -75,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 67,
+        "alignment": "START"
+      },
+      "width": 37,
+      "height": 39
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/node/maniac_miner/unavailable",
+      "condition": {
+        "type": "not",
+        "condition": {
+          "type": "or",
+          "conditions": [
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_6/locked"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_6/unlocking"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_6/unlocked"
+            }
+          ]
+        }
+      },
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/scroll_up"
+      },
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "Maniac Miner",
+            "color": "dark_gray"
+          },
+          {
+            "text": "Pickaxe Ability: Maniac Miner",
+            "color": "gold"
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Grants ",
+                "color": "gray"
+              },
+              {
+                "text": "+1 Breaking Power",
+                "color": "dark_green"
+              },
+              {
+                "text": " and a",
+                "color": "gray"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "stack of ",
+                "color": "gray"
+              },
+              {
+                "text": "+5 Mining Fortune ",
+                "color": "gold"
+              },
+              {
+                "text": "(caps",
+                "color": "dark_gray"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "at 500) ",
+                "color": "dark_gray"
+              },
+              {
+                "text": "per block broken for ",
+                "color": "gray"
+              },
+              {
+                "text": "25s",
+                "color": "green"
+              },
+              {
+                "text": ".",
+                "color": "gray"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Each block broken consumes ",
+                "color": "gray"
+              },
+              {
+                "text": "20 Mana",
+                "color": "aqua"
+              },
+              {
+                "text": ".",
+                "color": "gray"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Cooldown: ",
+                "color": "dark_gray"
+              },
+              {
+                "text": "120s",
+                "color": "green"
+              }
+            ]
+          },
+          "",
+          {
+            "text": "Pickaxe Abilities apply to all of your",
+            "color": "dark_gray"
+          },
+          {
+            "text": "Pickaxes. You can select a Pickaxe",
+            "color": "dark_gray"
+          },
+          {
+            "text": "Ability from your Heart of the",
+            "color": "dark_gray"
+          },
+          {
+            "text": "Mountain.",
+            "color": "dark_gray"
+          },
+          "",
+          {
+            "text": "Upgrade your Pickaxe Abilities by",
+            "color": "dark_gray"
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "unlocking ",
+                "color": "dark_gray"
+              },
+              {
+                "text": "Core of the Mountain ",
+                "color": "red"
+              },
+              {
+                "text": "in",
+                "color": "dark_gray"
+              }
+            ]
+          },
+          {
+            "text": "this menu!\n",
+            "color": "dark_gray"
+          },
+          {
+            "text": "UNAVAILABLE\n",
+            "color": "gray",
+            "bold": true
+          },
+          {
+            "text": "Click to jump to this perk!",
+            "color": "yellow"
+          }
+        ]
+      },
+      "x": {
+        "offset": 213,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 67,
+        "alignment": "START"
+      },
+      "width": 37,
+      "height": 39
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/node/gemstone_infusion/unavailable",
+      "condition": {
+        "type": "not",
+        "condition": {
+          "type": "or",
+          "conditions": [
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_10/locked"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_10/unlocking"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_10/unlocked"
+            }
+          ]
+        }
+      },
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/scroll_up"
+      },
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "Gemstone Infusion",
+            "color": "dark_gray"
+          },
+          {
+            "text": "Pickaxe Ability: Gemstone Infusion",
+            "color": "gold"
+          },
+          {
+            "text": "Increases the effectiveness of",
+            "color": "gray"
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "every Gemstone ",
+                "color": "gold"
+              },
+              {
+                "text": "in your drill's",
+                "color": "gray"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Gemstone Slots by ",
+                "color": "gray"
+              },
+              {
+                "text": "100% ",
+                "color": "green"
+              },
+              {
+                "text": "for ",
+                "color": "gray"
+              },
+              {
+                "text": "20s",
+                "color": "green"
+              },
+              {
+                "text": ".",
+                "color": "gray"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Cooldown: ",
+                "color": "dark_gray"
+              },
+              {
+                "text": "120s",
+                "color": "green"
+              }
+            ]
+          },
+          "",
+          {
+            "text": "Pickaxe Abilities apply to all of your",
+            "color": "dark_gray"
+          },
+          {
+            "text": "Pickaxes. You can select a Pickaxe",
+            "color": "dark_gray"
+          },
+          {
+            "text": "Ability from your Heart of the",
+            "color": "dark_gray"
+          },
+          {
+            "text": "Mountain.",
+            "color": "dark_gray"
+          },
+          "",
+          {
+            "text": "Upgrade your Pickaxe Abilities by",
+            "color": "dark_gray"
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "unlocking ",
+                "color": "dark_gray"
+              },
+              {
+                "text": "Core of the Mountain ",
+                "color": "red"
+              },
+              {
+                "text": "in",
+                "color": "dark_gray"
+              }
+            ]
+          },
+          {
+            "text": "this menu!\n",
+            "color": "dark_gray"
+          },
+          {
+            "text": "UNAVAILABLE\n",
+            "color": "gray",
+            "bold": true
+          },
+          {
+            "text": "Click to jump to this perk!",
+            "color": "yellow"
+          }
+        ]
+      },
+      "x": {
+        "offset": -75,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -125,
+        "alignment": "START"
+      },
+      "width": 37,
+      "height": 39
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/node/sheer_force/unavailable",
+      "condition": {
+        "type": "not",
+        "condition": {
+          "type": "or",
+          "conditions": [
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_10/locked"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_10/unlocking"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_10/unlocked"
+            }
+          ]
+        }
+      },
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/scroll_up"
+      },
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "Sheer Force",
+            "color": "dark_gray"
+          },
+          {
+            "text": "Pickaxe Ability: Sheer Force",
+            "color": "gold"
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Grants ",
+                "color": "gray"
+              },
+              {
+                "text": "+200 Mining Spread",
+                "color": "yellow"
+              },
+              {
+                "text": " for ",
+                "color": "gray"
+              },
+              {
+                "text": "20s",
+                "color": "green"
+              },
+              {
+                "text": ".",
+                "color": "gray"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Cooldown: ",
+                "color": "dark_gray"
+              },
+              {
+                "text": "120s",
+                "color": "green"
+              }
+            ]
+          },
+          "",
+          {
+            "text": "Pickaxe Abilities apply to all of your",
+            "color": "dark_gray"
+          },
+          {
+            "text": "Pickaxes. You can select a Pickaxe",
+            "color": "dark_gray"
+          },
+          {
+            "text": "Ability from your Heart of the",
+            "color": "dark_gray"
+          },
+          {
+            "text": "Mountain.",
+            "color": "dark_gray"
+          },
+          "",
+          {
+            "text": "Upgrade your Pickaxe Abilities by",
+            "color": "dark_gray"
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "unlocking ",
+                "color": "dark_gray"
+              },
+              {
+                "text": "Core of the Mountain ",
+                "color": "red"
+              },
+              {
+                "text": "in",
+                "color": "dark_gray"
+              }
+            ]
+          },
+          {
+            "text": "this menu!\n",
+            "color": "dark_gray"
+          },
+          {
+            "text": "UNAVAILABLE\n",
+            "color": "gray",
+            "bold": true
+          },
+          {
+            "text": "Click to jump to this perk!",
+            "color": "yellow"
+          }
+        ]
+      },
+      "x": {
+        "offset": 213,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -125,
+        "alignment": "START"
+      },
+      "width": 37,
+      "height": 39
     }
   ],
   "slots": {
@@ -344,9 +5243,6 @@
       "position": { "x": -16, "y": 271 }
     },
     "skyblock_gui:skill_tree/hotm/precision_mining/locked": {
-      "position": { "x": 32, "y": 271 }
-    },
-    "skyblock_gui:skill_tree/hotm/precision_mining/unlocked": {
       "position": { "x": 32, "y": 271 }
     },
     "skyblock_gui:skill_tree/hotm/precision_mining/maxed": {
@@ -383,9 +5279,6 @@
       "position": { "x": 176, "y": 271 }
     },
     "skyblock_gui:skill_tree/hotm/pickobulus/unlocked": {
-      "position": { "x": 176, "y": 271 }
-    },
-    "skyblock_gui:skill_tree/hotm/pickobulus/maxed": {
       "position": { "x": 176, "y": 271 }
     },
     "skyblock_gui:skill_tree/hotm/pickobulus/disabled": {
@@ -679,7 +5572,7 @@
     "skyblock_gui:skill_tree/hotm/miners_blessing/locked": {
       "position": { "x": -64, "y": -17 }
     },
-    "skyblock_gui:skill_tree/hotm/miners_blessing/unlocked": {
+    "skyblock_gui:skill_tree/hotm/miners_blessing/maxed": {
       "position": { "x": -64, "y": -17 }
     },
     "skyblock_gui:skill_tree/hotm/miners_blessing/disabled": {
@@ -748,7 +5641,7 @@
     "skyblock_gui:skill_tree/hotm/mineshaft_mayhem/locked": {
       "position": { "x": 224, "y": -17 }
     },
-    "skyblock_gui:skill_tree/hotm/mineshaft_mayhem/unlocked": {
+    "skyblock_gui:skill_tree/hotm/mineshaft_mayhem/maxed": {
       "position": { "x": 224, "y": -17 }
     },
     "skyblock_gui:skill_tree/hotm/mineshaft_mayhem/disabled": {

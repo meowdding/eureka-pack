@@ -356,6 +356,160 @@
         "offset": 200,
         "alignment": "CENTER"
       }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/loadout",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skill_tree/hotm/loadout"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:slot",
+          "slot": 47
+        }
+      ],
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": -312,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -32,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/reset_heart_of_the_mountain/available",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skill_tree/hotm/reset_heart_of_the_mountain"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:slot",
+          "slot": 52
+        }
+      ],
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": -280,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -32,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/reset_heart_of_the_mountain/unavailable",
+      "condition": {
+        "type": "catharsis:not",
+        "condition": {
+          "type": "catharsis:has_slot",
+          "slot": "skyblock_gui:skill_tree/hotm/reset_heart_of_the_mountain"
+        }
+      },
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skill_tree/hotm/icon"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:text",
+          "text": {
+            "text": "You don't have any HotM\nperks unlocked!",
+            "color": "red"
+          }
+        }
+      ],
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": -280,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -32,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/crystal_hollows_crystals",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skill_tree/hotm/crystal_hollows_crystals"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:slot",
+          "slot": 50
+        }
+      ],
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": -280,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": 0,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/rng_meter",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skill_tree/hotm/rng_meter"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:slot",
+          "slot": 51
+        }
+      ],
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": -312,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": 0,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/icon",
+      "interaction": {
+        "type": "catharsis:slot",
+        "slot": 49
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:slot",
+          "slot": 49
+        }
+      ],
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": -296,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -16,
+        "alignment": "CENTER"
+      }
     }
   ]
 }
