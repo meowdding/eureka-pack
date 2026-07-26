@@ -3992,7 +3992,7 @@
                 "color": "gray"
               },
               {
-                "text": "+20  Mining Speed",
+                "text": "+20 Mining Speed",
                 "color": "gold"
               },
               {
@@ -4033,15 +4033,15 @@
           "conditions": [
             {
               "type": "catharsis:has_slot",
-              "slot": "skyblock_gui:skill_tree/hotm/tier_1/locked"
+              "slot": "skyblock_gui:skill_tree/hotm/tier_2/locked"
             },
             {
               "type": "catharsis:has_slot",
-              "slot": "skyblock_gui:skill_tree/hotm/tier_1/unlocking"
+              "slot": "skyblock_gui:skill_tree/hotm/tier_2/unlocking"
             },
             {
               "type": "catharsis:has_slot",
-              "slot": "skyblock_gui:skill_tree/hotm/tier_1/unlocked"
+              "slot": "skyblock_gui:skill_tree/hotm/tier_2/unlocked"
             }
           ]
         }
@@ -4181,15 +4181,15 @@
           "conditions": [
             {
               "type": "catharsis:has_slot",
-              "slot": "skyblock_gui:skill_tree/hotm/tier_1/locked"
+              "slot": "skyblock_gui:skill_tree/hotm/tier_2/locked"
             },
             {
               "type": "catharsis:has_slot",
-              "slot": "skyblock_gui:skill_tree/hotm/tier_1/unlocking"
+              "slot": "skyblock_gui:skill_tree/hotm/tier_2/unlocking"
             },
             {
               "type": "catharsis:has_slot",
-              "slot": "skyblock_gui:skill_tree/hotm/tier_1/unlocked"
+              "slot": "skyblock_gui:skill_tree/hotm/tier_2/unlocked"
             }
           ]
         }
@@ -4202,47 +4202,62 @@
         "type": "catharsis:text",
         "text": [
           {
-            "text": "Precision Mining",
-            "color": "dark_gray"
-          },
-          {
             "text": "",
             "extra": [
               {
-                "text": "When Mining ",
+                "text": "Level 1",
                 "color": "gray"
               },
               {
-                "text": "Ores",
-                "color": "gold"
-              },
-              {
-                "text": " or ",
-                "color": "gray"
-              },
-              {
-                "text": "Dwarven Metals",
+                "text": "/45",
                 "color": "dark_gray"
-              },
-              {
-                "text": ",",
-                "color": "gray"
               }
             ]
           },
+          "",
           {
-            "text": "a particle target appears on the",
+            "text": "Increases the chance for you to",
+            "color": "gray"
+          },
+          {
+            "text": "trigger rare occurrences in the",
             "color": "gray"
           },
           {
             "text": "",
             "extra": [
               {
-                "text": "block that increases your ",
+                "text": "Dwarven Mines ",
+                "color": "dark_green"
+              },
+              {
+                "text": "by ",
                 "color": "gray"
               },
               {
-                "text": " Mining",
+                "text": "6%",
+                "color": "green"
+              },
+              {
+                "text": ".",
+                "color": "gray"
+              }
+            ]
+          },
+          "",
+          {
+            "text": "Rare occurrences include:",
+            "color": "gray"
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": " • ",
+                "color": "gray"
+              },
+              {
+                "text": "Golden Goblins",
                 "color": "gold"
               }
             ]
@@ -4251,20 +4266,25 @@
             "text": "",
             "extra": [
               {
-                "text": "Speed ",
+                "text": " • ",
+                "color": "gray"
+              },
+              {
+                "text": "Fallen Stars",
+                "color": "dark_purple"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": " • ",
+                "color": "gray"
+              },
+              {
+                "text": "Powder Ghasts",
                 "color": "gold"
-              },
-              {
-                "text": "by ",
-                "color": "gray"
-              },
-              {
-                "text": "30% ",
-                "color": "green"
-              },
-              {
-                "text": "when aiming at it.\n",
-                "color": "gray"
               }
             ]
           },
@@ -4300,15 +4320,15 @@
           "conditions": [
             {
               "type": "catharsis:has_slot",
-              "slot": "skyblock_gui:skill_tree/hotm/tier_1/locked"
+              "slot": "skyblock_gui:skill_tree/hotm/tier_2/locked"
             },
             {
               "type": "catharsis:has_slot",
-              "slot": "skyblock_gui:skill_tree/hotm/tier_1/unlocking"
+              "slot": "skyblock_gui:skill_tree/hotm/tier_2/unlocking"
             },
             {
               "type": "catharsis:has_slot",
-              "slot": "skyblock_gui:skill_tree/hotm/tier_1/unlocked"
+              "slot": "skyblock_gui:skill_tree/hotm/tier_2/unlocked"
             }
           ]
         }
@@ -4378,6 +4398,123 @@
     },
     {
       "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/node/titanium_insanium/unavailable",
+      "condition": {
+        "type": "not",
+        "condition": {
+          "type": "or",
+          "conditions": [
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_2/locked"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_2/unlocking"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_2/unlocked"
+            }
+          ]
+        }
+      },
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/scroll_down"
+      },
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "Titanium Insanium",
+            "color": "dark_gray"
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Level ?",
+                "color": "gray"
+              },
+              {
+                "text": "/50",
+                "color": "dark_gray"
+              }
+            ]
+          },
+          "",
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "When mining ",
+                "color": "gray"
+              },
+              {
+                "text": "Mithril Ore",
+                "color": "dark_green"
+              },
+              {
+                "text": ", you have a",
+                "color": "gray"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "2.1% ",
+                "color": "green"
+              },
+              {
+                "text": "chance to convert the block",
+                "color": "gray"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "into ",
+                "color": "gray"
+              },
+              {
+                "text": "Titanium Ore",
+                "color": "white"
+              },
+              {
+                "text": ".\n",
+                "color": "gray"
+              }
+            ]
+          },
+          {
+            "text": "UNAVAILABLE\n",
+            "color": "gray",
+            "bold": true
+          },
+          {
+            "text": "Click to jump to this perk!",
+            "color": "yellow"
+          }
+        ]
+      },
+      "x": {
+        "offset": 124,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 267,
+        "alignment": "START"
+      },
+      "width": 24,
+      "height": 24
+    },
+    {
+      "type": "catharsis:button",
       "normal": "eureka:gui_modifiers/skill_tree/hotm/node/pickobulus/unavailable",
       "condition": {
         "type": "not",
@@ -4386,15 +4523,15 @@
           "conditions": [
             {
               "type": "catharsis:has_slot",
-              "slot": "skyblock_gui:skill_tree/hotm/tier_1/locked"
+              "slot": "skyblock_gui:skill_tree/hotm/tier_2/locked"
             },
             {
               "type": "catharsis:has_slot",
-              "slot": "skyblock_gui:skill_tree/hotm/tier_1/unlocking"
+              "slot": "skyblock_gui:skill_tree/hotm/tier_2/unlocking"
             },
             {
               "type": "catharsis:has_slot",
-              "slot": "skyblock_gui:skill_tree/hotm/tier_1/unlocked"
+              "slot": "skyblock_gui:skill_tree/hotm/tier_2/unlocked"
             }
           ]
         }
@@ -4516,6 +4653,1632 @@
       },
       "width": 37,
       "height": 39
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/node/luck_of_the_cave/unavailable",
+      "condition": {
+        "type": "not",
+        "condition": {
+          "type": "or",
+          "conditions": [
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_3/locked"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_3/unlocking"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_3/unlocked"
+            }
+          ]
+        }
+      },
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/scroll_down"
+      },
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "Luck of The Cave",
+            "color": "dark_gray"
+          },
+
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Level ?",
+                "color": "gray"
+              },
+              {
+                "text": "/45",
+                "color": "dark_gray"
+              }
+            ]
+          },
+          "",
+          {
+            "text": "Increases the chance for you to",
+            "color": "gray"
+          },
+          {
+            "text": "trigger rare occurrences in the",
+            "color": "gray"
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Dwarven Mines ",
+                "color": "dark_green"
+              },
+              {
+                "text": "by ",
+                "color": "gray"
+              },
+              {
+                "text": "6%",
+                "color": "green"
+              },
+              {
+                "text": ".",
+                "color": "gray"
+              }
+            ]
+          },
+          "",
+          {
+            "text": "Rare occurrences include:",
+            "color": "gray"
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": " • ",
+                "color": "gray"
+              },
+              {
+                "text": "Golden Goblins",
+                "color": "gold"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": " • ",
+                "color": "gray"
+              },
+              {
+                "text": "Fallen Stars",
+                "color": "dark_purple"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": " • ",
+                "color": "gray"
+              },
+              {
+                "text": "Powder Ghasts\n",
+                "color": "gold"
+              }
+            ]
+          },
+          {
+            "text": "UNAVAILABLE\n",
+            "color": "gray",
+            "bold": true
+          },
+          {
+            "text": "Click to jump to this perk!",
+            "color": "yellow"
+          }
+        ]
+      },
+      "x": {
+        "offset": -20,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 219,
+        "alignment": "START"
+      },
+      "width": 24,
+      "height": 24
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/node/efficient_miner/unavailable",
+      "condition": {
+        "type": "not",
+        "condition": {
+          "type": "or",
+          "conditions": [
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_3/locked"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_3/unlocking"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_3/unlocked"
+            }
+          ]
+        }
+      },
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/scroll_down"
+      },
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "Efficient Miner",
+            "color": "dark_gray"
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Level ?",
+                "color": "gray"
+              },
+              {
+                "text": "/100",
+                "color": "dark_gray"
+              }
+            ]
+          },
+          "",
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Grants ",
+                "color": "gray"
+              },
+              {
+                "text": "+3 Mining Spread",
+                "color": "yellow"
+              },
+              {
+                "text": ".",
+                "color": "gray"
+              }
+            ]
+          },
+          "",
+          {
+            "text": "UNAVAILABLE\n",
+            "color": "gray",
+            "bold": true
+          },
+          {
+            "text": "Click to jump to this perk!",
+            "color": "yellow"
+          }
+        ]
+      },
+      "x": {
+        "offset": 76,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 219,
+        "alignment": "START"
+      },
+      "width": 24,
+      "height": 24
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/node/quick_forge/unavailable",
+      "condition": {
+        "type": "not",
+        "condition": {
+          "type": "or",
+          "conditions": [
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_3/locked"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_3/unlocking"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_3/unlocked"
+            }
+          ]
+        }
+      },
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/scroll_down"
+      },
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "Quick Forge",
+            "color": "dark_gray"
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Level ?",
+                "color": "gray"
+              },
+              {
+                "text": "/100",
+                "color": "dark_gray"
+              }
+            ]
+          },
+          "",
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Decreases the time it takes to forge\n",
+                "color": "gray",
+                "italic": false
+              },
+              {
+                "text": "",
+                "extra": [
+                  {
+                    "text": "by ",
+                    "color": "gray"
+                  },
+                  {
+                    "text": "10.5%",
+                    "color": "green"
+                  },
+                  {
+                    "text": ".",
+                    "color": "gray"
+                  }
+                ],
+                "italic": false
+              }
+            ]
+          },
+          "",
+          {
+            "text": "UNAVAILABLE\n",
+            "color": "gray",
+            "bold": true
+          },
+          {
+            "text": "Click to jump to this perk!",
+            "color": "yellow"
+          }
+        ]
+      },
+      "x": {
+        "offset": 172,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 219,
+        "alignment": "START"
+      },
+      "width": 24,
+      "height": 24
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/node/sky_mall/unavailable",
+      "condition": {
+        "type": "not",
+        "condition": {
+          "type": "or",
+          "conditions": [
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_4/locked"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_4/unlocking"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_4/unlocked"
+            }
+          ]
+        }
+      },
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/scroll_down"
+      },
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "Sky Mall",
+            "color": "dark_gray"
+          },
+          {
+            "text": "Every SkyBlock day, you receive a",
+            "color": "gray"
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "random buff while on any ",
+                "color": "gray"
+              },
+              {
+                "text": "Mining",
+                "color": "aqua"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Island",
+                "color": "aqua"
+              },
+              {
+                "text": ".",
+                "color": "gray"
+              }
+            ]
+          },
+          "",
+          {
+            "text": "Possible Buffs",
+            "color": "gray"
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": " ■ ",
+                "color": "dark_gray"
+              },
+              {
+                "text": "Gain ",
+                "color": "gray"
+              },
+              {
+                "text": "+100 Mining Speed",
+                "color": "gold"
+              },
+              {
+                "text": ".",
+                "color": "gray"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": " ■ ",
+                "color": "dark_gray"
+              },
+              {
+                "text": "Gain ",
+                "color": "gray"
+              },
+              {
+                "text": "+50 Mining Fortune",
+                "color": "gold"
+              },
+              {
+                "text": ".",
+                "color": "gray"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": " ■ ",
+                "color": "dark_gray"
+              },
+              {
+                "text": "Gain ",
+                "color": "gray"
+              },
+              {
+                "text": "+15% ",
+                "color": "green"
+              },
+              {
+                "text": "more Powder while mining.",
+                "color": "gray"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": " ■ ",
+                "color": "dark_gray"
+              },
+              {
+                "text": "-20%",
+                "color": "green"
+              },
+              {
+                "text": " Pickaxe Ability cooldowns.",
+                "color": "gray"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": " ■ ",
+                "color": "dark_gray"
+              },
+              {
+                "text": "10x ",
+                "color": "green"
+              },
+              {
+                "text": "chance to find Golden and",
+                "color": "gray"
+              }
+            ]
+          },
+          {
+            "text": "    ",
+            "extra": [
+              {
+                "text": "Diamond Goblins.",
+                "color": "gray"
+              }
+            ]
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": " ■ ",
+                "color": "dark_gray"
+              },
+              {
+                "text": "Gain ",
+                "color": "gray"
+              },
+              {
+                "text": "5x ",
+                "color": "green"
+              },
+              {
+                "text": "Titanium ",
+                "color": "blue"
+              },
+              {
+                "text": "drops.",
+                "color": "gray"
+              }
+            ]
+          },
+          "",
+          {
+            "text": "UNAVAILABLE\n",
+            "color": "gray",
+            "bold": true
+          },
+          {
+            "text": "Click to jump to this perk!",
+            "color": "yellow"
+          }
+        ]
+      },
+      "x": {
+        "offset": -68,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 171,
+        "alignment": "START"
+      },
+      "width": 24,
+      "height": 24
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/node/old_school/unavailable",
+      "condition": {
+        "type": "not",
+        "condition": {
+          "type": "or",
+          "conditions": [
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_4/locked"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_4/unlocking"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_4/unlocked"
+            }
+          ]
+        }
+      },
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/scroll_down"
+      },
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "Old-School",
+            "color": "dark_gray"
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Level ?",
+                "color": "gray"
+              },
+              {
+                "text": "/20",
+                "color": "dark_gray"
+              }
+            ]
+          },
+          "",
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Grants ",
+                "color": "gray"
+              },
+              {
+                "text": "+5 Ore Fortune",
+                "color": "gold"
+              },
+              {
+                "text": ".",
+                "color": "gray"
+              }
+            ]
+          },
+          "",
+          {
+            "text": "UNAVAILABLE\n",
+            "color": "gray",
+            "bold": true
+          },
+          {
+            "text": "Click to jump to this perk!",
+            "color": "yellow"
+          }
+        ]
+      },
+      "x": {
+        "offset": -20,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 171,
+        "alignment": "START"
+      },
+      "width": 24,
+      "height": 24
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/node/professional/unavailable",
+      "condition": {
+        "type": "not",
+        "condition": {
+          "type": "or",
+          "conditions": [
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_4/locked"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_4/unlocking"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_4/unlocked"
+            }
+          ]
+        }
+      },
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/scroll_down"
+      },
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "Professional",
+            "color": "dark_gray"
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Level ?",
+                "color": "gray"
+              },
+              {
+                "text": "/140",
+                "color": "dark_gray"
+              }
+            ]
+          },
+          "",
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Gain ",
+                "color": "gray"
+              },
+              {
+                "text": "+55 Mining Speed",
+                "color": "gold"
+              },
+              {
+                "text": " when mining",
+                "color": "gray"
+              }
+            ]
+          },
+          {
+            "text": "Gemstones.\n",
+            "color": "gray"
+          },
+          {
+            "text": "UNAVAILABLE\n",
+            "color": "gray",
+            "bold": true
+          },
+          {
+            "text": "Click to jump to this perk!",
+            "color": "yellow"
+          }
+        ]
+      },
+      "x": {
+        "offset": 28,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 171,
+        "alignment": "START"
+      },
+      "width": 24,
+      "height": 24
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/node/mole/unavailable",
+      "condition": {
+        "type": "not",
+        "condition": {
+          "type": "or",
+          "conditions": [
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_4/locked"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_4/unlocking"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_4/unlocked"
+            }
+          ]
+        }
+      },
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/scroll_down"
+      },
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "Mole",
+            "color": "dark_gray"
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Level ?",
+                "color": "gray"
+              },
+              {
+                "text": "/200",
+                "color": "dark_gray"
+              }
+            ]
+          },
+          "",
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Grants ",
+                "color": "gray"
+              },
+              {
+                "text": "+50 Mining Spread",
+                "color": "yellow"
+              },
+              {
+                "text": " when",
+                "color": "gray"
+              }
+            ]
+          },
+          {
+            "text": "mining Hard Stone.\n",
+            "color": "gray"
+          },
+          {
+            "text": "UNAVAILABLE\n",
+            "color": "gray",
+            "bold": true
+          },
+          {
+            "text": "Click to jump to this perk!",
+            "color": "yellow"
+          }
+        ]
+      },
+      "x": {
+        "offset": 76,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 171,
+        "alignment": "START"
+      },
+      "width": 24,
+      "height": 24
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/node/gem_lover/unavailable",
+      "condition": {
+        "type": "not",
+        "condition": {
+          "type": "or",
+          "conditions": [
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_4/locked"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_4/unlocking"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_4/unlocked"
+            }
+          ]
+        }
+      },
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/scroll_down"
+      },
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "Gem Lover",
+            "color": "dark_gray"
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Level ?",
+                "color": "gray"
+              },
+              {
+                "text": "/20",
+                "color": "dark_gray"
+              }
+            ]
+          },
+          "",
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Grants ",
+                "color": "gray"
+              },
+              {
+                "text": "+24 Gemstone Fortune",
+                "color": "gold"
+              },
+              {
+                "text": ".",
+                "color": "gray"
+              }
+            ]
+          },
+          "",
+          {
+            "text": "UNAVAILABLE\n",
+            "color": "gray",
+            "bold": true
+          },
+          {
+            "text": "Click to jump to this perk!",
+            "color": "yellow"
+          }
+        ]
+      },
+      "x": {
+        "offset": 124,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 171,
+        "alignment": "START"
+      },
+      "width": 24,
+      "height": 24
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/node/gem_lover/unavailable",
+      "condition": {
+        "type": "not",
+        "condition": {
+          "type": "or",
+          "conditions": [
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_4/locked"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_4/unlocking"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_4/unlocked"
+            }
+          ]
+        }
+      },
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/scroll_down"
+      },
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "Gem Lover",
+            "color": "dark_gray"
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Level ?",
+                "color": "gray"
+              },
+              {
+                "text": "/20",
+                "color": "dark_gray"
+              }
+            ]
+          },
+          "",
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Grants ",
+                "color": "gray"
+              },
+              {
+                "text": "+24 Gemstone Fortune",
+                "color": "gold"
+              },
+              {
+                "text": ".",
+                "color": "gray"
+              }
+            ]
+          },
+          "",
+          {
+            "text": "UNAVAILABLE\n",
+            "color": "gray",
+            "bold": true
+          },
+          {
+            "text": "Click to jump to this perk!",
+            "color": "yellow"
+          }
+        ]
+      },
+      "x": {
+        "offset": 124,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 171,
+        "alignment": "START"
+      },
+      "width": 24,
+      "height": 24
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/node/seasoned_mineman/unavailable",
+      "condition": {
+        "type": "not",
+        "condition": {
+          "type": "or",
+          "conditions": [
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_4/locked"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_4/unlocking"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_4/unlocked"
+            }
+          ]
+        }
+      },
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/scroll_down"
+      },
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "Seasoned Mineman",
+            "color": "dark_gray"
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Level ?",
+                "color": "gray"
+              },
+              {
+                "text": "/100",
+                "color": "dark_gray"
+              }
+            ]
+          },
+          "",
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Grants ",
+                "color": "gray"
+              },
+              {
+                "text": "+5.1☯ Mining Wisdom",
+                "color": "dark_aqua"
+              },
+              {
+                "text": ".\n",
+                "color": "gray"
+              }
+            ]
+          },
+          {
+            "text": "UNAVAILABLE\n",
+            "color": "gray",
+            "bold": true
+          },
+          {
+            "text": "Click to jump to this perk!",
+            "color": "yellow"
+          }
+        ]
+      },
+      "x": {
+        "offset": 172,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 171,
+        "alignment": "START"
+      },
+      "width": 24,
+      "height": 24
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/node/front_loaded/unavailable",
+      "condition": {
+        "type": "not",
+        "condition": {
+          "type": "or",
+          "conditions": [
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_4/locked"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_4/unlocking"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_4/unlocked"
+            }
+          ]
+        }
+      },
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/scroll_down"
+      },
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "Front Loaded",
+            "color": "dark_gray"
+          },
+          "",
+          {
+            "text": "Grants the following buffs for the",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "first ",
+                "color": "gray"
+              },
+              {
+                "text": "2,500 ",
+                "color": "green"
+              },
+              {
+                "text": "Gemstones",
+                "color": "light_purple"
+              },
+              {
+                "text": " you mine each",
+                "color": "gray"
+              }
+            ],
+            "italic": false
+          },
+          {
+            "text": "day.",
+            "color": "gray",
+            "italic": false
+          },
+          "",
+          {
+            "text": " ",
+            "extra": [
+              {
+                "text": "■ ",
+                "color": "dark_gray"
+              },
+              {
+                "text": "3x Gemstone Powder",
+                "color": "light_purple"
+              }
+            ],
+            "italic": false
+          },
+          {
+            "text": " ",
+            "extra": [
+              {
+                "text": "■ ",
+                "color": "dark_gray"
+              },
+              {
+                "text": "+150 Gemstone Fortune",
+                "color": "gold"
+              }
+            ],
+            "italic": false
+          },
+          {
+            "text": " ",
+            "extra": [
+              {
+                "text": "■ ",
+                "color": "dark_gray"
+              },
+              {
+                "text": "+250 Mining Speed",
+                "color": "gold"
+              }
+            ],
+            "italic": false
+          },
+          "",
+          {
+            "text": "UNAVAILABLE\n",
+            "color": "gray",
+            "bold": true
+          },
+          {
+            "text": "Click to jump to this perk!",
+            "color": "yellow"
+          }
+        ]
+      },
+      "x": {
+        "offset": 220,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 171,
+        "alignment": "START"
+      },
+      "width": 24,
+      "height": 24
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/node/daily_grind/unavailable",
+      "condition": {
+        "type": "not",
+        "condition": {
+          "type": "or",
+          "conditions": [
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_5/locked"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_5/unlocking"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_5/unlocked"
+            }
+          ]
+        }
+      },
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/scroll_down"
+      },
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "Daily Grind",
+            "color": "dark_gray"
+          },
+          "",
+          {
+            "text": "Your first daily commission on each",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Mining Island",
+                "color": "aqua"
+              },
+              {
+                "text": " grants ",
+                "color": "gray"
+              },
+              {
+                "text": "+500 Powder",
+                "color": "blue"
+              },
+              {
+                "text": ",",
+                "color": "gray"
+              }
+            ],
+            "italic": false
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "multiplied by your ",
+                "color": "gray"
+              },
+              {
+                "text": "HOTM",
+                "color": "dark_purple"
+              },
+              {
+                "text": " level.",
+                "color": "gray"
+              }
+            ],
+            "italic": false
+          },
+          "",
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Dwarven Mines",
+                "color": "dark_green"
+              },
+              {
+                "text": ": ",
+                "color": "gray"
+              },
+              {
+                "text": "+500 ",
+                "color": "green"
+              },
+              {
+                "text": "Mithril Powder",
+                "color": "dark_green"
+              }
+            ],
+            "italic": false
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Crystal Hollows",
+                "color": "dark_purple"
+              },
+              {
+                "text": ": ",
+                "color": "gray"
+              },
+              {
+                "text": "+500 ",
+                "color": "green"
+              },
+              {
+                "text": "Gemstone Powder",
+                "color": "light_purple"
+              }
+            ],
+            "italic": false
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Glacite Tunnels",
+                "color": "aqua"
+              },
+              {
+                "text": ": ",
+                "color": "gray"
+              },
+              {
+                "text": "+500 ",
+                "color": "green"
+              },
+              {
+                "text": "Glacite Powder",
+                "color": "aqua"
+              }
+            ],
+            "italic": false
+          },
+          "",
+          {
+            "text": "UNAVAILABLE\n",
+            "color": "gray",
+            "bold": true
+          },
+          {
+            "text": "Click to jump to this perk!",
+            "color": "yellow"
+          }
+        ]
+      },
+      "x": {
+        "offset": -20,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 123,
+        "alignment": "START"
+      },
+      "width": 24,
+      "height": 24
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/node/core_of_the_mountain/unavailable",
+      "condition": {
+        "type": "not",
+        "condition": {
+          "type": "or",
+          "conditions": [
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_5/locked"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_5/unlocking"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_5/unlocked"
+            }
+          ]
+        }
+      },
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/scroll_down"
+      },
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "Core of the Mountain",
+            "color": "dark_gray"
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Level ?",
+                "color": "gray"
+              },
+              {
+                "text": "/10",
+                "color": "dark_gray"
+              }
+            ]
+          },
+          "",
+          {
+            "text": "UNAVAILABLE\n",
+            "color": "gray",
+            "bold": true
+          },
+          {
+            "text": "Click to jump to this perk!",
+            "color": "yellow"
+          }
+        ]
+      },
+      "x": {
+        "offset": 64,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 111,
+        "alignment": "START"
+      },
+      "width": 48,
+      "height": 48
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/node/daily_powder/unavailable",
+      "condition": {
+        "type": "not",
+        "condition": {
+          "type": "or",
+          "conditions": [
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_5/locked"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_5/unlocking"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_5/unlocked"
+            }
+          ]
+        }
+      },
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/scroll_down"
+      },
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "Daily Powder",
+            "color": "dark_gray"
+          },
+          "",
+          {
+            "text": "The first ore you mine each day",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "grants ",
+                "color": "gray"
+              },
+              {
+                "text": "+500 Powder",
+                "color": "blue"
+              },
+              {
+                "text": ", multiplied by",
+                "color": "gray"
+              }
+            ],
+            "italic": false
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "your ",
+                "color": "gray"
+              },
+              {
+                "text": "HOTM ",
+                "color": "dark_purple"
+              },
+              {
+                "text": "level.",
+                "color": "gray"
+              }
+            ],
+            "italic": false
+          },
+          "",
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Mithril",
+                "color": "dark_green"
+              },
+              {
+                "text": ": ",
+                "color": "gray"
+              },
+              {
+                "text": "+500 ",
+                "color": "green"
+              },
+              {
+                "text": "Mithril Powder",
+                "color": "dark_green"
+              }
+            ],
+            "italic": false
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Gemstone",
+                "color": "light_purple"
+              },
+              {
+                "text": ": ",
+                "color": "gray"
+              },
+              {
+                "text": "+500 ",
+                "color": "green"
+              },
+              {
+                "text": "Gemstone Powder",
+                "color": "light_purple"
+              }
+            ],
+            "italic": false
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Glacite",
+                "color": "aqua"
+              },
+              {
+                "text": ": ",
+                "color": "gray"
+              },
+              {
+                "text": "+500 ",
+                "color": "green"
+              },
+              {
+                "text": "Glacite Powder",
+                "color": "aqua"
+              }
+            ],
+            "italic": false
+          },
+          "",
+          {
+            "text": "UNAVAILABLE\n",
+            "color": "gray",
+            "bold": true
+          },
+          {
+            "text": "Click to jump to this perk!",
+            "color": "yellow"
+          }
+        ]
+      },
+      "x": {
+        "offset": 172,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 123,
+        "alignment": "START"
+      },
+      "width": 24,
+      "height": 24
     },
     {
       "type": "catharsis:button",
@@ -4734,6 +6497,603 @@
     },
     {
       "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/node/blockhead/unavailable",
+      "condition": {
+        "type": "not",
+        "condition": {
+          "type": "or",
+          "conditions": [
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_6/locked"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_6/unlocking"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_6/unlocked"
+            }
+          ]
+        }
+      },
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/scroll_up"
+      },
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "Blockhead",
+            "color": "dark_gray"
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Level ?",
+                "color": "gray"
+              },
+              {
+                "text": "/20",
+                "color": "dark_gray"
+              }
+            ],
+            "italic": false
+          },
+          "",
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Grants ",
+                "color": "gray"
+              },
+              {
+                "text": "+5 Block Fortune",
+                "color": "gold"
+              },
+              {
+                "text": ".",
+                "color": "gray"
+              }
+            ],
+            "italic": false
+          },
+          "",
+          {
+            "text": "UNAVAILABLE\n",
+            "color": "gray",
+            "bold": true
+          },
+          {
+            "text": "Click to jump to this perk!",
+            "color": "yellow"
+          }
+        ]
+      },
+      "x": {
+        "offset": -20,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 75,
+        "alignment": "START"
+      },
+      "width": 24,
+      "height": 24
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/node/subterranean_fisher/unavailable",
+      "condition": {
+        "type": "not",
+        "condition": {
+          "type": "or",
+          "conditions": [
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_6/locked"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_6/unlocking"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_6/unlocked"
+            }
+          ]
+        }
+      },
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/scroll_up"
+      },
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "Subterranean Fisher",
+            "color": "dark_gray"
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Level ?",
+                "color": "gray"
+              },
+              {
+                "text": "/40",
+                "color": "dark_gray"
+              }
+            ],
+            "italic": false
+          },
+          "",
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Grants ",
+                "color": "gray"
+              },
+              {
+                "text": "+5.5 Fishing Speed",
+                "color": "aqua"
+              },
+              {
+                "text": " and",
+                "color": "gray"
+              }
+            ],
+            "italic": false
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "+1.1 Sea Creature Chance",
+                "color": "dark_aqua"
+              },
+              {
+                "text": " while on",
+                "color": "gray"
+              }
+            ],
+            "italic": false
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Mining Islands",
+                "color": "aqua"
+              },
+              {
+                "text": ".",
+                "color": "gray"
+              }
+            ],
+            "italic": false
+          },
+          "",
+          {
+            "text": "UNAVAILABLE\n",
+            "color": "gray",
+            "bold": true
+          },
+          {
+            "text": "Click to jump to this perk!",
+            "color": "yellow"
+          }
+        ]
+      },
+      "x": {
+        "offset": 28,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 75,
+        "alignment": "START"
+      },
+      "width": 24,
+      "height": 24
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/node/keep_it_cool/unavailable",
+      "condition": {
+        "type": "not",
+        "condition": {
+          "type": "or",
+          "conditions": [
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_6/locked"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_6/unlocking"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_6/unlocked"
+            }
+          ]
+        }
+      },
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/scroll_up"
+      },
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "Keep It Cool",
+            "color": "dark_gray"
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Level ?",
+                "color": "gray"
+              },
+              {
+                "text": "/50",
+                "color": "dark_gray"
+              }
+            ],
+            "italic": false
+          },
+          "",
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Grants ",
+                "color": "gray"
+              },
+              {
+                "text": "+0.4 Heat Resistance",
+                "color": "red"
+              },
+              {
+                "text": ".",
+                "color": "gray"
+              }
+            ],
+            "italic": false
+          },
+          "",
+          {
+            "text": "UNAVAILABLE\n",
+            "color": "gray",
+            "bold": true
+          },
+          {
+            "text": "Click to jump to this perk!",
+            "color": "yellow"
+          }
+        ]
+      },
+      "x": {
+        "offset": 76,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 75,
+        "alignment": "START"
+      },
+      "width": 24,
+      "height": 24
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/node/lonesome_miner/unavailable",
+      "condition": {
+        "type": "not",
+        "condition": {
+          "type": "or",
+          "conditions": [
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_6/locked"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_6/unlocking"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_6/unlocked"
+            }
+          ]
+        }
+      },
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/scroll_up"
+      },
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "Lonesome Miner",
+            "color": "dark_gray"
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Level ?",
+                "color": "gray"
+              },
+              {
+                "text": "/45",
+                "color": "dark_gray"
+              }
+            ],
+            "italic": false
+          },
+          "",
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Increases ",
+                "color": "gray"
+              },
+              {
+                "text": " Strength",
+                "color": "red"
+              },
+              {
+                "text": ", ",
+                "color": "gray"
+              },
+              {
+                "text": " Crit",
+                "color": "blue"
+              }
+            ],
+            "italic": false
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Chance",
+                "color": "blue"
+              },
+              {
+                "text": ", ",
+                "color": "gray"
+              },
+              {
+                "text": " Crit Damage",
+                "color": "blue"
+              },
+              {
+                "text": ", ",
+                "color": "gray"
+              },
+              {
+                "text": " Defense",
+                "color": "green"
+              },
+              {
+                "text": ",",
+                "color": "gray"
+              }
+            ],
+            "italic": false
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "and ",
+                "color": "gray"
+              },
+              {
+                "text": " Health ",
+                "color": "red"
+              },
+              {
+                "text": "statistics gain by ",
+                "color": "gray"
+              },
+              {
+                "text": "5%",
+                "color": "green"
+              }
+            ],
+            "italic": false
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "while on ",
+                "color": "gray"
+              },
+              {
+                "text": "Mining Islands",
+                "color": "aqua"
+              },
+              {
+                "text": ".",
+                "color": "gray"
+              }
+            ],
+            "italic": false
+          },
+          "",
+          {
+            "text": "UNAVAILABLE\n",
+            "color": "gray",
+            "bold": true
+          },
+          {
+            "text": "Click to jump to this perk!",
+            "color": "yellow"
+          }
+        ]
+      },
+      "x": {
+        "offset": 124,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 75,
+        "alignment": "START"
+      },
+      "width": 24,
+      "height": 24
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/node/great_explorer/unavailable",
+      "condition": {
+        "type": "not",
+        "condition": {
+          "type": "or",
+          "conditions": [
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_6/locked"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_6/unlocking"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_6/unlocked"
+            }
+          ]
+        }
+      },
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/scroll_up"
+      },
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "Lonesome Miner",
+            "color": "dark_gray"
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Level ?",
+                "color": "gray"
+              },
+              {
+                "text": "/20",
+                "color": "dark_gray"
+              }
+            ],
+            "italic": false
+          },
+          "",
+          {
+            "text": "Boosts the chance to find treasure",
+            "color": "gray",
+            "italic": false
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "chests while mining in the ",
+                "color": "gray"
+              },
+              {
+                "text": "Crystal",
+                "color": "dark_purple"
+              }
+            ],
+            "italic": false
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Hollows ",
+                "color": "dark_purple"
+              },
+              {
+                "text": "by ",
+                "color": "gray"
+              },
+              {
+                "text": "+",
+                "color": "green"
+              },
+              {
+                "text": "20% ",
+                "color": "green"
+              },
+              {
+                "text": "and reduces the",
+                "color": "gray"
+              }
+            ],
+            "italic": false
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "amount of locks on the chests by ",
+                "color": "gray"
+              },
+              {
+                "text": "1",
+                "color": "green"
+              },
+              {
+                "text": ".",
+                "color": "gray"
+              }
+            ],
+            "italic": false
+          },
+          "",
+          {
+            "text": "UNAVAILABLE\n",
+            "color": "gray",
+            "bold": true
+          },
+          {
+            "text": "Click to jump to this perk!",
+            "color": "yellow"
+          }
+        ]
+      },
+      "x": {
+        "offset": 172,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 75,
+        "alignment": "START"
+      },
+      "width": 24,
+      "height": 24
+    },
+    {
+      "type": "catharsis:button",
       "normal": "eureka:gui_modifiers/skill_tree/hotm/node/maniac_miner/unavailable",
       "condition": {
         "type": "not",
@@ -4919,6 +7279,283 @@
       },
       "width": 37,
       "height": 39
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/node/speedy_mineman/unavailable",
+      "condition": {
+        "type": "not",
+        "condition": {
+          "type": "or",
+          "conditions": [
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_7/locked"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_7/unlocking"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_7/unlocked"
+            }
+          ]
+        }
+      },
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/scroll_up"
+      },
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "Speedy Mineman",
+            "color": "dark_gray"
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Level ?",
+                "color": "gray"
+              },
+              {
+                "text": "/50",
+                "color": "dark_gray"
+              }
+            ],
+            "italic": false
+          },
+          "",
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Grants ",
+                "color": "gray"
+              },
+              {
+                "text": "+40 Mining Speed",
+                "color": "gold"
+              },
+              {
+                "text": ".\n",
+                "color": "gray"
+              }
+            ]
+          },
+          {
+            "text": "UNAVAILABLE\n",
+            "color": "gray",
+            "bold": true
+          },
+          {
+            "text": "Click to jump to this perk!",
+            "color": "yellow"
+          }
+        ]
+      },
+      "x": {
+        "offset": -20,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 27,
+        "alignment": "START"
+      },
+      "width": 24,
+      "height": 24
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/node/powder_buff/unavailable",
+      "condition": {
+        "type": "not",
+        "condition": {
+          "type": "or",
+          "conditions": [
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_7/locked"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_7/unlocking"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_7/unlocked"
+            }
+          ]
+        }
+      },
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/scroll_up"
+      },
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "Powder Buff",
+            "color": "dark_gray"
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Level ?",
+                "color": "gray"
+              },
+              {
+                "text": "/50",
+                "color": "dark_gray"
+              }
+            ],
+            "italic": false
+          },
+          "",
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Gain ",
+                "color": "gray"
+              },
+              {
+                "text": "+",
+                "color": "green"
+              },
+              {
+                "text": "1% ",
+                "color": "green"
+              },
+              {
+                "text": "more Powder from any",
+                "color": "gray"
+              }
+            ],
+            "italic": false
+          },
+          {
+            "text": "source.",
+            "color": "gray",
+            "italic": false
+          },
+          "",
+          {
+            "text": "UNAVAILABLE\n",
+            "color": "gray",
+            "bold": true
+          },
+          {
+            "text": "Click to jump to this perk!",
+            "color": "yellow"
+          }
+        ]
+      },
+      "x": {
+        "offset": 76,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 27,
+        "alignment": "START"
+      },
+      "width": 24,
+      "height": 24
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/node/fortunate_mineman/unavailable",
+      "condition": {
+        "type": "not",
+        "condition": {
+          "type": "or",
+          "conditions": [
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_7/locked"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_7/unlocking"
+            },
+            {
+              "type": "catharsis:has_slot",
+              "slot": "skyblock_gui:skill_tree/hotm/tier_7/unlocked"
+            }
+          ]
+        }
+      },
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/scroll_up"
+      },
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "Fortunate Mineman",
+            "color": "dark_gray"
+          },
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Level ?",
+                "color": "gray"
+              },
+              {
+                "text": "/50",
+                "color": "dark_gray"
+              }
+            ],
+            "italic": false
+          },
+          "",
+          {
+            "text": "",
+            "extra": [
+              {
+                "text": "Grants ",
+                "color": "gray"
+              },
+              {
+                "text": "+3 Mining Fortune",
+                "color": "gold"
+              },
+              {
+                "text": ".",
+                "color": "gray"
+              }
+            ],
+            "italic": false
+          },
+          "",
+          {
+            "text": "UNAVAILABLE\n",
+            "color": "gray",
+            "bold": true
+          },
+          {
+            "text": "Click to jump to this perk!",
+            "color": "yellow"
+          }
+        ]
+      },
+      "x": {
+        "offset": 172,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 27,
+        "alignment": "START"
+      },
+      "width": 24,
+      "height": 24
     },
     {
       "type": "catharsis:button",
