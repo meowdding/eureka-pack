@@ -238,7 +238,7 @@
         "alignment": "CENTER"
       },
       "y": {
-        "offset": 0,
+        "offset": 8,
         "alignment": "CENTER"
       }
     },
@@ -286,7 +286,7 @@
         "alignment": "CENTER"
       },
       "y": {
-        "offset": 0,
+        "offset": 104,
         "alignment": "CENTER"
       }
     },
@@ -310,7 +310,7 @@
         "alignment": "CENTER"
       },
       "y": {
-        "offset": 104,
+        "offset": 152,
         "alignment": "CENTER"
       }
     },
@@ -353,7 +353,7 @@
         "alignment": "CENTER"
       },
       "y": {
-        "offset": 152,
+        "offset": 200,
         "alignment": "CENTER"
       }
     },
