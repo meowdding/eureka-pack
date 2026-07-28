@@ -141,15 +141,15 @@
       "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/mining_speed_boost/locked",
       "layer": "BACKGROUND",
       "x": {
-        "offset": -27,
+        "offset": -20,
         "alignment": "START"
       },
       "y": {
-        "offset": 259,
+        "offset": 267,
         "alignment": "START"
       },
-      "width": 37,
-      "height": 39
+      "width": 24,
+      "height": 24
     },
     {
       "type": "catharsis:sprite",
@@ -160,15 +160,15 @@
       "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/mining_speed_boost/unlocked",
       "layer": "BACKGROUND",
       "x": {
-        "offset": -27,
+        "offset": -20,
         "alignment": "START"
       },
       "y": {
-        "offset": 259,
+        "offset": 267,
         "alignment": "START"
       },
-      "width": 37,
-      "height": 39
+      "width": 24,
+      "height": 24
     },
     {
       "type": "catharsis:sprite",
@@ -179,15 +179,15 @@
       "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/mining_speed_boost/disabled",
       "layer": "BACKGROUND",
       "x": {
-        "offset": -27,
+        "offset": -20,
         "alignment": "START"
       },
       "y": {
-        "offset": 259,
+        "offset": 267,
         "alignment": "START"
       },
-      "width": 37,
-      "height": 39
+      "width": 24,
+      "height": 24
     },
     {
       "type": "catharsis:sprite",
@@ -426,15 +426,15 @@
       "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/pickobulus/locked",
       "layer": "BACKGROUND",
       "x": {
-        "offset": 165,
+        "offset": 172,
         "alignment": "START"
       },
       "y": {
-        "offset": 259,
+        "offset": 267,
         "alignment": "START"
       },
-      "width": 37,
-      "height": 39
+      "width": 24,
+      "height": 24
     },
     {
       "type": "catharsis:sprite",
@@ -445,15 +445,15 @@
       "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/pickobulus/unlocked",
       "layer": "BACKGROUND",
       "x": {
-        "offset": 165,
+        "offset": 172,
         "alignment": "START"
       },
       "y": {
-        "offset": 259,
+        "offset": 267,
         "alignment": "START"
       },
-      "width": 37,
-      "height": 39
+      "width": 24,
+      "height": 24
     },
     {
       "type": "catharsis:sprite",
@@ -464,15 +464,15 @@
       "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/pickobulus/disabled",
       "layer": "BACKGROUND",
       "x": {
-        "offset": 165,
+        "offset": 172,
         "alignment": "START"
       },
       "y": {
-        "offset": 259,
+        "offset": 267,
         "alignment": "START"
       },
-      "width": 37,
-      "height": 39
+      "width": 24,
+      "height": 24
     },
     {
       "type": "catharsis:sprite",
@@ -1604,15 +1604,15 @@
       "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/tunnel_vision/locked",
       "layer": "BACKGROUND",
       "x": {
-        "offset": -75,
+        "offset": -68,
         "alignment": "START"
       },
       "y": {
-        "offset": 67,
+        "offset": 75,
         "alignment": "START"
       },
-      "width": 37,
-      "height": 39
+      "width": 24,
+      "height": 24
     },
     {
       "type": "catharsis:sprite",
@@ -1621,17 +1621,16 @@
         "slot": "skyblock_gui:skill_tree/hotm/tunnel_vision/unlocked"
       },
       "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/tunnel_vision/unlocked",
-      "layer": "BACKGROUND",
       "x": {
-        "offset": -75,
+        "offset": -68,
         "alignment": "START"
       },
       "y": {
-        "offset": 67,
+        "offset": 75,
         "alignment": "START"
       },
-      "width": 37,
-      "height": 39
+      "width": 24,
+      "height": 24
     },
     {
       "type": "catharsis:sprite",
@@ -1642,15 +1641,15 @@
       "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/tunnel_vision/disabled",
       "layer": "BACKGROUND",
       "x": {
-        "offset": -75,
+        "offset": -68,
         "alignment": "START"
       },
       "y": {
-        "offset": 67,
+        "offset": 75,
         "alignment": "START"
       },
-      "width": 37,
-      "height": 39
+      "width": 24,
+      "height": 24
     },
     {
       "type": "catharsis:sprite",
@@ -2041,15 +2040,15 @@
       "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/maniac_miner/locked",
       "layer": "BACKGROUND",
       "x": {
-        "offset": 213,
+        "offset": 220,
         "alignment": "START"
       },
       "y": {
-        "offset": 67,
+        "offset": 75,
         "alignment": "START"
       },
-      "width": 37,
-      "height": 39
+      "width": 24,
+      "height": 24
     },
     {
       "type": "catharsis:sprite",
@@ -2060,15 +2059,15 @@
       "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/maniac_miner/unlocked",
       "layer": "BACKGROUND",
       "x": {
-        "offset": 213,
+        "offset": 220,
         "alignment": "START"
       },
       "y": {
-        "offset": 67,
+        "offset": 75,
         "alignment": "START"
       },
-      "width": 37,
-      "height": 39
+      "width": 24,
+      "height": 24
     },
     {
       "type": "catharsis:sprite",
@@ -2079,15 +2078,15 @@
       "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/maniac_miner/disabled",
       "layer": "BACKGROUND",
       "x": {
-        "offset": 213,
+        "offset": 220,
         "alignment": "START"
       },
       "y": {
-        "offset": 67,
+        "offset": 75,
         "alignment": "START"
       },
-      "width": 37,
-      "height": 39
+      "width": 24,
+      "height": 24
     },
     {
       "type": "catharsis:sprite",
@@ -3086,15 +3085,15 @@
       "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/gemstone_infusion/locked",
       "layer": "BACKGROUND",
       "x": {
-        "offset": -75,
+        "offset": -68,
         "alignment": "START"
       },
       "y": {
-        "offset": -125,
+        "offset": -117,
         "alignment": "START"
       },
-      "width": 37,
-      "height": 39
+      "width": 24,
+      "height": 24
     },
     {
       "type": "catharsis:sprite",
@@ -3105,15 +3104,15 @@
       "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/gemstone_infusion/unlocked",
       "layer": "BACKGROUND",
       "x": {
-        "offset": -75,
+        "offset": -68,
         "alignment": "START"
       },
       "y": {
-        "offset": -125,
+        "offset": -117,
         "alignment": "START"
       },
-      "width": 37,
-      "height": 39
+      "width": 24,
+      "height": 24
     },
     {
       "type": "catharsis:sprite",
@@ -3124,15 +3123,15 @@
       "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/gemstone_infusion/disabled",
       "layer": "BACKGROUND",
       "x": {
-        "offset": -75,
+        "offset": -68,
         "alignment": "START"
       },
       "y": {
-        "offset": -125,
+        "offset": -117,
         "alignment": "START"
       },
-      "width": 37,
-      "height": 39
+      "width": 24,
+      "height": 24
     },
     {
       "type": "catharsis:sprite",
@@ -3523,15 +3522,15 @@
       "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/sheer_force/locked",
       "layer": "BACKGROUND",
       "x": {
-        "offset": 213,
+        "offset": 220,
         "alignment": "START"
       },
       "y": {
-        "offset": -125,
+        "offset": -117,
         "alignment": "START"
       },
-      "width": 37,
-      "height": 39
+      "width": 24,
+      "height": 24
     },
     {
       "type": "catharsis:sprite",
@@ -3542,15 +3541,15 @@
       "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/sheer_force/unlocked",
       "layer": "BACKGROUND",
       "x": {
-        "offset": 213,
+        "offset": 220,
         "alignment": "START"
       },
       "y": {
-        "offset": -125,
+        "offset": -117,
         "alignment": "START"
       },
-      "width": 37,
-      "height": 39
+      "width": 24,
+      "height": 24
     },
     {
       "type": "catharsis:sprite",
@@ -3561,15 +3560,15 @@
       "sprite": "eureka:gui_modifiers/skill_tree/hotm/node/sheer_force/disabled",
       "layer": "BACKGROUND",
       "x": {
-        "offset": 213,
+        "offset": 220,
         "alignment": "START"
       },
       "y": {
-        "offset": -125,
+        "offset": -117,
         "alignment": "START"
       },
-      "width": 37,
-      "height": 39
+      "width": 24,
+      "height": 24
     }
   ],
   "widgets": [
@@ -4161,15 +4160,15 @@
         ]
       },
       "x": {
-        "offset": -27,
+        "offset": -20,
         "alignment": "START"
       },
       "y": {
-        "offset": 259,
+        "offset": 267,
         "alignment": "START"
       },
-      "width": 37,
-      "height": 39
+      "width": 24,
+      "height": 24
     },
     {
       "type": "catharsis:button",
@@ -4621,15 +4620,15 @@
         ]
       },
       "x": {
-        "offset": 165,
+        "offset": 172,
         "alignment": "START"
       },
       "y": {
-        "offset": 259,
+        "offset": 267,
         "alignment": "START"
       },
-      "width": 37,
-      "height": 39
+      "width": 24,
+      "height": 24
     },
     {
       "type": "catharsis:button",
@@ -6444,15 +6443,15 @@
         ]
       },
       "x": {
-        "offset": -75,
+        "offset": -68,
         "alignment": "START"
       },
       "y": {
-        "offset": 67,
+        "offset": 75,
         "alignment": "START"
       },
-      "width": 37,
-      "height": 39
+      "width": 24,
+      "height": 24
     },
     {
       "type": "catharsis:button",
@@ -7211,15 +7210,15 @@
         ]
       },
       "x": {
-        "offset": 213,
+        "offset": 220,
         "alignment": "START"
       },
       "y": {
-        "offset": 67,
+        "offset": 75,
         "alignment": "START"
       },
-      "width": 37,
-      "height": 39
+      "width": 24,
+      "height": 24
     },
     {
       "type": "catharsis:button",
@@ -8740,15 +8739,15 @@
         ]
       },
       "x": {
-        "offset": -75,
+        "offset": -68,
         "alignment": "START"
       },
       "y": {
-        "offset": -125,
+        "offset": -117,
         "alignment": "START"
       },
-      "width": 37,
-      "height": 39
+      "width": 24,
+      "height": 24
     },
     {
       "type": "catharsis:button",
@@ -9425,15 +9424,15 @@
         ]
       },
       "x": {
-        "offset": 213,
+        "offset": 220,
         "alignment": "START"
       },
       "y": {
-        "offset": -125,
+        "offset": -117,
         "alignment": "START"
       },
-      "width": 37,
-      "height": 39
+      "width": 24,
+      "height": 24
     }
   ],
   "slots": {
@@ -10155,8 +10154,12 @@
     "skyblock_gui:generic/miscellaneous/filler": {
       "hidden": true
     },
-    "skyblock_gui:generic/navigation/scroll_up": {},
-    "skyblock_gui:generic/navigation/scroll_down": {},
+    "skyblock_gui:generic/navigation/scroll_up": {
+      "hidden": true
+    },
+    "skyblock_gui:generic/navigation/scroll_down": {
+      "hidden": true
+    },
     "skyblock_gui:skill_tree/hotm/loadout": {
       "hidden": true
     },

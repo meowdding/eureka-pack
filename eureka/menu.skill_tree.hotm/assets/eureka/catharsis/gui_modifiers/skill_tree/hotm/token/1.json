@@ -336,6 +336,437 @@
         "type": "and",
         "conditions": [
           {
+            "type": "catharsis:has_slot",
+            "slot": "skyblock_gui:skill_tree/hotm/seasoned_mineman/locked"
+          },
+          {
+            "type": "or",
+            "conditions": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "type": "catharsis:has_slot",
+                    "slot": "skyblock_gui:skill_tree/hotm/gem_lover/unlocked"
+                  },
+                  {
+                    "type": "catharsis:has_slot",
+                    "slot": "skyblock_gui:skill_tree/hotm/gem_lover/maxed"
+                  },
+                  {
+                    "type": "catharsis:has_slot",
+                    "slot": "skyblock_gui:skill_tree/hotm/gem_lover/disabled"
+                  }
+                ]
+              },
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "type": "catharsis:has_slot",
+                    "slot": "skyblock_gui:skill_tree/hotm/daily_powder/unlocked"
+                  },
+                  {
+                    "type": "catharsis:has_slot",
+                    "slot": "skyblock_gui:skill_tree/hotm/daily_powder/maxed"
+                  },
+                  {
+                    "type": "catharsis:has_slot",
+                    "slot": "skyblock_gui:skill_tree/hotm/daily_powder/disabled"
+                  }
+                ]
+              },
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "type": "catharsis:has_slot",
+                    "slot": "skyblock_gui:skill_tree/hotm/quick_forge/unlocked"
+                  },
+                  {
+                    "type": "catharsis:has_slot",
+                    "slot": "skyblock_gui:skill_tree/hotm/quick_forge/maxed"
+                  },
+                  {
+                    "type": "catharsis:has_slot",
+                    "slot": "skyblock_gui:skill_tree/hotm/quick_forge/disabled"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/branch/locked/frame",
+      "layer": "FOREGROUND",
+      "x": {
+        "offset": 168,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 167,
+        "alignment": "START"
+      },
+      "width": 32,
+      "height": 32
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "and",
+        "conditions": [
+          {
+            "type": "catharsis:has_slot",
+            "slot": "skyblock_gui:skill_tree/hotm/quick_forge/locked"
+          },
+          {
+            "type": "or",
+            "conditions": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "type": "catharsis:has_slot",
+                    "slot": "skyblock_gui:skill_tree/hotm/seasoned_mineman/unlocked"
+                  },
+                  {
+                    "type": "catharsis:has_slot",
+                    "slot": "skyblock_gui:skill_tree/hotm/seasoned_mineman/maxed"
+                  },
+                  {
+                    "type": "catharsis:has_slot",
+                    "slot": "skyblock_gui:skill_tree/hotm/seasoned_mineman/disabled"
+                  }
+                ]
+              },
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "type": "catharsis:has_slot",
+                    "slot": "skyblock_gui:skill_tree/hotm/pickobulus/unlocked"
+                  },
+                  {
+                    "type": "catharsis:has_slot",
+                    "slot": "skyblock_gui:skill_tree/hotm/pickobulus/maxed"
+                  },
+                  {
+                    "type": "catharsis:has_slot",
+                    "slot": "skyblock_gui:skill_tree/hotm/pickobulus/disabled"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/branch/locked/frame",
+      "layer": "FOREGROUND",
+      "x": {
+        "offset": 168,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 215,
+        "alignment": "START"
+      },
+      "width": 32,
+      "height": 32
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "and",
+        "conditions": [
+          {
+            "type": "catharsis:has_slot",
+            "slot": "skyblock_gui:skill_tree/hotm/front_loaded/locked"
+          },
+          {
+            "type": "or",
+            "conditions": [
+              {
+                "type": "catharsis:has_slot",
+                "slot": "skyblock_gui:skill_tree/hotm/seasoned_mineman/unlocked"
+              },
+              {
+                "type": "catharsis:has_slot",
+                "slot": "skyblock_gui:skill_tree/hotm/seasoned_mineman/maxed"
+              },
+              {
+                "type": "catharsis:has_slot",
+                "slot": "skyblock_gui:skill_tree/hotm/seasoned_mineman/disabled"
+              }
+            ]
+          }
+        ]
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/branch/locked/frame",
+      "layer": "FOREGROUND",
+      "x": {
+        "offset": 216,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 167,
+        "alignment": "START"
+      },
+      "width": 32,
+      "height": 32
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "and",
+        "conditions": [
+          {
+            "type": "catharsis:has_slot",
+            "slot": "skyblock_gui:skill_tree/hotm/professional/locked"
+          },
+          {
+            "type": "or",
+            "conditions": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "type": "catharsis:has_slot",
+                    "slot": "skyblock_gui:skill_tree/hotm/mole/unlocked"
+                  },
+                  {
+                    "type": "catharsis:has_slot",
+                    "slot": "skyblock_gui:skill_tree/hotm/mole/maxed"
+                  },
+                  {
+                    "type": "catharsis:has_slot",
+                    "slot": "skyblock_gui:skill_tree/hotm/mole/disabled"
+                  }
+                ]
+              },
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "type": "catharsis:has_slot",
+                    "slot": "skyblock_gui:skill_tree/hotm/old_school/unlocked"
+                  },
+                  {
+                    "type": "catharsis:has_slot",
+                    "slot": "skyblock_gui:skill_tree/hotm/old_school/maxed"
+                  },
+                  {
+                    "type": "catharsis:has_slot",
+                    "slot": "skyblock_gui:skill_tree/hotm/old_school/disabled"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/branch/locked/frame",
+      "layer": "FOREGROUND",
+      "x": {
+        "offset": 24,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 167,
+        "alignment": "START"
+      },
+      "width": 32,
+      "height": 32
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "and",
+        "conditions": [
+          {
+            "type": "catharsis:has_slot",
+            "slot": "skyblock_gui:skill_tree/hotm/old_school/locked"
+          },
+          {
+            "type": "or",
+            "conditions": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "type": "catharsis:has_slot",
+                    "slot": "skyblock_gui:skill_tree/hotm/daily_grind/unlocked"
+                  },
+                  {
+                    "type": "catharsis:has_slot",
+                    "slot": "skyblock_gui:skill_tree/hotm/daily_grind/maxed"
+                  },
+                  {
+                    "type": "catharsis:has_slot",
+                    "slot": "skyblock_gui:skill_tree/hotm/daily_grind/disabled"
+                  }
+                ]
+              },
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "type": "catharsis:has_slot",
+                    "slot": "skyblock_gui:skill_tree/hotm/professional/unlocked"
+                  },
+                  {
+                    "type": "catharsis:has_slot",
+                    "slot": "skyblock_gui:skill_tree/hotm/professional/maxed"
+                  },
+                  {
+                    "type": "catharsis:has_slot",
+                    "slot": "skyblock_gui:skill_tree/hotm/professional/disabled"
+                  }
+                ]
+              },
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "type": "catharsis:has_slot",
+                    "slot": "skyblock_gui:skill_tree/hotm/luck_of_the_cave/unlocked"
+                  },
+                  {
+                    "type": "catharsis:has_slot",
+                    "slot": "skyblock_gui:skill_tree/hotm/luck_of_the_cave/maxed"
+                  },
+                  {
+                    "type": "catharsis:has_slot",
+                    "slot": "skyblock_gui:skill_tree/hotm/luck_of_the_cave/disabled"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/branch/locked/frame",
+      "layer": "FOREGROUND",
+      "x": {
+        "offset": -24,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 167,
+        "alignment": "START"
+      },
+      "width": 32,
+      "height": 32
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "and",
+        "conditions": [
+          {
+            "type": "catharsis:has_slot",
+            "slot": "skyblock_gui:skill_tree/hotm/sky_mall/locked"
+          },
+          {
+            "type": "or",
+            "conditions": [
+              {
+                "type": "catharsis:has_slot",
+                "slot": "skyblock_gui:skill_tree/hotm/old_school/unlocked"
+              },
+              {
+                "type": "catharsis:has_slot",
+                "slot": "skyblock_gui:skill_tree/hotm/old_school/maxed"
+              },
+              {
+                "type": "catharsis:has_slot",
+                "slot": "skyblock_gui:skill_tree/hotm/old_school/disabled"
+              }
+            ]
+          }
+        ]
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/branch/locked/frame",
+      "layer": "FOREGROUND",
+      "x": {
+        "offset": -72,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 167,
+        "alignment": "START"
+      },
+      "width": 32,
+      "height": 32
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "and",
+        "conditions": [
+          {
+            "type": "catharsis:has_slot",
+            "slot": "skyblock_gui:skill_tree/hotm/luck_of_the_cave/locked"
+          },
+          {
+            "type": "or",
+            "conditions": [
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "type": "catharsis:has_slot",
+                    "slot": "skyblock_gui:skill_tree/hotm/old_school/unlocked"
+                  },
+                  {
+                    "type": "catharsis:has_slot",
+                    "slot": "skyblock_gui:skill_tree/hotm/old_school/maxed"
+                  },
+                  {
+                    "type": "catharsis:has_slot",
+                    "slot": "skyblock_gui:skill_tree/hotm/old_school/disabled"
+                  }
+                ]
+              },
+              {
+                "type": "or",
+                "conditions": [
+                  {
+                    "type": "catharsis:has_slot",
+                    "slot": "skyblock_gui:skill_tree/hotm/mining_speed_boost/unlocked"
+                  },
+                  {
+                    "type": "catharsis:has_slot",
+                    "slot": "skyblock_gui:skill_tree/hotm/mining_speed_boost/maxed"
+                  },
+                  {
+                    "type": "catharsis:has_slot",
+                    "slot": "skyblock_gui:skill_tree/hotm/mining_speed_boost/disabled"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/branch/locked/frame",
+      "layer": "FOREGROUND",
+      "x": {
+        "offset": -24,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 215,
+        "alignment": "START"
+      },
+      "width": 32,
+      "height": 32
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "and",
+        "conditions": [
+          {
             "type": "or",
             "conditions": [
               {
