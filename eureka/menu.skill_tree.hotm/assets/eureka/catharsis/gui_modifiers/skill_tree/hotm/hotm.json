@@ -3888,8 +3888,16 @@
       },
       "normal": "eureka:gui_modifiers/skill_tree/hotm/navigation/scroll_up",
       "interaction": {
-        "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_up"
+        "left": {
+          "type": "catharsis:slot_id",
+          "slot": "skyblock_gui:generic/navigation/scroll_up",
+          "alwaysMiddleClick": false
+        },
+        "right": {
+          "type": "catharsis:slot_id",
+          "slot": "skyblock_gui:generic/navigation/scroll_up",
+          "alwaysMiddleClick": false
+        }
       },
       "tooltip": [
         {
@@ -3916,8 +3924,16 @@
       },
       "normal": "eureka:gui_modifiers/skill_tree/hotm/navigation/scroll_down",
       "interaction": {
-        "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_down"
+        "left": {
+          "type": "catharsis:slot_id",
+          "slot": "skyblock_gui:generic/navigation/scroll_down",
+          "alwaysMiddleClick": false
+        },
+        "right": {
+          "type": "catharsis:slot_id",
+          "slot": "skyblock_gui:generic/navigation/scroll_down",
+          "alwaysMiddleClick": false
+        }
       },
       "tooltip": [
         {

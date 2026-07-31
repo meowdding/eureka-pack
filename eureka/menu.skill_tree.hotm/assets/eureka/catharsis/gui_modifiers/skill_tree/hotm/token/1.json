@@ -2733,6 +2733,47 @@
         "type": "and",
         "conditions": [
           {
+            "type": "catharsis:has_slot",
+            "slot": "skyblock_gui:skill_tree/hotm/mineshaft_mayhem/locked"
+          },
+          {
+            "type": "or",
+            "conditions": [
+              {
+                "type": "catharsis:has_slot",
+                "slot": "skyblock_gui:skill_tree/hotm/surveyor/unlocked"
+              },
+              {
+                "type": "catharsis:has_slot",
+                "slot": "skyblock_gui:skill_tree/hotm/surveyor/maxed"
+              },
+              {
+                "type": "catharsis:has_slot",
+                "slot": "skyblock_gui:skill_tree/hotm/surveyor/disabled"
+              }
+            ]
+          }
+        ]
+      },
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/branch/locked/frame",
+      "layer": "FOREGROUND",
+      "x": {
+        "offset": 216,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -25,
+        "alignment": "START"
+      },
+      "width": 32,
+      "height": 32
+    },
+    {
+      "type": "catharsis:sprite",
+      "condition": {
+        "type": "and",
+        "conditions": [
+          {
             "type": "or",
             "conditions": [
               {

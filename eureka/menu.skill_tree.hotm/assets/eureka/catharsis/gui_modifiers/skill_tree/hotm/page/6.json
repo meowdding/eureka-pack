@@ -9,7 +9,7 @@
       "type": "catharsis:sprite",
       "sprite": "eureka:gui_modifiers/skill_tree/hotm/background/6",
       "layer": "BACKGROUND",
-      "width": 368,
+      "width": 484,
       "height": 512,
       "x": {
         "offset": -184,
