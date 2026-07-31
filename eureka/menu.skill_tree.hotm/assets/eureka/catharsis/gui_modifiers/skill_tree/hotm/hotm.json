@@ -15,50 +15,6 @@
     {
       "type": "catharsis:sprite",
       "condition": {
-        "type": "not",
-        "condition": {
-          "type": "catharsis:has_slot",
-          "slot": "skyblock_gui:generic/navigation/scroll_up"
-        }
-      },
-      "sprite": "eureka:gui_modifiers/skill_tree/hotm/navigation/scroll_up_unavailable",
-      "layer": "BACKGROUND",
-      "width": 32,
-      "height": 32,
-      "x": {
-        "offset": 248,
-        "alignment": "CENTER"
-      },
-      "y": {
-        "offset": -40,
-        "alignment": "CENTER"
-      }
-    },
-    {
-      "type": "catharsis:sprite",
-      "condition": {
-        "type": "not",
-        "condition": {
-          "type": "catharsis:has_slot",
-          "slot": "skyblock_gui:generic/navigation/scroll_down"
-        }
-      },
-      "sprite": "eureka:gui_modifiers/skill_tree/hotm/navigation/scroll_down_unavailable",
-      "layer": "BACKGROUND",
-      "width": 32,
-      "height": 32,
-      "x": {
-        "offset": 248,
-        "alignment": "CENTER"
-      },
-      "y": {
-        "offset": 8,
-        "alignment": "CENTER"
-      }
-    },
-    {
-      "type": "catharsis:sprite",
-      "condition": {
         "type": "catharsis:has_slot",
         "slot": "skyblock_gui:skill_tree/hotm/mining_speed/locked"
       },
@@ -3884,25 +3840,25 @@
       "type": "catharsis:button",
       "condition": {
         "type": "catharsis:has_slot",
-        "slot": "skyblock_gui:generic/navigation/scroll_up"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_up"
       },
       "normal": "eureka:gui_modifiers/skill_tree/hotm/navigation/scroll_up",
       "interaction": {
         "left": {
           "type": "catharsis:slot_id",
-          "slot": "skyblock_gui:generic/navigation/scroll_up",
+          "slot": "eureka:skill_tree/hotm/navigation/scroll_up",
           "alwaysMiddleClick": false
         },
         "right": {
           "type": "catharsis:slot_id",
-          "slot": "skyblock_gui:generic/navigation/scroll_up",
+          "slot": "eureka:skill_tree/hotm/navigation/scroll_up",
           "alwaysMiddleClick": false
         }
       },
       "tooltip": [
         {
           "type": "catharsis:slot_id",
-          "slot": "skyblock_gui:generic/navigation/scroll_up"
+          "slot": "eureka:skill_tree/hotm/navigation/scroll_up"
         }
       ],
       "width": 32,
@@ -3920,25 +3876,25 @@
       "type": "catharsis:button",
       "condition": {
         "type": "catharsis:has_slot",
-        "slot": "skyblock_gui:generic/navigation/scroll_down"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_down"
       },
       "normal": "eureka:gui_modifiers/skill_tree/hotm/navigation/scroll_down",
       "interaction": {
         "left": {
           "type": "catharsis:slot_id",
-          "slot": "skyblock_gui:generic/navigation/scroll_down",
+          "slot": "eureka:skill_tree/hotm/navigation/scroll_down",
           "alwaysMiddleClick": false
         },
         "right": {
           "type": "catharsis:slot_id",
-          "slot": "skyblock_gui:generic/navigation/scroll_down",
+          "slot": "eureka:skill_tree/hotm/navigation/scroll_down",
           "alwaysMiddleClick": false
         }
       },
       "tooltip": [
         {
           "type": "catharsis:slot_id",
-          "slot": "skyblock_gui:generic/navigation/scroll_down"
+          "slot": "eureka:skill_tree/hotm/navigation/scroll_down"
         }
       ],
       "width": 32,
@@ -3977,7 +3933,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_down"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_down"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -4063,7 +4019,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_down"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_down"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -4211,7 +4167,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_down"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_down"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -4327,7 +4283,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_down"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_down"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -4413,7 +4369,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_down"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_down"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -4530,7 +4486,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_down"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_down"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -4671,7 +4627,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_down"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_down"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -4815,7 +4771,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_down"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_down"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -4903,7 +4859,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_down"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_down"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -5002,7 +4958,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_down"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_down"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -5225,7 +5181,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_down"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_down"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -5313,7 +5269,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_down"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_down"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -5404,7 +5360,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_down"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_down"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -5495,7 +5451,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_down"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_down"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -5583,7 +5539,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_down"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_down"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -5671,7 +5627,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_down"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_down"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -5758,7 +5714,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_down"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_down"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -5885,7 +5841,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_down"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_down"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -6049,7 +6005,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_down"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_down"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -6119,7 +6075,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_down"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_down"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -6279,7 +6235,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_up"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_up"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -6494,7 +6450,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_up"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_up"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -6582,7 +6538,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_up"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_up"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -6696,7 +6652,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_up"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_up"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -6784,7 +6740,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_up"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_up"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -6943,7 +6899,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_up"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_up"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -7073,7 +7029,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_up"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_up"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -7261,7 +7217,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_up"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_up"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -7348,7 +7304,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_up"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_up"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -7444,7 +7400,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_up"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_up"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -7532,7 +7488,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_up"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_up"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -7623,7 +7579,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_up"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_up"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -7732,7 +7688,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_up"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_up"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -7833,7 +7789,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_up"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_up"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -7938,7 +7894,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_up"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_up"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -8026,7 +7982,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_up"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_up"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -8134,7 +8090,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_up"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_up"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -8342,7 +8298,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_up"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_up"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -8430,7 +8386,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_up"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_up"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -8531,7 +8487,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_up"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_up"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -8632,7 +8588,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_up"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_up"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -8790,7 +8746,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_up"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_up"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -8899,7 +8855,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_up"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_up"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -9015,7 +8971,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_up"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_up"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -9103,7 +9059,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_up"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_up"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -9225,7 +9181,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_up"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_up"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -9334,7 +9290,7 @@
       },
       "interaction": {
         "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/scroll_up"
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_up"
       },
       "tooltip": {
         "type": "catharsis:text",
@@ -9449,6 +9405,464 @@
       },
       "width": 24,
       "height": 24
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/reset_heart_of_the_mountain/available",
+      "shape": "DIAMOND",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/reset_heart_of_the_mountain"
+      },
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skill_tree/hotm/reset_heart_of_the_mountain"
+      },
+      "tooltip": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skill_tree/hotm/reset_heart_of_the_mountain"
+      },
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": -224,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -56,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/reset_heart_of_the_mountain/unavailable",
+      "shape": "DIAMOND",
+      "condition": {
+        "type": "catharsis:not",
+        "condition": {
+          "type": "catharsis:has_slot",
+          "slot": "skyblock_gui:skill_tree/hotm/reset_heart_of_the_mountain"
+        }
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:text",
+          "text": {
+            "text": "You don't have any HotM\nperks unlocked!",
+            "color": "red"
+          }
+        }
+      ],
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": -224,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -56,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/loadout",
+      "shape": "DIAMOND",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skill_tree/hotm/loadout"
+      },
+      "tooltip": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skill_tree/hotm/loadout"
+      },
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": -256,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -56,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/rng_meter",
+      "shape": "DIAMOND",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skill_tree/hotm/rng_meter"
+      },
+      "tooltip": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skill_tree/hotm/rng_meter"
+      },
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": -256,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -24,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/crystal_hollows_crystals",
+      "shape": "DIAMOND",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skill_tree/hotm/crystal_hollows_crystals"
+      },
+      "tooltip": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skill_tree/hotm/crystal_hollows_crystals"
+      },
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": -224,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -24,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/icon",
+      "shape": "DIAMOND",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "eureka:skill_tree/hotm/icon/1"
+      },
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "eureka:skill_tree/hotm/icon/1"
+      },
+      "tooltip": {
+        "type": "catharsis:slot_id",
+        "slot": "eureka:skill_tree/hotm/icon/1"
+      },
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": -240,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -40,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/icon",
+      "shape": "DIAMOND",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "eureka:skill_tree/hotm/icon/0"
+      },
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "eureka:skill_tree/hotm/icon/0"
+      },
+      "tooltip": {
+        "type": "catharsis:slot_id",
+        "slot": "eureka:skill_tree/hotm/icon/0"
+      },
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": -296,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -16,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/tier/unlocked/10",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skill_tree/hotm/icon"
+      },
+      "shape": "DIAMOND",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/tier_10/unlocked"
+      },
+      "tooltip": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skill_tree/hotm/tier_10/unlocked"
+      },
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": 200,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -232,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/tier/unlocked/9",
+      "shape": "DIAMOND",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/tier_9/unlocked"
+      },
+      "tooltip": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skill_tree/hotm/tier_9/unlocked"
+      },
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": 200,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -184,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/tier/unlocked/8",
+      "shape": "DIAMOND",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/tier_8/unlocked"
+      },
+      "tooltip": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skill_tree/hotm/tier_8/unlocked"
+      },
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": 200,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -136,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/tier/unlocked/7",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/tier_7/unlocked"
+      },
+      "tooltip": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skill_tree/hotm/tier_7/unlocked"
+      },
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": 200,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -88,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/tier/unlocked/6",
+      "shape": "DIAMOND",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/tier_6/unlocked"
+      },
+      "tooltip": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skill_tree/hotm/tier_6/unlocked"
+      },
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": 200,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -40,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/tier/unlocked/5",
+      "shape": "DIAMOND",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/tier_5/unlocked"
+      },
+      "tooltip": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skill_tree/hotm/tier_5/unlocked"
+      },
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": 200,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": 8,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/tier/unlocked/4",
+      "shape": "DIAMOND",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/tier_4/unlocked"
+      },
+      "tooltip": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skill_tree/hotm/tier_4/unlocked"
+      },
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": 200,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": 56,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/tier/unlocked/3",
+      "shape": "DIAMOND",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/tier_3/unlocked"
+      },
+      "tooltip": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skill_tree/hotm/tier_3/unlocked"
+      },
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": 200,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": 104,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/tier/unlocked/2",
+      "shape": "DIAMOND",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/tier_2/unlocked"
+      },
+      "tooltip": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skill_tree/hotm/tier_2/unlocked"
+      },
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": 200,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": 152,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/tier/unlocked/1",
+      "shape": "DIAMOND",
+      "condition": {
+        "type": "catharsis:has_slot",
+        "slot": "skyblock_gui:skill_tree/hotm/tier_1/unlocked"
+      },
+      "tooltip": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skill_tree/hotm/tier_1/unlocked"
+      },
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": 200,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": 200,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/navigation/go_back",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "eureka:skill_tree/hotm/navigation/go_back"
+      },
+      "tooltip": {
+        "type": "catharsis:slot_id",
+        "slot": "eureka:skill_tree/hotm/navigation/go_back"
+      },
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": -216,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": 32,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/navigation/close",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "eureka:skill_tree/hotm/navigation/close"
+      },
+      "tooltip": {
+        "type": "catharsis:slot_id",
+        "slot": "eureka:skill_tree/hotm/navigation/close"
+      },
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": -264,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": 32,
+        "alignment": "CENTER"
+      }
     }
   ],
   "slots": {
@@ -10162,18 +10576,18 @@
       "highlightable": false
     },
     "skyblock_gui:generic/navigation/close": {
-      "position": { "x": 80, "y": 367 }
+      "hidden": true
     },
     "skyblock_gui:generic/navigation/go_back": {
-      "position": { "x": 64, "y": 367 }
+      "hidden": true
     },
     "skyblock_gui:generic/miscellaneous/filler": {
       "hidden": true
     },
-    "skyblock_gui:generic/navigation/scroll_up": {
+    "eureka:skill_tree/hotm/navigation/scroll_up": {
       "hidden": true
     },
-    "skyblock_gui:generic/navigation/scroll_down": {
+    "eureka:skill_tree/hotm/navigation/scroll_down": {
       "hidden": true
     },
     "skyblock_gui:skill_tree/hotm/loadout": {

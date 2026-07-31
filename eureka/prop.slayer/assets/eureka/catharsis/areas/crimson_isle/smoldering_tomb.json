@@ -1,0 +1,7 @@
+{
+  "_comment": "Smoldering tomb on the Crimson Isle",
+  "type": "simple",
+  "box": { "min": "-220:145:-1046", "max": "-388:70:-925" },
+  "islands": "crimson_isle",
+  "min_size": 4
+}

@@ -1,0 +1,40 @@
+{
+  "target": {
+    "title": "Heart of the Mountain",
+    "type": "catharsis:title"
+  },
+  "layout": [
+    {
+      "id": "eureka:skill_tree/hotm/navigation/scroll_up",
+      "target": {
+        "type": "catharsis:name",
+        "mode": "equals",
+        "name": "Scroll Up"
+      }
+    },
+    {
+      "id": "eureka:skill_tree/hotm/navigation/scroll_down",
+      "target": {
+        "type": "catharsis:name",
+        "mode": "equals",
+        "name": "Scroll Down"
+      }
+    },
+    {
+      "id": "eureka:skill_tree/hotm/navigation/go_back",
+      "target": {
+        "type": "catharsis:name",
+        "mode": "equals",
+        "name": "Go Back"
+      }
+    },
+    {
+      "id": "eureka:skill_tree/hotm/navigation/close",
+      "target": {
+        "type": "catharsis:name",
+        "mode": "equals",
+        "name": "Close"
+      }
+    }
+  ]
+}

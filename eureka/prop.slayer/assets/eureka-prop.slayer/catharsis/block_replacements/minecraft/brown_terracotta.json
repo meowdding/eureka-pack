@@ -2,159 +2,123 @@
   "type": "layered",
   "definitions": [
     {
-      "type": "conditional",
-      "definition": {
-        "type": "redirect",
-        "virtual_state": "eureka:generic/slayer/inferno_demonlord/fire_pillar_0"
-      },
-      "condition": {
-        "type": "all",
-        "conditions": [
-          { "type": "in_island", "island": "crimson_isle" },
-          {
-            "type": "any",
-            "conditions": [
-              {
-                "type": "all",
-                "conditions": [
-                  {
-                    "type": "relative",
-                    "offset": "0:3:0",
-                    "condition": {
-                      "type": "id",
-                      "block": "minecraft:yellow_terracotta"
-                    }
-                  },
-                  {
-                    "type": "relative",
-                    "offset": "0:2:0",
-                    "condition": {
-                      "type": "id",
-                      "block": "minecraft:orange_terracotta"
-                    }
-                  },
-                  {
-                    "type": "relative",
-                    "offset": "0:1:0",
-                    "condition": {
-                      "type": "id",
-                      "block": "minecraft:red_terracotta"
-                    }
-                  }
-                ]
+      "type": "catharsis:per_area",
+      "entries": {
+        "eureka:crimson_isle/smoldering_tomb": {
+          "type": "select",
+          "definitions": [
+            {
+              "type": "conditional",
+              "definition": {
+                "type": "redirect",
+                "virtual_state": "eureka:generic/slayer/inferno_demonlord/fire_pillar_0"
               },
-              {
-                "type": "all",
+              "condition": {
+                "type": "any",
                 "conditions": [
                   {
-                    "type": "relative",
-                    "offset": "0:3:0",
-                    "condition": { "type": "id", "block": "minecraft:air" }
-                  },
-                  {
-                    "type": "relative",
-                    "offset": "0:2:0",
-                    "condition": {
-                      "type": "id",
-                      "block": "minecraft:orange_terracotta"
-                    }
-                  },
-                  {
-                    "type": "relative",
-                    "offset": "0:1:0",
-                    "condition": {
-                      "type": "id",
-                      "block": "minecraft:red_terracotta"
-                    }
-                  }
-                ]
-              },
-              {
-                "type": "all",
-                "conditions": [
-                  {
-                    "type": "relative",
-                    "offset": "0:3:0",
-                    "condition": { "type": "id", "block": "minecraft:air" }
-                  },
-                  {
-                    "type": "relative",
-                    "offset": "0:2:0",
-                    "condition": { "type": "id", "block": "minecraft:air" }
-                  },
-                  {
-                    "type": "relative",
-                    "offset": "0:1:0",
-                    "condition": {
-                      "type": "id",
-                      "block": "minecraft:red_terracotta"
-                    }
-                  }
-                ]
-              },
-              {
-                "type": "all",
-                "conditions": [
-                  {
-                    "type": "relative",
-                    "offset": "0:3:0",
-                    "condition": { "type": "id", "block": "minecraft:air" }
-                  },
-                  {
-                    "type": "relative",
-                    "offset": "0:2:0",
-                    "condition": { "type": "id", "block": "minecraft:air" }
-                  },
-                  {
-                    "type": "relative",
-                    "offset": "0:1:0",
-                    "condition": { "type": "id", "block": "minecraft:air" }
-                  },
-                  {
-                    "type": "not",
-                    "condition": {
-                      "type": "any",
-                      "conditions": [
-                        {
-                          "type": "relative",
-                          "offset": "0:-1:0",
-                          "condition": {
-                            "type": "id",
-                            "block": "minecraft:cyan_terracotta"
-                          }
-                        },
-                        {
-                          "type": "relative",
-                          "offset": "0:-1:0",
-                          "condition": {
-                            "type": "id",
-                            "block": "minecraft:brown_terracotta"
-                          }
-                        },
-                        {
-                          "type": "relative",
-                          "offset": "0:-1:0",
-                          "condition": {
-                            "type": "id",
-                            "block": "minecraft:air"
-                          }
-                        },
-                        {
-                          "type": "relative",
-                          "offset": "0:-1:0",
-                          "condition": {
-                            "type": "id",
-                            "block": "minecraft:gray_wool"
-                          }
+                    "type": "all",
+                    "conditions": [
+                      {
+                        "type": "relative",
+                        "offset": "0:3:0",
+                        "condition": {
+                          "type": "id",
+                          "block": "minecraft:yellow_terracotta"
                         }
-                      ]
-                    }
+                      },
+                      {
+                        "type": "relative",
+                        "offset": "0:2:0",
+                        "condition": {
+                          "type": "id",
+                          "block": "minecraft:orange_terracotta"
+                        }
+                      },
+                      {
+                        "type": "relative",
+                        "offset": "0:1:0",
+                        "condition": {
+                          "type": "id",
+                          "block": "minecraft:red_terracotta"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "all",
+                    "conditions": [
+                      {
+                        "type": "relative",
+                        "offset": "0:3:0",
+                        "condition": { "type": "id", "block": "minecraft:air" }
+                      },
+                      {
+                        "type": "relative",
+                        "offset": "0:2:0",
+                        "condition": {
+                          "type": "id",
+                          "block": "minecraft:orange_terracotta"
+                        }
+                      },
+                      {
+                        "type": "relative",
+                        "offset": "0:1:0",
+                        "condition": {
+                          "type": "id",
+                          "block": "minecraft:red_terracotta"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "all",
+                    "conditions": [
+                      {
+                        "type": "relative",
+                        "offset": "0:3:0",
+                        "condition": { "type": "id", "block": "minecraft:air" }
+                      },
+                      {
+                        "type": "relative",
+                        "offset": "0:2:0",
+                        "condition": { "type": "id", "block": "minecraft:air" }
+                      },
+                      {
+                        "type": "relative",
+                        "offset": "0:1:0",
+                        "condition": {
+                          "type": "id",
+                          "block": "minecraft:red_terracotta"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "type": "all",
+                    "conditions": [
+                      {
+                        "type": "relative",
+                        "offset": "0:3:0",
+                        "condition": { "type": "id", "block": "minecraft:air" }
+                      },
+                      {
+                        "type": "relative",
+                        "offset": "0:2:0",
+                        "condition": { "type": "id", "block": "minecraft:air" }
+                      },
+                      {
+                        "type": "relative",
+                        "offset": "0:1:0",
+                        "condition": { "type": "id", "block": "minecraft:air" }
+                      }
+                    ]
                   }
                 ]
               }
-            ]
-          }
-        ]
+            }
+          ]
+        }
       }
     },
     {
