@@ -527,7 +527,7 @@
           "translate": "eureka.config.tab.entity.model.dungeon.description",
           "color": "gray"
         },
-        "default": true
+        "default": false
       },
       {
         "type": "boolean",
