@@ -87,7 +87,8 @@
           "type": "translatable",
           "translate": "eureka.config.tab.info.credits.hypixel",
           "color": "white",
-          "bold": true
+          "bold": true,
+          "with": [{ "text": "©", "bold": false }]
         },
         "description": [
           {
