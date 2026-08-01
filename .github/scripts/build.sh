@@ -6,7 +6,7 @@ cat > build/pack.mcmeta << EOL
 {
   "pack": {
     "description": {
-      "text": "Use Catharsis-1.0.0-beta.20 or higher!",
+      "text": "Use Catharsis-1.0.0-beta.21 or higher!",
       "color": "red",
       "bold": true
     },
