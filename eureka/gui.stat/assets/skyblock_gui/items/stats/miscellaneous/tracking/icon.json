@@ -1,1 +1,6 @@
-{"model":{"type":"model","model":"eureka:item/stats/miscellaneous/tracking"}}
+{
+  "model": {
+    "type": "model",
+    "model": "eureka:item/stats/main/miscellaneous/tracking"
+  }
+}

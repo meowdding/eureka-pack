@@ -1,1 +1,3 @@
-{"model":{"type":"model","model":"eureka:item/stats/hunting/icon"}}
+{
+  "model": { "type": "model", "model": "eureka:item/skills/main/hunting/icon" }
+}

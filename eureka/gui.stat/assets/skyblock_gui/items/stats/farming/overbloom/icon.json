@@ -1,1 +1,6 @@
-{"model":{"type":"model","model":"eureka:item/stats/farming/overbloom"}}
+{
+  "model": {
+    "type": "model",
+    "model": "eureka:item/stats/main/farming/overbloom"
+  }
+}

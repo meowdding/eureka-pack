@@ -5,6 +5,12 @@
   },
   "overrideBackground": true,
   "overrideLabels": true,
+  "disableItemList": true,
+  "hiddenModElements": [
+    "skyocean:crafthelper",
+    "skyocean:inventory_buttons",
+    "skyblocker:quickNavigation"
+  ],
   "bounds": {
     "width": 832,
     "height": 448
@@ -1364,22 +1370,22 @@
       "clickable": false
     },
     "skyblock_gui:fast_travel/fishing_1/spawn/undiscovered": {
-      "position": { "x": 106, "y": 275 }
+      "position": { "x": 134, "y": 351 }
     },
     "skyblock_gui:fast_travel/fishing_1/spawn/locked": {
-      "position": { "x": 106, "y": 275 }
+      "position": { "x": 134, "y": 351 }
     },
     "skyblock_gui:fast_travel/fishing_1/spawn/unlocked": {
-      "position": { "x": 106, "y": 275 }
+      "position": { "x": 134, "y": 351 }
     },
     "skyblock_gui:fast_travel/lotus_atoll/spawn/undiscovered": {
-      "position": { "x": 124, "y": 275 }
+      "position": { "x": 152, "y": 351 }
     },
     "skyblock_gui:fast_travel/lotus_atoll/spawn/locked": {
-      "position": { "x": 124, "y": 275 }
+      "position": { "x": 152, "y": 351 }
     },
     "skyblock_gui:fast_travel/lotus_atoll/spawn/unlocked": {
-      "position": { "x": 124, "y": 275 }
+      "position": { "x": 152, "y": 351 }
     },
     "skyblock_gui:fast_travel/winter/spawn/undiscovered": {
       "position": { "x": -10, "y": 351 }

@@ -1,13 +1,13 @@
 {
   "pack": {
-    "description": { "text": "Eureka Alpha-v0.0.6 by @junenya on discord" },
+    "description": { "text": "Eureka v0.0.7 by @junenya on discord" },
     "min_format": 69,
     "max_format": 255
   },
   "catharsis:pack/v1": {
     "id": "eureka",
     "version": "v0.0.1",
-    "dependencies": { "catharsis": ">=1.0.0-beta.20" },
+    "dependencies": { "catharsis": ">=1.0.0-beta.21" },
     "pack_required_for_config": true,
     "selected_description": {
       "text": "",
@@ -149,14 +149,6 @@
         }
       },
       {
-        "directory": "tooltip.separator",
-        "condition": {
-          "condition": "catharsis:config",
-          "pack": "eureka",
-          "id": "tooltip.separator"
-        }
-      },
-      {
         "directory": "tooltip.rarity",
         "condition": {
           "condition": "catharsis:config",
@@ -210,6 +202,22 @@
           "condition": "catharsis:config",
           "pack": "eureka",
           "id": "qol.brewing_stand"
+        }
+      },
+      {
+        "directory": "legacy.hypixel.tooltip",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "eureka",
+          "id": "legacy.hypixel.tooltip"
+        }
+      },
+      {
+        "directory": "legacy.hypixel.text_color",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "eureka",
+          "id": "legacy.hypixel.text_color"
         }
       },
       {

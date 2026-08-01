@@ -4,17 +4,17 @@
   "eureka.config.tab.info": "Info",
   "eureka.config.tab.info.versioning": "Versioning",
   "eureka.config.tab.info.versioning.version": "Version:",
-  "eureka.config.tab.info.versioning.version.number": "alpha-v0.0.6\n",
+  "eureka.config.tab.info.versioning.version.number": "release-v0.0.7\n",
   "eureka.config.tab.info.versioning.dependencies": "Dependencies:",
-  "eureka.config.tab.info.versioning.dependencies.catharsis": "Catharsis 1.0.0-beta.20\n\n",
+  "eureka.config.tab.info.versioning.dependencies.catharsis": "Catharsis 1.0.0-beta.21\n\n",
   "eureka.config.tab.info.credits": "Credits",
   "eureka.config.tab.info.credits.license": "License:",
   "eureka.config.tab.info.credits.license.type": "All Rights Reserved\n\n",
   "eureka.config.tab.info.credits.license.disclaimer": "%sAsset owned, made & compiled by @Junenya unless otherwise stated below.\n",
-  "eureka.config.tab.info.credits.hypixel": "Hypixel:",
+  "eureka.config.tab.info.credits.hypixel": "Copyright %s 2026 Hypixel Inc. All rights reserved:",
   "eureka.config.tab.info.credits.hypixel.rod_parts": "Rod Part Overlays make use of remixed Rod textures from the Official Hypixel Skyblock Resource Pack for implementation.\n\n",
   "eureka.config.tab.info.credits.hypixel.quick_travel": "The Quick Travel Menu background is a render of the in-game map in the Skyblock Hub.\n\n",
-  "eureka.config.tab.info.credits.hypixel.disclaimer": "DISCLAIMER:\nI do not claim ownership of any of the assets owned by Hypixel.\n\nNone of the assets taken from Hypixel were authorized for use.\n\nAssets taken from Hypixel may be immediately removed upon their request.\n\nFor Inquiries contact @Junenya on Discord.\n",
+  "eureka.config.tab.info.credits.hypixel.disclaimer": "DISCLAIMER:\nI do not claim ownership of any assets owned by Hypixel Inc.\n\nProject not endorsed by Hypixel Inc., assets may be removed immediately upon request.\n\nFor Inquiries contact @Junenya on Discord.\n",
   "eureka.config.tab.info.credits.eureka_repository": "Eureka Repository:",
   "eureka.config.tab.info.credits.eureka_repository.catsquash": "%s by %s\n\n",
   "eureka.config.tab.info.credits.eureka_repository.workflows": "Workflows by %s and %s",
@@ -66,7 +66,7 @@
   "eureka.config.tab.entity.model.backwater_bayou": "Backwater Bayou",
   "eureka.config.tab.entity.model.backwater_bayou.description": "Bayou Sludge.\n",
   "eureka.config.tab.entity.model.dungeon": "Dungeons",
-  "eureka.config.tab.entity.model.dungeon.description": "Only Goldor for now, missing animations & proper entity isolation.\n",
+  "eureka.config.tab.entity.model.dungeon.description": "Only Goldor for now, missing animations & proper entity isolation.\n\nCurrently disabled by default due to issues.\n",
   "eureka.config.tab.entity.model.crystal_hollows": "Crystal Hollows",
   "eureka.config.tab.entity.model.crystal_hollows.description": "Sludge.\n",
   "eureka.config.tab.entity.model.mining_2": "Deep Caverns",
@@ -77,9 +77,19 @@
   "eureka.config.tab.qol.guide": "Guides",
   "eureka.config.tab.qol.guide.brewing_stand": "Brewing Recipes",
   "eureka.config.tab.qol.guide.brewing_stand.description": "When in a Brewing Stand Menu, a side panel will appearing showing all potion recipes!",
+
+  "eureka.config.tab.legacy": "Legacy",
+  "eureka.config.tab.legacy.hypixel": "Hypixel",
+  "eureka.config.tab.legacy.hypixel.tooltip": "Tooltips",
+  "eureka.config.tab.legacy.hypixel.tooltip.description": "Uses Vanilla tooltip textures instead of Hypixel's.",
+
+  "eureka.config.tab.legacy.hypixel.text_color": "Text colors",
+  "eureka.config.tab.legacy.hypixel.text_color.description": "Uses Vanilla Color Hexes for text instead of Hypixel's.",
+
   "eureka.config.tab.accessibility": "Accessibility",
   "eureka.config.tab.accessibility.gui": "GUI",
   "eureka.config.tab.accessibility.gui.high_contrast": "High Contrast GUIs",
+
   "eureka.tooltip.separator.gemstones": "",
   "eureka.tooltip.separator.stats": "",
   "eureka.tooltip.gemstone_slot.slot": "",
@@ -186,5 +196,7 @@
   "eureka.glyph.mobtype.subterranean": " Subterranean",
   "eureka.glyph.mobtype.undead": " Undead",
   "eureka.glyph.mobtype.wither": " Wither",
-  "eureka.glyph.mobtype.woodland": " Woodland"
+  "eureka.glyph.mobtype.woodland": " Woodland",
+
+  "eureka.dev_cosmetics.traitoralmighty.emblem": "\uE000"
 }

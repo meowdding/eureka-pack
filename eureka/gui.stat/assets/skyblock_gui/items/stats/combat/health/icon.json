@@ -1,1 +1,3 @@
-{"model":{"type":"model","model":"eureka:item/stats/combat/health"}}
+{
+  "model": { "type": "model", "model": "eureka:item/stats/main/combat/health" }
+}

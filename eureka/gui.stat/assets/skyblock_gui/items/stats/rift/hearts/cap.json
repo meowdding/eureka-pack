@@ -1,1 +1,15 @@
-{"model":{"type":"composite","models":[{"type":"model","model":"eureka:item/stats/widget/primary/rift/hearts"},{"type":"model","model":"eureka:item/stats/widget/secondary/shared/cap/red"}]}}
+{
+  "model": {
+    "type": "composite",
+    "models": [
+      {
+        "type": "model",
+        "model": "eureka:item/stats/primary/rift/hearts"
+      },
+      {
+        "type": "model",
+        "model": "eureka:item/stats/secondary/shared/cap/red"
+      }
+    ]
+  }
+}

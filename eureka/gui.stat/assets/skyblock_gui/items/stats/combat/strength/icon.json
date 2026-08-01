@@ -1,1 +1,6 @@
-{"model":{"type":"model","model":"eureka:item/stats/combat/strength"}}
+{
+  "model": {
+    "type": "model",
+    "model": "eureka:item/stats/main/combat/strength"
+  }
+}

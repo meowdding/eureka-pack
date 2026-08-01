@@ -1,0 +1,11 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "eureka:font/dev_cosmetics/traitoralmighty/emblem.png",
+      "ascent": 7,
+      "height": 8,
+      "chars": ["\uE000"]
+    }
+  ]
+}

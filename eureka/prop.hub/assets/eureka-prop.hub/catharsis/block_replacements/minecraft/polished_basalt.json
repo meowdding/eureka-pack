@@ -1,0 +1,22 @@
+{
+  "type": "per_area",
+  "entries": {
+    "eureka:hub/auction_house/outside/culling_fix": {
+      "type": "select",
+      "definitions": [
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:hub/auction_house/outside/banner/culling_fix"
+          },
+          "condition": {
+            "type": "relative",
+            "offset": "1:0:0",
+            "condition": { "type": "id", "block": "minecraft:red_wool" }
+          }
+        }
+      ]
+    }
+  }
+}

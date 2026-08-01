@@ -1,0 +1,241 @@
+{
+  "target": {
+    "type": "catharsis:definition",
+    "definition": "eureka:skill_tree/hotm/page/5"
+  },
+  "overrideBackground": true,
+  "elements": [
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/skill_tree/hotm/background/5",
+      "layer": "BACKGROUND",
+      "width": 576,
+      "height": 512,
+      "x": {
+        "offset": -276,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -256,
+        "alignment": "CENTER"
+      }
+    }
+  ],
+  "widgets": [
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/tier/unknown/10",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_up"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:text",
+          "text": [
+            { "text": "Tier 10", "color": "gray" },
+            {
+              "text": "The contents of this page are\ncurrently not visible.\n",
+              "color": "dark_gray"
+            },
+            {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Left-click ",
+                  "color": "yellow"
+                },
+                {
+                  "text": "to view Tiers 6-10!",
+                  "color": "gray"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": 200,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -232,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/tier/unknown/4",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_down"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:text",
+          "text": [
+            { "text": "Tier 4", "color": "gray" },
+            {
+              "text": "The contents of this page are\ncurrently not visible.\n",
+              "color": "dark_gray"
+            },
+            {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Left-click ",
+                  "color": "yellow"
+                },
+                {
+                  "text": "to view Tiers 1-5!",
+                  "color": "gray"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": 200,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": 56,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/tier/unknown/3",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_down"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:text",
+          "text": [
+            { "text": "Tier 3", "color": "gray" },
+            {
+              "text": "The contents of this page are\ncurrently not visible.\n",
+              "color": "dark_gray"
+            },
+            {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Left-click ",
+                  "color": "yellow"
+                },
+                {
+                  "text": "to view Tiers 1-5!",
+                  "color": "gray"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": 200,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": 104,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/tier/unknown/2",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_down"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:text",
+          "text": [
+            { "text": "Tier 2", "color": "gray" },
+            {
+              "text": "The contents of this page are\ncurrently not visible.\n",
+              "color": "dark_gray"
+            },
+            {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Left-click ",
+                  "color": "yellow"
+                },
+                {
+                  "text": "to view Tiers 1-5!",
+                  "color": "gray"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": 200,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": 152,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skill_tree/hotm/tier/unknown/1",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "eureka:skill_tree/hotm/navigation/scroll_down"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:text",
+          "text": [
+            { "text": "Tier 1", "color": "gray" },
+            {
+              "text": "The contents of this page are\ncurrently not visible.\n",
+              "color": "dark_gray"
+            },
+            {
+              "text": "",
+              "extra": [
+                {
+                  "text": "Left-click ",
+                  "color": "yellow"
+                },
+                {
+                  "text": "to view Tiers 1-5!",
+                  "color": "gray"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "width": 32,
+      "height": 32,
+      "x": {
+        "offset": 200,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": 200,
+        "alignment": "CENTER"
+      }
+    }
+  ]
+}

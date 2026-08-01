@@ -1,1 +1,3 @@
-{"model":{"type":"model","model":"eureka:item/stats/foraging/icon"}}
+{
+  "model": { "type": "model", "model": "eureka:item/skills/main/foraging/icon" }
+}

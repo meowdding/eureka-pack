@@ -1,1 +1,6 @@
-{"model":{"type":"model","model":"eureka:item/stats/shared/arrow/gold"}}
+{
+  "model": {
+    "type": "model",
+    "model": "eureka:item/stats/main/shared/arrow/gold"
+  }
+}

@@ -1,1 +1,6 @@
-{"model":{"type":"model","model":"eureka:item/stats/combat/vitality"}}
+{
+  "model": {
+    "type": "model",
+    "model": "eureka:item/stats/main/combat/vitality"
+  }
+}

@@ -1,1 +1,12 @@
-{"model":{"type":"composite","models":[{"type":"model","model":"eureka:item/skills/widget/primary/alchemy/icon"},{"type":"model","model":"eureka:item/stats/widget/secondary/wisdom"}]}}
+{
+  "model": {
+    "type": "composite",
+    "models": [
+      {
+        "type": "model",
+        "model": "eureka:item/skills/primary/alchemy/icon"
+      },
+      { "type": "model", "model": "eureka:item/stats/secondary/wisdom/icon" }
+    ]
+  }
+}

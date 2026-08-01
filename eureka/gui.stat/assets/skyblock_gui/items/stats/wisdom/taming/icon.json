@@ -1,1 +1,12 @@
-{"model":{"type":"composite","models":[{"type":"model","model":"eureka:item/stats/widget/primary/miscellaneous/pet"},{"type":"model","model":"eureka:item/stats/widget/secondary/wisdom"}]}}
+{
+  "model": {
+    "type": "composite",
+    "models": [
+      {
+        "type": "model",
+        "model": "eureka:item/skills/primary/taming/icon"
+      },
+      { "type": "model", "model": "eureka:item/stats/secondary/wisdom/icon" }
+    ]
+  }
+}

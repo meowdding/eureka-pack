@@ -87,7 +87,8 @@
           "type": "translatable",
           "translate": "eureka.config.tab.info.credits.hypixel",
           "color": "white",
-          "bold": true
+          "bold": true,
+          "with": [{ "text": "©", "bold": false }]
         },
         "description": [
           {
@@ -481,20 +482,6 @@
           "color": "gray"
         },
         "default": true
-      },
-      {
-        "type": "boolean",
-        "id": "tooltip.separator",
-        "title": {
-          "type": "translatable",
-          "translate": "eureka.config.tab.gui.tooltip.separator"
-        },
-        "description": {
-          "type": "translatable",
-          "translate": "eureka.config.generic.disabled_warning",
-          "color": "red"
-        },
-        "default": false
       }
     ]
   },
@@ -540,7 +527,7 @@
           "translate": "eureka.config.tab.entity.model.dungeon.description",
           "color": "gray"
         },
-        "default": true
+        "default": false
       },
       {
         "type": "boolean",
@@ -612,6 +599,52 @@
           "color": "gray"
         },
         "default": true
+      }
+    ]
+  },
+  {
+    "type": "tab",
+    "title": {
+      "type": "translatable",
+      "translate": "eureka.config.tab.legacy"
+    },
+    "options": [
+      {
+        "type": "separator",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.legacy.hypixel",
+          "bold": true
+        },
+        "description": ""
+      },
+      {
+        "type": "boolean",
+        "id": "legacy.hypixel.tooltip",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.legacy.hypixel.tooltip"
+        },
+        "description": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.legacy.hypixel.tooltip.description",
+          "color": "gray"
+        },
+        "default": false
+      },
+      {
+        "type": "boolean",
+        "id": "legacy.hypixel.text_color",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.legacy.hypixel.text_color"
+        },
+        "description": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.legacy.hypixel.text_color.description",
+          "color": "gray"
+        },
+        "default": false
       }
     ]
   },

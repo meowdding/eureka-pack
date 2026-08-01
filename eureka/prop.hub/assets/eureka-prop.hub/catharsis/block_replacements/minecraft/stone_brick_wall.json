@@ -1,0 +1,34 @@
+{
+  "type": "per_area",
+  "entries": {
+    "eureka:hub/auction_house/outside/banner": {
+      "type": "select",
+      "definitions": [
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:hub/auction_house/outside/banner/hanger_r"
+          },
+          "condition": {
+            "type": "relative",
+            "offset": "0:0:1",
+            "condition": { "type": "id", "block": "minecraft:stone_brick_wall" }
+          }
+        },
+        {
+          "type": "conditional",
+          "definition": {
+            "type": "redirect",
+            "virtual_state": "eureka:hub/auction_house/outside/banner/hanger_l"
+          },
+          "condition": {
+            "type": "relative",
+            "offset": "0:0:-1",
+            "condition": { "type": "id", "block": "minecraft:stone_brick_wall" }
+          }
+        }
+      ]
+    }
+  }
+}

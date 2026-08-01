@@ -1,1 +1,3 @@
-{"model":{"type":"model","model":"eureka:item/stats/combat/defense"}}
+{
+  "model": { "type": "model", "model": "eureka:item/stats/main/combat/defense" }
+}

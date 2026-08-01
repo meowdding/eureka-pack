@@ -1,1 +1,3 @@
-{"model":{"type":"model","model":"eureka:item/stats/rift/rift_time"}}
+{
+  "model": { "type": "model", "model": "eureka:item/stats/main/rift/rift_time" }
+}

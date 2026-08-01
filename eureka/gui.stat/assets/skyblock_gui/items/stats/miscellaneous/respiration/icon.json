@@ -1,1 +1,12 @@
-{"model":{"type":"model","model":"eureka:item/stats/miscellaneous/respiration"}}
+{
+  "model": {
+    "type": "composite",
+    "models": [
+      {
+        "type": "model",
+        "model": "eureka:item/stats/primary/miscellaneous/respiration"
+      },
+      { "type": "model", "model": "eureka:item/stats/secondary/meter" }
+    ]
+  }
+}

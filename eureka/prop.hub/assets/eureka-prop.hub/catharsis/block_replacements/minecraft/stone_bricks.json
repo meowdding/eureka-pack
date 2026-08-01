@@ -1,0 +1,9 @@
+{
+  "type": "per_area",
+  "entries": {
+    "eureka:hub/auction_house/inside/culling_fix": {
+      "type": "redirect",
+      "virtual_state": "eureka:hub/auction_house/inside/banner/culling_fix/stone_bricks"
+    }
+  }
+}

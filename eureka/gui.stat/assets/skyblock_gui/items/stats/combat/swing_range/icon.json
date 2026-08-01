@@ -1,1 +1,12 @@
-{"model":{"type":"composite","models":[{"type":"model","model":"eureka:item/stats/widget/primary/combat/attack"},{"type":"model","model":"eureka:item/stats/widget/secondary/range"}]}}
+{
+  "model": {
+    "type": "composite",
+    "models": [
+      {
+        "type": "model",
+        "model": "eureka:item/stats/primary/combat/attack"
+      },
+      { "type": "model", "model": "eureka:item/stats/secondary/range" }
+    ]
+  }
+}

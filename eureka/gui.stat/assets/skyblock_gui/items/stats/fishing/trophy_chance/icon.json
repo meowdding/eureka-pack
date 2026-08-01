@@ -1,1 +1,12 @@
-{"model":{"type":"composite","models":[{"type":"model","model":"eureka:item/stats/widget/primary/fishing/trophy"},{"type":"model","model":"eureka:item/stats/widget/secondary/chance"}]}}
+{
+  "model": {
+    "type": "composite",
+    "models": [
+      {
+        "type": "model",
+        "model": "eureka:item/stats/primary/fishing/trophy"
+      },
+      { "type": "model", "model": "eureka:item/stats/secondary/chance" }
+    ]
+  }
+}
