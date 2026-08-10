@@ -1,1 +1,33 @@
-{"target":{"type":"catharsis:definition","definition":"catharsis:generic/generic"},"overrideBackground":false,"bounds":{"width":1,"height":1},"slots":{"skyblock_gui:generic/miscellaneous/filler":{"slot":{"min":0,"max":53},"highlightable":false,"clickable":false}}}
+{
+  "target": {
+    "type": "catharsis:definition",
+    "definition": "catharsis:generic/generic"
+  },
+  "overrideBackground": false,
+  "slots": {
+    "eureka:generic/miscellaneous/filler/1": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/2": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/3": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/4": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/5": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/6": {
+      "highlightable": false,
+      "clickable": false
+    }
+  }
+}

@@ -339,6 +339,39 @@
         "type": "separator",
         "title": {
           "type": "translatable",
+          "translate": "eureka.config.tab.gui.theme",
+          "bold": true
+        },
+        "description": ""
+      },
+      {
+        "type": "dropdown",
+        "id": "theme",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.gui.theme.containers"
+        },
+        "description": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.gui.theme.containers.description",
+          "color": "gray"
+        },
+        "options": [
+          {
+            "value": "minecraft",
+            "text": "Minecraft"
+          },
+          {
+            "value": "eureka",
+            "text": "Eureka",
+            "default": true
+          }
+        ]
+      },
+      {
+        "type": "separator",
+        "title": {
+          "type": "translatable",
           "translate": "eureka.config.tab.gui.menu",
           "bold": true
         },
@@ -596,6 +629,29 @@
         "description": {
           "type": "translatable",
           "translate": "eureka.config.tab.qol.guide.brewing_stand.description",
+          "color": "gray"
+        },
+        "default": true
+      },
+      {
+        "type": "separator",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.qol.shortcuts",
+          "bold": true
+        },
+        "description": ""
+      },
+      {
+        "type": "boolean",
+        "id": "qol.inventory_buttons",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.qol.shortcuts.inventory_buttons"
+        },
+        "description": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.qol.shortcuts.inventory_buttons.description",
           "color": "gray"
         },
         "default": true

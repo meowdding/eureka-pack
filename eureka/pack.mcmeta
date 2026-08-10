@@ -97,6 +97,24 @@
         }
       },
       {
+        "directory": "theme.minecraft",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "eureka",
+          "id": "theme",
+          "value": "minecraft"
+        }
+      },
+      {
+        "directory": "theme.eureka",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "eureka",
+          "id": "theme",
+          "value": "eureka"
+        }
+      },
+      {
         "directory": "menu.skill_tree.hotm",
         "condition": {
           "condition": "catharsis:config",
@@ -202,6 +220,14 @@
           "condition": "catharsis:config",
           "pack": "eureka",
           "id": "qol.brewing_stand"
+        }
+      },
+      {
+        "directory": "qol.inventory_buttons",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "eureka",
+          "id": "qol.inventory_buttons"
         }
       },
       {

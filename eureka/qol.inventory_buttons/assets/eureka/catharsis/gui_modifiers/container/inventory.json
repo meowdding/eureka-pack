@@ -1,0 +1,331 @@
+{
+  "target": {
+    "type": "catharsis:definition",
+    "definition": "eureka:container/inventory"
+  },
+  "overrideLabels": true,
+  "overrideBackground": true,
+  "bounds": {
+    "width": 832,
+    "height": 448
+  },
+  "elements": [
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/container/inventory",
+      "layer": "BACKGROUND",
+      "width": 176,
+      "height": 176,
+      "x": {
+        "offset": 0,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -10,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:player",
+      "width": 52,
+      "height": 70,
+      "x": {
+        "offset": 62,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 9,
+        "alignment": "START"
+      }
+    }
+  ],
+  "widgets": [
+    {
+      "type": "catharsis:button",
+      "interaction": {
+        "left": { "type": "catharsis:command", "command": "/collections" },
+        "right": { "type": "catharsis:command", "command": "/recipebook" }
+      },
+      "normal": "eureka:gui_modifiers/container/shortcut/normal/recipe",
+      "hovered": "eureka:gui_modifiers/container/shortcut/hovered/recipe",
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "Left-click to view Collections!",
+            "color": "yellow"
+          },
+          {
+            "text": "Right-click to view Recipes!",
+            "color": "yellow"
+          }
+        ]
+      },
+      "width": 17,
+      "height": 17,
+      "x": {
+        "offset": 16,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -6,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "interaction": {
+        "left": { "type": "catharsis:command", "command": "/chapters" },
+        "right": { "type": "catharsis:command", "command": "/quests" }
+      },
+      "normal": "eureka:gui_modifiers/container/shortcut/normal/chapters",
+      "hovered": "eureka:gui_modifiers/container/shortcut/hovered/chapters",
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "Left-click to view Chapters!",
+            "color": "yellow"
+          },
+          {
+            "text": "Right-click to view Quests!",
+            "color": "yellow"
+          }
+        ]
+      },
+      "width": 17,
+      "height": 17,
+      "x": {
+        "offset": 16,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 13,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "interaction": {
+        "left": { "type": "catharsis:command", "command": "/skills" },
+        "right": { "type": "catharsis:command", "command": "/level" }
+      },
+      "normal": "eureka:gui_modifiers/container/shortcut/normal/level",
+      "hovered": "eureka:gui_modifiers/container/shortcut/hovered/level",
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "Left-Click to view Skills!",
+            "color": "yellow"
+          },
+          {
+            "text": "Right-Click to view Levels!",
+            "color": "yellow"
+          }
+        ]
+      },
+      "width": 17,
+      "height": 17,
+      "x": {
+        "offset": 16,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 32,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "interaction": {
+        "left": {
+          "type": "catharsis:command",
+          "command": "/guide"
+        },
+        "right": {
+          "type": "catharsis:link",
+          "url": "https://hypixelskyblock.minecraft.wiki/"
+        }
+      },
+      "normal": "eureka:gui_modifiers/container/shortcut/normal/wiki",
+      "hovered": "eureka:gui_modifiers/container/shortcut/hovered/wiki",
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "Left-Click to view Guides!",
+            "color": "yellow"
+          },
+          {
+            "text": "Right-Click to view the Hypixel Skyblock wiki!",
+            "color": "yellow"
+          }
+        ]
+      },
+      "width": 17,
+      "height": 17,
+      "x": {
+        "offset": 16,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 51,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "interaction": {
+        "left": { "type": "catharsis:command", "command": "/craft" },
+        "right": { "type": "catharsis:command", "command": "/craft" }
+      },
+      "normal": "eureka:gui_modifiers/container/shortcut/normal/craft",
+      "hovered": "eureka:gui_modifiers/container/shortcut/hovered/craft",
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "Click to Craft!",
+            "color": "yellow"
+          }
+        ]
+      },
+      "width": 17,
+      "height": 17,
+      "x": {
+        "offset": 144,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -6,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "interaction": {
+        "left": { "type": "catharsis:command", "command": "/storage" },
+        "right": { "type": "catharsis:command", "command": "/sacks" }
+      },
+      "normal": "eureka:gui_modifiers/container/shortcut/normal/storage",
+      "hovered": "eureka:gui_modifiers/container/shortcut/hovered/storage",
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "Left-click to view Storage!",
+            "color": "yellow"
+          },
+          { "text": "Right-click to view Sacks!", "color": "yellow" }
+        ]
+      },
+      "width": 17,
+      "height": 17,
+      "x": {
+        "offset": 144,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 13,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "interaction": {
+        "left": { "type": "catharsis:command", "command": "/pets" },
+        "right": { "type": "catharsis:command", "command": "/loadouts" }
+      },
+      "normal": "eureka:gui_modifiers/container/shortcut/normal/pets",
+      "hovered": "eureka:gui_modifiers/container/shortcut/hovered/pets",
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "Left-Click to view Pets!",
+            "color": "yellow"
+          },
+          {
+            "text": "Right-Click to view Loadouts!",
+            "color": "yellow"
+          }
+        ]
+      },
+      "width": 17,
+      "height": 17,
+      "x": {
+        "offset": 144,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 32,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "interaction": {
+        "left": { "type": "catharsis:command", "command": "/warp" },
+        "right": { "type": "catharsis:command", "command": "/warp island" }
+      },
+      "normal": "eureka:gui_modifiers/container/shortcut/normal/warp",
+      "hovered": "eureka:gui_modifiers/container/shortcut/hovered/warp",
+      "tooltip": {
+        "type": "catharsis:text",
+        "text": [
+          {
+            "text": "Left-Click to view Warps!",
+            "color": "yellow"
+          },
+          {
+            "text": "Right-Click to warp to your Private Island!",
+            "color": "yellow"
+          }
+        ]
+      },
+      "width": 17,
+      "height": 17,
+      "x": {
+        "offset": 144,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 51,
+        "alignment": "START"
+      }
+    }
+  ],
+  "slots": {
+    "eureka:container/inventory/slot/crafting_outcome": {
+      "hidden": true
+    },
+    "eureka:container/inventory/slot/crafting_1": {
+      "hidden": true
+    },
+    "eureka:container/inventory/slot/crafting_2": {
+      "hidden": true
+    },
+    "eureka:container/inventory/slot/crafting_3": {
+      "hidden": true
+    },
+    "eureka:container/inventory/slot/crafting_4": {
+      "hidden": true
+    },
+    "eureka:container/inventory/slot/helmet": {
+      "position": { "x": 44, "y": 8 }
+    },
+    "eureka:container/inventory/slot/chestplate": {
+      "position": { "x": 44, "y": 26 }
+    },
+    "eureka:container/inventory/slot/leggings": {
+      "position": { "x": 44, "y": 44 }
+    },
+    "eureka:container/inventory/slot/boots": {
+      "position": { "x": 44, "y": 62 }
+    },
+    "eureka:container/inventory/slot/offhand": {
+      "hidden": true
+    }
+  }
+}
