@@ -1,0 +1,132 @@
+{
+  "target": {
+    "type": "catharsis:definition",
+    "definition": "catharsis:skills/your_skills"
+  },
+  "overrideLabels": true,
+  "overrideBackground": true,
+  "bounds": {
+    "width": 473,
+    "height": 302
+  },
+  "elements": [
+    {
+      "type": "catharsis:sprite",
+      "sprite": "eureka:gui_modifiers/skills/your_skills",
+      "layer": "BACKGROUND",
+      "width": 473,
+      "height": 302,
+      "x": {
+        "offset": -148,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": -40,
+        "alignment": "START"
+      }
+    }
+  ],
+  "widgets": [
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skills/combat/icon/normal",
+      "hovered": "eureka:gui_modifiers/skills/combat/icon/hovered",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skills/combat/icon"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:slot_id",
+          "slot": "skyblock_gui:skills/combat/icon"
+        }
+      ],
+      "width": 18,
+      "height": 18,
+      "x": {
+        "offset": -229,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -144,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skills/farming/icon/normal",
+      "hovered": "eureka:gui_modifiers/skills/farming/icon/hovered",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skills/farming/icon"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:slot_id",
+          "slot": "skyblock_gui:skills/farming/icon"
+        }
+      ],
+      "width": 18,
+      "height": 18,
+      "x": {
+        "offset": -211,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -144,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skills/fishing/icon/normal",
+      "hovered": "eureka:gui_modifiers/skills/fishing/icon/hovered",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skills/fishing/icon"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:slot_id",
+          "slot": "skyblock_gui:skills/fishing/icon"
+        }
+      ],
+      "width": 18,
+      "height": 18,
+      "x": {
+        "offset": -193,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -144,
+        "alignment": "CENTER"
+      }
+    }
+  ],
+  "slots": {
+    "skyblock_gui:skills/combat/icon": {
+      "hidden": true
+    },
+    "skyblock_gui:skills/farming/icon": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/1": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/2": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/3": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/4": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/5": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/6": {
+      "hidden": true
+    }
+  }
+}

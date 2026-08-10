@@ -51,6 +51,10 @@
   "eureka.config.tab.gui.theme.containers.description": "Theme for Vanilla & Eureka Containers.\n\n",
 
   "eureka.config.tab.gui.menu": "Custom Menus",
+
+  "eureka.config.tab.gui.menu.skills_overhaul": "Skills Overhaul",
+  "eureka.config.tab.gui.menu.skills_overhaul.description": "Unified all of the Skill menus into a singular, bigger menu.\n\nAlso changes submenus such as the Bestiary and HotM!\n",
+
   "eureka.config.tab.gui.menu.hotm": "Heart of the Mountain",
   "eureka.config.tab.gui.menu.hotm.description": "Constellation themed perk tree.\n",
   "eureka.config.tab.gui.menu.fast_travel": "Fast Travel",
