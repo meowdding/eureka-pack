@@ -1,0 +1,694 @@
+{
+  "target": {
+    "type": "catharsis:definition",
+    "definition": "eureka:skills/all_skills"
+  },
+  "hiddenModElements": [
+    "skyocean:crafthelper",
+    "skyocean:inventory_buttons",
+    "skyblocker:quickNavigation"
+  ],
+  "widgets": [
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:not",
+        "condition": {
+          "type": "catharsis:has_slot",
+          "slot": "skyblock_gui:skills/combat/icon"
+        }
+      },
+      "normal": "eureka:gui_modifiers/skills/combat/icon/normal",
+      "hovered": "eureka:gui_modifiers/skills/combat/icon/hovered",
+      "interaction": {
+        "type": "catharsis:command",
+        "command": "/skill combat"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:text",
+          "text": [
+            {
+              "text": "Combat Skill",
+              "color": "red"
+            },
+            {
+              "text": "Fight mobs and special bosses to",
+              "color": "gray"
+            },
+            {
+              "text": "earn Combat EXP!",
+              "color": "gray"
+            },
+            "",
+            {
+              "text": "Click to view!",
+              "color": "yellow"
+            }
+          ]
+        }
+      ],
+      "width": 18,
+      "height": 18,
+      "x": {
+        "offset": -229,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -144,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:not",
+        "condition": {
+          "type": "catharsis:has_slot",
+          "slot": "skyblock_gui:skills/farming/icon"
+        }
+      },
+      "normal": "eureka:gui_modifiers/skills/farming/icon/normal",
+      "hovered": "eureka:gui_modifiers/skills/farming/icon/hovered",
+      "interaction": {
+        "type": "catharsis:command",
+        "command": "/skill farming"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:text",
+          "text": [
+            {
+              "text": "Farming Skill",
+              "color": "green"
+            },
+            {
+              "text": "Harvest crops and shear sheep to",
+              "color": "gray"
+            },
+            {
+              "text": "earn Farming EXP!",
+              "color": "gray"
+            },
+            "",
+            {
+              "text": "Click to view!",
+              "color": "yellow"
+            }
+          ]
+        }
+      ],
+      "width": 18,
+      "height": 18,
+      "x": {
+        "offset": -211,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -144,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:not",
+        "condition": {
+          "type": "catharsis:has_slot",
+          "slot": "skyblock_gui:skills/fishing/icon"
+        }
+      },
+      "normal": "eureka:gui_modifiers/skills/fishing/icon/normal",
+      "hovered": "eureka:gui_modifiers/skills/fishing/icon/hovered",
+      "interaction": {
+        "type": "catharsis:command",
+        "command": "/skill fishing"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:text",
+          "text": [
+            {
+              "text": "Fishing Skill",
+              "color": "aqua"
+            },
+
+            {
+              "text": "Visit your local pond to fish and",
+              "color": "gray"
+            },
+            {
+              "text": "earn Fishing EXP!",
+              "color": "gray"
+            },
+            "",
+            {
+              "text": "Click to view!",
+              "color": "yellow"
+            }
+          ]
+        }
+      ],
+      "width": 18,
+      "height": 18,
+      "x": {
+        "offset": -193,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -144,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:not",
+        "condition": {
+          "type": "catharsis:has_slot",
+          "slot": "skyblock_gui:skills/mining/icon"
+        }
+      },
+      "normal": "eureka:gui_modifiers/skills/mining/icon/normal",
+      "hovered": "eureka:gui_modifiers/skills/mining/icon/hovered",
+      "interaction": {
+        "type": "catharsis:command",
+        "command": "/skill mining"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:text",
+          "text": [
+            {
+              "text": "Mining Skill",
+              "color": "gold"
+            },
+            {
+              "text": "Dive into deep caves and find rare",
+              "color": "gray"
+            },
+            {
+              "text": "ores and valuable materials to earn",
+              "color": "gray"
+            },
+            {
+              "text": "Mining EXP!",
+              "color": "gray"
+            },
+            "",
+            {
+              "text": "Click to view!",
+              "color": "yellow"
+            }
+          ]
+        }
+      ],
+      "width": 18,
+      "height": 18,
+      "x": {
+        "offset": -175,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -144,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:not",
+        "condition": {
+          "type": "catharsis:has_slot",
+          "slot": "skyblock_gui:skills/foraging/icon"
+        }
+      },
+      "normal": "eureka:gui_modifiers/skills/foraging/icon/normal",
+      "hovered": "eureka:gui_modifiers/skills/foraging/icon/hovered",
+      "interaction": {
+        "type": "catharsis:command",
+        "command": "/skill foraging"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:text",
+          "text": [
+            {
+              "text": "Foraging Skill",
+              "color": "dark_green"
+            },
+            {
+              "text": "Cut trees and forage for other",
+              "color": "gray"
+            },
+            {
+              "text": "plants to earn Foraging EXP!",
+              "color": "gray"
+            },
+            "",
+            {
+              "text": "Click to view!",
+              "color": "yellow"
+            }
+          ]
+        }
+      ],
+      "width": 18,
+      "height": 18,
+      "x": {
+        "offset": -229,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -126,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:not",
+        "condition": {
+          "type": "catharsis:has_slot",
+          "slot": "skyblock_gui:skills/enchanting/icon"
+        }
+      },
+      "normal": "eureka:gui_modifiers/skills/enchanting/icon/normal",
+      "hovered": "eureka:gui_modifiers/skills/enchanting/icon/hovered",
+      "interaction": {
+        "type": "catharsis:command",
+        "command": "/skill enchanting"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:text",
+          "text": [
+            {
+              "text": "Enchanting Skill",
+              "color": "dark_purple"
+            },
+            {
+              "text": "Enchant items to earn Enchanting EXP!",
+              "color": "gray"
+            },
+            "",
+            {
+              "text": "Click to view!",
+              "color": "yellow"
+            }
+          ]
+        }
+      ],
+      "width": 18,
+      "height": 18,
+      "x": {
+        "offset": -211,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -126,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:not",
+        "condition": {
+          "type": "catharsis:has_slot",
+          "slot": "skyblock_gui:skills/alchemy/icon"
+        }
+      },
+      "normal": "eureka:gui_modifiers/skills/alchemy/icon/normal",
+      "hovered": "eureka:gui_modifiers/skills/alchemy/icon/hovered",
+      "interaction": {
+        "type": "catharsis:command",
+        "command": "/skill alchemy"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:text",
+          "text": [
+            {
+              "text": "Alchemy Skill",
+              "color": "dark_aqua"
+            },
+            {
+              "text": "Brew potions to earn Alchemy EXP!",
+              "color": "gray"
+            },
+            "",
+            {
+              "text": "Click to view!",
+              "color": "yellow"
+            }
+          ]
+        }
+      ],
+      "width": 18,
+      "height": 18,
+      "x": {
+        "offset": -193,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -126,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:not",
+        "condition": {
+          "type": "catharsis:has_slot",
+          "slot": "skyblock_gui:skills/carpentry/icon"
+        }
+      },
+      "normal": "eureka:gui_modifiers/skills/carpentry/icon/normal",
+      "hovered": "eureka:gui_modifiers/skills/carpentry/icon/hovered",
+      "interaction": {
+        "type": "catharsis:command",
+        "command": "/skill carpentry"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:text",
+          "text": [
+            {
+              "text": "Carpentry Skill",
+              "color": "gold"
+            },
+            {
+              "text": "Craft items to earn Carpentry EXP!",
+              "color": "gray"
+            },
+            "",
+            {
+              "text": "Click to view!",
+              "color": "yellow"
+            }
+          ]
+        }
+      ],
+      "width": 18,
+      "height": 18,
+      "x": {
+        "offset": -175,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -126,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:not",
+        "condition": {
+          "type": "catharsis:has_slot",
+          "slot": "skyblock_gui:skills/runecrafting/icon"
+        }
+      },
+      "normal": "eureka:gui_modifiers/skills/runecrafting/icon/normal",
+      "hovered": "eureka:gui_modifiers/skills/runecrafting/icon/hovered",
+      "interaction": {
+        "type": "catharsis:command",
+        "command": "/skill runecrafting"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:text",
+          "text": [
+            {
+              "text": "Runecrafting Skill",
+              "color": "dark_purple"
+            },
+            {
+              "text": "Slay bosses and runic mobs, and",
+              "color": "gray"
+            },
+            {
+              "text": "fuse runes to earn Runecrafting EXP!",
+              "color": "gray"
+            },
+            "",
+            {
+              "text": "Level up Runecrafting to activate",
+              "color": "light_purple"
+            },
+            {
+              "text": "the effects of rune-bearing items!",
+              "color": "light_purple"
+            },
+            "",
+            {
+              "text": "Click to view!",
+              "color": "yellow"
+            }
+          ]
+        }
+      ],
+      "width": 18,
+      "height": 18,
+      "x": {
+        "offset": -229,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -108,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:not",
+        "condition": {
+          "type": "catharsis:has_slot",
+          "slot": "skyblock_gui:skills/taming/icon"
+        }
+      },
+      "normal": "eureka:gui_modifiers/skills/taming/icon/normal",
+      "hovered": "eureka:gui_modifiers/skills/taming/icon/hovered",
+      "interaction": {
+        "type": "catharsis:command",
+        "command": "/skill taming"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:text",
+          "text": [
+            {
+              "text": "Taming Skill",
+              "color": "light_purple"
+            },
+            {
+              "text": "Level up pets to earn Taming EXP!",
+              "color": "gray"
+            },
+            "",
+            {
+              "text": "Click to view!",
+              "color": "yellow"
+            }
+          ]
+        }
+      ],
+      "width": 18,
+      "height": 18,
+      "x": {
+        "offset": -211,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -108,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:not",
+        "condition": {
+          "type": "catharsis:has_slot",
+          "slot": "skyblock_gui:skills/social/icon"
+        }
+      },
+      "normal": "eureka:gui_modifiers/skills/social/icon/normal",
+      "hovered": "eureka:gui_modifiers/skills/social/icon/hovered",
+      "interaction": {
+        "type": "catharsis:command",
+        "command": "/skill social"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:text",
+          "text": [
+            {
+              "text": "Social Skill",
+              "color": "aqua"
+            },
+            {
+              "text": "Gain Social EXP for every new unique",
+              "color": "gray"
+            },
+            {
+              "text": "guest, hosting guests, and visiting",
+              "color": "gray"
+            },
+            {
+              "text": "islands!",
+              "color": "gray"
+            },
+            "",
+            {
+              "text": "Click to view!",
+              "color": "yellow"
+            }
+          ]
+        }
+      ],
+      "width": 18,
+      "height": 18,
+      "x": {
+        "offset": -193,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -108,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "condition": {
+        "type": "catharsis:not",
+        "condition": {
+          "type": "catharsis:has_slot",
+          "slot": "skyblock_gui:skills/hunting/icon"
+        }
+      },
+      "normal": "eureka:gui_modifiers/skills/hunting/icon/normal",
+      "hovered": "eureka:gui_modifiers/skills/hunting/icon/hovered",
+      "interaction": {
+        "type": "catharsis:command",
+        "command": "/skill hunting"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:text",
+          "text": [
+            {
+              "text": "Hunting Skill",
+              "color": "yellow"
+            },
+            {
+              "text": "Hunt various monsters to earn",
+              "color": "gray"
+            },
+            {
+              "text": "Hunting EXP!",
+              "color": "gray"
+            },
+            "",
+            {
+              "text": "Click to view!",
+              "color": "yellow"
+            }
+          ]
+        }
+      ],
+      "width": 18,
+      "height": 18,
+      "x": {
+        "offset": -175,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -108,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skills/your_skills/generic/navigation/go_back/normal",
+      "hovered": "eureka:gui_modifiers/skills/your_skills/generic/navigation/go_back/hovered",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/go_back"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:slot_id",
+          "slot": "skyblock_gui:generic/navigation/go_back"
+        }
+      ],
+      "width": 34,
+      "height": 34,
+      "x": {
+        "offset": -229,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": 84,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skills/your_skills/generic/navigation/close/normal",
+      "hovered": "eureka:gui_modifiers/skills/your_skills/generic/navigation/close/hovered",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/close"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:slot_id",
+          "slot": "skyblock_gui:generic/navigation/close"
+        }
+      ],
+      "width": 34,
+      "height": 34,
+      "x": {
+        "offset": -191,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": 84,
+        "alignment": "CENTER"
+      }
+    }
+  ],
+  "slots": {
+    "skyblock_gui:generic/navigation/go_back": {
+      "hidden": true
+    },
+    "skyblock_gui:generic/navigation/close": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/1": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/2": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/3": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/4": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/5": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/6": {
+      "hidden": true
+    }
+  }
+}

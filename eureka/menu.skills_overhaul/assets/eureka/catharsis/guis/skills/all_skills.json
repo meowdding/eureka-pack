@@ -1,0 +1,15 @@
+{
+  "target": {
+    "title": "(Your Skills|(Combat|Farming|Fishing|Mining|Foraging|Enchanting|Alchemy|Carpentry|Runecrafting|Taming|Social|Hunting) Skill)",
+    "type": "catharsis:title"
+  },
+  "layout": [
+    {
+      "id": "eureka:generic/miscellaneous/filler",
+      "target": {
+        "type": "catharsis:slot",
+        "slot": { "min": 54, "max": 89 }
+      }
+    }
+  ]
+}

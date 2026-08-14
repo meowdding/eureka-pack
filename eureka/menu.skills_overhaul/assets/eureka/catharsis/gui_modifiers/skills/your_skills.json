@@ -5,6 +5,11 @@
   },
   "overrideLabels": true,
   "overrideBackground": true,
+  "hiddenModElements": [
+    "skyocean:crafthelper",
+    "skyocean:inventory_buttons",
+    "skyblocker:quickNavigation"
+  ],
   "bounds": {
     "width": 473,
     "height": 302
@@ -101,6 +106,357 @@
         "offset": -144,
         "alignment": "CENTER"
       }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skills/mining/icon/normal",
+      "hovered": "eureka:gui_modifiers/skills/mining/icon/hovered",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skills/mining/icon"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:slot_id",
+          "slot": "skyblock_gui:skills/mining/icon"
+        }
+      ],
+      "width": 18,
+      "height": 18,
+      "x": {
+        "offset": -175,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -144,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skills/foraging/icon/normal",
+      "hovered": "eureka:gui_modifiers/skills/foraging/icon/hovered",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skills/foraging/icon"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:slot_id",
+          "slot": "skyblock_gui:skills/foraging/icon"
+        }
+      ],
+      "width": 18,
+      "height": 18,
+      "x": {
+        "offset": -229,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -126,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skills/enchanting/icon/normal",
+      "hovered": "eureka:gui_modifiers/skills/enchanting/icon/hovered",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skills/enchanting/icon"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:slot_id",
+          "slot": "skyblock_gui:skills/enchanting/icon"
+        }
+      ],
+      "width": 18,
+      "height": 18,
+      "x": {
+        "offset": -211,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -126,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skills/alchemy/icon/normal",
+      "hovered": "eureka:gui_modifiers/skills/alchemy/icon/hovered",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skills/alchemy/icon"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:slot_id",
+          "slot": "skyblock_gui:skills/alchemy/icon"
+        }
+      ],
+      "width": 18,
+      "height": 18,
+      "x": {
+        "offset": -193,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -126,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skills/carpentry/icon/normal",
+      "hovered": "eureka:gui_modifiers/skills/carpentry/icon/hovered",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skills/carpentry/icon"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:slot_id",
+          "slot": "skyblock_gui:skills/carpentry/icon"
+        }
+      ],
+      "width": 18,
+      "height": 18,
+      "x": {
+        "offset": -175,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -126,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skills/runecrafting/icon/normal",
+      "hovered": "eureka:gui_modifiers/skills/runecrafting/icon/hovered",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skills/runecrafting/icon"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:slot_id",
+          "slot": "skyblock_gui:skills/runecrafting/icon"
+        }
+      ],
+      "width": 18,
+      "height": 18,
+      "x": {
+        "offset": -229,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -108,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skills/taming/icon/normal",
+      "hovered": "eureka:gui_modifiers/skills/taming/icon/hovered",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skills/taming/icon"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:slot_id",
+          "slot": "skyblock_gui:skills/taming/icon"
+        }
+      ],
+      "width": 18,
+      "height": 18,
+      "x": {
+        "offset": -211,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -108,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skills/social/icon/normal",
+      "hovered": "eureka:gui_modifiers/skills/social/icon/hovered",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skills/social/icon"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:slot_id",
+          "slot": "skyblock_gui:skills/social/icon"
+        }
+      ],
+      "width": 18,
+      "height": 18,
+      "x": {
+        "offset": -193,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -108,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skills/hunting/icon/normal",
+      "hovered": "eureka:gui_modifiers/skills/hunting/icon/hovered",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skills/hunting/icon"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:slot_id",
+          "slot": "skyblock_gui:skills/hunting/icon"
+        }
+      ],
+      "width": 18,
+      "height": 18,
+      "x": {
+        "offset": -175,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -108,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skills/dungeoneering/icon/normal",
+      "hovered": "eureka:gui_modifiers/skills/dungeoneering/icon/hovered",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skills/dungeoneering/icon"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:slot_id",
+          "slot": "skyblock_gui:skills/dungeoneering/icon"
+        }
+      ],
+      "width": 34,
+      "height": 34,
+      "x": {
+        "offset": -229,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -68,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skills/show_skill_rankings/icon/normal",
+      "hovered": "eureka:gui_modifiers/skills/show_skill_rankings/icon/hovered",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skills/show_skill_rankings/icon"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:slot_id",
+          "slot": "skyblock_gui:skills/show_skill_rankings/icon"
+        }
+      ],
+      "width": 34,
+      "height": 34,
+      "x": {
+        "offset": -191,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -68,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skills/icon/normal",
+      "hovered": "eureka:gui_modifiers/skills/icon/hovered",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:skills/icon"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:slot_id",
+          "slot": "skyblock_gui:skills/icon"
+        }
+      ],
+      "width": 96,
+      "height": 96,
+      "x": {
+        "offset": -26,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": -48,
+        "alignment": "CENTER"
+      }
+    },
+
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skills/your_skills/generic/navigation/go_back/normal",
+      "hovered": "eureka:gui_modifiers/skills/your_skills/generic/navigation/go_back/hovered",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/go_back"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:slot_id",
+          "slot": "skyblock_gui:generic/navigation/go_back"
+        }
+      ],
+      "width": 34,
+      "height": 34,
+      "x": {
+        "offset": -229,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": 84,
+        "alignment": "CENTER"
+      }
+    },
+    {
+      "type": "catharsis:button",
+      "normal": "eureka:gui_modifiers/skills/your_skills/generic/navigation/close/normal",
+      "hovered": "eureka:gui_modifiers/skills/your_skills/generic/navigation/close/hovered",
+      "interaction": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/close"
+      },
+      "tooltip": [
+        {
+          "type": "catharsis:slot_id",
+          "slot": "skyblock_gui:generic/navigation/close"
+        }
+      ],
+      "width": 34,
+      "height": 34,
+      "x": {
+        "offset": -191,
+        "alignment": "CENTER"
+      },
+      "y": {
+        "offset": 84,
+        "alignment": "CENTER"
+      }
     }
   ],
   "slots": {
@@ -108,6 +464,54 @@
       "hidden": true
     },
     "skyblock_gui:skills/farming/icon": {
+      "hidden": true
+    },
+    "skyblock_gui:skills/fishing/icon": {
+      "hidden": true
+    },
+    "skyblock_gui:skills/mining/icon": {
+      "hidden": true
+    },
+    "skyblock_gui:skills/foraging/icon": {
+      "hidden": true
+    },
+    "skyblock_gui:skills/enchanting/icon": {
+      "hidden": true
+    },
+    "skyblock_gui:skills/alchemy/icon": {
+      "hidden": true
+    },
+    "skyblock_gui:skills/carpentry/icon": {
+      "hidden": true
+    },
+    "skyblock_gui:skills/runecrafting/icon": {
+      "hidden": true
+    },
+    "skyblock_gui:skills/taming/icon": {
+      "hidden": true
+    },
+    "skyblock_gui:skills/social/icon": {
+      "hidden": true
+    },
+    "skyblock_gui:skills/hunting/icon": {
+      "hidden": true
+    },
+    "skyblock_gui:skills/dungeoneering/icon": {
+      "hidden": true
+    },
+    "skyblock_gui:skills/icon": {
+      "hidden": true
+    },
+    "skyblock_gui:skills/show_skill_rankings/icon": {
+      "hidden": true
+    },
+    "skyblock_gui:generic/navigation/go_back": {
+      "hidden": true
+    },
+    "skyblock_gui:generic/navigation/close": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler": {
       "hidden": true
     },
     "eureka:generic/miscellaneous/filler/1": {

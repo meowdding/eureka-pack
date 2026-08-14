@@ -9,6 +9,11 @@
     "width": 176,
     "height": 176
   },
+  "hiddenModElements": [
+    "skyocean:crafthelper",
+    "skyocean:inventory_buttons",
+    "skyblocker:quickNavigation"
+  ],
   "elements": [
     {
       "type": "catharsis:sprite",
