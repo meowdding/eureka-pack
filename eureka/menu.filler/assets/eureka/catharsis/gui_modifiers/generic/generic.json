@@ -5,27 +5,219 @@
   },
   "overrideBackground": false,
   "slots": {
-    "eureka:generic/miscellaneous/filler/1": {
+    "eureka:generic/miscellaneous/filler/00": {
       "highlightable": false,
       "clickable": false
     },
-    "eureka:generic/miscellaneous/filler/2": {
+    "eureka:generic/miscellaneous/filler/01": {
       "highlightable": false,
       "clickable": false
     },
-    "eureka:generic/miscellaneous/filler/3": {
+    "eureka:generic/miscellaneous/filler/02": {
       "highlightable": false,
       "clickable": false
     },
-    "eureka:generic/miscellaneous/filler/4": {
+    "eureka:generic/miscellaneous/filler/03": {
       "highlightable": false,
       "clickable": false
     },
-    "eureka:generic/miscellaneous/filler/5": {
+    "eureka:generic/miscellaneous/filler/04": {
       "highlightable": false,
       "clickable": false
     },
-    "eureka:generic/miscellaneous/filler/6": {
+    "eureka:generic/miscellaneous/filler/05": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/06": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/07": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/08": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/10": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/11": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/12": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/13": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/14": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/15": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/16": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/17": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/18": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/20": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/21": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/22": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/23": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/24": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/25": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/26": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/27": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/28": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/30": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/31": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/32": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/33": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/34": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/35": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/36": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/37": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/38": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/40": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/41": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/42": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/43": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/44": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/45": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/46": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/47": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/48": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/50": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/51": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/52": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/53": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/54": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/55": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/56": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/57": {
+      "highlightable": false,
+      "clickable": false
+    },
+    "eureka:generic/miscellaneous/filler/58": {
       "highlightable": false,
       "clickable": false
     }

@@ -1,0 +1,18 @@
+{
+  "target": {
+    "type": "catharsis:definition",
+    "definition": "eureka:generic/text_color"
+  },
+  "overrideBackground": false,
+  "overrideLabels": true,
+  "elements": [
+    {
+      "type": "catharsis:text",
+      "text": "",
+      "stealFromScreen": true,
+      "color": -14834470,
+      "x": 7,
+      "y": 7
+    }
+  ]
+}

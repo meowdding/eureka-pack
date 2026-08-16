@@ -1,0 +1,8 @@
+{
+  "target": {
+    "type": "catharsis:definition",
+    "definition": "eureka:generic/text_killer"
+  },
+  "overrideBackground": false,
+  "overrideLabels": true
+}

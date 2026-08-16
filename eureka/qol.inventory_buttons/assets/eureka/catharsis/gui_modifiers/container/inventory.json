@@ -5,6 +5,7 @@
   },
   "overrideLabels": true,
   "overrideBackground": true,
+  "hideRecipeBookButton": true,
   "bounds": {
     "width": 176,
     "height": 176

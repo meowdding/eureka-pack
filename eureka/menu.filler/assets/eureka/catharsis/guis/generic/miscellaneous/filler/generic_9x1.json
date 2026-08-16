@@ -1,0 +1,180 @@
+{
+  "priority": -1,
+  "target": {
+    "type": "catharsis:type",
+    "menu": "generic_9x1"
+  },
+  "layout": [
+    {
+      "id": "eureka:generic/miscellaneous/filler/00",
+      "target": {
+        "type": "all",
+        "conditions": [
+          {
+            "type": "is_tooltip_hidden"
+          },
+          {
+            "type": "item",
+            "items": "minecraft:black_stained_glass_pane"
+          },
+          {
+            "type": "catharsis:slot",
+            "slot": 0
+          }
+        ]
+      }
+    },
+    {
+      "id": "eureka:generic/miscellaneous/filler/01",
+      "target": {
+        "type": "all",
+        "conditions": [
+          {
+            "type": "is_tooltip_hidden"
+          },
+          {
+            "type": "item",
+            "items": "minecraft:black_stained_glass_pane"
+          },
+          {
+            "type": "catharsis:slot",
+            "slot": 1
+          }
+        ]
+      }
+    },
+    {
+      "id": "eureka:generic/miscellaneous/filler/02",
+      "target": {
+        "type": "all",
+        "conditions": [
+          {
+            "type": "is_tooltip_hidden"
+          },
+          {
+            "type": "item",
+            "items": "minecraft:black_stained_glass_pane"
+          },
+          {
+            "type": "catharsis:slot",
+            "slot": 2
+          }
+        ]
+      }
+    },
+    {
+      "id": "eureka:generic/miscellaneous/filler/03",
+      "target": {
+        "type": "all",
+        "conditions": [
+          {
+            "type": "is_tooltip_hidden"
+          },
+          {
+            "type": "item",
+            "items": "minecraft:black_stained_glass_pane"
+          },
+          {
+            "type": "catharsis:slot",
+            "slot": 3
+          }
+        ]
+      }
+    },
+    {
+      "id": "eureka:generic/miscellaneous/filler/04",
+      "target": {
+        "type": "all",
+        "conditions": [
+          {
+            "type": "is_tooltip_hidden"
+          },
+          {
+            "type": "item",
+            "items": "minecraft:black_stained_glass_pane"
+          },
+          {
+            "type": "catharsis:slot",
+            "slot": 4
+          }
+        ]
+      }
+    },
+    {
+      "id": "eureka:generic/miscellaneous/filler/05",
+      "target": {
+        "type": "all",
+        "conditions": [
+          {
+            "type": "is_tooltip_hidden"
+          },
+          {
+            "type": "item",
+            "items": "minecraft:black_stained_glass_pane"
+          },
+          {
+            "type": "catharsis:slot",
+            "slot": 5
+          }
+        ]
+      }
+    },
+    {
+      "id": "eureka:generic/miscellaneous/filler/06",
+      "target": {
+        "type": "all",
+        "conditions": [
+          {
+            "type": "is_tooltip_hidden"
+          },
+          {
+            "type": "item",
+            "items": "minecraft:black_stained_glass_pane"
+          },
+          {
+            "type": "catharsis:slot",
+            "slot": 6
+          }
+        ]
+      }
+    },
+    {
+      "id": "eureka:generic/miscellaneous/filler/07",
+      "target": {
+        "type": "all",
+        "conditions": [
+          {
+            "type": "is_tooltip_hidden"
+          },
+          {
+            "type": "item",
+            "items": "minecraft:black_stained_glass_pane"
+          },
+          {
+            "type": "catharsis:slot",
+            "slot": 7
+          }
+        ]
+      }
+    },
+    {
+      "id": "eureka:generic/miscellaneous/filler/08",
+      "target": {
+        "type": "all",
+        "conditions": [
+          {
+            "type": "is_tooltip_hidden"
+          },
+          {
+            "type": "item",
+            "items": "minecraft:black_stained_glass_pane"
+          },
+          {
+            "type": "catharsis:slot",
+            "slot": 8
+          }
+        ]
+      }
+    }
+  ]
+}
