@@ -1,7 +1,7 @@
 {
   "target": {
     "type": "catharsis:definition",
-    "definition": "catharsis:skills/combat"
+    "definition": "catharsis:skills/mining"
   },
   "overrideLabels": true,
   "overrideBackground": true,
@@ -17,7 +17,7 @@
   "elements": [
     {
       "type": "catharsis:sprite",
-      "sprite": "eureka:gui_modifiers/container/skills/your_skills/combat",
+      "sprite": "eureka:gui_modifiers/container/skills/your_skills/mining",
       "layer": "BACKGROUND",
       "width": 473,
       "height": 313,
@@ -34,27 +34,31 @@
   "widgets": [
     {
       "type": "catharsis:button",
-      "normal": "eureka:gui_modifiers/sprites/skills/your_skills/combat/icon/focused",
+      "normal": "eureka:gui_modifiers/sprites/skills/your_skills/mining/icon/focused",
 
       "tooltip": [
         {
           "type": "catharsis:text",
           "text": [
             {
-              "text": "Combat Skill",
-              "color": "red"
+              "text": "Mining Skill",
+              "color": "gold"
             },
             {
-              "text": "Fight mobs and special bosses to",
+              "text": "Dive into deep caves and find rare",
               "color": "gray"
             },
             {
-              "text": "earn Combat EXP!",
+              "text": "ores and valuable materials to earn",
+              "color": "gray"
+            },
+            {
+              "text": "Mining EXP!",
               "color": "gray"
             },
             "",
             {
-              "text": "Currently viewing!",
+              "text": "Currently Viewing!",
               "color": "yellow"
             }
           ]
@@ -63,7 +67,7 @@
       "width": 18,
       "height": 18,
       "x": {
-        "offset": -229,
+        "offset": -175,
         "alignment": "CENTER"
       },
       "y": {

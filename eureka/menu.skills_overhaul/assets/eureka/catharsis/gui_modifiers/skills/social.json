@@ -1,7 +1,7 @@
 {
   "target": {
     "type": "catharsis:definition",
-    "definition": "catharsis:skills/combat"
+    "definition": "catharsis:skills/social"
   },
   "overrideLabels": true,
   "overrideBackground": true,
@@ -17,7 +17,7 @@
   "elements": [
     {
       "type": "catharsis:sprite",
-      "sprite": "eureka:gui_modifiers/container/skills/your_skills/combat",
+      "sprite": "eureka:gui_modifiers/container/skills/your_skills/social",
       "layer": "BACKGROUND",
       "width": 473,
       "height": 313,
@@ -34,22 +34,26 @@
   "widgets": [
     {
       "type": "catharsis:button",
-      "normal": "eureka:gui_modifiers/sprites/skills/your_skills/combat/icon/focused",
+      "normal": "eureka:gui_modifiers/sprites/skills/your_skills/social/icon/focused",
 
       "tooltip": [
         {
           "type": "catharsis:text",
           "text": [
             {
-              "text": "Combat Skill",
-              "color": "red"
+              "text": "Social Skill",
+              "color": "aqua"
             },
             {
-              "text": "Fight mobs and special bosses to",
+              "text": "Gain Social EXP for every new unique",
               "color": "gray"
             },
             {
-              "text": "earn Combat EXP!",
+              "text": "guest, hosting guests, and visiting",
+              "color": "gray"
+            },
+            {
+              "text": "islands!",
               "color": "gray"
             },
             "",
@@ -63,11 +67,11 @@
       "width": 18,
       "height": 18,
       "x": {
-        "offset": -229,
+        "offset": -193,
         "alignment": "CENTER"
       },
       "y": {
-        "offset": -144,
+        "offset": -108,
         "alignment": "CENTER"
       }
     }

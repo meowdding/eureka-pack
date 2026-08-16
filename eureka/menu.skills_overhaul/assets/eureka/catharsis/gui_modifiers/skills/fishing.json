@@ -1,7 +1,7 @@
 {
   "target": {
     "type": "catharsis:definition",
-    "definition": "catharsis:skills/combat"
+    "definition": "catharsis:skills/fishing"
   },
   "overrideLabels": true,
   "overrideBackground": true,
@@ -17,7 +17,7 @@
   "elements": [
     {
       "type": "catharsis:sprite",
-      "sprite": "eureka:gui_modifiers/container/skills/your_skills/combat",
+      "sprite": "eureka:gui_modifiers/container/skills/your_skills/fishing",
       "layer": "BACKGROUND",
       "width": 473,
       "height": 313,
@@ -34,22 +34,23 @@
   "widgets": [
     {
       "type": "catharsis:button",
-      "normal": "eureka:gui_modifiers/sprites/skills/your_skills/combat/icon/focused",
+      "normal": "eureka:gui_modifiers/sprites/skills/your_skills/fishing/icon/focused",
 
       "tooltip": [
         {
           "type": "catharsis:text",
           "text": [
             {
-              "text": "Combat Skill",
-              "color": "red"
+              "text": "Fishing Skill",
+              "color": "aqua"
             },
+
             {
-              "text": "Fight mobs and special bosses to",
+              "text": "Visit your local pond to fish and",
               "color": "gray"
             },
             {
-              "text": "earn Combat EXP!",
+              "text": "earn Fishing EXP!",
               "color": "gray"
             },
             "",
@@ -63,7 +64,7 @@
       "width": 18,
       "height": 18,
       "x": {
-        "offset": -229,
+        "offset": -193,
         "alignment": "CENTER"
       },
       "y": {

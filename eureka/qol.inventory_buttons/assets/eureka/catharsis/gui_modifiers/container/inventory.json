@@ -52,8 +52,8 @@
         "left": { "type": "catharsis:command", "command": "/collections" },
         "right": { "type": "catharsis:command", "command": "/recipebook" }
       },
-      "normal": "eureka:gui_modifiers/container/inventory_buttons/normal/recipe",
-      "hovered": "eureka:gui_modifiers/container/inventory_buttons/hovered/recipe",
+      "normal": "eureka:gui_modifiers/sprites/inventory_buttons/normal/recipe",
+      "hovered": "eureka:gui_modifiers/sprites/inventory_buttons/hovered/recipe",
       "tooltip": {
         "type": "catharsis:text",
         "text": [
@@ -84,8 +84,8 @@
         "left": { "type": "catharsis:command", "command": "/chapters" },
         "right": { "type": "catharsis:command", "command": "/quests" }
       },
-      "normal": "eureka:gui_modifiers/container/inventory_buttons/normal/chapters",
-      "hovered": "eureka:gui_modifiers/container/inventory_buttons/hovered/chapters",
+      "normal": "eureka:gui_modifiers/sprites/inventory_buttons/normal/chapters",
+      "hovered": "eureka:gui_modifiers/sprites/inventory_buttons/hovered/chapters",
       "tooltip": {
         "type": "catharsis:text",
         "text": [
@@ -116,8 +116,8 @@
         "left": { "type": "catharsis:command", "command": "/skills" },
         "right": { "type": "catharsis:command", "command": "/level" }
       },
-      "normal": "eureka:gui_modifiers/container/inventory_buttons/normal/level",
-      "hovered": "eureka:gui_modifiers/container/inventory_buttons/hovered/level",
+      "normal": "eureka:gui_modifiers/sprites/inventory_buttons/normal/level",
+      "hovered": "eureka:gui_modifiers/sprites/inventory_buttons/hovered/level",
       "tooltip": {
         "type": "catharsis:text",
         "text": [
@@ -154,8 +154,8 @@
           "url": "https://hypixelskyblock.minecraft.wiki/"
         }
       },
-      "normal": "eureka:gui_modifiers/container/inventory_buttons/normal/wiki",
-      "hovered": "eureka:gui_modifiers/container/inventory_buttons/hovered/wiki",
+      "normal": "eureka:gui_modifiers/sprites/inventory_buttons/normal/wiki",
+      "hovered": "eureka:gui_modifiers/sprites/inventory_buttons/hovered/wiki",
       "tooltip": {
         "type": "catharsis:text",
         "text": [
@@ -186,8 +186,8 @@
         "left": { "type": "catharsis:command", "command": "/craft" },
         "right": { "type": "catharsis:command", "command": "/craft" }
       },
-      "normal": "eureka:gui_modifiers/container/inventory_buttons/normal/craft",
-      "hovered": "eureka:gui_modifiers/container/inventory_buttons/hovered/craft",
+      "normal": "eureka:gui_modifiers/sprites/inventory_buttons/normal/craft",
+      "hovered": "eureka:gui_modifiers/sprites/inventory_buttons/hovered/craft",
       "tooltip": {
         "type": "catharsis:text",
         "text": [
@@ -214,8 +214,8 @@
         "left": { "type": "catharsis:command", "command": "/storage" },
         "right": { "type": "catharsis:command", "command": "/sacks" }
       },
-      "normal": "eureka:gui_modifiers/container/inventory_buttons/normal/storage",
-      "hovered": "eureka:gui_modifiers/container/inventory_buttons/hovered/storage",
+      "normal": "eureka:gui_modifiers/sprites/inventory_buttons/normal/storage",
+      "hovered": "eureka:gui_modifiers/sprites/inventory_buttons/hovered/storage",
       "tooltip": {
         "type": "catharsis:text",
         "text": [
@@ -243,8 +243,8 @@
         "left": { "type": "catharsis:command", "command": "/pets" },
         "right": { "type": "catharsis:command", "command": "/loadouts" }
       },
-      "normal": "eureka:gui_modifiers/container/inventory_buttons/normal/pets",
-      "hovered": "eureka:gui_modifiers/container/inventory_buttons/hovered/pets",
+      "normal": "eureka:gui_modifiers/sprites/inventory_buttons/normal/pets",
+      "hovered": "eureka:gui_modifiers/sprites/inventory_buttons/hovered/pets",
       "tooltip": {
         "type": "catharsis:text",
         "text": [
@@ -275,8 +275,8 @@
         "left": { "type": "catharsis:command", "command": "/warp" },
         "right": { "type": "catharsis:command", "command": "/warp island" }
       },
-      "normal": "eureka:gui_modifiers/container/inventory_buttons/normal/warp",
-      "hovered": "eureka:gui_modifiers/container/inventory_buttons/hovered/warp",
+      "normal": "eureka:gui_modifiers/sprites/inventory_buttons/normal/warp",
+      "hovered": "eureka:gui_modifiers/sprites/inventory_buttons/hovered/warp",
       "tooltip": {
         "type": "catharsis:text",
         "text": [

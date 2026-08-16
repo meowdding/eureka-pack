@@ -12,21 +12,21 @@
   ],
   "bounds": {
     "width": 473,
-    "height": 302
+    "height": 313
   },
   "elements": [
     {
       "type": "catharsis:sprite",
-      "sprite": "eureka:gui_modifiers/skills/your_skills",
+      "sprite": "eureka:gui_modifiers/container/skills/your_skills",
       "layer": "BACKGROUND",
       "width": 473,
-      "height": 302,
+      "height": 313,
       "x": {
         "offset": -148,
         "alignment": "START"
       },
       "y": {
-        "offset": -40,
+        "offset": -51,
         "alignment": "START"
       }
     }
@@ -34,8 +34,8 @@
   "widgets": [
     {
       "type": "catharsis:button",
-      "normal": "eureka:gui_modifiers/skills/combat/icon/normal",
-      "hovered": "eureka:gui_modifiers/skills/combat/icon/hovered",
+      "normal": "eureka:gui_modifiers/sprites/skills/your_skills/combat/icon/normal",
+      "hovered": "eureka:gui_modifiers/sprites/skills/your_skills/combat/icon/hovered",
       "interaction": {
         "type": "catharsis:slot_id",
         "slot": "skyblock_gui:skills/combat/icon"
@@ -59,8 +59,8 @@
     },
     {
       "type": "catharsis:button",
-      "normal": "eureka:gui_modifiers/skills/farming/icon/normal",
-      "hovered": "eureka:gui_modifiers/skills/farming/icon/hovered",
+      "normal": "eureka:gui_modifiers/sprites/skills/your_skills/farming/icon/normal",
+      "hovered": "eureka:gui_modifiers/sprites/skills/your_skills/farming/icon/hovered",
       "interaction": {
         "type": "catharsis:slot_id",
         "slot": "skyblock_gui:skills/farming/icon"
@@ -84,8 +84,8 @@
     },
     {
       "type": "catharsis:button",
-      "normal": "eureka:gui_modifiers/skills/fishing/icon/normal",
-      "hovered": "eureka:gui_modifiers/skills/fishing/icon/hovered",
+      "normal": "eureka:gui_modifiers/sprites/skills/your_skills/fishing/icon/normal",
+      "hovered": "eureka:gui_modifiers/sprites/skills/your_skills/fishing/icon/hovered",
       "interaction": {
         "type": "catharsis:slot_id",
         "slot": "skyblock_gui:skills/fishing/icon"
@@ -109,8 +109,8 @@
     },
     {
       "type": "catharsis:button",
-      "normal": "eureka:gui_modifiers/skills/mining/icon/normal",
-      "hovered": "eureka:gui_modifiers/skills/mining/icon/hovered",
+      "normal": "eureka:gui_modifiers/sprites/skills/your_skills/mining/icon/normal",
+      "hovered": "eureka:gui_modifiers/sprites/skills/your_skills/mining/icon/hovered",
       "interaction": {
         "type": "catharsis:slot_id",
         "slot": "skyblock_gui:skills/mining/icon"
@@ -134,8 +134,8 @@
     },
     {
       "type": "catharsis:button",
-      "normal": "eureka:gui_modifiers/skills/foraging/icon/normal",
-      "hovered": "eureka:gui_modifiers/skills/foraging/icon/hovered",
+      "normal": "eureka:gui_modifiers/sprites/skills/your_skills/foraging/icon/normal",
+      "hovered": "eureka:gui_modifiers/sprites/skills/your_skills/foraging/icon/hovered",
       "interaction": {
         "type": "catharsis:slot_id",
         "slot": "skyblock_gui:skills/foraging/icon"
@@ -159,8 +159,8 @@
     },
     {
       "type": "catharsis:button",
-      "normal": "eureka:gui_modifiers/skills/enchanting/icon/normal",
-      "hovered": "eureka:gui_modifiers/skills/enchanting/icon/hovered",
+      "normal": "eureka:gui_modifiers/sprites/skills/your_skills/enchanting/icon/normal",
+      "hovered": "eureka:gui_modifiers/sprites/skills/your_skills/enchanting/icon/hovered",
       "interaction": {
         "type": "catharsis:slot_id",
         "slot": "skyblock_gui:skills/enchanting/icon"
@@ -184,8 +184,8 @@
     },
     {
       "type": "catharsis:button",
-      "normal": "eureka:gui_modifiers/skills/alchemy/icon/normal",
-      "hovered": "eureka:gui_modifiers/skills/alchemy/icon/hovered",
+      "normal": "eureka:gui_modifiers/sprites/skills/your_skills/alchemy/icon/normal",
+      "hovered": "eureka:gui_modifiers/sprites/skills/your_skills/alchemy/icon/hovered",
       "interaction": {
         "type": "catharsis:slot_id",
         "slot": "skyblock_gui:skills/alchemy/icon"
@@ -209,8 +209,8 @@
     },
     {
       "type": "catharsis:button",
-      "normal": "eureka:gui_modifiers/skills/carpentry/icon/normal",
-      "hovered": "eureka:gui_modifiers/skills/carpentry/icon/hovered",
+      "normal": "eureka:gui_modifiers/sprites/skills/your_skills/carpentry/icon/normal",
+      "hovered": "eureka:gui_modifiers/sprites/skills/your_skills/carpentry/icon/hovered",
       "interaction": {
         "type": "catharsis:slot_id",
         "slot": "skyblock_gui:skills/carpentry/icon"
@@ -234,8 +234,8 @@
     },
     {
       "type": "catharsis:button",
-      "normal": "eureka:gui_modifiers/skills/runecrafting/icon/normal",
-      "hovered": "eureka:gui_modifiers/skills/runecrafting/icon/hovered",
+      "normal": "eureka:gui_modifiers/sprites/skills/your_skills/runecrafting/icon/normal",
+      "hovered": "eureka:gui_modifiers/sprites/skills/your_skills/runecrafting/icon/hovered",
       "interaction": {
         "type": "catharsis:slot_id",
         "slot": "skyblock_gui:skills/runecrafting/icon"
@@ -259,8 +259,8 @@
     },
     {
       "type": "catharsis:button",
-      "normal": "eureka:gui_modifiers/skills/taming/icon/normal",
-      "hovered": "eureka:gui_modifiers/skills/taming/icon/hovered",
+      "normal": "eureka:gui_modifiers/sprites/skills/your_skills/taming/icon/normal",
+      "hovered": "eureka:gui_modifiers/sprites/skills/your_skills/taming/icon/hovered",
       "interaction": {
         "type": "catharsis:slot_id",
         "slot": "skyblock_gui:skills/taming/icon"
@@ -284,8 +284,8 @@
     },
     {
       "type": "catharsis:button",
-      "normal": "eureka:gui_modifiers/skills/social/icon/normal",
-      "hovered": "eureka:gui_modifiers/skills/social/icon/hovered",
+      "normal": "eureka:gui_modifiers/sprites/skills/your_skills/social/icon/normal",
+      "hovered": "eureka:gui_modifiers/sprites/skills/your_skills/social/icon/hovered",
       "interaction": {
         "type": "catharsis:slot_id",
         "slot": "skyblock_gui:skills/social/icon"
@@ -309,8 +309,8 @@
     },
     {
       "type": "catharsis:button",
-      "normal": "eureka:gui_modifiers/skills/hunting/icon/normal",
-      "hovered": "eureka:gui_modifiers/skills/hunting/icon/hovered",
+      "normal": "eureka:gui_modifiers/sprites/skills/your_skills/hunting/icon/normal",
+      "hovered": "eureka:gui_modifiers/sprites/skills/your_skills/hunting/icon/hovered",
       "interaction": {
         "type": "catharsis:slot_id",
         "slot": "skyblock_gui:skills/hunting/icon"
@@ -334,8 +334,8 @@
     },
     {
       "type": "catharsis:button",
-      "normal": "eureka:gui_modifiers/skills/dungeoneering/icon/normal",
-      "hovered": "eureka:gui_modifiers/skills/dungeoneering/icon/hovered",
+      "normal": "eureka:gui_modifiers/sprites/skills/your_skills/dungeoneering/icon/normal",
+      "hovered": "eureka:gui_modifiers/sprites/skills/your_skills/dungeoneering/icon/hovered",
       "interaction": {
         "type": "catharsis:slot_id",
         "slot": "skyblock_gui:skills/dungeoneering/icon"
@@ -359,8 +359,8 @@
     },
     {
       "type": "catharsis:button",
-      "normal": "eureka:gui_modifiers/skills/show_skill_rankings/icon/normal",
-      "hovered": "eureka:gui_modifiers/skills/show_skill_rankings/icon/hovered",
+      "normal": "eureka:gui_modifiers/sprites/skills/your_skills/show_skill_rankings/icon/normal",
+      "hovered": "eureka:gui_modifiers/sprites/skills/your_skills/show_skill_rankings/icon/hovered",
       "interaction": {
         "type": "catharsis:slot_id",
         "slot": "skyblock_gui:skills/show_skill_rankings/icon"
@@ -384,8 +384,8 @@
     },
     {
       "type": "catharsis:button",
-      "normal": "eureka:gui_modifiers/skills/icon/normal",
-      "hovered": "eureka:gui_modifiers/skills/icon/hovered",
+      "normal": "eureka:gui_modifiers/sprites/skills/your_skills/icon/normal",
+      "hovered": "eureka:gui_modifiers/sprites/skills/your_skills/icon/hovered",
       "interaction": {
         "type": "catharsis:slot_id",
         "slot": "skyblock_gui:skills/icon"
@@ -404,57 +404,6 @@
       },
       "y": {
         "offset": -48,
-        "alignment": "CENTER"
-      }
-    },
-
-    {
-      "type": "catharsis:button",
-      "normal": "eureka:gui_modifiers/skills/your_skills/generic/navigation/go_back/normal",
-      "hovered": "eureka:gui_modifiers/skills/your_skills/generic/navigation/go_back/hovered",
-      "interaction": {
-        "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/go_back"
-      },
-      "tooltip": [
-        {
-          "type": "catharsis:slot_id",
-          "slot": "skyblock_gui:generic/navigation/go_back"
-        }
-      ],
-      "width": 34,
-      "height": 34,
-      "x": {
-        "offset": -229,
-        "alignment": "CENTER"
-      },
-      "y": {
-        "offset": 84,
-        "alignment": "CENTER"
-      }
-    },
-    {
-      "type": "catharsis:button",
-      "normal": "eureka:gui_modifiers/skills/your_skills/generic/navigation/close/normal",
-      "hovered": "eureka:gui_modifiers/skills/your_skills/generic/navigation/close/hovered",
-      "interaction": {
-        "type": "catharsis:slot_id",
-        "slot": "skyblock_gui:generic/navigation/close"
-      },
-      "tooltip": [
-        {
-          "type": "catharsis:slot_id",
-          "slot": "skyblock_gui:generic/navigation/close"
-        }
-      ],
-      "width": 34,
-      "height": 34,
-      "x": {
-        "offset": -191,
-        "alignment": "CENTER"
-      },
-      "y": {
-        "offset": 84,
         "alignment": "CENTER"
       }
     }
@@ -509,27 +458,6 @@
       "hidden": true
     },
     "skyblock_gui:generic/navigation/close": {
-      "hidden": true
-    },
-    "eureka:generic/miscellaneous/filler": {
-      "hidden": true
-    },
-    "eureka:generic/miscellaneous/filler/1": {
-      "hidden": true
-    },
-    "eureka:generic/miscellaneous/filler/2": {
-      "hidden": true
-    },
-    "eureka:generic/miscellaneous/filler/3": {
-      "hidden": true
-    },
-    "eureka:generic/miscellaneous/filler/4": {
-      "hidden": true
-    },
-    "eureka:generic/miscellaneous/filler/5": {
-      "hidden": true
-    },
-    "eureka:generic/miscellaneous/filler/6": {
       "hidden": true
     }
   }

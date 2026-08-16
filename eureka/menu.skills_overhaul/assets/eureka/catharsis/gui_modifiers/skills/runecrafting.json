@@ -1,7 +1,7 @@
 {
   "target": {
     "type": "catharsis:definition",
-    "definition": "catharsis:skills/combat"
+    "definition": "catharsis:skills/runecrafting"
   },
   "overrideLabels": true,
   "overrideBackground": true,
@@ -17,7 +17,7 @@
   "elements": [
     {
       "type": "catharsis:sprite",
-      "sprite": "eureka:gui_modifiers/container/skills/your_skills/combat",
+      "sprite": "eureka:gui_modifiers/container/skills/your_skills/runecrafting",
       "layer": "BACKGROUND",
       "width": 473,
       "height": 313,
@@ -34,23 +34,32 @@
   "widgets": [
     {
       "type": "catharsis:button",
-      "normal": "eureka:gui_modifiers/sprites/skills/your_skills/combat/icon/focused",
+      "normal": "eureka:gui_modifiers/sprites/skills/your_skills/runecrafting/icon/focused",
 
       "tooltip": [
         {
           "type": "catharsis:text",
           "text": [
             {
-              "text": "Combat Skill",
-              "color": "red"
+              "text": "Runecrafting Skill",
+              "color": "dark_purple"
             },
             {
-              "text": "Fight mobs and special bosses to",
+              "text": "Slay bosses and runic mobs, and",
               "color": "gray"
             },
             {
-              "text": "earn Combat EXP!",
+              "text": "fuse runes to earn Runecrafting EXP!",
               "color": "gray"
+            },
+            "",
+            {
+              "text": "Level up Runecrafting to activate",
+              "color": "light_purple"
+            },
+            {
+              "text": "the effects of rune-bearing items!",
+              "color": "light_purple"
             },
             "",
             {
@@ -67,7 +76,7 @@
         "alignment": "CENTER"
       },
       "y": {
-        "offset": -144,
+        "offset": -108,
         "alignment": "CENTER"
       }
     }
