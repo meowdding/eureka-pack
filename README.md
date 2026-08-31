@@ -1,3 +1,4 @@
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M4M21UWTWS)
 ## LICENSING
 ALL RIGHTS RESERVED (ARR), MOST ASSET COPYRIGHT @JUNENYA UNLESS OTHERWISE STATED IN CREDITS.
 ## CREDITS
