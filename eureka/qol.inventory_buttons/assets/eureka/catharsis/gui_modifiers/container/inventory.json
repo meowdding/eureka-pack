@@ -47,6 +47,78 @@
   ],
   "widgets": [
     {
+      "type": "catharsis:item_stack",
+      "interaction": {
+        "left": { "type": "catharsis:command", "command": "/eq" },
+        "right": { "type": "catharsis:command", "command": "/eq" }
+      },
+      "item": { "type": "catharsis:equipment", "slot": "NECKLACE" },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 116,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 8,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:item_stack",
+      "interaction": {
+        "left": { "type": "catharsis:command", "command": "/eq" },
+        "right": { "type": "catharsis:command", "command": "/eq" }
+      },
+      "item": { "type": "catharsis:equipment", "slot": "CLOAK" },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 116,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 26,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:item_stack",
+      "interaction": {
+        "left": { "type": "catharsis:command", "command": "/eq" },
+        "right": { "type": "catharsis:command", "command": "/eq" }
+      },
+      "item": { "type": "catharsis:equipment", "slot": "BELT" },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 116,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 44,
+        "alignment": "START"
+      }
+    },
+    {
+      "type": "catharsis:item_stack",
+      "interaction": {
+        "left": { "type": "catharsis:command", "command": "/eq" },
+        "right": { "type": "catharsis:command", "command": "/eq" }
+      },
+      "item": { "type": "catharsis:equipment", "slot": "GLOVES" },
+      "width": 16,
+      "height": 16,
+      "x": {
+        "offset": 116,
+        "alignment": "START"
+      },
+      "y": {
+        "offset": 62,
+        "alignment": "START"
+      }
+    },
+    {
       "type": "catharsis:button",
       "interaction": {
         "left": { "type": "catharsis:command", "command": "/collections" },

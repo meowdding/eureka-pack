@@ -1,1 +1,19 @@
-{"variants":{"":{"model":"minecraft:block/packed_ice"}},"display":{"model":"minecraft:packed_ice","name":{"text":"Glacite","color":"gold"},"lore":[{"text":"Ore"},{"text":""},{"text":"Properties","color":"white"},{"text":" Breaking Power: ","color":"white","extra":[{"text":"9","color":"green"}]},{"text":" Block Strength: ","color":"white","extra":[{"text":"6,000","color":"yellow"}]}]}}
+{
+  "variants": { "": { "model": "minecraft:block/packed_ice" } },
+  "display": {
+    "name": { "text": "Glacite" },
+    "lore": [
+      { "text": "Dwarven Metal", "color": "green" },
+      {
+        "text": "• Breaking Power: ",
+        "color": "gray",
+        "extra": [{ "text": "9", "color": "dark_green" }]
+      },
+      {
+        "text": "• Block Strength: ",
+        "color": "gray",
+        "extra": [{ "text": "6,000", "color": "yellow" }]
+      }
+    ]
+  }
+}

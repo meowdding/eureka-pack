@@ -1,0 +1,22 @@
+{
+  "type": "layered",
+  "definitions": [
+    {
+      "type": "per_area",
+      "entries": {
+        "catharsis:glacite_tunnels/tungsten": {
+          "type": "redirect",
+          "virtual_state": "eureka:mining_3/glacite_tunnels/tungsten_0"
+        }
+      }
+    },
+    {
+      "type": "conditional",
+      "condition": { "type": "in_island", "island": "mineshaft" },
+      "definition": {
+        "type": "redirect",
+        "virtual_state": "eureka:mining_3/glacite_tunnels/tungsten_0"
+      }
+    }
+  ]
+}

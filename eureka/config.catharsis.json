@@ -393,20 +393,6 @@
       },
       {
         "type": "boolean",
-        "id": "menu.skills_overhaul",
-        "title": {
-          "type": "translatable",
-          "translate": "eureka.config.tab.gui.menu.skills_overhaul"
-        },
-        "description": {
-          "type": "translatable",
-          "translate": "eureka.config.tab.gui.menu.skills_overhaul.description",
-          "color": "gray"
-        },
-        "default": true
-      },
-      {
-        "type": "boolean",
         "id": "menu.fast_travel",
         "title": {
           "type": "translatable",
@@ -529,6 +515,15 @@
           "color": "gray"
         },
         "default": true
+      },
+      {
+        "type": "separator",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.generic.mods",
+          "bold": true
+        },
+        "description": ""
       }
     ]
   },

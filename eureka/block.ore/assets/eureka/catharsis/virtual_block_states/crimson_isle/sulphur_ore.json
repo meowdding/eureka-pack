@@ -1,21 +1,19 @@
 {
-  "variants": { "": { "model": "eureka:block/crimson_isle/sulfur_ore" } },
+  "variants": { "": { "model": "eureka:block/crimson_isle/sulphur_ore" } },
   "display": {
-    "model": "eureka-block.ore:sulfur_ore",
-    "name": { "text": "Sulphur Ore", "color": "gold" },
+    "model": "eureka:block.ore.crimson_isle.sulphur_ore",
+    "name": { "text": "Sulphur Ore" },
     "lore": [
-      { "text": "Ore" },
-      { "text": "" },
-      { "text": "Properties", "color": "white" },
+      { "text": "Ore", "color": "gold" },
       {
-        "text": " Breaking Power: ",
+        "text": "• Breaking Power: ",
         "color": "white",
-        "extra": [{ "text": "5", "color": "green" }]
+        "extra": [{ "text": "8", "color": "green" }]
       },
       {
-        "text": " Block Strength: ",
+        "text": "• Block Strength: ",
         "color": "white",
-        "extra": [{ "text": "800", "color": "yellow" }]
+        "extra": [{ "text": "500", "color": "yellow" }]
       }
     ]
   }

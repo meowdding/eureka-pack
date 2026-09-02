@@ -124,15 +124,6 @@
         }
       },
       {
-        "directory": "menu.skills_overhaul",
-        "condition": {
-          "condition": "catharsis:config",
-          "pack": "eureka",
-          "id": "menu.skills_overhaul",
-          "value": "on"
-        }
-      },
-      {
         "directory": "menu.fast_travel",
         "condition": {
           "condition": "catharsis:config",
