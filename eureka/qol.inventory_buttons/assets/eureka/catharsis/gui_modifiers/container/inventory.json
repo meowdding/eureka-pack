@@ -49,8 +49,8 @@
     {
       "type": "catharsis:item_stack",
       "interaction": {
-        "left": { "type": "catharsis:command", "command": "/eq" },
-        "right": { "type": "catharsis:command", "command": "/eq" }
+        "left": { "type": "catharsis:command", "command": "/equipment" },
+        "right": { "type": "catharsis:command", "command": "/equipment" }
       },
       "item": { "type": "catharsis:equipment", "slot": "NECKLACE" },
       "width": 16,
@@ -67,8 +67,8 @@
     {
       "type": "catharsis:item_stack",
       "interaction": {
-        "left": { "type": "catharsis:command", "command": "/eq" },
-        "right": { "type": "catharsis:command", "command": "/eq" }
+        "left": { "type": "catharsis:command", "command": "/equipment" },
+        "right": { "type": "catharsis:command", "command": "/equipment" }
       },
       "item": { "type": "catharsis:equipment", "slot": "CLOAK" },
       "width": 16,
@@ -85,8 +85,8 @@
     {
       "type": "catharsis:item_stack",
       "interaction": {
-        "left": { "type": "catharsis:command", "command": "/eq" },
-        "right": { "type": "catharsis:command", "command": "/eq" }
+        "left": { "type": "catharsis:command", "command": "/equipment" },
+        "right": { "type": "catharsis:command", "command": "/equipment" }
       },
       "item": { "type": "catharsis:equipment", "slot": "BELT" },
       "width": 16,
@@ -103,8 +103,8 @@
     {
       "type": "catharsis:item_stack",
       "interaction": {
-        "left": { "type": "catharsis:command", "command": "/eq" },
-        "right": { "type": "catharsis:command", "command": "/eq" }
+        "left": { "type": "catharsis:command", "command": "/equipment" },
+        "right": { "type": "catharsis:command", "command": "/equipment" }
       },
       "item": { "type": "catharsis:equipment", "slot": "GLOVES" },
       "width": 16,
