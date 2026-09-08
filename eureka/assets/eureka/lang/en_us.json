@@ -194,6 +194,7 @@
   "eureka.glyph.stat.rift.mana_regen": " Mana Regen",
   "eureka.glyph.stat.rift.rift_damage": " Rift Damage",
   "eureka.glyph.stat.rift.rift_time": " Rift Time",
+
   "eureka.glyph.mobtype.airborne": " Airborne",
   "eureka.glyph.mobtype.animal": " Animal",
   "eureka.glyph.mobtype.aquatic": " Aquatic",
@@ -218,5 +219,5 @@
   "eureka.glyph.mobtype.wither": " Wither",
   "eureka.glyph.mobtype.woodland": " Woodland",
 
-  "eureka.dev_cosmetics.traitoralmighty.emblem": "\uE000"
+  "eureka.dev_cosmetics.junenya.emblem": "\uE000"
 }

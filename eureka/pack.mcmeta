@@ -97,24 +97,6 @@
         }
       },
       {
-        "directory": "theme.minecraft",
-        "condition": {
-          "condition": "catharsis:config",
-          "pack": "eureka",
-          "id": "theme",
-          "value": "minecraft"
-        }
-      },
-      {
-        "directory": "theme.eureka",
-        "condition": {
-          "condition": "catharsis:config",
-          "pack": "eureka",
-          "id": "theme",
-          "value": "eureka"
-        }
-      },
-      {
         "directory": "menu.skill_tree.hotm",
         "condition": {
           "condition": "catharsis:config",
@@ -247,7 +229,25 @@
         }
       },
       {
-        "directory": "accessibility.high_contrast",
+        "directory": "theme.minecraft",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "eureka",
+          "id": "theme",
+          "value": "minecraft"
+        }
+      },
+      {
+        "directory": "theme.eureka",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "eureka",
+          "id": "theme",
+          "value": "eureka"
+        }
+      },
+      {
+        "directory": "theme.high_contrast",
         "condition": {
           "condition": "catharsis:config",
           "pack": "eureka",

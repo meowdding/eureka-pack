@@ -210,10 +210,169 @@
     "skyblock_gui:generic/navigation/go_back": {
       "position": { "x": 62, "y": 333 }
     },
-    "skyblock_gui:generic/miscellaneous/filler": {
+    "eureka:generic/miscellaneous/filler": {
       "hidden": true
     },
-    "eureka:generic/miscellaneous/filler": {
+    "eureka:generic/miscellaneous/filler/00": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/01": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/02": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/03": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/04": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/05": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/06": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/07": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/08": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/10": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/11": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/12": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/13": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/14": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/15": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/16": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/17": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/18": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/20": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/21": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/22": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/23": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/24": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/25": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/26": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/27": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/28": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/30": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/31": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/32": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/33": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/34": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/35": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/36": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/37": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/38": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/40": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/41": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/42": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/43": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/44": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/45": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/46": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/47": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/48": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/50": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/51": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/52": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/53": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/54": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/55": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/56": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/57": {
+      "hidden": true
+    },
+    "eureka:generic/miscellaneous/filler/58": {
       "hidden": true
     }
   }
