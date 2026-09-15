@@ -59,7 +59,10 @@
         "type": "catharsis:slot_id",
         "slot": "skyblock_gui:fast_travel/foraging_1/spawn/unlocked"
       },
-      "tooltip": { "type": "catharsis:slot", "slot": 11 },
+      "tooltip": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/foraging_1/spawn/unlocked"
+      },
       "width": 16,
       "height": 16,
       "x": {
@@ -82,7 +85,10 @@
         "type": "catharsis:slot_id",
         "slot": "skyblock_gui:fast_travel/foraging_1/howling_cave/locked"
       },
-      "tooltip": { "type": "catharsis:slot", "slot": 15 },
+      "tooltip": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/foraging_1/howling_cave/locked"
+      },
       "width": 16,
       "height": 16,
       "x": {
@@ -105,7 +111,10 @@
         "type": "catharsis:slot_id",
         "slot": "skyblock_gui:fast_travel/foraging_1/howling_cave/unlocked"
       },
-      "tooltip": { "type": "catharsis:slot", "slot": 15 },
+      "tooltip": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/foraging_1/howling_cave/unlocked"
+      },
       "width": 16,
       "height": 16,
       "x": {
@@ -128,7 +137,10 @@
         "type": "catharsis:slot_id",
         "slot": "skyblock_gui:fast_travel/foraging_1/jungle/locked"
       },
-      "tooltip": { "type": "catharsis:slot", "slot": 13 },
+      "tooltip": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/foraging_1/jungle/locked"
+      },
       "width": 16,
       "height": 16,
       "x": {
@@ -151,7 +163,10 @@
         "type": "catharsis:slot_id",
         "slot": "skyblock_gui:fast_travel/foraging_1/jungle/unlocked"
       },
-      "tooltip": { "type": "catharsis:slot", "slot": 13 },
+      "tooltip": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/foraging_1/jungle/unlocked"
+      },
       "width": 16,
       "height": 16,
       "x": {
@@ -170,7 +185,10 @@
         "type": "catharsis:slot_id",
         "slot": "skyblock_gui:generic/navigation/go_back"
       },
-      "tooltip": { "type": "catharsis:slot", "slot": 30 },
+      "tooltip": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/go_back"
+      },
       "width": 832,
       "height": 448,
       "x": {

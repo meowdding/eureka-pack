@@ -59,7 +59,10 @@
         "type": "catharsis:slot_id",
         "slot": "skyblock_gui:fast_travel/crimson_isle/spawn/unlocked"
       },
-      "tooltip": { "type": "catharsis:slot", "slot": 13 },
+      "tooltip": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/spawn/unlocked"
+      },
       "width": 16,
       "height": 16,
       "x": {
@@ -82,7 +85,10 @@
         "type": "catharsis:slot_id",
         "slot": "skyblock_gui:fast_travel/crimson_isle/smoldering_tomb/locked"
       },
-      "tooltip": { "type": "catharsis:slot", "slot": 24 },
+      "tooltip": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/smoldering_tomb/locked"
+      },
       "width": 16,
       "height": 16,
       "x": {
@@ -105,7 +111,10 @@
         "type": "catharsis:slot_id",
         "slot": "skyblock_gui:fast_travel/crimson_isle/smoldering_tomb/unlocked"
       },
-      "tooltip": { "type": "catharsis:slot", "slot": 24 },
+      "tooltip": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/smoldering_tomb/unlocked"
+      },
       "width": 16,
       "height": 16,
       "x": {
@@ -128,7 +137,10 @@
         "type": "catharsis:slot_id",
         "slot": "skyblock_gui:fast_travel/crimson_isle/forgotten_skull/locked"
       },
-      "tooltip": { "type": "catharsis:slot", "slot": 20 },
+      "tooltip": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/forgotten_skull/locked"
+      },
       "width": 16,
       "height": 16,
       "x": {
@@ -151,7 +163,10 @@
         "type": "catharsis:slot_id",
         "slot": "skyblock_gui:fast_travel/crimson_isle/forgotten_skull/unlocked"
       },
-      "tooltip": { "type": "catharsis:slot", "slot": 20 },
+      "tooltip": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/forgotten_skull/unlocked"
+      },
       "width": 16,
       "height": 16,
       "x": {
@@ -206,7 +221,10 @@
         "type": "catharsis:slot_id",
         "slot": "skyblock_gui:fast_travel/crimson_isle/dragontail/unlocked"
       },
-      "tooltip": { "type": "catharsis:slot", "slot": 22 },
+      "tooltip": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/dragontail/unlocked"
+      },
 
       "width": 16,
       "height": 16,
@@ -262,7 +280,10 @@
         "type": "catharsis:slot_id",
         "slot": "skyblock_gui:fast_travel/crimson_isle/wasteland/unlocked"
       },
-      "tooltip": { "type": "catharsis:slot", "slot": 21 },
+      "tooltip": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/wasteland/unlocked"
+      },
 
       "width": 16,
       "height": 16,
@@ -318,7 +339,10 @@
         "type": "catharsis:slot_id",
         "slot": "skyblock_gui:fast_travel/crimson_isle/scarleton/unlocked"
       },
-      "tooltip": { "type": "catharsis:slot", "slot": 23 },
+      "tooltip": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/crimson_isle/scarleton/unlocked"
+      },
 
       "width": 16,
       "height": 16,
@@ -338,7 +362,10 @@
         "type": "catharsis:slot_id",
         "slot": "skyblock_gui:generic/navigation/go_back"
       },
-      "tooltip": { "type": "catharsis:slot", "slot": 39 },
+      "tooltip": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/go_back"
+      },
       "width": 832,
       "height": 448,
       "x": {

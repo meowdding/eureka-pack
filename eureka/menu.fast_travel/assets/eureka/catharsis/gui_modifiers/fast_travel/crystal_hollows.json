@@ -59,7 +59,10 @@
         "type": "catharsis:slot_id",
         "slot": "skyblock_gui:fast_travel/crystal_hollows/entrance/unlocked"
       },
-      "tooltip": { "type": "catharsis:slot", "slot": 12 },
+      "tooltip": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/crystal_hollows/entrance/unlocked"
+      },
       "width": 16,
       "height": 16,
       "x": {
@@ -82,7 +85,10 @@
         "type": "catharsis:slot_id",
         "slot": "skyblock_gui:fast_travel/crystal_hollows/crystal_nucleus/locked"
       },
-      "tooltip": { "type": "catharsis:slot", "slot": 14 },
+      "tooltip": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/crystal_hollows/crystal_nucleus/locked"
+      },
       "width": 16,
       "height": 16,
       "x": {
@@ -105,7 +111,10 @@
         "type": "catharsis:slot_id",
         "slot": "skyblock_gui:fast_travel/crystal_hollows/crystal_nucleus/unlocked"
       },
-      "tooltip": { "type": "catharsis:slot", "slot": 14 },
+      "tooltip": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:fast_travel/crystal_hollows/crystal_nucleus/unlocked"
+      },
       "width": 16,
       "height": 16,
       "x": {
@@ -124,7 +133,10 @@
         "type": "catharsis:slot_id",
         "slot": "skyblock_gui:generic/navigation/go_back"
       },
-      "tooltip": { "type": "catharsis:slot", "slot": 30 },
+      "tooltip": {
+        "type": "catharsis:slot_id",
+        "slot": "skyblock_gui:generic/navigation/go_back"
+      },
       "width": 832,
       "height": 448,
       "x": {
