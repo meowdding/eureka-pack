@@ -1,0 +1,3 @@
+[submodule "scripts/catharsis"]
+	path = scripts/catharsis
+	url = git@github.com:meowdding/catharsis.git
