@@ -1,4 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": { "all": "eureka:block/crimson_isle/sulfur_ore" }
-}

@@ -1,0 +1,56 @@
+{
+  "target": {
+    "type": "catharsis:all",
+    "conditions": [
+      {
+        "title": ".+",
+        "type": "catharsis:title"
+      },
+      {
+        "type": "catharsis:not",
+        "condition": {
+          "type": "catharsis:any",
+          "conditions": [
+            {
+              "type": "catharsis:type",
+              "menu": "catharsis:inventory"
+            },
+            {
+              "type": "catharsis:all",
+              "conditions": [
+                {
+                  "title": "Storage|Ender Chest \\(\\d+\\/\\d+\\)|.+ Backpack \\(Slot #\\d+\\)",
+                  "type": "catharsis:title"
+                },
+                {
+                  "type": "catharsis:external_mod_config",
+                  "modId": "skyblocker",
+                  "file": "skyblocker.json",
+                  "path": "uiAndVisuals.storageOverlay.enabled",
+                  "value": true
+                }
+              ]
+            },
+            {
+              "type": "catharsis:all",
+              "conditions": [
+                {
+                  "title": "Auctions Browser",
+                  "type": "catharsis:title"
+                },
+                {
+                  "type": "catharsis:external_mod_config",
+                  "modId": "skyblocker",
+                  "file": "skyblocker.json",
+                  "path": "uiAndVisuals.fancyAuctionHouse.enabled",
+                  "value": true
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "layout": []
+}

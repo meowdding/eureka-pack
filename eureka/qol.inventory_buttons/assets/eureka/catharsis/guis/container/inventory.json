@@ -1,0 +1,78 @@
+{
+  "target": {
+    "type": "catharsis:type",
+    "menu": "catharsis:inventory"
+  },
+  "layout": [
+    {
+      "id": "eureka:container/inventory/slot/crafting_outcome",
+      "target": {
+        "type": "catharsis:slot",
+        "slot": 0
+      }
+    },
+    {
+      "id": "eureka:container/inventory/slot/crafting_1",
+      "target": {
+        "type": "catharsis:slot",
+        "slot": 1
+      }
+    },
+    {
+      "id": "eureka:container/inventory/slot/crafting_2",
+      "target": {
+        "type": "catharsis:slot",
+        "slot": 2
+      }
+    },
+    {
+      "id": "eureka:container/inventory/slot/crafting_3",
+      "target": {
+        "type": "catharsis:slot",
+        "slot": 3
+      }
+    },
+    {
+      "id": "eureka:container/inventory/slot/crafting_4",
+      "target": {
+        "type": "catharsis:slot",
+        "slot": 4
+      }
+    },
+    {
+      "id": "eureka:container/inventory/slot/helmet",
+      "target": {
+        "type": "catharsis:slot",
+        "slot": 5
+      }
+    },
+    {
+      "id": "eureka:container/inventory/slot/chestplate",
+      "target": {
+        "type": "catharsis:slot",
+        "slot": 6
+      }
+    },
+    {
+      "id": "eureka:container/inventory/slot/leggings",
+      "target": {
+        "type": "catharsis:slot",
+        "slot": 7
+      }
+    },
+    {
+      "id": "eureka:container/inventory/slot/boots",
+      "target": {
+        "type": "catharsis:slot",
+        "slot": 8
+      }
+    },
+    {
+      "id": "eureka:container/inventory/slot/offhand",
+      "target": {
+        "type": "catharsis:slot",
+        "slot": 45
+      }
+    }
+  ]
+}

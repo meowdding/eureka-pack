@@ -1,1 +1,41 @@
-{"variants":{"":{"model":"minecraft:block/lapis_block"}},"overrides":{"minecraft:bedrock":{"variants":{"":{"model":"minecraft:block/bedrock"}},"display":{"model":"minecraft:bedrock","name":{"text":"Spent Pure Lapis","color":"gold"},"lore":[{"text":"Ore"},{"text":""},{"text":"Properties","color":"white"},{"text":" Breaking Power: ","color":"white","extra":[{"text":"3","color":"green"}]},{"text":" Block Strength: ","color":"white","extra":[{"text":"600","color":"yellow"}]}]}}},"display":{"model":"minecraft:lapis_block","name":{"text":"Pure Lapis","color":"gold"},"lore":[{"text":"Ore"},{"text":""},{"text":"Properties","color":"white"},{"text":" Breaking Power: ","color":"white","extra":[{"text":"3","color":"green"}]},{"text":" Block Strength: ","color":"white","extra":[{"text":"600","color":"yellow"}]}]}}
+{
+  "variants": { "": { "model": "minecraft:block/lapis_block" } },
+  "overrides": {
+    "minecraft:bedrock": {
+      "variants": { "": { "model": "minecraft:block/bedrock" } },
+      "display": {
+        "model": "minecraft:bedrock",
+        "name": { "text": "Spent Pure Lapis" },
+        "lore": [
+          { "text": "Ore", "color": "gold" },
+          {
+            "text": "• Breaking Power: ",
+            "color": "white",
+            "extra": [{ "text": "3", "color": "green" }]
+          },
+          {
+            "text": "• Block Strength: ",
+            "color": "white",
+            "extra": [{ "text": "600", "color": "yellow" }]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "name": { "text": "Pure Lapis" },
+    "lore": [
+      { "text": "Ore", "color": "gold" },
+      {
+        "text": "• Breaking Power: ",
+        "color": "white",
+        "extra": [{ "text": "3", "color": "green" }]
+      },
+      {
+        "text": "• Block Strength: ",
+        "color": "white",
+        "extra": [{ "text": "600", "color": "yellow" }]
+      }
+    ]
+  }
+}

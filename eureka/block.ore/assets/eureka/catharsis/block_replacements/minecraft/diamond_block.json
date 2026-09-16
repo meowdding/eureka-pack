@@ -1,0 +1,22 @@
+{
+  "type": "layered",
+  "definitions": [
+    {
+      "type": "per_area",
+      "entries": {
+        "catharsis:dwarven_mines/pure_diamond": {
+          "type": "redirect",
+          "virtual_state": "eureka:mining_3/dwarven_mines/pure_diamond"
+        }
+      }
+    },
+    {
+      "type": "conditional",
+      "condition": { "type": "in_island", "island": "crystal_hollows" },
+      "definition": {
+        "type": "redirect",
+        "virtual_state": "eureka:mining_3/dwarven_mines/pure_diamond"
+      }
+    }
+  ]
+}

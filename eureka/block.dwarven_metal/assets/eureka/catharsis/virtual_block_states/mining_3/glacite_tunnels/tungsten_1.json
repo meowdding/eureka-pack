@@ -1,1 +1,41 @@
-{"variants":{"":{"model":"minecraft:block/clay"}},"overrides":{"minecraft:bedrock":{"variants":{"":{"model":"minecraft:block/bedrock"}},"display":{"model":"minecraft:bedrock","name":{"text":"Spent Dense Tungsten","color":"gold"},"lore":[{"text":"Ore"},{"text":""},{"text":"Properties","color":"white"},{"text":" Breaking Power: ","color":"white","extra":[{"text":"9","color":"green"}]},{"text":" Block Strength: ","color":"white","extra":[{"text":"5,600","color":"yellow"}]}]}}},"display":{"model":"minecraft:clay","name":{"text":"Dense Tungsten","color":"gold"},"lore":[{"text":"Ore"},{"text":""},{"text":"Properties","color":"white"},{"text":" Breaking Power: ","color":"white","extra":[{"text":"9","color":"green"}]},{"text":" Block Strength: ","color":"white","extra":[{"text":"5,600","color":"yellow"}]}]}}
+{
+  "variants": { "": { "model": "minecraft:block/clay" } },
+  "overrides": {
+    "minecraft:bedrock": {
+      "variants": { "": { "model": "minecraft:block/bedrock" } },
+      "display": {
+        "model": "minecraft:bedrock",
+        "name": { "text": "Spent Dense Tungsten" },
+        "lore": [
+          { "text": "Dwarven Metal", "color": "green" },
+          {
+            "text": "• Breaking Power: ",
+            "color": "gray",
+            "extra": [{ "text": "5", "color": "dark_green" }]
+          },
+          {
+            "text": "• Block Strength: ",
+            "color": "gray",
+            "extra": [{ "text": "5,600", "color": "yellow" }]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "name": { "text": "Dense Tungsten" },
+    "lore": [
+      { "text": "Dwarven Metal", "color": "green" },
+      {
+        "text": "• Breaking Power: ",
+        "color": "gray",
+        "extra": [{ "text": "9", "color": "dark_green" }]
+      },
+      {
+        "text": "• Block Strength: ",
+        "color": "gray",
+        "extra": [{ "text": "5,600", "color": "yellow" }]
+      }
+    ]
+  }
+}

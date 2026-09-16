@@ -1,0 +1,25 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "eureka:font/branches/start.png",
+      "ascent": 12,
+      "height": 18,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "eureka:font/branches/segment.png",
+      "ascent": 3,
+      "height": 18,
+      "chars": ["\uE001"]
+    },
+    {
+      "type": "bitmap",
+      "file": "eureka:font/branches/end.png",
+      "ascent": 3,
+      "height": 18,
+      "chars": ["\uE002"]
+    }
+  ]
+}

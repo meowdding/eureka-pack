@@ -1,1 +1,44 @@
-{"variants":{"":{"model":"eureka:block/mining_3/dwarven_mines/mithril_0"}},"overrides":{"minecraft:bedrock":{"variants":{"":{"model":"minecraft:block/bedrock"}},"display":{"model":"minecraft:bedrock","name":{"text":"Spent Scarce Mithril Ore","color":"gold"},"lore":[{"text":"Ore"},{"text":""},{"text":"Properties","color":"white"},{"text":" Breaking Power: ","color":"white","extra":[{"text":"4","color":"green"}]},{"text":" Block Strength: ","color":"white","extra":[{"text":"500","color":"yellow"}]}]}}},"display":{"model":"eureka-block.dwarven_metal:dwarven_mines-mithril_0","name":{"text":"Scarce Mithril Ore","color":"gold"},"lore":[{"text":"Ore"},{"text":""},{"text":"Properties","color":"white"},{"text":" Breaking Power: ","color":"white","extra":[{"text":"4","color":"green"}]},{"text":" Block Strength: ","color":"white","extra":[{"text":"500","color":"yellow"}]}]}}
+{
+  "variants": {
+    "": { "model": "eureka:block/mining_3/dwarven_mines/mithril_0" }
+  },
+  "overrides": {
+    "minecraft:bedrock": {
+      "variants": { "": { "model": "minecraft:block/bedrock" } },
+      "display": {
+        "model": "minecraft:bedrock",
+        "name": { "text": "Spent Scarce Mithril" },
+        "lore": [
+          { "text": "Dwarven Metal", "color": "green" },
+          {
+            "text": "• Breaking Power: ",
+            "color": "gray",
+            "extra": [{ "text": "4", "color": "dark_green" }]
+          },
+          {
+            "text": "• Block Strength: ",
+            "color": "gray",
+            "extra": [{ "text": "500", "color": "yellow" }]
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "model": "eureka:block.dwarven_metal.dwarven_mines.mithril_0",
+    "name": { "text": "Scarce Mithril" },
+    "lore": [
+      { "text": "Dwarven Metal", "color": "green" },
+      {
+        "text": "• Breaking Power: ",
+        "color": "gray",
+        "extra": [{ "text": "4", "color": "dark_green" }]
+      },
+      {
+        "text": "• Block Strength: ",
+        "color": "gray",
+        "extra": [{ "text": "500", "color": "yellow" }]
+      }
+    ]
+  }
+}

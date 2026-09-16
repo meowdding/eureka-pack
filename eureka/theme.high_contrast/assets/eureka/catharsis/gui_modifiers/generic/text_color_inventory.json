@@ -1,0 +1,17 @@
+{
+  "target": {
+    "type": "catharsis:definition",
+    "definition": "eureka:container/inventory"
+  },
+  "overrideBackground": false,
+  "overrideLabels": true,
+  "elements": [
+    {
+      "type": "catharsis:text",
+      "text": "Inventory",
+      "color": -1,
+      "x": 63,
+      "y": -3
+    }
+  ]
+}
