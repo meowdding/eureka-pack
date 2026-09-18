@@ -545,6 +545,20 @@
       },
       {
         "type": "boolean",
+        "id": "entity.slayer",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.entity.model.slayer"
+        },
+        "description": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.entity.model.slayer.description",
+          "color": "gray"
+        },
+        "default": true
+      },
+      {
+        "type": "boolean",
         "id": "entity.fishing_1",
         "title": {
           "type": "translatable",

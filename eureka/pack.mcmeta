@@ -157,6 +157,14 @@
         }
       },
       {
+        "directory": "entity.slayer",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "eureka",
+          "id": "entity.slayer"
+        }
+      },
+      {
         "directory": "entity.fishing_1",
         "condition": {
           "condition": "catharsis:config",

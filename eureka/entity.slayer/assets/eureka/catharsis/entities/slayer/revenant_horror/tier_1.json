@@ -1,0 +1,6 @@
+{
+  "texture": "eureka:textures/slayer/revenant_horror/tier_1.png",
+  "emissive_texture": "eureka:textures/slayer/revenant_horror/tier_1_emissive.png",
+  "model": "eureka:models/slayer/revenant_horror/tier_1.geo.json",
+  "translucent": true
+}
