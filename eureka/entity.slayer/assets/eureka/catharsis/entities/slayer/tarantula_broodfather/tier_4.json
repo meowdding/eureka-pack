@@ -1,0 +1,5 @@
+{
+  "texture": "eureka:textures/slayer/tarantula_broodfather/tier_4.png",
+  "model": "eureka:models/slayer/tarantula_broodfather/tier_4.geo.json",
+  "translucent": true
+}
