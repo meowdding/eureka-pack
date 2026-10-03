@@ -1,5 +1,7 @@
 {
   "texture": "eureka:textures/slayer/revenant_horror/tier_1.png",
   "model": "eureka:models/slayer/revenant_horror/tier_1.geo.json",
+  "hide_armor": false,
+  "hide_held_items": false,
   "translucent": true
 }
