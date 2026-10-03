@@ -1,0 +1,18 @@
+{
+  "target": {
+    "type": "all",
+    "conditions": [
+      {
+        "type": "max_health",
+        "max_health": 210000000
+      },
+      {
+        "type": "not",
+        "condition": {
+          "type": "has_vehicle"
+        }
+      }
+    ]
+  },
+  "type": "minecraft:enderman"
+}

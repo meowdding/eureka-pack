@@ -1,0 +1,58 @@
+{
+  "type": "layered",
+  "definitions": [
+    {
+      "type": "conditional",
+      "condition": {
+        "type": "all",
+        "conditions": [
+          { "type": "in_island", "island": "combat_3" },
+          {
+            "type": "not",
+            "condition": {
+              "type": "any",
+              "conditions": [
+                {
+                  "type": "relative",
+                  "offset": "-1:0:0",
+                  "condition": {
+                    "type": "id",
+                    "block": "minecraft:iron_block"
+                  }
+                },
+                {
+                  "type": "relative",
+                  "offset": "1:0:0",
+                  "condition": {
+                    "type": "id",
+                    "block": "minecraft:iron_block"
+                  }
+                },
+                {
+                  "type": "relative",
+                  "offset": "0:0:-1",
+                  "condition": {
+                    "type": "id",
+                    "block": "minecraft:iron_block"
+                  }
+                },
+                {
+                  "type": "relative",
+                  "offset": "0:0:1",
+                  "condition": {
+                    "type": "id",
+                    "block": "minecraft:iron_block"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "definition": {
+        "type": "redirect",
+        "virtual_state": "eureka:generic/slayer/voidgloom_seraph/yang_glyph"
+      }
+    }
+  ]
+}

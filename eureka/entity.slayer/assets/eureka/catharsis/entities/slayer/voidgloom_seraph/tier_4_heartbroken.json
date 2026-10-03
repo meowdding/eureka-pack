@@ -1,0 +1,5 @@
+{
+  "texture": "eureka:textures/slayer/voidgloom_seraph/tier_4_heartbroken.png",
+  "model": "eureka:models/slayer/voidgloom_seraph/tier_4_heartbroken.geo.json",
+  "translucent": true
+}

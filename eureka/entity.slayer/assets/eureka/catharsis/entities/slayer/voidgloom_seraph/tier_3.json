@@ -1,0 +1,5 @@
+{
+  "texture": "eureka:textures/slayer/voidgloom_seraph/tier_3.png",
+  "model": "eureka:models/slayer/voidgloom_seraph/tier_3.geo.json",
+  "translucent": true
+}

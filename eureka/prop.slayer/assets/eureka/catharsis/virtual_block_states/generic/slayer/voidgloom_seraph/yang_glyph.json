@@ -1,0 +1,18 @@
+{
+  "multipart": [
+    {
+      "apply": [
+        {
+          "model": "eureka:block/generic/slayer/voidgloom_seraph/yang_glyph"
+        }
+      ]
+    },
+    {
+      "apply": [
+        {
+          "model": "eureka:block/generic/slayer/voidgloom_seraph/yang_glyph_eye"
+        }
+      ]
+    }
+  ]
+}

@@ -1,12 +1,25 @@
 {
+  "type": "minecraft:zombie",
   "target": {
     "type": "all",
     "conditions": [
       {
         "type": "max_health",
         "max_health": 500
+      },
+      {
+        "type": "catharsis:equipment_select",
+        "slot": "chest",
+        "fallback": false,
+        "property": "minecraft:component",
+        "component": "id",
+        "cases": [
+          {
+            "when": ["DIAMOND_CHESTPLATE"],
+            "result": true
+          }
+        ]
       }
     ]
-  },
-  "type": "minecraft:zombie"
+  }
 }
