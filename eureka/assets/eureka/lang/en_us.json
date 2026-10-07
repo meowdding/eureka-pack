@@ -48,7 +48,7 @@
 
   "eureka.config.tab.gui.theme": "Themes",
   "eureka.config.tab.gui.theme.containers": "Containers",
-  "eureka.config.tab.gui.theme.containers.description": "Theme for Vanilla & Eureka Containers.\n\n",
+  "eureka.config.tab.gui.theme.containers.description": "Theme for Vanilla & Eureka Containers.\n",
 
   "eureka.config.tab.gui.theme.panoramas": "Panoramas",
   "eureka.config.tab.gui.theme.panoramas.description": "Panoramas for the Main Menu.\n\n",

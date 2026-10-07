@@ -373,11 +373,11 @@
         "id": "panorama",
         "title": {
           "type": "translatable",
-          "translate": "eureka.config.tab.gui.theme.panorama"
+          "translate": "eureka.config.tab.gui.theme.panoramas"
         },
         "description": {
           "type": "translatable",
-          "translate": "eureka.config.tab.gui.theme.panoramas.dark_monolith",
+          "translate": "eureka.config.tab.gui.theme.panoramas.description",
           "color": "gray"
         },
         "options": [
