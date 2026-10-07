@@ -369,6 +369,30 @@
         ]
       },
       {
+        "type": "dropdown",
+        "id": "panorama",
+        "title": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.gui.theme.panorama"
+        },
+        "description": {
+          "type": "translatable",
+          "translate": "eureka.config.tab.gui.theme.panoramas.dark_monolith",
+          "color": "gray"
+        },
+        "options": [
+          {
+            "value": "minecraft",
+            "text": "Minecraft",
+            "default": true
+          },
+          {
+            "value": "dark_monolith",
+            "text": "Dark Monolith"
+          }
+        ]
+      },
+      {
         "type": "separator",
         "title": {
           "type": "translatable",
@@ -515,15 +539,6 @@
           "color": "gray"
         },
         "default": true
-      },
-      {
-        "type": "separator",
-        "title": {
-          "type": "translatable",
-          "translate": "eureka.config.generic.mods",
-          "bold": true
-        },
-        "description": ""
       }
     ]
   },

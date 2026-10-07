@@ -237,6 +237,15 @@
         }
       },
       {
+        "directory": "panorama.dark_monolith",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "eureka",
+          "id": "panorama",
+          "value": "dark_monolith"
+        }
+      },
+      {
         "directory": "theme.minecraft",
         "condition": {
           "condition": "catharsis:config",
